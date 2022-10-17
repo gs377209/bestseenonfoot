@@ -1,4 +1,20 @@
-import markdownStyles from './markdown-styles.module.css';
+import ReactMarkdown, { Components } from "react-markdown";
+import Image from "next/image";
+import markdownStyles from "./markdown-styles.module.css";
+
+const components: Components = {
+  img: ({ src, alt, title }) => {
+    return (
+      <Image
+        src={src ?? ""}
+        alt={alt}
+        title={title}
+        width="2000"
+        height="1000"
+      />
+    );
+  },
+};
 
 type Props = {
   content: string;
@@ -6,11 +22,13 @@ type Props = {
 
 const PostBody = ({ content }: Props) => {
   return (
-    <div className='max-w-2xl mx-auto'>
-      <div
-        className={markdownStyles['markdown']}
-        dangerouslySetInnerHTML={{ __html: content }}
-      />
+    <div className="mx-auto max-w-2xl">
+      <ReactMarkdown
+        className={markdownStyles["markdown"]}
+        components={components}
+      >
+        {content}
+      </ReactMarkdown>
     </div>
   );
 };
