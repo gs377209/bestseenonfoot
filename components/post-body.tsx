@@ -1,5 +1,5 @@
 import ReactMarkdown, { Components } from "react-markdown";
-import Image from "next/image";
+import Image from "next/future/image";
 import markdownStyles from "./markdown-styles.module.css";
 
 const components: Components = {
@@ -7,11 +7,31 @@ const components: Components = {
     return (
       <Image
         src={src ?? ""}
-        alt={alt}
+        alt={alt ?? ""}
         title={title}
         width="2000"
         height="1000"
       />
+    );
+  },
+  a: ({ node, children, href, ...props }) => {
+    if (/youtube-nocookie\.com/.test(href ?? "")) {
+      return (
+        <iframe
+          width="560"
+          height="315"
+          src={href}
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      );
+    }
+    return (
+      <a href={href} {...props}>
+        {children}
+      </a>
     );
   },
 };

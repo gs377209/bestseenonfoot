@@ -1,5 +1,5 @@
 import cn from "classnames";
-import Image from "next/image";
+import Image from "next/future/image";
 import Link from "next/link";
 
 type Props = {
@@ -18,6 +18,7 @@ const CoverImage = ({ title, src, slug }: Props) => {
       })}
       width="2000"
       height="1000"
+      priority
     />
   );
   return (
@@ -27,7 +28,7 @@ const CoverImage = ({ title, src, slug }: Props) => {
           <a aria-label={title}>{image}</a>
         </Link>
       ) : (
-        image
+        <a href={src}>{image}</a>
       )}
     </div>
   );
