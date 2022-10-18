@@ -1,6 +1,7 @@
 import fs from "fs";
 import { join } from "path";
 import matter from "gray-matter";
+import escape from "escape-html";
 
 const postsDirectory = join(process.cwd(), "_posts");
 
@@ -23,7 +24,7 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
   // Ensure only the minimal needed data is exposed
   fields.forEach((field) => {
     if (field === "slug") {
-      items[field] = realSlug;
+      items[field] = escape(realSlug);
     }
     if (field === "content") {
       items[field] = content;
