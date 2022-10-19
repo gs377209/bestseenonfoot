@@ -9,7 +9,8 @@ const Footer = () => {
             A travel blog
           </h3>
           <div className="flex flex-col items-center justify-center lg:w-1/2 lg:flex-row lg:pl-4">
-            Copyright 2018-2022
+            Copyright &copy; 2016 - 2022 <b>Best Seen On Foot</b> All Rights
+            Reserved
           </div>
         </div>
       </Container>

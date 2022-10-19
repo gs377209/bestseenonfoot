@@ -9,8 +9,8 @@ const components: Components = {
         src={src ?? ""}
         alt={alt ?? ""}
         title={title}
-        width="2000"
-        height="1000"
+        width="5184"
+        height="3456"
       />
     );
   },

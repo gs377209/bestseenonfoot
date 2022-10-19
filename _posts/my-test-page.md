@@ -1,13 +1,13 @@
 ---
 title: "Meow!"
 excerpt: "Meow Meow..."
-coverImage: "/assets/blog/hello-world/cover.jpg"
+coverImage: "/assets/blog/1.png"
 date: "2022-10-18T05:35:07.322Z"
 author:
   name: Meowtthew Purrson
   picture: "/assets/blog/authors/meowtthew purrson.jpg"
 ogImage:
-  url: "/assets/blog/hello-world/cover.jpg"
+  url: "/assets/blog/1.png"
 ---
 
 ## Meow
