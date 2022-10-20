@@ -6,6 +6,7 @@ date: "2022-10-18T05:35:07.322Z"
 author:
   name: Meowtthew Purrson
   picture: "/assets/blog/authors/meowtthew purrson.jpg"
+  url: "/authors/meowtthew"
 ogImage:
   url: "/assets/blog/1.png"
 ---

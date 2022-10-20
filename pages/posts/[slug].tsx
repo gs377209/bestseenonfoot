@@ -9,6 +9,7 @@ import { getPostBySlug, getAllPosts } from "../../lib/api";
 import PostTitle from "../../components/post-title";
 import Head from "next/head";
 import type PostType from "../../interfaces/post";
+import PostFooter from "../../components/post-footer";
 
 type Props = {
   post: PostType;
@@ -26,7 +27,6 @@ export default function Post({ post, morePosts, preview }: Props) {
   return (
     <Layout>
       <Container>
-        <Header />
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
         ) : (
@@ -41,8 +41,11 @@ export default function Post({ post, morePosts, preview }: Props) {
                 coverImage={post.coverImage}
                 date={post.date}
                 author={post.author}
+                location={post.location}
+                tags={post.tags}
               />
               <PostBody content={post.content} />
+              <PostFooter />
             </article>
           </>
         )}
@@ -66,6 +69,8 @@ export async function getStaticProps({ params }: Params) {
     "content",
     "ogImage",
     "coverImage",
+    "location",
+    "tags",
   ]);
 
   return {

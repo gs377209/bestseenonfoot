@@ -1,4 +1,5 @@
 import type Author from "./author";
+import Location from "./location";
 
 type PostType = {
   slug: string;
@@ -11,6 +12,8 @@ type PostType = {
     url: string;
   };
   content: string;
+  location: Location;
+  tags: string[];
 };
 
 export default PostType;

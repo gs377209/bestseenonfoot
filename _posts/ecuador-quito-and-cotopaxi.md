@@ -2,16 +2,17 @@
 title: "Ecuador - Quito and Cotopaxi"
 excerpt: "A lot has happened since arriving in Ecuador on Sunday! We arrived in Quito with no problems, and just as we normally do when we arrive in a country..."
 coverImage: "/assets/blog/ecuador-quito-and-cotopaxi/image.jpg"
-date: "2018-10-11T00:00:00.000Z"
+date: "2018-10-11T12:00:00.000Z"
 author:
   name: Lauren Schirtzinger
   picture: "/assets/blog/authors/lauren.jpg"
+  url: /authors/lauren
 ogImage:
   url: "/assets/blog/ecuador-quito-and-cotopaxi/image.jpg"
 location:
-  url: location/south-america/ecuador
+  url: /location/south-america/ecuador
   name: Ecuador
-tags: cotopaxi,ecuador,quito
+tags: [cotopaxi, ecuador, quito]
 comments: 0
 ---
 
