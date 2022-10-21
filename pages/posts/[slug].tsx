@@ -45,7 +45,7 @@ export default function Post({ post, morePosts, preview }: Props) {
                 tags={post.tags}
               />
               <PostBody content={post.content} />
-              <PostFooter />
+              <PostFooter morePosts={morePosts} />
             </article>
           </>
         )}
@@ -72,10 +72,21 @@ export async function getStaticProps({ params }: Params) {
     "location",
     "tags",
   ]);
+  const morePosts = getAllPosts([
+    "title",
+    "date",
+    "slug",
+    "author",
+    "coverImage",
+    "excerpt",
+  ])
+    .filter((p) => p.slug !== post.slug)
+    .slice(0, 3);
 
   return {
     props: {
       post,
+      morePosts,
     },
   };
 }

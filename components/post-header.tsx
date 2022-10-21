@@ -6,6 +6,7 @@ import type Author from "../interfaces/author";
 import Link from "next/link";
 import { format, parseISO } from "date-fns";
 import Location from "../interfaces/location";
+import { Fragment } from "react";
 
 type Props = {
   title: string;
@@ -61,12 +62,12 @@ const PostHeader = ({
             Tags:{" "}
             {tags.map((tag, index) => {
               return (
-                <>
-                  <Link key={tag} href={`/tag/${tag}`}>
+                <Fragment key={tag}>
+                  <Link href={`/tag/${tag}`}>
                     <a className="text-blue-500 underline">{tag}</a>
                   </Link>
                   {index + 1 !== tags.length && ", "}
-                </>
+                </Fragment>
               );
             })}
           </div>
