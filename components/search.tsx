@@ -1,3 +1,3 @@
 export default function Search() {
-  return <div>{/* TODO: search posts */}</div>;
+  return <div>{/* TODO: global search posts */}</div>;
 }

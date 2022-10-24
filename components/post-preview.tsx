@@ -22,7 +22,7 @@ const PostPreview = ({
   slug,
 }: Props) => {
   return (
-    <div>
+    <article>
       <div className="mb-5">
         <CoverImage slug={slug} title={title} src={coverImage} />
       </div>
@@ -36,7 +36,7 @@ const PostPreview = ({
       </div>
       <p className="mb-4 text-lg leading-relaxed">{excerpt}</p>
       <Avatar name={author.name} picture={author.picture} />
-    </div>
+    </article>
   );
 };
 

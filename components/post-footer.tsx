@@ -14,7 +14,7 @@ export default function PostFooter({ morePosts }: Props) {
   return (
     <div>
       <h2 className="mb-8 text-5xl font-bold leading-tight tracking-tighter md:text-7xl">
-        Share this
+        Share This Post!
       </h2>
       <div className="mb-5 flex">
         <div
@@ -22,6 +22,7 @@ export default function PostFooter({ morePosts }: Props) {
           data-href={shareURL}
           data-layout="button_count"
           data-size="large"
+          data-lazy="true"
         >
           <a
             target="_blank"
@@ -42,6 +43,7 @@ export default function PostFooter({ morePosts }: Props) {
           data-via="bestseenonfoot"
           data-hashtags="travel"
           data-show-count="true"
+          data-lazy="true"
         >
           Tweet
         </a>

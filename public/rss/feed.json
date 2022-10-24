@@ -1,0 +1,38 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Best Seen On Foot",
+  "home_page_url": "https://www.bestseenonfoot.com",
+  "feed_url": "https://www.bestseenonfoot.com/rss/feed.json",
+  "description": "Travel Blog",
+  "icon": "https://www.bestseenonfoot.com/assets/logo.jpg",
+  "author": {
+    "name": "Best Seen On Foot",
+    "url": "https://twitter.com/bestseenonfoot"
+  },
+  "items": [
+    {
+      "id": "https://www.bestseenonfoot.com/posts/ecuador-quito-and-cotopaxi",
+      "content_html": "A lot has happened since arriving in Ecuador on Sunday! We arrived in Quito with no problems, and just as we normally do when we arrive in a country...",
+      "url": "https://www.bestseenonfoot.com/posts/ecuador-quito-and-cotopaxi",
+      "title": "Ecuador - Quito and Cotopaxi",
+      "summary": "A lot has happened since arriving in Ecuador on Sunday! We arrived in Quito with no problems, and just as we normally do when we arrive in a country...",
+      "date_modified": "2018-10-11T12:00:00.000Z",
+      "author": {
+        "name": "Lauren Schirtzinger",
+        "url": "https://www.bestseenonfoot.com//authors/lauren"
+      }
+    },
+    {
+      "id": "https://www.bestseenonfoot.com/posts/my-test-page",
+      "content_html": "Meow Meow...",
+      "url": "https://www.bestseenonfoot.com/posts/my-test-page",
+      "title": "Meow!",
+      "summary": "Meow Meow...",
+      "date_modified": "2014-10-18T05:35:07.322Z",
+      "author": {
+        "name": "Meowtthew Purrson",
+        "url": "https://www.bestseenonfoot.com//authors/meowtthew"
+      }
+    }
+  ]
+}

@@ -6,7 +6,7 @@ export default function Nav() {
   const [isMobileMenuVisible, setIsMobileMenuVisible] = useState(false);
 
   return (
-    <nav className="sticky top-0 mb-5 min-h-[3rem] bg-emerald-400  p-5">
+    <nav className="sticky top-0 z-10 mb-5 min-h-[3rem] bg-emerald-400 p-5">
       <div className="container mx-auto flex flex-wrap items-center justify-between">
         <div className="flex md:order-2">
           <button

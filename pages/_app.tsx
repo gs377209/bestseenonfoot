@@ -9,6 +9,12 @@ config.autoAddCss = false;
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
+      <Script
+        async
+        strategy="lazyOnload"
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1408526493984577"
+        crossOrigin="anonymous"
+      ></Script>
       <div id="fb-root"></div>
       <Script
         async
@@ -20,10 +26,11 @@ function MyApp({ Component, pageProps }: AppProps) {
       />
       <Script
         async
+        strategy="lazyOnload"
         src="https://platform.twitter.com/widgets.js"
         charSet="utf-8"
       />
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   );
 }
