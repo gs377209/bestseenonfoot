@@ -141,3 +141,4 @@ yarn-error.log*
 next-env.d.ts
 
 # rss feeds
+public/rss

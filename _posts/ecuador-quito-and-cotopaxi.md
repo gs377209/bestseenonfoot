@@ -6,11 +6,11 @@ date: "2018-10-11T12:00:00.000Z"
 author:
   name: Lauren Schirtzinger
   picture: "/assets/blog/authors/lauren.jpg"
-  url: /authors/lauren
+  url: lauren
 ogImage:
   url: "/assets/blog/ecuador-quito-and-cotopaxi/image.jpg"
 location:
-  url: /location/south-america/ecuador
+  url: south-america/ecuador
   name: Ecuador
 tags: [cotopaxi, ecuador, quito]
 comments: 0

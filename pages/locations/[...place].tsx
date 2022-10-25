@@ -32,12 +32,12 @@ export default function YearArchives({ allPosts }: Props) {
 
 type Params = {
   params: {
-    year: string;
+    place: string[];
   };
 };
 
 export const getStaticProps = async ({ params }: Params) => {
-  const allPosts = getAllPostsByDate(params, [
+  const allPosts = getAllPosts([
     "title",
     "date",
     "slug",
@@ -52,14 +52,13 @@ export const getStaticProps = async ({ params }: Params) => {
 };
 
 export async function getStaticPaths() {
-  const posts = getAllPosts(["date"]);
+  const posts = getAllPosts(["location"]);
 
   return {
     paths: posts.map((post) => {
-      const date = parseISO(post.date);
       return {
         params: {
-          year: date.getFullYear().toString(),
+          place: post.location.url.split("/"),
         },
       };
     }),
