@@ -34,7 +34,6 @@ function SiteMap() {
 
 export const getServerSideProps: GetServerSideProps = async ({ res }) => {
   const allPosts = getAllPosts(["date", "slug"]);
-  generateRssFeed();
 
   // We generate the XML sitemap with the posts data
   const sitemap = generateSiteMap(allPosts as PostType[]);
