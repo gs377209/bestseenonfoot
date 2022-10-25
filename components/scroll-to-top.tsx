@@ -1,9 +1,9 @@
 export default function ScrollToTop() {
   return (
-    <div class="scroll-top-wrapper">
+    <div className="scroll-top-wrapper">
       {" "}
-      <span class="scroll-top-inner">
-        <i class="fa fa-2x fa-angle-up"></i>
+      <span className="scroll-top-inner">
+        <i className="fa fa-2x fa-angle-up"></i>
       </span>
     </div>
   );

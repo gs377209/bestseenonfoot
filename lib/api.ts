@@ -49,15 +49,33 @@ export function getAllPosts(fields: string[] = []) {
   return posts;
 }
 
+export function getAllPostsByDate(
+  date: { year: string; month?: string; date?: string },
+  fields: string[] = []
+) {
+  return getAllPosts(fields).filter((post) => {
+    const postDate = parseISO(post.date);
+    if (date.date) {
+      // match all 3
+      return (
+        date.year === postDate.getFullYear().toString() &&
+        date.month === (postDate.getMonth() + 1).toString() &&
+        date.date === postDate.getDate().toString()
+      );
+    } else if (date.month) {
+      // match year and month
+      return (
+        date.year === postDate.getFullYear().toString() &&
+        date.month === (postDate.getMonth() + 1).toString()
+      );
+    }
+    // only match year
+    return date.year === postDate.getFullYear().toString();
+  });
+}
+
 export const generateRssFeed = () => {
-  const posts = getAllPosts([
-    "title",
-    "date",
-    "slug",
-    "author",
-    "coverImage",
-    "excerpt",
-  ]);
+  const posts = getAllPosts(["title", "date", "slug", "author", "excerpt"]);
   const siteURL = process.env.SITE_URL ?? "localhost";
   const date = new Date();
   const author = {

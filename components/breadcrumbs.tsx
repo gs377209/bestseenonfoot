@@ -1,22 +1,23 @@
 import Link from "next/link";
-import { useRouter } from "next/router";
 import { Fragment } from "react";
+import useCrumbs from "../hooks/useCrumbs";
 
 export default function Breadcrumbs() {
-  const { asPath } = useRouter();
+  const crumbs = useCrumbs();
 
-  if (asPath === "/") {
+  //  we don't know the URL yet OR we are on the home page
+  if (crumbs.length <= 0 || (crumbs.length === 2 && crumbs[1] === "")) {
     return null;
   }
-
-  const crumbs = asPath.split("/");
 
   return (
     <div className="container mx-auto p-5">
       {crumbs.map((crumb, index) => {
-        const href =
-          crumb === "posts" ? "/" : crumbs.slice(0, index + 1).join("/");
-        const crumbDisplay = crumb.charAt(0).toUpperCase() + crumb.slice(1);
+        const href = crumb === "" ? "/" : crumbs.slice(0, index + 1).join("/");
+        const crumbDisplay =
+          crumb === ""
+            ? "Home"
+            : crumb.charAt(0).toUpperCase() + crumb.slice(1);
 
         if (crumbs.length === index + 1) {
           return <span key={crumb}>{crumbDisplay}</span>;

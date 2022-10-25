@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/future/image";
-import Search from "./search";
 import SocialIcons from "./social-icons";
 
 const Header = () => {
@@ -26,8 +25,6 @@ const Header = () => {
       </Link>
 
       <SocialIcons />
-
-      <Search />
     </header>
   );
 };

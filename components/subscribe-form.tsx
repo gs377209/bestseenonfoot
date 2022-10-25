@@ -2,10 +2,10 @@ export default function SubscribeForm() {
   return (
     <aside
       id="blog_subscription-3"
-      class="widget widget_blog_subscription jetpack_subscription_widget"
+      className="widget widget_blog_subscription jetpack_subscription_widget"
     >
-      <h5 class="widget-title">Subscribe to Future Posts!</h5>
-      <div class="wp-block-jetpack-subscriptions__container">
+      <h5 className="widget-title">Subscribe to Future Posts!</h5>
+      <div className="wp-block-jetpack-subscriptions__container">
         <form
           action="#"
           method="post"
@@ -15,15 +15,15 @@ export default function SubscribeForm() {
           <p id="subscribe-email">
             <label
               id="jetpack-subscribe-label"
-              class="screen-reader-text"
-              for="subscribe-field-blog_subscription-3"
+              className="screen-reader-text"
+              htmlFor="subscribe-field-blog_subscription-3"
             >
               Email Address{" "}
             </label>
             <input
               type="email"
               name="email"
-              required="required"
+              required
               value=""
               id="subscribe-field-blog_subscription-3"
               placeholder="Email Address"
@@ -45,7 +45,7 @@ export default function SubscribeForm() {
             />
             <button
               type="submit"
-              class="wp-block-button__link"
+              className="wp-block-button__link"
               name="jetpack_subscriptions_widget"
             >
               Subscribe{" "}

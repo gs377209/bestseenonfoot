@@ -34,6 +34,9 @@ export default function Post({ post, morePosts, preview }: Props) {
             <article className="mb-32">
               <Head>
                 <title>{titleText}</title>
+                <meta name="description" content={post.excerpt} key="desc" />
+                <meta property="og:title" content={titleText} />
+                <meta property="og:description" content={post.excerpt} />
                 <meta property="og:image" content={post.ogImage.url} />
               </Head>
               <PostHeader
@@ -71,6 +74,7 @@ export async function getStaticProps({ params }: Params) {
     "coverImage",
     "location",
     "tags",
+    "excerpt",
   ]);
   const morePosts = getAllPosts([
     "title",

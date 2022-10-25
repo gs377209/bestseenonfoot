@@ -47,7 +47,7 @@ const PostHeader = ({
           </Link>
         </div>
         <div className="mb-6 flex flex-col text-lg">
-          <Link href={`/archive/${format(parseISO(date), "yyyy/MM/dd")}`}>
+          <Link href={`/archives/${format(parseISO(date), "yyyy/MM/dd")}`}>
             <a className="text-blue-500 underline">
               <DateFormatter dateString={date} />
             </a>

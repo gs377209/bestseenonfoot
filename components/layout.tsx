@@ -30,7 +30,9 @@ const Layout = ({ children }: Props) => {
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-      <Script id="top of page ad">{`(adsbygoogle = window.adsbygoogle || []).push({});`}</Script>
+      <Script id="top-of-page-ad" strategy="lazyOnload">
+        {`(adsbygoogle = window.adsbygoogle || []).push({});`}
+      </Script>
       <Breadcrumbs />
       <div className="min-h-screen">
         <main>{children}</main>

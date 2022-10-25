@@ -28,22 +28,31 @@ export default function SideBar() {
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-      <Script id="sidebar ad 1">
+      <Script id="sidebar-ad-1" strategy="lazyOnload">
         {`(adsbygoogle = window.adsbygoogle || []).push({});`}
       </Script>
-      <h2>The Insta!</h2>
-      <Script id="insta-feed">
-        {`if (window.FB) {
-          FB.api(
-            "/instagram_oembed",
+      {/* TODO: Insta Feed <h2>The Insta!</h2>
+      <Script
+        id="insta-feed"
+        strategy="lazyOnload"
+        async
+        defer
+        crossOrigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v15.0&appId=867560113588361&autoLogAppEvents=1"
+        nonce="1RU6xNzb"
+        onLoad={() => {
+          window.FB.api(
+            "/instagram_oembed?url=https://www.instagram.com/p/CRiDbNusQD4/",
             function (response) {
               if (response && !response.error) {
-                /* handle the result */
+                console.log(response);
+              } else {
+                console.log(response.error);
               }
             }
           );
-        }`}
-      </Script>
+        }}
+      ></Script> */}
       <h2>Checkout our Facebook!</h2>
       <div
         className="fb-page"
@@ -74,6 +83,7 @@ export default function SideBar() {
       >
         <FontAwesomeIcon icon={faSquareRss} color="orange" /> - RSS
       </a>
+      <h2>Recent Posts!</h2>3 most recent posts
       <h2>Archives!</h2>
       <form
         onSubmit={(e) => {
@@ -153,7 +163,7 @@ export default function SideBar() {
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-      <Script id="sidebar ad 2">
+      <Script id="sidebar-ad-2" strategy="lazyOnload">
         {`(adsbygoogle = window.adsbygoogle || []).push({});`}
       </Script>
     </aside>
