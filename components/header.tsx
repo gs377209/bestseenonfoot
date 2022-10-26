@@ -7,7 +7,7 @@ const Header = () => {
     <header
       className="flex h-[33vh] flex-col items-center justify-evenly bg-cover lg:h-[50vh]"
       style={{
-        backgroundImage: "url(/uploads/2019/05/PANO_20181207_122917.vr_.jpg)",
+        backgroundImage: "url(/assets/PANO_20181207_122917.vr_.jpg)",
       }}
     >
       <Link href="/">

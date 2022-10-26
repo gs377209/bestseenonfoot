@@ -6,7 +6,6 @@ import Intro from "../components/intro";
 import MoreStories from "../components/more-stories";
 import Post from "../interfaces/post";
 import SideBar from "../components/side-bar";
-import heroPost from "../components/hero-post";
 
 type Props = {
   allPosts: Post[];

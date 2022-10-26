@@ -15,7 +15,12 @@ export default function SocialIcons() {
           target="_blank"
           rel="noreferrer noopener"
         >
-          <FontAwesomeIcon icon={faFacebook} color="#1877F2" size="2xl" />
+          <FontAwesomeIcon
+            icon={faFacebook}
+            color="#1877F2"
+            className="rounded-lg bg-white"
+            size="2xl"
+          />
         </a>
       </li>
       <li>
@@ -24,7 +29,12 @@ export default function SocialIcons() {
           target="_blank"
           rel="noreferrer noopener"
         >
-          <FontAwesomeIcon icon={faTwitter} color="#1DA1F2" size="2xl" />
+          <FontAwesomeIcon
+            icon={faTwitter}
+            color="#1DA1F2"
+            className="rounded-lg bg-white"
+            size="2xl"
+          />
         </a>
       </li>
       <li>
@@ -33,7 +43,12 @@ export default function SocialIcons() {
           target="_blank"
           rel="noreferrer noopener"
         >
-          <FontAwesomeIcon icon={faInstagram} color="#833AB4" size="2xl" />
+          <FontAwesomeIcon
+            icon={faInstagram}
+            color="#833AB4"
+            className="rounded-lg bg-white"
+            size="2xl"
+          />
         </a>
       </li>
       <li>
@@ -42,7 +57,12 @@ export default function SocialIcons() {
           target="_blank"
           rel="noreferrer noopener"
         >
-          <FontAwesomeIcon icon={faYoutube} color="#FF0000" size="2xl" />
+          <FontAwesomeIcon
+            icon={faYoutube}
+            color="#FF0000"
+            className="rounded-lg bg-white"
+            size="2xl"
+          />
         </a>
       </li>
     </ul>
