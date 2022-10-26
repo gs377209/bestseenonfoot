@@ -1,12 +1,12 @@
-import Avatar from "./avatar";
-import DateFormatter from "./date-formatter";
-import CoverImage from "./cover-image";
-import PostTitle from "./post-title";
-import type Author from "../interfaces/author";
-import Link from "next/link";
 import { format, parseISO } from "date-fns";
-import Location from "../interfaces/location";
+import type Author from "../interfaces/author";
+import Avatar from "./avatar";
+import CoverImage from "./cover-image";
+import DateFormatter from "./date-formatter";
 import { Fragment } from "react";
+import Link from "next/link";
+import Location from "../interfaces/location";
+import PostTitle from "./post-title";
 
 type Props = {
   title: string;
@@ -26,7 +26,7 @@ const PostHeader = ({
   tags,
 }: Props) => {
   return (
-    <>
+    <div className="">
       <PostTitle>{title}</PostTitle>
       <div className="hidden md:mb-12 md:block">
         <Link href={author.url}>
@@ -74,7 +74,7 @@ const PostHeader = ({
           {/* TODO: comment count/link */}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

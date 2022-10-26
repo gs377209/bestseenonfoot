@@ -1,8 +1,8 @@
+import { Feed } from "feed";
+import escape from "escape-html";
 import fs from "fs";
 import { join } from "path";
 import matter from "gray-matter";
-import escape from "escape-html";
-import { Feed } from "feed";
 import { parseISO } from "date-fns";
 
 const postsDirectory = join(process.cwd(), "_posts");
@@ -79,43 +79,43 @@ export const generateRssFeed = () => {
   const siteURL = process.env.SITE_URL ?? "localhost";
   const date = new Date();
   const author = {
-    name: "Best Seen On Foot",
     email: "bestseenonfoot@gmail.com",
     link: "https://twitter.com/bestseenonfoot",
+    name: "Best Seen On Foot",
   };
   const feed = new Feed({
-    title: "Best Seen On Foot",
-    description: "Travel Blog",
-    id: siteURL,
-    link: siteURL,
-    image: `${siteURL}/assets/logo.jpg`,
-    favicon: `${siteURL}/favicon/favicon.ico`,
-    copyright: `All rights reserved ${date.getFullYear()}, Best Seen On Foot`,
-    updated: date,
-    generator: "Feed for Node.js",
-    feedLinks: {
-      rss2: `${siteURL}/rss/feed.xml`,
-      json: `${siteURL}/rss/feed.json`,
-      atom: `${siteURL}/rss/atom.xml`,
-    },
     author,
+    copyright: `All rights reserved ${date.getFullYear()}, Best Seen On Foot`,
+    description: "Travel Blog",
+    favicon: `${siteURL}/favicon/favicon.ico`,
+    feedLinks: {
+      atom: `${siteURL}/rss/atom.xml`,
+      json: `${siteURL}/rss/feed.json`,
+      rss2: `${siteURL}/rss/feed.xml`,
+    },
+    generator: "Feed for Node.js",
+    id: siteURL,
+    image: `${siteURL}/assets/logo.jpg`,
+    link: siteURL,
+    title: "Best Seen On Foot",
+    updated: date,
   });
   posts.forEach((post) => {
     const url = `${siteURL}/posts/${post.slug}`;
     const postAuthor = {
-      name: post.author?.name ?? author.name,
-      link: `${siteURL}/${post.author?.url ?? author.link}`,
       email: author.email,
+      link: `${siteURL}/${post.author?.url ?? author.link}`,
+      name: post.author?.name ?? author.name,
     };
     feed.addItem({
-      title: post.title,
-      id: url,
-      link: url,
-      description: post.excerpt,
-      content: post.excerpt,
       author: [postAuthor],
+      content: post.excerpt,
       contributor: [postAuthor],
       date: parseISO(post.date),
+      description: post.excerpt,
+      id: url,
+      link: url,
+      title: post.title,
     });
   });
   fs.mkdirSync("./public/rss", { recursive: true });

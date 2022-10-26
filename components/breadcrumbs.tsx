@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { Fragment } from "react";
+import Link from "next/link";
 import useCrumbs from "../hooks/useCrumbs";
 
 export default function Breadcrumbs() {

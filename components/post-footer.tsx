@@ -1,7 +1,7 @@
-import { useRouter } from "next/router";
 import { BASE_URL } from "../lib/constants";
 import MoreStories from "./more-stories";
 import Post from "../interfaces/post";
+import { useRouter } from "next/router";
 
 type Props = {
   morePosts: Post[];
@@ -13,7 +13,7 @@ export default function PostFooter({ morePosts }: Props) {
 
   return (
     <div>
-      <h2 className="mb-8 text-5xl font-bold leading-tight tracking-tighter md:text-7xl">
+      <h2 className="mb-8 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
         Share This Post!
       </h2>
       <div className="mb-5 flex">

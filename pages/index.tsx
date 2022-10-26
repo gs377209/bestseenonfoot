@@ -1,11 +1,12 @@
+import { generateRssFeed, getAllPosts } from "../lib/api";
 import Container from "../components/container";
-import MoreStories from "../components/more-stories";
+import Head from "next/head";
 import HeroPost from "../components/hero-post";
 import Intro from "../components/intro";
-import Layout from "../components/layout";
-import { generateRssFeed, getAllPosts } from "../lib/api";
-import Head from "next/head";
+import MoreStories from "../components/more-stories";
 import Post from "../interfaces/post";
+import SideBar from "../components/side-bar";
+import heroPost from "../components/hero-post";
 
 type Props = {
   allPosts: Post[];
@@ -18,11 +19,11 @@ export default function Index({ allPosts }: Props) {
 
   return (
     <>
-      <Layout>
-        <Head>
-          <title>{titleText}</title>
-        </Head>
-        <Container>
+      <Head>
+        <title>{titleText}</title>
+      </Head>
+      <Container>
+        <section className="mx-auto mb-32 lg:col-span-2">
           <Intro />
           {heroPost && (
             <HeroPost
@@ -35,8 +36,9 @@ export default function Index({ allPosts }: Props) {
             />
           )}
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
-        </Container>
-      </Layout>
+        </section>
+        <SideBar allPosts={allPosts} />
+      </Container>
     </>
   );
 }

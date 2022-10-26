@@ -3,17 +3,7 @@ import Image from "next/future/image";
 import markdownStyles from "./markdown-styles.module.css";
 
 const components: Components = {
-  img: ({ src, alt, title }) => {
-    return (
-      <Image
-        src={src ?? ""}
-        alt={alt ?? ""}
-        title={title}
-        width="5184"
-        height="3456"
-      />
-    );
-  },
+  // eslint-disable-next-line no-unused-vars
   a: ({ node, children, href, ...props }) => {
     if (/youtube-nocookie\.com/.test(href ?? "")) {
       return (
@@ -34,6 +24,17 @@ const components: Components = {
       </a>
     );
   },
+  img: ({ src, alt, title }) => {
+    return (
+      <Image
+        src={src ?? ""}
+        alt={alt ?? ""}
+        title={title}
+        width="5184"
+        height="3456"
+      />
+    );
+  },
 };
 
 type Props = {
@@ -42,7 +43,7 @@ type Props = {
 
 const PostBody = ({ content }: Props) => {
   return (
-    <div className="mx-auto max-w-2xl">
+    <div className="">
       <ReactMarkdown
         className={markdownStyles["markdown"]}
         components={components}

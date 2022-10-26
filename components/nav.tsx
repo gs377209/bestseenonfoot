@@ -1,5 +1,5 @@
-import cn from "classnames";
 import Link from "next/link";
+import cn from "classnames";
 import { useState } from "react";
 
 export default function Nav() {
@@ -7,7 +7,7 @@ export default function Nav() {
 
   return (
     <nav className="sticky top-0 z-10 mb-5 min-h-[3rem] bg-emerald-400 p-5">
-      <div className="container mx-auto flex flex-wrap items-center justify-between">
+      <div className="container mx-auto flex flex-wrap items-center justify-between md:justify-center ">
         <div className="flex md:order-2">
           <button
             onClick={() => setIsMobileMenuVisible(!isMobileMenuVisible)}

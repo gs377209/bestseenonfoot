@@ -31,7 +31,7 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - name: Checkout repository
+      - name: Check out repository
         uses: actions/checkout@v3
 
       # Ensure a compatible version of dotnet is installed.

@@ -1,17 +1,28 @@
-import PostPreview from "./post-preview";
 import type Post from "../interfaces/post";
+import PostPreview from "./post-preview";
+import cn from "classnames";
 
 type Props = {
   posts: Post[];
+  hideHeader?: boolean;
+  condensed?: boolean;
 };
 
-const MoreStories = ({ posts }: Props) => {
+const MoreStories = ({ posts, hideHeader, condensed }: Props) => {
   return (
     <section>
-      <h2 className="mb-8 text-5xl font-bold leading-tight tracking-tighter md:text-7xl">
-        More Posts
-      </h2>
-      <div className="mb-32 grid grid-cols-1 gap-y-20 md:grid-cols-2 md:gap-x-16 md:gap-y-32 lg:gap-x-32">
+      {!hideHeader && (
+        <h2 className="mb-8 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
+          More Posts
+        </h2>
+      )}
+      <div
+        className={cn({
+          "mb-32 grid grid-cols-1 gap-y-20 md:grid-cols-2 md:gap-x-16 md:gap-y-32 lg:gap-x-32":
+            !condensed,
+          "mb-5 gap-y-5": condensed,
+        })}
+      >
         {posts.map((post) => (
           <PostPreview
             key={post.slug}
@@ -21,6 +32,7 @@ const MoreStories = ({ posts }: Props) => {
             author={post.author}
             slug={post.slug}
             excerpt={post.excerpt}
+            condensed={condensed}
           />
         ))}
       </div>

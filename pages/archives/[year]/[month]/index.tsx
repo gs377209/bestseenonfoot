@@ -1,10 +1,8 @@
-import Container from "../../../../components/container";
-import MoreStories from "../../../../components/more-stories";
-import HeroPost from "../../../../components/hero-post";
-import Intro from "../../../../components/intro";
-import Layout from "../../../../components/layout";
 import { getAllPosts, getAllPostsByDate } from "../../../../lib/api";
+import Container from "../../../../components/container";
 import Head from "next/head";
+import Intro from "../../../../components/intro";
+import MoreStories from "../../../../components/more-stories";
 import Post from "../../../../interfaces/post";
 import { parseISO } from "date-fns";
 
@@ -17,15 +15,13 @@ export default function MonthArchives({ allPosts }: Props) {
 
   return (
     <>
-      <Layout>
-        <Head>
-          <title>{titleText}</title>
-        </Head>
-        <Container>
-          <Intro />
-          <MoreStories posts={allPosts} />
-        </Container>
-      </Layout>
+      <Head>
+        <title>{titleText}</title>
+      </Head>
+      <Container>
+        <Intro />
+        <MoreStories posts={allPosts} />
+      </Container>
     </>
   );
 }
@@ -56,15 +52,15 @@ export async function getStaticPaths() {
   const posts = getAllPosts(["date"]);
 
   return {
+    fallback: false,
     paths: posts.map((post) => {
       const date = parseISO(post.date);
       return {
         params: {
-          year: date.getFullYear().toString(),
           month: (date.getMonth() + 1).toString(),
+          year: date.getFullYear().toString(),
         },
       };
     }),
-    fallback: false,
   };
 }

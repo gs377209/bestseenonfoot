@@ -1,6 +1,6 @@
-import cn from "classnames";
 import Image from "next/future/image";
 import Link from "next/link";
+import cn from "classnames";
 
 type Props = {
   title: string;

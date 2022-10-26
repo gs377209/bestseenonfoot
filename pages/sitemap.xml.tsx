@@ -1,6 +1,6 @@
 import { GetServerSideProps } from "next";
 import PostType from "../interfaces/post";
-import { getAllPosts, generateRssFeed } from "../lib/api";
+import { getAllPosts } from "../lib/api";
 
 function generateSiteMap(posts: PostType[]) {
   const siteURL = process.env.SITE_URL ?? "localhost";
