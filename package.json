@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.7",
     "@types/escape-html": "^1.0.2",
     "@types/node": "18.8.5",
     "@types/react": "18.0.21",

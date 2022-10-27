@@ -17,7 +17,7 @@ export default function WhereWeveBeen({ allPosts }: Props) {
         <title>{titleText}</title>
       </Head>
       <Container>
-        <section className="container mx-auto mb-32 lg:col-span-2">
+        <section className="container prose mx-auto mb-32 max-w-none md:prose-lg lg:col-span-2 lg:prose-xl">
           <h1 className="mb-12 text-center text-5xl font-bold leading-tight tracking-tighter md:text-left md:text-7xl md:leading-none lg:text-8xl">
             Where We&apos;ve Been
           </h1>

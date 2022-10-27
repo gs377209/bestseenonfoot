@@ -1,8 +1,14 @@
 import Container from "../components/container";
 import Head from "next/head";
 import Image from "next/future/image";
+import PostType from "../interfaces/post";
+import SideBar from "../components/side-bar";
+import { getAllPosts } from "../lib/api";
 
-export default function About() {
+type Props = {
+  allPosts: PostType[];
+};
+export default function AboutUs({ allPosts }: Props) {
   const titleText = `Best Seen on Foot | About Us`;
 
   return (
@@ -11,19 +17,22 @@ export default function About() {
         <title>{titleText}</title>
       </Head>
       <Container>
-        <section className="container mx-auto mb-32 lg:col-span-2">
+        <section className="container prose mx-auto mb-32 max-w-none md:prose-lg lg:col-span-2 lg:prose-xl">
           <h1>About Us</h1>
-
           <article>
             <h2>Welcome to Best Seen On Foot!</h2>
             <p>
-              <Image
-                src="/assets/20180922_193351.jpg"
-                width="2592"
-                height="1944"
-                alt="Picture of Lauren and Gerrod"
-                title="Picture of Lauren and Gerrod"
-              />
+              <a href="/assets/20180922_193351.jpg">
+                <Image
+                  src="/assets/20180922_193351.jpg"
+                  width="2592"
+                  height="1944"
+                  alt="Picture of Lauren and Gerrod"
+                  title="Picture of Lauren and Gerrod"
+                />
+              </a>
+            </p>
+            <p>
               We are Gerrod and Lauren Schirtzinger, a fairly average american
               couple that have been married since September 2017. We have always
               enjoyed traveling together, and have recently decided to take that
@@ -42,13 +51,15 @@ export default function About() {
             <h2>SOME BACKGROUND</h2>
             <h3>Lauren Schirtzinger:</h3>
             <p>
-              <Image
-                src="/assets/OI000004.jpg"
-                width="2048"
-                height="1536"
-                alt="Picture of Lauren"
-                title="Picture of Lauren"
-              />
+              <a href="/assets/OI000004.jpg">
+                <Image
+                  src="/assets/OI000004.jpg"
+                  width="2048"
+                  height="1536"
+                  alt="Picture of Lauren"
+                  title="Picture of Lauren"
+                />
+              </a>
             </p>
             <p>
               Hi! My name is Lauren. I am currently 27, and I am from Columbus,
@@ -76,13 +87,17 @@ export default function About() {
             </p>
             <h3>Gerrod Schirtzinger:</h3>
             <p>
-              <Image
-                src="/assets/20180708_202213.jpg"
-                width="4032"
-                height="3024"
-                alt="Picture of Gerrod"
-                title="Picture of Gerrod"
-              />
+              <a href="/assets/20180708_202213.jpg">
+                <Image
+                  src="/assets/20180708_202213.jpg"
+                  width="4032"
+                  height="3024"
+                  alt="Picture of Gerrod"
+                  title="Picture of Gerrod"
+                />
+              </a>
+            </p>
+            <p>
               Gerrod is also currently 27, and he is also from Columbus, Ohio,
               USA. According to Gerrod, “I don&apos;t care what the about me
               says, what does yours say?” He grew up playing lots of video games
@@ -97,7 +112,23 @@ export default function About() {
             </p>
           </article>
         </section>
+        <SideBar allPosts={allPosts} />
       </Container>
     </>
   );
 }
+
+export const getStaticProps = async () => {
+  const allPosts = getAllPosts([
+    "title",
+    "date",
+    "slug",
+    "author",
+    "coverImage",
+    "excerpt",
+  ]);
+
+  return {
+    props: { allPosts },
+  };
+};

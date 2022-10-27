@@ -1,6 +1,5 @@
 import ReactMarkdown, { Components } from "react-markdown";
 import Image from "next/future/image";
-import markdownStyles from "./markdown-styles.module.css";
 
 const components: Components = {
   // eslint-disable-next-line no-unused-vars
@@ -43,13 +42,8 @@ type Props = {
 
 const PostBody = ({ content }: Props) => {
   return (
-    <div className="">
-      <ReactMarkdown
-        className={markdownStyles["markdown"]}
-        components={components}
-      >
-        {content}
-      </ReactMarkdown>
+    <div className="prose max-w-none md:prose-lg lg:prose-xl">
+      <ReactMarkdown components={components}>{content}</ReactMarkdown>
     </div>
   );
 };
