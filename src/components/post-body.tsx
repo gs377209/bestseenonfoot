@@ -4,7 +4,7 @@ import Image from "next/future/image";
 const components: Components = {
   // eslint-disable-next-line no-unused-vars
   a: ({ node, children, href, ...props }) => {
-    if (/youtube-nocookie\.com/.test(href ?? "")) {
+    if (/(youtube-nocookie|youtube)\.com/.test(href ?? "")) {
       return (
         <iframe
           width="560"
@@ -42,7 +42,7 @@ type Props = {
 
 const PostBody = ({ content }: Props) => {
   return (
-    <div className="prose max-w-none md:prose-lg lg:prose-xl">
+    <div className="prose mb-5 max-w-none md:prose-lg lg:prose-xl">
       <ReactMarkdown components={components}>{content}</ReactMarkdown>
     </div>
   );

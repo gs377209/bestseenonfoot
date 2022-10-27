@@ -17,7 +17,7 @@ type Props = {
 };
 
 export default function ContactUs({ allPosts }: Props) {
-  const titleText = `Best Seen on Foot | Contact Us`;
+  const titleText = `Contact Us | Best Seen on Foot`;
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [serverMessage, setServerMessage] = useState<{
     isError: boolean;

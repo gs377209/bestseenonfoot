@@ -9,8 +9,8 @@ type Props = {
   allPosts: Post[];
 };
 
-export default function Archives({ allPosts }: Props) {
-  const titleText = `Archives | Best Seen on Foot`;
+export default function Lauren({ allPosts }: Props) {
+  const titleText = `Posts | Best Seen on Foot`;
 
   return (
     <>
@@ -20,7 +20,7 @@ export default function Archives({ allPosts }: Props) {
       <Container>
         <section className="mx-auto mb-32 lg:col-span-2">
           <h1 className="text-5xl font-bold leading-tight tracking-tighter md:pr-8 md:text-7xl">
-            Archives
+            Posts
           </h1>
           <MoreStories posts={allPosts} hideHeader />
         </section>

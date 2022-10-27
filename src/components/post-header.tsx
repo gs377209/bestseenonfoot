@@ -29,7 +29,7 @@ const PostHeader = ({
     <div className="">
       <PostTitle>{title}</PostTitle>
       <div className="hidden md:mb-12 md:block">
-        <Link href={author.url}>
+        <Link href={`/authors/${author.url}`}>
           <a className="font-mdeium text-gray-900 underline">
             <Avatar name={author.name} picture={author.picture} />
           </a>
@@ -40,7 +40,7 @@ const PostHeader = ({
       </div>
       <div className="mx-auto">
         <div className="mb-6 block md:hidden">
-          <Link href={author.url}>
+          <Link href={`/authors/${author.url}`}>
             <a className="font-mdeium text-gray-900 underline">
               <Avatar name={author.name} picture={author.picture} />
             </a>

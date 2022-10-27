@@ -3,13 +3,14 @@ import Head from "next/head";
 import PostType from "../interfaces/post";
 import SideBar from "../components/side-bar";
 import { getAllPosts } from "../lib/api";
+import Link from "next/link";
 
 type Props = {
   allPosts: PostType[];
 };
 
 export default function WhereWeveBeen({ allPosts }: Props) {
-  const titleText = `Best Seen on Foot | Where We've Been`;
+  const titleText = `Where We've Been | Best Seen on Foot`;
 
   return (
     <>
@@ -28,7 +29,32 @@ export default function WhereWeveBeen({ allPosts }: Props) {
               width="640"
               height="480"
             ></iframe>
-            <p>List of continents &gt; countries</p>
+            <ul>
+              <li>
+                <Link href="/locations/south-america">
+                  <a>South America</a>
+                </Link>
+                <ul>
+                  <li>
+                    <Link href="/locations/south-america/ecuador">
+                      <a>Ecuador</a>
+                    </Link>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <Link href="/locations/oceania">
+                  <a>Oceania</a>
+                </Link>
+                <ul>
+                  <li>
+                    <Link href="/locations/oceania/french-polynesia">
+                      <a>French Polynesia</a>
+                    </Link>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </article>
         </section>
         <SideBar allPosts={allPosts} />

@@ -1,17 +1,23 @@
+import { format, parseISO } from "date-fns";
 import { getAllPosts, getAllPostsByDate } from "../../../../lib/api";
 import Container from "../../../../components/container";
+import DateFormatter from "../../../../components/date-formatter";
 import Head from "next/head";
-import Intro from "../../../../components/intro";
 import MoreStories from "../../../../components/more-stories";
 import Post from "../../../../interfaces/post";
-import { parseISO } from "date-fns";
+import SideBar from "../../../../components/side-bar";
 
 type Props = {
   allPosts: Post[];
+  allPostsByDate: Post[];
 };
 
-export default function MonthArchives({ allPosts }: Props) {
-  const titleText = `Best Seen on Foot | Archives`;
+export default function MonthArchives({ allPosts, allPostsByDate }: Props) {
+  const firstPost = allPostsByDate[0];
+  const titleText = `${format(
+    parseISO(firstPost.date),
+    "LLLL, yyyy"
+  )} | Best Seen on Foot`;
 
   return (
     <>
@@ -19,8 +25,17 @@ export default function MonthArchives({ allPosts }: Props) {
         <title>{titleText}</title>
       </Head>
       <Container>
-        <Intro />
-        <MoreStories posts={allPosts} />
+        <section className="mx-auto mb-32 lg:col-span-2">
+          <h1 className="mb-5 text-5xl font-bold leading-tight tracking-tighter md:pr-8 md:text-7xl">
+            Posts from{" "}
+            <DateFormatter
+              dateString={firstPost.date}
+              customFormat="LLLL, yyyy"
+            />
+          </h1>
+          <MoreStories posts={allPostsByDate} hideHeader />
+        </section>
+        <SideBar allPosts={allPosts} />
       </Container>
     </>
   );
@@ -34,7 +49,15 @@ type Params = {
 };
 
 export const getStaticProps = async ({ params }: Params) => {
-  const allPosts = getAllPostsByDate(params, [
+  const allPostsByDate = getAllPostsByDate(params, [
+    "title",
+    "date",
+    "slug",
+    "author",
+    "coverImage",
+    "excerpt",
+  ]);
+  const allPosts = getAllPosts([
     "title",
     "date",
     "slug",
@@ -44,7 +67,7 @@ export const getStaticProps = async ({ params }: Params) => {
   ]);
 
   return {
-    props: { allPosts },
+    props: { allPosts, allPostsByDate },
   };
 };
 

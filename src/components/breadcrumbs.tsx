@@ -17,7 +17,12 @@ export default function Breadcrumbs() {
         const crumbDisplay =
           crumb === ""
             ? "Home"
-            : crumb.charAt(0).toUpperCase() + crumb.slice(1);
+            : crumb
+                .split("-")
+                .reduce((pc, cc) => {
+                  return `${pc} ${cc.charAt(0).toUpperCase() + cc.slice(1)}`;
+                }, "")
+                .trim();
 
         if (crumbs.length === index + 1) {
           return <span key={crumb}>{crumbDisplay}</span>;

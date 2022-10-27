@@ -10,7 +10,7 @@ type Props = {
 };
 
 export default function AboutUs({ allPosts }: Props) {
-  const titleText = `Best Seen on Foot | About Us`;
+  const titleText = `About Us | Best Seen on Foot`;
 
   return (
     <>
