@@ -5,7 +5,7 @@ import { join } from "path";
 import matter from "gray-matter";
 import { parseISO } from "date-fns";
 
-const postsDirectory = join(process.cwd(), "_posts");
+const postsDirectory = join(process.cwd(), "src/_posts");
 
 export function getPostSlugs() {
   return fs.readdirSync(postsDirectory);

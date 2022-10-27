@@ -1,8 +1,70 @@
+import { FormEvent, useState } from "react";
+import {
+  faCircleCheck,
+  faCircleExclamation,
+  faCircleNotch,
+} from "@fortawesome/free-solid-svg-icons";
 import Container from "../components/container";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
+import PostType from "../interfaces/post";
+import SideBar from "../components/side-bar";
+import classNames from "classnames";
+import { getAllPosts } from "../lib/api";
 
-export default function About() {
-  const titleText = `Best Seen on Foot | About Us`;
+type Props = {
+  allPosts: PostType[];
+};
+
+export default function ContactUs({ allPosts }: Props) {
+  const titleText = `Best Seen on Foot | Contact Us`;
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [serverMessage, setServerMessage] = useState<{
+    isError: boolean;
+    message: string;
+  } | null>(null);
+
+  const handleSubmit = async (event: FormEvent) => {
+    setIsSubmitting(true);
+    setServerMessage(null);
+    event.preventDefault();
+    const form = event.target as HTMLFormElement;
+    const data = {
+      Email: form.Email.value as string,
+      Message: form.Message.value as string,
+      Name: form.Name.value as string,
+    };
+
+    try {
+      const response = await fetch("/api/contact", {
+        body: JSON.stringify(data),
+        headers: {
+          "Content-Type": "application/json",
+        },
+        method: "POST",
+      });
+      const json = await response.json();
+      if (!response.ok) {
+        setServerMessage({
+          isError: true,
+          message: `Seems like something is wrong; feel free to email us directly at bestseenonfoot@gmail.com. Error: ${json}`,
+        });
+      } else {
+        setServerMessage({
+          isError: false,
+          message:
+            "Thanks for your message! We will get back to you as soon as possible!",
+        });
+        form.reset();
+      }
+    } catch (error) {
+      setServerMessage({
+        isError: true,
+        message: `Seems like something is wrong; feel free to email us directly at bestseenonfoot@gmail.com. Error: ${error}`,
+      });
+    }
+    setIsSubmitting(false);
+  };
 
   return (
     <>
@@ -10,117 +72,135 @@ export default function About() {
         <title>{titleText}</title>
       </Head>
       <Container>
-        <div className="page-title">
+        <section className="container prose mx-auto mb-32 max-w-none md:prose-lg lg:col-span-2 lg:prose-xl">
           <h1>Contact Us</h1>
-        </div>
-
-        <div className="single-post">
-          <div className="post-content">
-            <article>
-              <p>Hi There,</p>
-              <p>
-                We are looking forward to hearing from you. Please feel free to
-                get in touch via the form below, we will get back to you as soon
-                as possible.
-              </p>
-              <p>Best Seen On Foot</p>
-              <div id="contact-form-8">
-                <form
-                  action="https://www.bestseenonfoot.com/contact-us/#contact-form-8"
-                  method="post"
-                  className="contact-form commentsblock"
-                >
-                  <div className="grunion-field-wrap grunion-field-name-wrap">
-                    <label
-                      htmlFor="g8-name"
-                      className="grunion-field-label name"
-                    >
-                      Name<span>(required)</span>
-                    </label>
-                    <input
-                      type="text"
-                      name="g8-name"
-                      id="g8-name"
-                      value=""
-                      className="name"
-                      required
-                      aria-required="true"
-                    />
-                  </div>
-
-                  <div className="grunion-field-wrap grunion-field-email-wrap">
-                    <label
-                      htmlFor="g8-email"
-                      className="grunion-field-label email"
-                    >
-                      Email<span>(required)</span>
-                    </label>
-                    <input
-                      type="email"
-                      name="g8-email"
-                      id="g8-email"
-                      value=""
-                      className="email"
-                      required
-                      aria-required="true"
-                    />
-                  </div>
-
-                  <div className="grunion-field-wrap grunion-field-textarea-wrap">
-                    <label
-                      htmlFor="contact-form-comment-g8-message"
-                      className="grunion-field-label textarea"
-                    >
-                      Message<span>(required)</span>
-                    </label>
-                    <textarea
-                      name="g8-message"
-                      id="contact-form-comment-g8-message"
-                      rows={20}
-                      className="textarea"
-                      required
-                      aria-required="true"
-                    ></textarea>
-                  </div>
-                  <p className="contact-submit">
-                    <button type="submit" className="pushbutton-wide">
-                      Submit
-                    </button>{" "}
-                    <input type="hidden" name="contact-form-id" value="8" />
-                    <input
-                      type="hidden"
-                      name="action"
-                      value="grunion-contact-form"
-                    />
-                    <input
-                      type="hidden"
-                      name="contact-form-hash"
-                      value="5608272955ba472a9280b2369430e1e0665ed617"
-                    />
-                  </p>
-                  <p style={{ display: "none !important;" }}>
-                    <label>
-                      &#916;
-                      <textarea
-                        name="ak_hp_textarea"
-                        cols={45}
-                        rows={8}
-                        maxLength={100}
-                      ></textarea>
-                    </label>
-                    <input
-                      type="hidden"
-                      id="ak_js_1"
-                      name="ak_js"
-                      value="144"
-                    />
-                  </p>
-                </form>
+          <article>
+            <p>Hi There,</p>
+            <p>
+              We are looking forward to hearing from you. Please feel free to
+              get in touch via the form below, we will get back to you as soon
+              as possible.
+            </p>
+            <p>Thanks,</p>
+            <p>Best Seen On Foot</p>
+            {serverMessage && (
+              <div
+                className={classNames(
+                  "mb-4 rounded-lg bg-green-100 py-5 px-6 text-base text-green-700",
+                  {
+                    "bg-green-100 text-green-700": !serverMessage.isError,
+                    "bg-red-100 text-red-700": serverMessage.isError,
+                  }
+                )}
+              >
+                {serverMessage.isError ? (
+                  <FontAwesomeIcon
+                    icon={faCircleExclamation}
+                    className="mr-3"
+                  />
+                ) : (
+                  <FontAwesomeIcon icon={faCircleCheck} className="mr-3" />
+                )}
+                {serverMessage.message}
               </div>
-            </article>
-          </div>
-        </div>
+            )}
+            <form onSubmit={handleSubmit} className="grid grid-cols-1 gap-6">
+              <label className="block">
+                <span className="text-gray-700">Name</span>
+                <input
+                  type="text"
+                  id="Name"
+                  name="Name"
+                  required
+                  className="
+                    mt-1
+                    block
+                    w-full
+                    rounded-md
+                    border-gray-300
+                    shadow-sm
+                    focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50
+                  "
+                />
+              </label>
+              <label className="block">
+                <span className="text-gray-700">Email</span>
+                <input
+                  type="email"
+                  id="Email"
+                  name="Email"
+                  required
+                  className="
+                    mt-1
+                    block
+                    w-full
+                    rounded-md
+                    border-gray-300
+                    shadow-sm
+                    focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50
+                  "
+                />
+              </label>
+              <label className="block">
+                <span className="text-gray-700">Message</span>
+                <textarea
+                  id="Message"
+                  name="Message"
+                  required
+                  className="
+                    mt-1
+                    block
+                    w-full
+                    rounded-md
+                    border-gray-300
+                    shadow-sm
+                    focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50
+                  "
+                  rows={3}
+                ></textarea>
+              </label>
+              <button
+                type="submit"
+                className={classNames(
+                  "inline-flex max-w-xs items-center justify-center rounded-md bg-slate-500 px-4 py-2 text-sm font-semibold leading-6 text-white shadow transition duration-150 ease-in-out hover:bg-slate-400",
+                  {
+                    "cursor-not-allowed": isSubmitting,
+                  }
+                )}
+                disabled={isSubmitting}
+              >
+                {isSubmitting ? (
+                  <>
+                    <FontAwesomeIcon
+                      icon={faCircleNotch}
+                      className="-ml-1 mr-3 h-5 w-5 animate-spin text-white"
+                    />{" "}
+                    Processing...
+                  </>
+                ) : (
+                  "Submit"
+                )}
+              </button>
+            </form>
+          </article>
+        </section>
+        <SideBar allPosts={allPosts} />
       </Container>
     </>
   );
 }
+
+export const getStaticProps = async () => {
+  const allPosts = getAllPosts([
+    "title",
+    "date",
+    "slug",
+    "author",
+    "coverImage",
+    "excerpt",
+  ]);
+
+  return {
+    props: { allPosts },
+  };
+};

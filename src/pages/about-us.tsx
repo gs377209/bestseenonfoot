@@ -8,6 +8,7 @@ import { getAllPosts } from "../lib/api";
 type Props = {
   allPosts: PostType[];
 };
+
 export default function AboutUs({ allPosts }: Props) {
   const titleText = `Best Seen on Foot | About Us`;
 
