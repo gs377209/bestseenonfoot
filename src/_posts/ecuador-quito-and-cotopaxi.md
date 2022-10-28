@@ -5,7 +5,7 @@ coverImage: "/assets/blog/ecuador-quito-and-cotopaxi/image.jpg"
 date: "2018-10-11T12:00:00.000Z"
 author:
   name: Lauren Schirtzinger
-  picture: "/assets/blog/authors/lauren.jpg"
+  picture: "/assets/authors/lauren.jpg"
   url: lauren
 ogImage:
   url: "/assets/blog/ecuador-quito-and-cotopaxi/image.jpg"

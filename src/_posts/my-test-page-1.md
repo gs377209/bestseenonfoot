@@ -5,7 +5,7 @@ coverImage: "/assets/blog/unsorted/1.png"
 date: "2017-10-10T05:35:07.322Z"
 author:
   name: Meowtthew Purrson
-  picture: "/assets/blog/authors/meowtthew purrson.jpg"
+  picture: "/assets/authors/meowtthew purrson.jpg"
   url: meowtthew
 ogImage:
   url: "/assets/blog/unsorted/1.png"
@@ -25,7 +25,7 @@ Meow Meow Meow Meow
 
 ### Image
 
-[![meowtthew purrson](/assets/blog/authors/meowtthew%20purrson.jpg "meowtthew purrson")](/assets/blog/authors/meowtthew%20purrson.jpg)
+[![meowtthew purrson](/assets/authors/meowtthew%20purrson.jpg "meowtthew purrson")](/assets/authors/meowtthew%20purrson.jpg)
 
 #### Video
 

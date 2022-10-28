@@ -74,6 +74,12 @@ export function getAllPostsByDate(
   });
 }
 
+export function getAllPostsByAuthor(author: string, fields: string[] = []) {
+  return getAllPosts(fields).filter((post) => {
+    return post.author.url === author;
+  });
+}
+
 export const generateRssFeed = () => {
   const posts = getAllPosts(["title", "date", "slug", "author", "excerpt"]);
   const siteURL = process.env.SITE_URL ?? "localhost";

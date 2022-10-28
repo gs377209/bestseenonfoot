@@ -1,16 +1,17 @@
+import { getAllPosts, getAllPostsByAuthor } from "../../lib/api";
 import Container from "../../components/container";
 import Head from "next/head";
 import MoreStories from "../../components/more-stories";
 import Post from "../../interfaces/post";
 import SideBar from "../../components/side-bar";
-import { getAllPosts } from "../../lib/api";
 
 type Props = {
   allPosts: Post[];
+  allPostsByAuthor: Post[];
 };
 
-export default function Gerrod({ allPosts }: Props) {
-  const titleText = `Posts | Best Seen on Foot`;
+export default function Gerrod({ allPosts, allPostsByAuthor }: Props) {
+  const titleText = `Gerrod's Posts | Best Seen on Foot`;
 
   return (
     <>
@@ -19,10 +20,10 @@ export default function Gerrod({ allPosts }: Props) {
       </Head>
       <Container>
         <section className="mx-auto mb-32 lg:col-span-2">
-          <h1 className="text-5xl font-bold leading-tight tracking-tighter md:pr-8 md:text-7xl">
-            Posts
+          <h1 className="mb-5 text-5xl font-bold leading-tight tracking-tighter md:pr-8 md:text-7xl">
+            Posts by Gerrod
           </h1>
-          <MoreStories posts={allPosts} hideHeader />
+          <MoreStories posts={allPostsByAuthor} hideHeader />
         </section>
         <SideBar allPosts={allPosts} />
       </Container>
@@ -31,6 +32,14 @@ export default function Gerrod({ allPosts }: Props) {
 }
 
 export const getStaticProps = async () => {
+  const allPostsByAuthor = getAllPostsByAuthor("gerrod", [
+    "title",
+    "date",
+    "slug",
+    "author",
+    "coverImage",
+    "excerpt",
+  ]);
   const allPosts = getAllPosts([
     "title",
     "date",
@@ -41,6 +50,6 @@ export const getStaticProps = async () => {
   ]);
 
   return {
-    props: { allPosts },
+    props: { allPosts, allPostsByAuthor },
   };
 };
