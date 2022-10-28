@@ -54,7 +54,7 @@ const PostHeader = ({
           </Link>
           <div>
             Location:{" "}
-            <Link href={location.url}>
+            <Link href={`/locations/${location.url}`}>
               <a className="font-medium text-gray-900 underline">
                 {location.name}
               </a>

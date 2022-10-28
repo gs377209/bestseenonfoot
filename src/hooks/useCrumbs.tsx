@@ -1,5 +1,5 @@
-import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import { useRouter } from "next/router";
 
 export default function useCrumbs() {
   const { asPath, isReady } = useRouter();

@@ -1,5 +1,5 @@
-import classNames from "classnames";
 import Image from "next/future/image";
+import classNames from "classnames";
 
 type Props = {
   name: string;

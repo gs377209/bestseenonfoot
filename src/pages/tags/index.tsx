@@ -1,4 +1,3 @@
-import Avatar from "../../components/avatar";
 import Container from "../../components/container";
 import Head from "next/head";
 import Link from "next/link";
@@ -8,7 +7,7 @@ import { getAllPosts } from "../../lib/api";
 
 type Props = {
   allPosts: Post[];
-  tags: srting[];
+  tags: string[];
 };
 
 export default function Tags({ allPosts, tags }: Props) {

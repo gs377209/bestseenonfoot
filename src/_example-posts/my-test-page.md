@@ -10,7 +10,7 @@ author:
 ogImage:
   url: "/assets/blog/unsorted/1.png"
 location:
-  url: meow/meow
+  url: south-america/meow
   name: meow
 tags: [meow, purr]
 ---

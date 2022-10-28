@@ -86,6 +86,13 @@ export function getAllPostsByTag(tag: string, fields: string[] = []) {
   });
 }
 
+export function getAllPostsByPlace(place: string, fields: string[] = []) {
+  return getAllPosts(fields).filter((post) => {
+    const postLocations = post.location.url.split("/");
+    return postLocations.includes(place);
+  });
+}
+
 export const generateRssFeed = () => {
   const posts = getAllPosts(["title", "date", "slug", "author", "excerpt"]);
   const siteURL = process.env.SITE_URL ?? "localhost";
