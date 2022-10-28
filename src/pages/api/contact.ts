@@ -18,13 +18,18 @@ export default async function handler(
     // https://medium.com/@dmccoy/how-to-submit-an-html-form-to-google-sheets-without-google-forms-b833952cc175
     // original from: http://mashe.hawksey.info/2014/07/google-sheets-as-a-database-insert-with-apps-script-using-postget-methods-with-ajax-example/
     // original gist: https://gist.github.com/willpatera/ee41ae374d3c9839c2d6
+
     const response = await fetch(
-      `https://script.google.com/macros/s/AKfycby90RTa5gKPvNHtPB_QYoC4EfjiDzDQ-b603reU8oenqOu6_iq0auXdfd5gZvr7jOEBwQ/exec?Name=${encodeURIComponent(
-        body.Name
-      )}&Email=${encodeURIComponent(body.Email)}&Message=${encodeURIComponent(
-        body.Message
-      )}`
+      `https://script.google.com/macros/s/AKfycbw1XPnt5cBSOEd3Uu7rbm5s-NvoDew_IE67mMezJZqwnZqOJBPaYIguZPz_CXlh6o78lA/exec`,
+      {
+        body: JSON.stringify(body),
+        headers: {
+          "Content-Type": "application/json",
+        },
+        method: "POST",
+      }
     );
+
     const json = await response.json();
     if (response.ok) {
       res.status(200).json({ data: `Success` });
