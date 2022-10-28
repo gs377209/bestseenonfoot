@@ -5,7 +5,7 @@ import SocialIcons from "./social-icons";
 const Header = () => {
   return (
     <header
-      className="flex h-[33vh] flex-col items-center justify-evenly bg-cover lg:h-[50vh]"
+      className="flex h-[33vh] flex-col items-center justify-evenly bg-cover"
       style={{
         backgroundImage: "url(/assets/PANO_20181207_122917.vr_.jpg)",
       }}

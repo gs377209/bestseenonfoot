@@ -13,7 +13,6 @@ location:
   url: south-america/ecuador
   name: Ecuador
 tags: [cotopaxi, ecuador, quito]
-comments: 0
 ---
 
 A lot has happened since arriving in Ecuador on Sunday! We arrived in Quito with no problems, and just as we normally do when we arrive in a country, we headed to the ATM to get out local currency. As it turns out, Ecuador uses USD which really shows you how much research we did before we arrived! We picked up a taxi outside of the airport with no issues and started on the very rainy, ~45 minute ride to our hostel (Hostal Casa Urbana).

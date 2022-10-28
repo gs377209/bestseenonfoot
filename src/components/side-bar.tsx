@@ -127,7 +127,7 @@ export default function SideBar({ allPosts }: Props) {
         Subscribe
       </h2>
       <a
-        className="font-mdeium text-gray-900 underline"
+        className="font-medium text-gray-900 underline"
         href="/rss/feed.xml"
         target="_blank"
       >

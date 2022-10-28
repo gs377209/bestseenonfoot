@@ -1,16 +1,18 @@
+import { getAllPosts, getAllPostsByTag } from "../../lib/api";
 import Container from "../../components/container";
 import Head from "next/head";
-import Intro from "../../components/intro";
 import MoreStories from "../../components/more-stories";
 import Post from "../../interfaces/post";
-import { getAllPosts } from "../../lib/api";
+import SideBar from "../../components/side-bar";
 
 type Props = {
   allPosts: Post[];
+  allPostsByTag: Post[];
+  tag: string;
 };
 
-export default function YearArchives({ allPosts }: Props) {
-  const titleText = `Best Seen on Foot | Archives`;
+export default function Tag({ allPosts, allPostsByTag, tag }: Props) {
+  const titleText = `${tag} Posts | Best Seen on Foot`;
 
   return (
     <>
@@ -18,8 +20,13 @@ export default function YearArchives({ allPosts }: Props) {
         <title>{titleText}</title>
       </Head>
       <Container>
-        <Intro />
-        <MoreStories posts={allPosts} />
+        <section className="mx-auto mb-32 lg:col-span-2">
+          <h1 className="mb-5 text-5xl font-bold leading-tight tracking-tighter md:pr-8 md:text-7xl">
+            Posts tagged with {tag}
+          </h1>
+          <MoreStories posts={allPostsByTag} hideHeader />
+        </section>
+        <SideBar allPosts={allPosts} />
       </Container>
     </>
   );
@@ -32,6 +39,15 @@ type Params = {
 };
 
 export const getStaticProps = async ({ params }: Params) => {
+  const allPostsByTag = getAllPostsByTag(params.tag, [
+    "title",
+    "date",
+    "slug",
+    "author",
+    "coverImage",
+    "tags",
+    "excerpt",
+  ]);
   const allPosts = getAllPosts([
     "title",
     "date",
@@ -42,7 +58,7 @@ export const getStaticProps = async ({ params }: Params) => {
   ]);
 
   return {
-    props: { allPosts },
+    props: { allPosts, allPostsByTag, tag: params.tag },
   };
 };
 
@@ -50,9 +66,7 @@ export async function getStaticPaths() {
   const posts = getAllPosts(["tags"]);
   const uniqueTags = new Set<string>();
   posts.forEach((post) => {
-    post.tags.forEach((tag: string) => {
-      uniqueTags.add(tag);
-    });
+    post.tags.forEach((tag: string) => uniqueTags.add(tag));
   });
 
   return {
@@ -60,7 +74,7 @@ export async function getStaticPaths() {
     paths: Array.from(uniqueTags).map((tag) => {
       return {
         params: {
-          tag: tag,
+          tag,
         },
       };
     }),

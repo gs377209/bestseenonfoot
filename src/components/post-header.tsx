@@ -30,7 +30,7 @@ const PostHeader = ({
       <PostTitle>{title}</PostTitle>
       <div className="hidden md:mb-12 md:block">
         <Link href={`/authors/${author.url}`}>
-          <a className="font-mdeium text-gray-900 underline">
+          <a className="font-medium text-gray-900 underline">
             <Avatar name={author.name} picture={author.picture} />
           </a>
         </Link>
@@ -41,21 +41,21 @@ const PostHeader = ({
       <div className="mx-auto">
         <div className="mb-6 block md:hidden">
           <Link href={`/authors/${author.url}`}>
-            <a className="font-mdeium text-gray-900 underline">
+            <a className="font-medium text-gray-900 underline">
               <Avatar name={author.name} picture={author.picture} />
             </a>
           </Link>
         </div>
         <div className="mb-6 flex flex-col text-lg">
           <Link href={`/archives/${format(parseISO(date), "yyyy/MM/dd")}`}>
-            <a className="font-mdeium text-gray-900 underline">
+            <a className="font-medium text-gray-900 underline">
               <DateFormatter dateString={date} />
             </a>
           </Link>
           <div>
             Location:{" "}
             <Link href={location.url}>
-              <a className="font-mdeium text-gray-900 underline">
+              <a className="font-medium text-gray-900 underline">
                 {location.name}
               </a>
             </Link>
@@ -65,8 +65,8 @@ const PostHeader = ({
             {tags.map((tag, index) => {
               return (
                 <Fragment key={tag}>
-                  <Link href={`/tag/${tag}`}>
-                    <a className="font-mdeium text-gray-900 underline">{tag}</a>
+                  <Link href={`/tags/${tag}`}>
+                    <a className="font-medium text-gray-900 underline">{tag}</a>
                   </Link>
                   {index + 1 !== tags.length && ", "}
                 </Fragment>
