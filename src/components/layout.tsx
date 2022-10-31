@@ -16,13 +16,13 @@ const Layout = ({ children }: Props) => {
       <Meta />
       <Header />
       <Nav />
-      <Script
+      {/* <Script
         async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1408526493984577"
         crossOrigin="anonymous"
-      ></Script>
+      ></Script> */}
       {/* Top of page */}
-      <ins
+      {/* <ins
         className="adsbygoogle"
         style={{ display: "block" }}
         data-ad-client="ca-pub-1408526493984577"
@@ -32,7 +32,7 @@ const Layout = ({ children }: Props) => {
       ></ins>
       <Script id="top-of-page-ad" strategy="lazyOnload">
         {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-      </Script>
+      </Script> */}
       <Breadcrumbs />
       <div className="min-h-screen">
         <main>{children}</main>

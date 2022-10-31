@@ -1,6 +1,7 @@
 {
   "name": "Best Seen On Foot",
   "short_name": "Best Seen",
+  "start_url": "https://bestseenonfoot.com",
   "icons": [
     {
       "src": "/favicon/android-chrome-192x192.png",

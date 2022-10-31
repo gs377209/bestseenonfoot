@@ -20,6 +20,7 @@ export default function SocialIcons() {
             color="#1877F2"
             className="rounded-lg bg-white"
             size="2xl"
+            title="Best Seen On Foot Facebook"
           />
         </a>
       </li>
@@ -34,6 +35,7 @@ export default function SocialIcons() {
             color="#1DA1F2"
             className="rounded-lg bg-white"
             size="2xl"
+            title="Best Seen On Foot Twitter"
           />
         </a>
       </li>
@@ -48,6 +50,7 @@ export default function SocialIcons() {
             color="#833AB4"
             className="rounded-lg bg-white"
             size="2xl"
+            title="Best Seen On Foot Instagram"
           />
         </a>
       </li>
@@ -62,6 +65,7 @@ export default function SocialIcons() {
             color="#FF0000"
             className="rounded-lg bg-white"
             size="2xl"
+            title="Best Seen On Foot Youtube"
           />
         </a>
       </li>
