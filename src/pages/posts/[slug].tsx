@@ -37,6 +37,21 @@ export default function Post({ post, allPosts, morePosts }: Props) {
                 <meta property="og:title" content={titleText} />
                 <meta property="og:description" content={post.excerpt} />
                 <meta property="og:image" content={post.ogImage.url} />
+                <meta property="og:type" content="article" />
+                <meta property="og:site_name" content="Best Seen On Foot" />
+                <meta
+                  property="og:url"
+                  content={`https://bestseenonfoot.com/posts/${post.slug}`}
+                />
+                <meta name="twitter:card" content="summary" />
+                <meta
+                  name="twitter:url"
+                  content={`https://bestseenonfoot.com/posts/${post.slug}`}
+                />
+                <meta name="twitter:title" content={titleText} />
+                <meta name="twitter:description" content={post.excerpt} />
+                <meta name="twitter:image" content={post.ogImage.url} />
+                <meta name="twitter:creator" content="@bestseenonfoot" />
               </Head>
               <PostHeader
                 title={post.title}
