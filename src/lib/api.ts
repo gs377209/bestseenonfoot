@@ -94,7 +94,14 @@ export function getAllPostsByPlace(place: string, fields: string[] = []) {
 }
 
 export const generateRssFeed = () => {
-  const posts = getAllPosts(["title", "date", "slug", "author", "excerpt"]);
+  const posts = getAllPosts([
+    "title",
+    "date",
+    "slug",
+    "author",
+    "excerpt",
+    "content",
+  ]);
   const siteURL = process.env.SITE_URL ?? "localhost";
   const date = new Date();
   const author = {
@@ -128,7 +135,7 @@ export const generateRssFeed = () => {
     };
     feed.addItem({
       author: [postAuthor],
-      content: post.excerpt,
+      content: post.content,
       contributor: [postAuthor],
       date: parseISO(post.date),
       description: post.excerpt,
