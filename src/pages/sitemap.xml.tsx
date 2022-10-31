@@ -1,7 +1,7 @@
-import { parseISO } from "date-fns";
 import { GetServerSideProps } from "next";
 import PostType from "../interfaces/post";
 import { getAllPosts } from "../lib/api";
+import { parseISO } from "date-fns";
 
 function generateSiteMap(
   posts: PostType[],
