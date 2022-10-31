@@ -24,8 +24,8 @@ export default function Custom500() {
               refreshing
             </button>{" "}
             the page or going back to the{" "}
-            <Link href="/">
-              <a className="font-medium text-gray-900 underline">Homepage</a>
+            <Link href="/" className="font-medium text-gray-900 underline">
+              Homepage
             </Link>
           </p>
         </section>

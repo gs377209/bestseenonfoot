@@ -29,10 +29,8 @@ export default function Breadcrumbs() {
         }
         return (
           <Fragment key={crumb}>
-            <Link href={href}>
-              <a className="font-medium text-gray-900 underline">
-                {crumbDisplay}
-              </a>
+            <Link href={href} className="font-medium text-gray-900 underline">
+              {crumbDisplay}
             </Link>
             <span className="mx-1">/</span>
           </Fragment>

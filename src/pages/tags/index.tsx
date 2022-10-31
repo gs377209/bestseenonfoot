@@ -27,8 +27,11 @@ export default function Tags({ allPosts, tags }: Props) {
             {tags.map((tag) => {
               return (
                 <li key={tag}>
-                  <Link href={`/tags/${tag}`}>
-                    <a className="font-medium text-gray-900 underline">{tag}</a>
+                  <Link
+                    href={`/tags/${tag}`}
+                    className="font-medium text-gray-900 underline"
+                  >
+                    {tag}
                   </Link>
                 </li>
               );

@@ -11,16 +11,14 @@ const Header = () => {
       }}
     >
       <Link href="/">
-        <a>
-          <Image
-            className="h-[25vh] w-[25vh] rounded-3xl"
-            width="512"
-            height="512"
-            src="/assets/logo.jpg"
-            alt="Best Seen On Foot Logo"
-            title="Best Seen On Foot"
-          />
-        </a>
+        <Image
+          className="h-[25vh] w-[25vh] rounded-3xl"
+          width="512"
+          height="512"
+          src="/assets/logo.jpg"
+          alt="Best Seen On Foot Logo"
+          title="Best Seen On Foot"
+        />
       </Link>
 
       <SocialIcons />

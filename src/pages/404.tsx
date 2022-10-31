@@ -17,8 +17,8 @@ export default function Custom404() {
           </h1>
           <p className="mt-5">
             Head to the{" "}
-            <Link href="/">
-              <a className="font-medium text-gray-900 underline">Homepage</a>
+            <Link href="/" className="font-medium text-gray-900 underline">
+              Homepage
             </Link>{" "}
             to find what you are looking for...
           </p>

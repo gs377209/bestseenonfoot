@@ -25,25 +25,27 @@ export default function Authors({ allPosts }: Props) {
           </h1>
           <ul className="mb-32 grid grid-cols-1 gap-y-20 md:grid-cols-2 md:gap-x-16 md:gap-y-32 lg:gap-x-32">
             <li>
-              <Link href={`/authors/lauren`}>
-                <a className="font-medium text-gray-900 underline">
-                  <Avatar
-                    name="Lauren Schirtzinger"
-                    picture="/assets/authors/lauren.jpg"
-                    large
-                  />
-                </a>
+              <Link
+                href={`/authors/lauren`}
+                className="font-medium text-gray-900 underline"
+              >
+                <Avatar
+                  name="Lauren Schirtzinger"
+                  picture="/assets/authors/lauren.jpg"
+                  large
+                />
               </Link>
             </li>
             <li>
-              <Link href={`/authors/gerrod`}>
-                <a className="font-medium text-gray-900 underline">
-                  <Avatar
-                    name="Gerrod Schirtzinger"
-                    picture="/assets/authors/gerrod.jpg"
-                    large
-                  />
-                </a>
+              <Link
+                href={`/authors/gerrod`}
+                className="font-medium text-gray-900 underline"
+              >
+                <Avatar
+                  name="Gerrod Schirtzinger"
+                  picture="/assets/authors/gerrod.jpg"
+                  large
+                />
               </Link>
             </li>
           </ul>

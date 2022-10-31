@@ -25,25 +25,19 @@ export default function WhereWeveBeen({ allPosts }: Props) {
           <article>
             <ul>
               <li>
-                <Link href="/locations/south-america">
-                  <a>South America</a>
-                </Link>
+                <Link href="/locations/south-america">South America</Link>
                 <ul>
                   <li>
-                    <Link href="/locations/south-america/ecuador">
-                      <a>Ecuador</a>
-                    </Link>
+                    <Link href="/locations/south-america/ecuador">Ecuador</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <Link href="/locations/oceania">
-                  <a>Oceania</a>
-                </Link>
+                <Link href="/locations/oceania">Oceania</Link>
                 <ul>
                   <li>
                     <Link href="/locations/oceania/french-polynesia">
-                      <a>French Polynesia</a>
+                      French Polynesia
                     </Link>
                   </li>
                 </ul>

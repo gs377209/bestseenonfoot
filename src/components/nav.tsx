@@ -31,38 +31,43 @@ export default function Nav() {
         >
           <ul className="mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 md:text-sm md:font-medium">
             <li>
-              <Link href="/">
-                <a className="block border-b border-gray-100 py-2 pl-3 pr-4 text-black hover:bg-gray-50 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700">
-                  Home
-                </a>
+              <Link
+                href="/"
+                className="block border-b border-gray-100 py-2 pl-3 pr-4 text-black hover:bg-gray-50 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700"
+              >
+                Home
               </Link>
             </li>
             <li>
-              <Link href="/where-weve-been/">
-                <a className="block border-b border-gray-100 py-2 pl-3 pr-4 text-black hover:bg-gray-50 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700">
-                  Where We&apos;ve Been
-                </a>
+              <Link
+                href="/where-weve-been/"
+                className="block border-b border-gray-100 py-2 pl-3 pr-4 text-black hover:bg-gray-50 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700"
+              >
+                Where We&apos;ve Been
               </Link>
             </li>
             <li>
-              <Link href="/about-us/">
-                <a className="block border-b border-gray-100 py-2 pl-3 pr-4 text-black hover:bg-gray-50 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700">
-                  About Us
-                </a>
+              <Link
+                href="/about-us/"
+                className="block border-b border-gray-100 py-2 pl-3 pr-4 text-black hover:bg-gray-50 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700"
+              >
+                About Us
               </Link>
             </li>
             <li>
-              <Link href="/contact-us/">
-                <a className="block border-b border-gray-100 py-2 pl-3 pr-4 text-black hover:bg-gray-50 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700">
-                  Contact Us
-                </a>
+              <Link
+                href="/contact-us/"
+                className="block border-b border-gray-100 py-2 pl-3 pr-4 text-black hover:bg-gray-50 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700"
+              >
+                Contact Us
               </Link>
             </li>
             <li>
-              <Link href="/privacy-policy/">
-                <a className="block border-b border-gray-100 py-2 pl-3 pr-4 text-black hover:bg-gray-50 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700">
-                  Privacy Policy
-                </a>
+              <Link
+                href="/privacy-policy/"
+                className="block border-b border-gray-100 py-2 pl-3 pr-4 text-black hover:bg-gray-50 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700"
+              >
+                Privacy Policy
               </Link>
             </li>
           </ul>

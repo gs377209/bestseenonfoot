@@ -29,10 +29,11 @@ const PostHeader = ({
     <div className="">
       <PostTitle>{title}</PostTitle>
       <div className="hidden md:mb-12 md:block">
-        <Link href={`/authors/${author.url}`}>
-          <a className="font-medium text-gray-900 underline">
-            <Avatar name={author.name} picture={author.picture} />
-          </a>
+        <Link
+          href={`/authors/${author.url}`}
+          className="font-medium text-gray-900 underline"
+        >
+          <Avatar name={author.name} picture={author.picture} />
         </Link>
       </div>
       <div className="mb-8 sm:mx-0 md:mb-16">
@@ -40,24 +41,27 @@ const PostHeader = ({
       </div>
       <div className="mx-auto">
         <div className="mb-6 block md:hidden">
-          <Link href={`/authors/${author.url}`}>
-            <a className="font-medium text-gray-900 underline">
-              <Avatar name={author.name} picture={author.picture} />
-            </a>
+          <Link
+            href={`/authors/${author.url}`}
+            className="font-medium text-gray-900 underline"
+          >
+            <Avatar name={author.name} picture={author.picture} />
           </Link>
         </div>
         <div className="mb-6 flex flex-col text-lg">
-          <Link href={`/archives/${format(parseISO(date), "yyyy/MM/dd")}`}>
-            <a className="font-medium text-gray-900 underline">
-              <DateFormatter dateString={date} />
-            </a>
+          <Link
+            href={`/archives/${format(parseISO(date), "yyyy/MM/dd")}`}
+            className="font-medium text-gray-900 underline"
+          >
+            <DateFormatter dateString={date} />
           </Link>
           <div>
             Location:{" "}
-            <Link href={`/locations/${location.url}`}>
-              <a className="font-medium text-gray-900 underline">
-                {location.name}
-              </a>
+            <Link
+              href={`/locations/${location.url}`}
+              className="font-medium text-gray-900 underline"
+            >
+              {location.name}
             </Link>
           </div>
           <div>
@@ -65,8 +69,11 @@ const PostHeader = ({
             {tags.map((tag, index) => {
               return (
                 <Fragment key={tag}>
-                  <Link href={`/tags/${tag}`}>
-                    <a className="font-medium text-gray-900 underline">{tag}</a>
+                  <Link
+                    href={`/tags/${tag}`}
+                    className="font-medium text-gray-900 underline"
+                  >
+                    {tag}
                   </Link>
                   {index + 1 !== tags.length && ", "}
                 </Fragment>
