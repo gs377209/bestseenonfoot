@@ -1,0 +1,135 @@
+import Container from "../components/container";
+import Head from "next/head";
+import Image from "next/image";
+import PostType from "../interfaces/post";
+import SideBar from "../components/side-bar";
+import { getAllPosts } from "../lib/api";
+
+type Props = {
+  allPosts: PostType[];
+};
+
+export default function AboutUs({ allPosts }: Props) {
+  const titleText = `About Us | Best Seen on Foot`;
+
+  return (
+    <>
+      <Head>
+        <title>{titleText}</title>
+      </Head>
+      <Container>
+        <section className="container prose mx-auto mb-32 max-w-none md:prose-lg lg:col-span-2 lg:prose-xl">
+          <h1>About Us</h1>
+          <article>
+            <h2>Welcome to Best Seen On Foot!</h2>
+            <p>
+              <a href="/assets/20180922_193351.jpg">
+                <Image
+                  src="/assets/20180922_193351.jpg"
+                  width="2592"
+                  height="1944"
+                  alt="Picture of Lauren and Gerrod"
+                  title="Picture of Lauren and Gerrod"
+                />
+              </a>
+            </p>
+            <p>
+              We are Gerrod and Lauren Schirtzinger, a fairly average american
+              couple that have been married since September 2017. We have always
+              enjoyed traveling together, and have recently decided to take that
+              passion to the next level. So, Gerrod quit his job, and
+              Lauren&apos;s boss was super-duper cool and is letting her take a
+              leave of absence from work and we are taking a (hopefully) epic
+              year-long trip around the world! While Lauren prefers to spend
+              most of her time outdoors, Gerrod makes sure we occasionally talk
+              to other travelers and explore museums and cities. Our goal is to
+              share our travel stories so our family doesn&apos;t think we are
+              dead. Oh and to maybe inspire as many people as we can to live a
+              life of adventure and not be afraid to explore the unknown. We
+              invite you to share in our journey as we hike, dive, and explore
+              the world as it was meant to be seen, on foot!
+            </p>
+            <h2>SOME BACKGROUND</h2>
+            <h3>Lauren Schirtzinger:</h3>
+            <p>
+              <a href="/assets/OI000004.jpg">
+                <Image
+                  src="/assets/OI000004.jpg"
+                  width="2048"
+                  height="1536"
+                  alt="Picture of Lauren"
+                  title="Picture of Lauren"
+                />
+              </a>
+            </p>
+            <p>
+              Hi! My name is Lauren. I am currently 27, and I am from Columbus,
+              Ohio, USA. Growing up, my parents frequently took me to local,
+              state, and various national parks where we would spend most of our
+              time hiking. Growing up in a nature oriented family molded me into
+              a huge nature nerd. After I traveled to the Bahamas and took a
+              marine biology course which included receiving my scuba
+              certification, my love for travel and seeing all that nature has
+              to offer was solidified. And so, I went on to receive a degree in
+              environmental science from The Ohio State University (O-H
+              anyone?).
+            </p>
+            <p>
+              Post-graduation I received a job as an environmental scientist at
+              a consulting firm. As I know that a large portion of you have no
+              idea what an environmental consultant does, just know that it is a
+              combo of hiking/surveying, writing, and identifying soils and
+              plants. It is not a very glamorous job, and I frequently have dirt
+              under my nails and scratches on my legs. However, I love nature
+              and tend to identify plants for people even when they don&apos;t
+              ask and/or care to know what the plant is. I am excited to see as
+              many places as possible where I have no clue what the plants are,
+              and to see as many different habitats as possible!
+            </p>
+            <h3>Gerrod Schirtzinger:</h3>
+            <p>
+              <a href="/assets/20180708_202213.jpg">
+                <Image
+                  src="/assets/20180708_202213.jpg"
+                  width="4032"
+                  height="3024"
+                  alt="Picture of Gerrod"
+                  title="Picture of Gerrod"
+                />
+              </a>
+            </p>
+            <p>
+              Gerrod is also currently 27, and he is also from Columbus, Ohio,
+              USA. According to Gerrod, “I don&apos;t care what the about me
+              says, what does yours say?” He grew up playing lots of video games
+              and hanging out with cool people. He attended Ohio University,
+              where he received a degree in electrical/computer engineering.
+              Post graduation he received a job in computer programming building
+              websites and doing a whole lot of stuff that I don&apos;t
+              understand. Gerrod is very go with the flow, and much like
+              childhood Gerrod, loves playing video games and meeting cool
+              people. He always pushes me to experience the local culture and
+              not panic when things don&apos;t go according to plan.
+            </p>
+          </article>
+        </section>
+        <SideBar allPosts={allPosts} />
+      </Container>
+    </>
+  );
+}
+
+export const getStaticProps = async () => {
+  const allPosts = getAllPosts([
+    "title",
+    "date",
+    "slug",
+    "author",
+    "coverImage",
+    "excerpt",
+  ]);
+
+  return {
+    props: { allPosts },
+  };
+};
