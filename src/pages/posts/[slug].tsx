@@ -30,7 +30,7 @@ export default function Post({ post, allPosts, morePosts }: Props) {
           <PostTitle>Loading…</PostTitle>
         ) : (
           <>
-            <article className="mx-auto mb-32 lg:col-span-2">
+            <article className="container mx-auto mb-32 lg:col-span-2">
               <Head>
                 <title>{titleText}</title>
                 <meta name="description" content={post.excerpt} key="desc" />
