@@ -34,24 +34,58 @@ export default function Post({ post, allPosts, morePosts }: Props) {
               <Head>
                 <title>{titleText}</title>
                 <meta name="description" content={post.excerpt} key="desc" />
-                <meta property="og:title" content={titleText} />
-                <meta property="og:description" content={post.excerpt} />
-                <meta property="og:image" content={post.ogImage.url} />
-                <meta property="og:type" content="article" />
-                <meta property="og:site_name" content="Best Seen On Foot" />
+                <meta property="og:title" content={titleText} key="og:title" />
+                <meta
+                  property="og:description"
+                  content={post.excerpt}
+                  key="og:description"
+                />
+                <meta
+                  property="og:image"
+                  content={post.ogImage.url}
+                  key="og:image"
+                />
+                <meta property="og:type" content="article" key="og:type" />
+                <meta
+                  property="og:site_name"
+                  content="Best Seen On Foot"
+                  key="og:site_name"
+                />
                 <meta
                   property="og:url"
                   content={`https://bestseenonfoot.com/posts/${post.slug}`}
+                  key="og:url"
                 />
-                <meta name="twitter:card" content="summary" />
+                <meta
+                  name="twitter:card"
+                  content="summary"
+                  key="twitter:card"
+                />
                 <meta
                   name="twitter:url"
                   content={`https://bestseenonfoot.com/posts/${post.slug}`}
+                  key="twitter:url"
                 />
-                <meta name="twitter:title" content={titleText} />
-                <meta name="twitter:description" content={post.excerpt} />
-                <meta name="twitter:image" content={post.ogImage.url} />
-                <meta name="twitter:creator" content="@bestseenonfoot" />
+                <meta
+                  name="twitter:title"
+                  content={titleText}
+                  key="twitter:title"
+                />
+                <meta
+                  name="twitter:description"
+                  content={post.excerpt}
+                  key="twitter:description"
+                />
+                <meta
+                  name="twitter:image"
+                  content={post.ogImage.url}
+                  key="twitter:image"
+                />
+                <meta
+                  name="twitter:creator"
+                  content="@bestseenonfoot"
+                  key="twitter:creator"
+                />
               </Head>
               <PostHeader
                 title={post.title}
