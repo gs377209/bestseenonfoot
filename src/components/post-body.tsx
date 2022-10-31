@@ -29,8 +29,8 @@ const components: Components = {
         src={src ?? ""}
         alt={alt ?? ""}
         title={title}
-        width="5184"
-        height="3456"
+        width="1036"
+        height="691"
       />
     );
   },

@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
+const withPWA = require("next-pwa")({
+  dest: "public",
+});
 
 const nextConfig = {
   // Append the default value with md extensions
@@ -7,4 +10,4 @@ const nextConfig = {
   swcMinify: true,
 };
 
-module.exports = nextConfig;
+module.exports = withPWA(nextConfig);

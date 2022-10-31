@@ -4,7 +4,6 @@ import Header from "./header";
 import Meta from "./meta";
 import Nav from "./nav";
 import React from "react";
-import Script from "next/script";
 
 type Props = {
   children: React.ReactNode;

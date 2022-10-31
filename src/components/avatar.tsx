@@ -16,8 +16,8 @@ const Avatar = ({ name, picture, large }: Props) => {
           "h-36 w-36 rounded-3xl": large,
         })}
         alt={name}
-        width="800"
-        height="800"
+        width="144"
+        height="144"
       />
       <div className="ml-4 text-xl font-bold">{name}</div>
     </div>

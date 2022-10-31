@@ -26,8 +26,8 @@ export default function AboutUs({ allPosts }: Props) {
               <a href="/assets/20180922_193351.jpg">
                 <Image
                   src="/assets/20180922_193351.jpg"
-                  width="2592"
-                  height="1944"
+                  width="1296"
+                  height="972"
                   alt="Picture of Lauren and Gerrod"
                   title="Picture of Lauren and Gerrod"
                 />
@@ -55,8 +55,8 @@ export default function AboutUs({ allPosts }: Props) {
               <a href="/assets/OI000004.jpg">
                 <Image
                   src="/assets/OI000004.jpg"
-                  width="2048"
-                  height="1536"
+                  width="1024"
+                  height="768"
                   alt="Picture of Lauren"
                   title="Picture of Lauren"
                 />
@@ -91,8 +91,8 @@ export default function AboutUs({ allPosts }: Props) {
               <a href="/assets/20180708_202213.jpg">
                 <Image
                   src="/assets/20180708_202213.jpg"
-                  width="4032"
-                  height="3024"
+                  width="1008"
+                  height="756"
                   alt="Picture of Gerrod"
                   title="Picture of Gerrod"
                 />
