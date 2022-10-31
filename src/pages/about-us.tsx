@@ -1,6 +1,6 @@
 import Container from "../components/container";
 import Head from "next/head";
-import Image from "next/future/image";
+import Image from "next/image";
 import PostType from "../interfaces/post";
 import SideBar from "../components/side-bar";
 import { getAllPosts } from "../lib/api";

@@ -1,5 +1,5 @@
 import ReactMarkdown, { Components } from "react-markdown";
-import Image from "next/future/image";
+import Image from "next/image";
 
 const components: Components = {
   // eslint-disable-next-line no-unused-vars
