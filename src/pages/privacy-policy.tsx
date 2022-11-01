@@ -1,3 +1,4 @@
+import { BASE_URL } from "../lib/constants";
 import Container from "../components/container";
 import Head from "next/head";
 import Link from "next/link";
@@ -24,8 +25,7 @@ export default function PrivacyPolicy({ allPosts }: Props) {
             <h2>Who we are</h2>
 
             <p>
-              Our website address is{" "}
-              <Link href="/">https://www.bestseenonfoot.com</Link>
+              Our website address is <Link href="/">{BASE_URL}</Link>
             </p>
 
             <h2>What personal data we collect and why we collect it</h2>

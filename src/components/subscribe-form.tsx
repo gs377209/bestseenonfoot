@@ -1,3 +1,5 @@
+import { BASE_URL } from "../lib/constants";
+
 export default function SubscribeForm() {
   return (
     <aside
@@ -35,7 +37,7 @@ export default function SubscribeForm() {
             <input
               type="hidden"
               name="source"
-              value="https://www.bestseenonfoot.com/2018/10/11/ecuador-quito-and-cotopaxi/"
+              value={`${BASE_URL}/2018/10/11/ecuador-quito-and-cotopaxi/`}
             />
             <input type="hidden" name="sub-type" value="widget" />
             <input

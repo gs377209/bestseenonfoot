@@ -1,3 +1,4 @@
+import { BASE_URL } from "../lib/constants";
 import { GetServerSideProps } from "next";
 import PostType from "../interfaces/post";
 import { getAllPosts } from "../lib/api";
@@ -9,77 +10,75 @@ function generateSiteMap(
   locationUrls: string[],
   dateUrls: string[]
 ) {
-  const siteURL = process.env.SITE_URL ?? "localhost";
-
   return `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <url>
-        <loc>${siteURL}</loc>
+        <loc>${BASE_URL}</loc>
       </url>
       <url>
-        <loc>${siteURL}/404</loc>
+        <loc>${BASE_URL}/404</loc>
       </url>
       <url>
-        <loc>${siteURL}/500</loc>
+        <loc>${BASE_URL}/500</loc>
       </url>
       <url>
-        <loc>${siteURL}/about-us</loc>
+        <loc>${BASE_URL}/about-us</loc>
       </url>
       <url>
-        <loc>${siteURL}/contact-us</loc>
+        <loc>${BASE_URL}/contact-us</loc>
       </url>
       <url>
-        <loc>${siteURL}/privacy-policy</loc>
+        <loc>${BASE_URL}/privacy-policy</loc>
       </url>
       <url>
-        <loc>${siteURL}/where-weve-been</loc>
+        <loc>${BASE_URL}/where-weve-been</loc>
       </url>
       <url>
-        <loc>${siteURL}/authors</loc>
+        <loc>${BASE_URL}/authors</loc>
       </url>
       <url>
-        <loc>${siteURL}/authors/gerrod</loc>
+        <loc>${BASE_URL}/authors/gerrod</loc>
       </url>
       <url>
-        <loc>${siteURL}/authors/lauren</loc>
+        <loc>${BASE_URL}/authors/lauren</loc>
       </url>
       <url>
-        <loc>${siteURL}/archives</loc>
+        <loc>${BASE_URL}/archives</loc>
       </url>
       ${dateUrls
         .map((dateUrl) => {
           return `<url>
-            <loc>${`${siteURL}/archives/${dateUrl}`}</loc>
+            <loc>${`${BASE_URL}/archives/${dateUrl}`}</loc>
           </url>`;
         })
         .join("")}
       <url>
-        <loc>${siteURL}/locations</loc>
+        <loc>${BASE_URL}/locations</loc>
       </url>
       ${locationUrls
         .map((locationUrl) => {
           return `<url>
-            <loc>${`${siteURL}/locations/${locationUrl}`}</loc>
+            <loc>${`${BASE_URL}/locations/${locationUrl}`}</loc>
           </url>`;
         })
         .join("")}
       <url>
-        <loc>${siteURL}/tags</loc>
+        <loc>${BASE_URL}/tags</loc>
       </url>
       ${tags
         .map((tag) => {
           return `<url>
-            <loc>${`${siteURL}/tags/${tag}`}</loc>
+            <loc>${`${BASE_URL}/tags/${tag}`}</loc>
           </url>`;
         })
         .join("")}
       <url>
-        <loc>${siteURL}/posts</loc>
+        <loc>${BASE_URL}/posts</loc>
       </url>
       ${posts
         .map(({ slug, date }) => {
           return `<url>
-            <loc>${`${siteURL}/posts/${slug}`}</loc>
+            <loc>${`${BASE_URL}/posts/${slug}`}</loc>
             <lastmod>${date}</lastmod>
           </url>`;
         })
