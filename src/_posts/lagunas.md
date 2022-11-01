@@ -1,3 +1,37 @@
+---
+title: "Attempting to Leave Peru: A Story of Avianca Airlines"
+excerpt: "Hello everybody! Gerrod here to fill you in on some of the not so exciting parts of our travels - the traveling part..."
+coverImage: "/assets/blog/attempting-to-leave-peru-a-story-of-avianca-airlines/IMG_20181110_180957.jpg"
+date: "2018-12-05T00:00:00.000Z"
+author:
+  name: Gerrod Schirtzinger
+  picture: "/assets/authors/gerrod.jpg"
+  url: gerrod
+ogImage:
+  url: "/assets/blog/attempting-to-leave-peru-a-story-of-avianca-airlines/IMG_20181110_180957.jpg"
+location:
+  url: south-america/peru
+  name: Peru
+tags:
+  [
+    airplanes,
+    airport,
+    airports,
+    amazon planet,
+    avianca,
+    cusco,
+    flying,
+    lima,
+    miraflores,
+    peru,
+    priority pass,
+    travel,
+    travel blog,
+    travel couple,
+    travel more,
+  ]
+---
+
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -120,10 +154,6 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
                 h5{ font: 400 15px Poppins }
                 h6{ font: 400 12px Poppins }
 
-
-
-
-
 </style>
 <!-- Inline jetpack_facebook_likebox -->
 <style id='jetpack_facebook_likebox-inline-css' type='text/css'>
@@ -189,7 +219,7 @@ var chic_lifestyle_loadmore_params = {"ajaxurl":"https:\/\/www.bestseenonfoot.co
 <script type='text/javascript' src='https://cdn.bestseenonfoot.com/wp-content/themes/chic-lifestyle/js/loadmore.js?ver=6.0.2' id='chic_lifestyle_loadmore-js'></script>
 <script type='text/javascript' src='https://cdn.bestseenonfoot.com/wp-content/themes/travel-lifestyle/js/script.js?ver=6.0.2' id='travel-lifestyle-scripts-js'></script>
 <link rel="https://api.w.org/" href="https://www.bestseenonfoot.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.bestseenonfoot.com/wp-json/wp/v2/posts/339" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.bestseenonfoot.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.bestseenonfoot.com/wp-includes/wlwmanifest.xml" /> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.bestseenonfoot.com/wp-includes/wlwmanifest.xml" />
 <meta name="generator" content="WordPress 6.0.2" />
 <link rel='shortlink' href='https://wp.me/p7GhPn-5t' />
 <link rel="alternate" type="application/json+oembed" href="https://www.bestseenonfoot.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bestseenonfoot.com%2F2018%2F12%2F10%2Fsan-pedro-de-atacama-part-1-piedras-rojas-salar-de-atacama-and-the-lagunas%2F" />
@@ -346,7 +376,6 @@ display: none;
 
 <header>
 
-
     <section class="logo"  style="background-image:url(https://cdn.bestseenonfoot.com/wp-content/uploads/2019/05/PANO_20181207_122917.vr_.jpg)" >
     	<div class="container">
     		<div class="row top-one">
@@ -403,7 +432,7 @@ display: none;
 <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a title="About Us" href="https://www.bestseenonfoot.com/about-us/">About Us</a></li>
 <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a title="Contact Us" href="https://www.bestseenonfoot.com/contact-us/">Contact Us</a></li>
 <li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-26"><a title="Privacy Policy" href="https://www.bestseenonfoot.com/privacy-policy/">Privacy Policy</a></li>
-</ul></div>			        
+</ul></div>
 			    </div> <!-- /.end of collaspe navbar-collaspe -->
 			</nav>
 		</div>
@@ -424,15 +453,11 @@ display: none;
         <section class="page-section">
           <div class="detail-content">
 
-
-
-
 <div class="page-title">
   <h1>San Pedro de Atacama Part 1: Piedras Rojas, Salar de Atacama, and the Lagunas</h1>
 </div>
 
 <div class="single-post">
-
 
     <div class="info">
       <ul class="list-inline">
@@ -468,14 +493,15 @@ display: none;
     </div>
 
   <div class="post-content">
-          <figure class="feature-image">        
+          <figure class="feature-image">
           <img width="5184" height="3456" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6260.jpg?fit=5184%2C3456&amp;ssl=1" class="attachment-full size-full wp-post-image" alt="Salar de Atacama" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6260.jpg?w=5184&amp;ssl=1 5184w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6260.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6260.jpg?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6260.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6260.jpg?resize=600%2C400&amp;ssl=1 600w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6260.jpg?w=1280&amp;ssl=1 1280w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6260.jpg?w=1920&amp;ssl=1 1920w" sizes="(max-width: 5184px) 100vw, 5184px" data-attachment-id="382" data-permalink="https://www.bestseenonfoot.com/2018/12/10/san-pedro-de-atacama-part-1-piedras-rojas-salar-de-atacama-and-the-lagunas/img_6260/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6260.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Salar de Atacama" data-image-description="&lt;p&gt;Salar de Atacama &lt;/p&gt;
 " data-image-caption="&lt;p&gt;Salar de Atacama &lt;/p&gt;
-" data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6260.jpg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6260.jpg?fit=640%2C427&amp;ssl=1" />         
+" data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6260.jpg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6260.jpg?fit=640%2C427&amp;ssl=1" />
       </figure>
-        
+
     <article>
       <p>Hey everyone! Lauren here to tell you about part 1 of our journey in Calama and San Pedro de Atacama, Chile! We spent about 3.5 days here, which seemed to be enough time to cover most of the popular activities.</p>
+
 <h2>Arrival in Chile</h2>
 <p>The best way to get to San Pedro de Atacama is to fly into Calama and take a bus ride to San Pedro de Atacama. We flew from Paraguay to Chile with Latam, and had a fairly long layover in Santiago before transferring to Calama.</p>
 <p>When we arrived in Santiago, and after we went through customs we were directed out of the airport. We had a fairly lengthy layover in Santiago, and we were planning on spending it in the VIP lounge!</p>
@@ -602,7 +628,7 @@ display: none;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6260.jpg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6260.jpg?fit=640%2C427&amp;ssl=1" /></a>
 			</div>
 				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-382'>
-				Salar de Atacama 
+				Salar de Atacama
 				</figcaption></figure><figure class='gallery-item'>
 			<div class='gallery-icon landscape'>
 				<a href='https://www.bestseenonfoot.com/2018/12/10/san-pedro-de-atacama-part-1-piedras-rojas-salar-de-atacama-and-the-lagunas/img_6376/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6376.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Gerrod doing a really weird squat next to Trópico de Capricornio" loading="lazy" aria-describedby="gallery-1-375" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6376.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6376.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6376.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6376.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="375" data-permalink="https://www.bestseenonfoot.com/2018/12/10/san-pedro-de-atacama-part-1-piedras-rojas-salar-de-atacama-and-the-lagunas/img_6376/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6376.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Gerrod doing a really weird squat next to Trópico de Capricornio" data-image-description="&lt;p&gt;Gerrod doing a really weird squat next to Trópico de Capricornio&lt;/p&gt;
@@ -666,7 +692,7 @@ display: none;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6329.jpg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6329.jpg?fit=640%2C427&amp;ssl=1" /></a>
 			</div>
 				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-351'>
-				Looking super cute at Piedras Rojas 
+				Looking super cute at Piedras Rojas
 				</figcaption></figure><figure class='gallery-item'>
 			<div class='gallery-icon landscape'>
 				<a href='https://www.bestseenonfoot.com/2018/12/10/san-pedro-de-atacama-part-1-piedras-rojas-salar-de-atacama-and-the-lagunas/img_6313/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6313.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Laguna Miniques" loading="lazy" aria-describedby="gallery-1-350" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6313.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6313.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6313.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6313.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="350" data-permalink="https://www.bestseenonfoot.com/2018/12/10/san-pedro-de-atacama-part-1-piedras-rojas-salar-de-atacama-and-the-lagunas/img_6313/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6313.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Laguna Miniques" data-image-description="&lt;p&gt;Laguna Miniques&lt;/p&gt;
@@ -697,8 +723,8 @@ display: none;
 <div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-339" class="share-facebook sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/10/san-pedro-de-atacama-part-1-piedras-rojas-salar-de-atacama-and-the-lagunas/?share=facebook" target="_blank" title="Click to share on Facebook" ><span></span><span class="sharing-screen-reader-text">Click to share on Facebook (Opens in new window)</span></a></li><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-339" class="share-twitter sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/10/san-pedro-de-atacama-part-1-piedras-rojas-salar-de-atacama-and-the-lagunas/?share=twitter" target="_blank" title="Click to share on Twitter" ><span></span><span class="sharing-screen-reader-text">Click to share on Twitter (Opens in new window)</span></a></li><li><a href="#" class="sharing-anchor sd-button share-more"><span>More</span></a></li><li class="share-end"></li></ul><div class="sharing-hidden"><div class="inner" style="display: none;"><ul><li class="share-pinterest"><a rel="nofollow noopener noreferrer" data-shared="sharing-pinterest-339" class="share-pinterest sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/10/san-pedro-de-atacama-part-1-piedras-rojas-salar-de-atacama-and-the-lagunas/?share=pinterest" target="_blank" title="Click to share on Pinterest" ><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest (Opens in new window)</span></a></li><li class="share-reddit"><a rel="nofollow noopener noreferrer" data-shared="" class="share-reddit sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/10/san-pedro-de-atacama-part-1-piedras-rojas-salar-de-atacama-and-the-lagunas/?share=reddit" target="_blank" title="Click to share on Reddit" ><span></span><span class="sharing-screen-reader-text">Click to share on Reddit (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-print"><a rel="nofollow noopener noreferrer" data-shared="" class="share-print sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/10/san-pedro-de-atacama-part-1-piedras-rojas-salar-de-atacama-and-the-lagunas/#print" target="_blank" title="Click to print" ><span></span><span class="sharing-screen-reader-text">Click to print (Opens in new window)</span></a></li><li class="share-email"><a rel="nofollow noopener noreferrer" data-shared="" class="share-email sd-button share-icon no-text" href="mailto:?subject=%5BShared%20Post%5D%20San%20Pedro%20de%20Atacama%20Part%201%3A%20Piedras%20Rojas%2C%20Salar%20de%20Atacama%2C%20and%20the%20Lagunas&body=https%3A%2F%2Fwww.bestseenonfoot.com%2F2018%2F12%2F10%2Fsan-pedro-de-atacama-part-1-piedras-rojas-salar-de-atacama-and-the-lagunas%2F&share=email" target="_blank" title="Click to email a link to a friend" data-email-share-error-title="Do you have email set up?" data-email-share-error-text="If you&#039;re having problems sharing via email, you might not have email set up for your browser. You may need to create a new email yourself." data-email-share-nonce="9614fe8ea3" data-email-share-track-url="https://www.bestseenonfoot.com/2018/12/10/san-pedro-de-atacama-part-1-piedras-rojas-salar-de-atacama-and-the-lagunas/?share=email"><span></span><span class="sharing-screen-reader-text">Click to email a link to a friend (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-linkedin"><a rel="nofollow noopener noreferrer" data-shared="sharing-linkedin-339" class="share-linkedin sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/10/san-pedro-de-atacama-part-1-piedras-rojas-salar-de-atacama-and-the-lagunas/?share=linkedin" target="_blank" title="Click to share on LinkedIn" ><span></span><span class="sharing-screen-reader-text">Click to share on LinkedIn (Opens in new window)</span></a></li><li class="share-tumblr"><a rel="nofollow noopener noreferrer" data-shared="" class="share-tumblr sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/10/san-pedro-de-atacama-part-1-piedras-rojas-salar-de-atacama-and-the-lagunas/?share=tumblr" target="_blank" title="Click to share on Tumblr" ><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-pocket"><a rel="nofollow noopener noreferrer" data-shared="" class="share-pocket sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/10/san-pedro-de-atacama-part-1-piedras-rojas-salar-de-atacama-and-the-lagunas/?share=pocket" target="_blank" title="Click to share on Pocket" ><span></span><span class="sharing-screen-reader-text">Click to share on Pocket (Opens in new window)</span></a></li><li class="share-telegram"><a rel="nofollow noopener noreferrer" data-shared="" class="share-telegram sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/10/san-pedro-de-atacama-part-1-piedras-rojas-salar-de-atacama-and-the-lagunas/?share=telegram" target="_blank" title="Click to share on Telegram" ><span></span><span class="sharing-screen-reader-text">Click to share on Telegram (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-jetpack-whatsapp"><a rel="nofollow noopener noreferrer" data-shared="" class="share-jetpack-whatsapp sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/10/san-pedro-de-atacama-part-1-piedras-rojas-salar-de-atacama-and-the-lagunas/?share=jetpack-whatsapp" target="_blank" title="Click to share on WhatsApp" ><span></span><span class="sharing-screen-reader-text">Click to share on WhatsApp (Opens in new window)</span></a></li><li class="share-skype"><a rel="nofollow noopener noreferrer" data-shared="sharing-skype-339" class="share-skype sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/10/san-pedro-de-atacama-part-1-piedras-rojas-salar-de-atacama-and-the-lagunas/?share=skype" target="_blank" title="Click to share on Skype" ><span></span><span class="sharing-screen-reader-text">Click to share on Skype (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-end"></li></ul></div></div></div></div></div>
 <div id='jp-relatedposts' class='jp-relatedposts' >
 	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
-</div>      
-           
+</div>
+
     </article>
 
     </div>
@@ -720,7 +746,7 @@ display: none;
 </p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="8a70355bfa" /></p><p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="18"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
 	<p class="akismet_comment_form_privacy_notice">This site uses Akismet to reduce spam. <a href="https://akismet.com/privacy/" target="_blank" rel="nofollow noopener">Learn how your comment data is processed</a>.</p>	</div><!-- #comments -->
           </div><!-- /.end of deatil-content -->
-        </section> <!-- /.end of section -->  
+        </section> <!-- /.end of section -->
       </div>
 
       <div class="col-sm-3">
@@ -731,7 +757,7 @@ display: none;
 <ul class="popup-gallery photos-1 btif-square-images">
     <li>
                 <a href="https://scontent.cdninstagram.com/v/t51.29350-15/219878272_1198397883960470_970262775430195039_n.jpg?_nc_cat=110&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=ftwEsIC6B0sAX-mVd6U&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT9_YYnWqByPx2QcP2kQZsFksJXbMsF9RnDOP7CgNhjXvw&#038;oe=631EE78A">
-                            <img class="btif-lazy-load" data-src="https://scontent.cdninstagram.com/v/t51.29350-15/219878272_1198397883960470_970262775430195039_n.jpg?_nc_cat=110&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=ftwEsIC6B0sAX-mVd6U&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT9_YYnWqByPx2QcP2kQZsFksJXbMsF9RnDOP7CgNhjXvw&#038;oe=631EE78A" 
+                            <img class="btif-lazy-load" data-src="https://scontent.cdninstagram.com/v/t51.29350-15/219878272_1198397883960470_970262775430195039_n.jpg?_nc_cat=110&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=ftwEsIC6B0sAX-mVd6U&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT9_YYnWqByPx2QcP2kQZsFksJXbMsF9RnDOP7CgNhjXvw&#038;oe=631EE78A"
                     data-alt="I love a good botanical garden, and Naples, Florida definitely delivered!
 .
 .
@@ -742,15 +768,16 @@ display: none;
             </li>
     <li>
                 <a href="https://scontent.cdninstagram.com/v/t51.29350-15/189819742_530810537927147_4180347239473333533_n.jpg?_nc_cat=104&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=wKWzdcbP1B4AX9OGLTX&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT8EJ3psoVp9mc7Ibur5y7YUCDnFukQZtvCumi7eZ9NvSA&#038;oe=631F382C">
-                            <img class="btif-lazy-load" data-src="https://scontent.cdninstagram.com/v/t51.29350-15/189819742_530810537927147_4180347239473333533_n.jpg?_nc_cat=104&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=wKWzdcbP1B4AX9OGLTX&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT8EJ3psoVp9mc7Ibur5y7YUCDnFukQZtvCumi7eZ9NvSA&#038;oe=631F382C" 
+                            <img class="btif-lazy-load" data-src="https://scontent.cdninstagram.com/v/t51.29350-15/189819742_530810537927147_4180347239473333533_n.jpg?_nc_cat=104&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=wKWzdcbP1B4AX9OGLTX&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT8EJ3psoVp9mc7Ibur5y7YUCDnFukQZtvCumi7eZ9NvSA&#038;oe=631F382C"
                     data-alt="Our travel in the last year has been very limited because of COVID. Luckily for Lauren, she has seen some incredibly beautiful places because of her job as a wetland biologist.
 
 Seen here is an eastern box turtle seen in the incredibly beautiful mountains and forests of West Virginia. These beautiful turtles are vulnerable due to habitat loss, and are always a treat to see during field work.">
 </a>
+
 </li>
 <li>
 <a href="https://scontent.cdninstagram.com/v/t51.29350-15/104079786_191320705526442_7447126636934923766_n.jpg?_nc_cat=101&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=vFzkUpp8GowAX8_JhTZ&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT9F-Ka9tSv2yBLAc5E5RLem9yQwc9uVENvFugrnv4kpUw&#038;oe=631EA731">
-<img class="btif-lazy-load" data-src="https://scontent.cdninstagram.com/v/t51.29350-15/104079786_191320705526442_7447126636934923766_n.jpg?_nc_cat=101&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=vFzkUpp8GowAX8_JhTZ&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT9F-Ka9tSv2yBLAc5E5RLem9yQwc9uVENvFugrnv4kpUw&#038;oe=631EA731" 
+<img class="btif-lazy-load" data-src="https://scontent.cdninstagram.com/v/t51.29350-15/104079786_191320705526442_7447126636934923766_n.jpg?_nc_cat=101&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=vFzkUpp8GowAX8_JhTZ&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT9F-Ka9tSv2yBLAc5E5RLem9yQwc9uVENvFugrnv4kpUw&#038;oe=631EA731"
                     data-alt="Milford Sound! The towering peaks surrounding the fiord are truly a sight to see.
 .
 .
@@ -893,26 +920,26 @@ Seen here is an eastern box turtle seen in the incredibly beautiful mountains an
     						</form>
     					</div>
 
-
-</aside><aside id="custom_html-3" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget">Copyright &copy; 2016 - 2022 <b>Best Seen On Foot</b> All Rights Reserved</div></aside>		
+</aside><aside id="custom_html-3" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget">Copyright &copy; 2016 - 2022 <b>Best Seen On Foot</b> All Rights Reserved</div></aside>
 	</div>
 	</footer>
 		<div class="copyright text-center spacer">
 			        	Copyright © 2016 - 2021 Best Seen On Foot All Rights Reserved		</div>
-		<div class="scroll-top-wrapper"> <span class="scroll-top-inner"><i class="fa fa-2x fa-angle-up"></i></span></div> 
-		
-		<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '867560113588361',
-      cookie     : true,
-      xfbml      : true,
-      version    : 'v3.3'
-    });
-      
-    FB.AppEvents.logPageView();   
-      
-  };
+		<div class="scroll-top-wrapper"> <span class="scroll-top-inner"><i class="fa fa-2x fa-angle-up"></i></span></div>
+
+    	<script>
+
+window.fbAsyncInit = function() {
+FB.init({
+appId : '867560113588361',
+cookie : true,
+xfbml : true,
+version : 'v3.3'
+});
+
+    FB.AppEvents.logPageView();
+
+};
 
 (function(d, s, id){
 var js, fjs = d.getElementsByTagName(s)[0];
@@ -922,6 +949,7 @@ js.src = "https://connect.facebook.net/en_US/sdk.js";
 fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
 </script> <!-- Meta Pixel Event Code -->
+
 <script type='text/javascript'>
 document.addEventListener( 'wpcf7mailsent', function( event ) {
 if( "fb_pxl_code" in event.detail.apiResponse){

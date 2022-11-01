@@ -1,3 +1,37 @@
+---
+title: "Attempting to Leave Peru: A Story of Avianca Airlines"
+excerpt: "Hello everybody! Gerrod here to fill you in on some of the not so exciting parts of our travels - the traveling part..."
+coverImage: "/assets/blog/attempting-to-leave-peru-a-story-of-avianca-airlines/IMG_20181110_180957.jpg"
+date: "2018-12-05T00:00:00.000Z"
+author:
+  name: Gerrod Schirtzinger
+  picture: "/assets/authors/gerrod.jpg"
+  url: gerrod
+ogImage:
+  url: "/assets/blog/attempting-to-leave-peru-a-story-of-avianca-airlines/IMG_20181110_180957.jpg"
+location:
+  url: south-america/peru
+  name: Peru
+tags:
+  [
+    airplanes,
+    airport,
+    airports,
+    amazon planet,
+    avianca,
+    cusco,
+    flying,
+    lima,
+    miraflores,
+    peru,
+    priority pass,
+    travel,
+    travel blog,
+    travel couple,
+    travel more,
+  ]
+---
+
 <!DOCTYPE html>
 <html amp lang="en-US" data-amp-auto-lightbox-disable transformed="self;v=1" i-amphtml-layout="" i-amphtml-no-boilerplate="">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,minimum-scale=1"><link rel="preconnect" href="https://cdn.ampproject.org"><style amp-runtime="" i-amphtml-version="012208242209000">html{overflow-x:hidden!important}html.i-amphtml-fie{height:100%!important;width:100%!important}html:not([amp4ads]),html:not([amp4ads]) body{height:auto!important}html:not([amp4ads]) body{margin:0!important}body{-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;-ms-text-size-adjust:100%;text-size-adjust:100%}html.i-amphtml-singledoc.i-amphtml-embedded{-ms-touch-action:pan-y pinch-zoom;touch-action:pan-y pinch-zoom}html.i-amphtml-fie>body,html.i-amphtml-singledoc>body{overflow:visible!important}html.i-amphtml-fie:not(.i-amphtml-inabox)>body,html.i-amphtml-singledoc:not(.i-amphtml-inabox)>body{position:relative!important}html.i-amphtml-ios-embed-legacy>body{overflow-x:hidden!important;overflow-y:auto!important;position:absolute!important}html.i-amphtml-ios-embed{overflow-y:auto!important;position:static}#i-amphtml-wrapper{overflow-x:hidden!important;overflow-y:auto!important;position:absolute!important;top:0!important;left:0!important;right:0!important;bottom:0!important;margin:0!important;display:block!important}html.i-amphtml-ios-embed.i-amphtml-ios-overscroll,html.i-amphtml-ios-embed.i-amphtml-ios-overscroll>#i-amphtml-wrapper{-webkit-overflow-scrolling:touch!important}#i-amphtml-wrapper>body{position:relative!important;border-top:1px solid transparent!important}#i-amphtml-wrapper+body{visibility:visible}#i-amphtml-wrapper+body .i-amphtml-lightbox-element,#i-amphtml-wrapper+body[i-amphtml-lightbox]{visibility:hidden}#i-amphtml-wrapper+body[i-amphtml-lightbox] .i-amphtml-lightbox-element{visibility:visible}#i-amphtml-wrapper.i-amphtml-scroll-disabled,.i-amphtml-scroll-disabled{overflow-x:hidden!important;overflow-y:hidden!important}amp-instagram{padding:54px 0px 0px!important;background-color:#fff}amp-iframe iframe{box-sizing:border-box!important}[amp-access][amp-access-hide]{display:none}[subscriptions-dialog],body:not(.i-amphtml-subs-ready) [subscriptions-action],body:not(.i-amphtml-subs-ready) [subscriptions-section]{display:none!important}amp-experiment,amp-live-list>[update]{display:none}amp-list[resizable-children]>.i-amphtml-loading-container.amp-hidden{display:none!important}amp-list [fetch-error],amp-list[load-more] [load-more-button],amp-list[load-more] [load-more-end],amp-list[load-more] [load-more-failed],amp-list[load-more] [load-more-loading]{display:none}amp-list[diffable] div[role=list]{display:block}amp-story-page,amp-story[standalone]{min-height:1px!important;display:block!important;height:100%!important;margin:0!important;padding:0!important;overflow:hidden!important;width:100%!important}amp-story[standalone]{background-color:#000!important;position:relative!important}amp-story-page{background-color:#757575}amp-story .amp-active>div,amp-story .i-amphtml-loader-background{display:none!important}amp-story-page:not(:first-of-type):not([distance]):not([active]){transform:translateY(1000vh)!important}amp-autocomplete{position:relative!important;display:inline-block!important}amp-autocomplete>input,amp-autocomplete>textarea{padding:0.5rem;border:1px solid rgba(0,0,0,0.33)}.i-amphtml-autocomplete-results,amp-autocomplete>input,amp-autocomplete>textarea{font-size:1rem;line-height:1.5rem}[amp-fx^=fly-in]{visibility:hidden}amp-script[nodom],amp-script[sandboxed]{position:fixed!important;top:0!important;width:1px!important;height:1px!important;overflow:hidden!important;visibility:hidden}
@@ -119,7 +153,6 @@
     <amp-pixel src="https://pixel.wp.com/g.gif?v=ext&amp;j=1%3A11.3.1&amp;blog=113512661&amp;post=225&amp;tz=-4&amp;srv=www.bestseenonfoot.com&amp;host=www.bestseenonfoot.com&amp;rand=RANDOM&amp;ref=DOCUMENT_REFERRER" class="i-amphtml-layout-fixed i-amphtml-layout-size-defined" style="width:1px;height:1px" i-amphtml-layout="fixed"></amp-pixel>
                             <amp-install-serviceworker  data-scope="https://www.bestseenonfoot.com/"  src="https://www.bestseenonfoot.com/pwa-amp-sw.js" data-iframe-src="https://www.bestseenonfoot.com/pwa-amp-sw.html" layout="nodisplay" class="i-amphtml-layout-nodisplay" hidden="hidden" i-amphtml-layout="nodisplay">
     		</amp-install-serviceworker>
-
 
 </body></html>
 <!-- Cache Enabler by KeyCDN @ Sun, 11 Sep 2022 13:27:03 GMT (https-index.html.gz) -->

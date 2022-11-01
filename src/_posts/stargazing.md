@@ -1,3 +1,37 @@
+---
+title: "Attempting to Leave Peru: A Story of Avianca Airlines"
+excerpt: "Hello everybody! Gerrod here to fill you in on some of the not so exciting parts of our travels - the traveling part..."
+coverImage: "/assets/blog/attempting-to-leave-peru-a-story-of-avianca-airlines/IMG_20181110_180957.jpg"
+date: "2018-12-05T00:00:00.000Z"
+author:
+  name: Gerrod Schirtzinger
+  picture: "/assets/authors/gerrod.jpg"
+  url: gerrod
+ogImage:
+  url: "/assets/blog/attempting-to-leave-peru-a-story-of-avianca-airlines/IMG_20181110_180957.jpg"
+location:
+  url: south-america/peru
+  name: Peru
+tags:
+  [
+    airplanes,
+    airport,
+    airports,
+    amazon planet,
+    avianca,
+    cusco,
+    flying,
+    lima,
+    miraflores,
+    peru,
+    priority pass,
+    travel,
+    travel blog,
+    travel couple,
+    travel more,
+  ]
+---
+
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -121,10 +155,6 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
                 h5{ font: 400 15px Poppins }
                 h6{ font: 400 12px Poppins }
 
-
-
-
-
 </style>
 <!-- Inline jetpack_facebook_likebox -->
 <style id='jetpack_facebook_likebox-inline-css' type='text/css'>
@@ -190,7 +220,7 @@ var chic_lifestyle_loadmore_params = {"ajaxurl":"https:\/\/www.bestseenonfoot.co
 <script type='text/javascript' src='https://cdn.bestseenonfoot.com/wp-content/themes/chic-lifestyle/js/loadmore.js?ver=6.0.2' id='chic_lifestyle_loadmore-js'></script>
 <script type='text/javascript' src='https://cdn.bestseenonfoot.com/wp-content/themes/travel-lifestyle/js/script.js?ver=6.0.2' id='travel-lifestyle-scripts-js'></script>
 <link rel="https://api.w.org/" href="https://www.bestseenonfoot.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.bestseenonfoot.com/wp-json/wp/v2/posts/447" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.bestseenonfoot.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.bestseenonfoot.com/wp-includes/wlwmanifest.xml" /> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.bestseenonfoot.com/wp-includes/wlwmanifest.xml" />
 <meta name="generator" content="WordPress 6.0.2" />
 <link rel='shortlink' href='https://wp.me/p7GhPn-7d' />
 <link rel="alternate" type="application/json+oembed" href="https://www.bestseenonfoot.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bestseenonfoot.com%2F2018%2F12%2F11%2Fsan-pedro-de-atacama-part-2-valle-de-la-luna-and-stargazing%2F" />
@@ -347,7 +377,6 @@ display: none;
 
 <header>
 
-
     <section class="logo"  style="background-image:url(https://cdn.bestseenonfoot.com/wp-content/uploads/2019/05/PANO_20181207_122917.vr_.jpg)" >
     	<div class="container">
     		<div class="row top-one">
@@ -404,7 +433,7 @@ display: none;
 <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a title="About Us" href="https://www.bestseenonfoot.com/about-us/">About Us</a></li>
 <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a title="Contact Us" href="https://www.bestseenonfoot.com/contact-us/">Contact Us</a></li>
 <li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-26"><a title="Privacy Policy" href="https://www.bestseenonfoot.com/privacy-policy/">Privacy Policy</a></li>
-</ul></div>			        
+</ul></div>
 			    </div> <!-- /.end of collaspe navbar-collaspe -->
 			</nav>
 		</div>
@@ -425,15 +454,11 @@ display: none;
         <section class="page-section">
           <div class="detail-content">
 
-
-
-
 <div class="page-title">
   <h1>San Pedro de Atacama Part 2: Valle de la Luna and Stargazing</h1>
 </div>
 
 <div class="single-post">
-
 
     <div class="info">
       <ul class="list-inline">
@@ -468,14 +493,15 @@ display: none;
     </div>
 
   <div class="post-content">
-          <figure class="feature-image">        
+          <figure class="feature-image">
           <img width="2640" height="1045" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PANO_20181120_152936.vr_.jpg?fit=2640%2C1045&amp;ssl=1" class="attachment-full size-full wp-post-image" alt="Valle de la Luna" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PANO_20181120_152936.vr_.jpg?w=2640&amp;ssl=1 2640w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PANO_20181120_152936.vr_.jpg?resize=300%2C119&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PANO_20181120_152936.vr_.jpg?resize=768%2C304&amp;ssl=1 768w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PANO_20181120_152936.vr_.jpg?resize=1024%2C405&amp;ssl=1 1024w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PANO_20181120_152936.vr_.jpg?resize=600%2C238&amp;ssl=1 600w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PANO_20181120_152936.vr_.jpg?w=1280&amp;ssl=1 1280w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PANO_20181120_152936.vr_.jpg?w=1920&amp;ssl=1 1920w" sizes="(max-width: 2640px) 100vw, 2640px" data-attachment-id="355" data-permalink="https://www.bestseenonfoot.com/2018/12/11/san-pedro-de-atacama-part-2-valle-de-la-luna-and-stargazing/pano_20181120_152936-vr/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PANO_20181120_152936.vr_.jpg?fit=2640%2C1045&amp;ssl=1" data-orig-size="2640,1045" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Valle de la Luna" data-image-description="&lt;p&gt;Valle de la Luna&lt;/p&gt;
 " data-image-caption="&lt;p&gt;Valle de la Luna&lt;/p&gt;
-" data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PANO_20181120_152936.vr_.jpg?fit=300%2C119&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PANO_20181120_152936.vr_.jpg?fit=640%2C253&amp;ssl=1" />         
+" data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PANO_20181120_152936.vr_.jpg?fit=300%2C119&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PANO_20181120_152936.vr_.jpg?fit=640%2C253&amp;ssl=1" />
       </figure>
-        
+
     <article>
       <p>Hey everyone! Lauren here with part 2 our time in the deserts near of Calama and San Pedro de Atacama, Chile.</p>
+
 <h2>Biking through Valle de la Luna</h2>
 <p>The next day, we got up fairly early and went to Barros Cafe for breakfast. After breakfast, we went to a local bike shop, where we rented mountain bikes. The bikes cost 6000 CLP (~$9.00 USD) per bike for a 6 hour rental, and we were provided with helmets, high visibility vests, a bike lock, a tire pump, and a tire tube (in case we get a flat).</p>
 <p>The woman working also gave us a map and directions to get to Valle de la Luna, and told us to make sure we took tons of water! We had filled up all of our water bottles and my Camelbak in the morning and had about 4 liters of water, and soon Gerrod and I were on our way!</p>
@@ -662,8 +688,8 @@ display: none;
 <div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-447" class="share-facebook sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/11/san-pedro-de-atacama-part-2-valle-de-la-luna-and-stargazing/?share=facebook" target="_blank" title="Click to share on Facebook" ><span></span><span class="sharing-screen-reader-text">Click to share on Facebook (Opens in new window)</span></a></li><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-447" class="share-twitter sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/11/san-pedro-de-atacama-part-2-valle-de-la-luna-and-stargazing/?share=twitter" target="_blank" title="Click to share on Twitter" ><span></span><span class="sharing-screen-reader-text">Click to share on Twitter (Opens in new window)</span></a></li><li><a href="#" class="sharing-anchor sd-button share-more"><span>More</span></a></li><li class="share-end"></li></ul><div class="sharing-hidden"><div class="inner" style="display: none;"><ul><li class="share-pinterest"><a rel="nofollow noopener noreferrer" data-shared="sharing-pinterest-447" class="share-pinterest sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/11/san-pedro-de-atacama-part-2-valle-de-la-luna-and-stargazing/?share=pinterest" target="_blank" title="Click to share on Pinterest" ><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest (Opens in new window)</span></a></li><li class="share-reddit"><a rel="nofollow noopener noreferrer" data-shared="" class="share-reddit sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/11/san-pedro-de-atacama-part-2-valle-de-la-luna-and-stargazing/?share=reddit" target="_blank" title="Click to share on Reddit" ><span></span><span class="sharing-screen-reader-text">Click to share on Reddit (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-print"><a rel="nofollow noopener noreferrer" data-shared="" class="share-print sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/11/san-pedro-de-atacama-part-2-valle-de-la-luna-and-stargazing/#print" target="_blank" title="Click to print" ><span></span><span class="sharing-screen-reader-text">Click to print (Opens in new window)</span></a></li><li class="share-email"><a rel="nofollow noopener noreferrer" data-shared="" class="share-email sd-button share-icon no-text" href="mailto:?subject=%5BShared%20Post%5D%20San%20Pedro%20de%20Atacama%20Part%202%3A%20Valle%20de%20la%20Luna%20and%20Stargazing&body=https%3A%2F%2Fwww.bestseenonfoot.com%2F2018%2F12%2F11%2Fsan-pedro-de-atacama-part-2-valle-de-la-luna-and-stargazing%2F&share=email" target="_blank" title="Click to email a link to a friend" data-email-share-error-title="Do you have email set up?" data-email-share-error-text="If you&#039;re having problems sharing via email, you might not have email set up for your browser. You may need to create a new email yourself." data-email-share-nonce="89e995ca7b" data-email-share-track-url="https://www.bestseenonfoot.com/2018/12/11/san-pedro-de-atacama-part-2-valle-de-la-luna-and-stargazing/?share=email"><span></span><span class="sharing-screen-reader-text">Click to email a link to a friend (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-linkedin"><a rel="nofollow noopener noreferrer" data-shared="sharing-linkedin-447" class="share-linkedin sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/11/san-pedro-de-atacama-part-2-valle-de-la-luna-and-stargazing/?share=linkedin" target="_blank" title="Click to share on LinkedIn" ><span></span><span class="sharing-screen-reader-text">Click to share on LinkedIn (Opens in new window)</span></a></li><li class="share-tumblr"><a rel="nofollow noopener noreferrer" data-shared="" class="share-tumblr sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/11/san-pedro-de-atacama-part-2-valle-de-la-luna-and-stargazing/?share=tumblr" target="_blank" title="Click to share on Tumblr" ><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-pocket"><a rel="nofollow noopener noreferrer" data-shared="" class="share-pocket sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/11/san-pedro-de-atacama-part-2-valle-de-la-luna-and-stargazing/?share=pocket" target="_blank" title="Click to share on Pocket" ><span></span><span class="sharing-screen-reader-text">Click to share on Pocket (Opens in new window)</span></a></li><li class="share-telegram"><a rel="nofollow noopener noreferrer" data-shared="" class="share-telegram sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/11/san-pedro-de-atacama-part-2-valle-de-la-luna-and-stargazing/?share=telegram" target="_blank" title="Click to share on Telegram" ><span></span><span class="sharing-screen-reader-text">Click to share on Telegram (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-jetpack-whatsapp"><a rel="nofollow noopener noreferrer" data-shared="" class="share-jetpack-whatsapp sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/11/san-pedro-de-atacama-part-2-valle-de-la-luna-and-stargazing/?share=jetpack-whatsapp" target="_blank" title="Click to share on WhatsApp" ><span></span><span class="sharing-screen-reader-text">Click to share on WhatsApp (Opens in new window)</span></a></li><li class="share-skype"><a rel="nofollow noopener noreferrer" data-shared="sharing-skype-447" class="share-skype sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/11/san-pedro-de-atacama-part-2-valle-de-la-luna-and-stargazing/?share=skype" target="_blank" title="Click to share on Skype" ><span></span><span class="sharing-screen-reader-text">Click to share on Skype (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-end"></li></ul></div></div></div></div></div>
 <div id='jp-relatedposts' class='jp-relatedposts' >
 	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
-</div>      
-           
+</div>
+
     </article>
 
     </div>
@@ -685,7 +711,7 @@ display: none;
 </p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="56c275174f" /></p><p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="240"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
 	<p class="akismet_comment_form_privacy_notice">This site uses Akismet to reduce spam. <a href="https://akismet.com/privacy/" target="_blank" rel="nofollow noopener">Learn how your comment data is processed</a>.</p>	</div><!-- #comments -->
           </div><!-- /.end of deatil-content -->
-        </section> <!-- /.end of section -->  
+        </section> <!-- /.end of section -->
       </div>
 
       <div class="col-sm-3">
@@ -696,7 +722,7 @@ display: none;
 <ul class="popup-gallery photos-1 btif-square-images">
     <li>
                 <a href="https://scontent.cdninstagram.com/v/t51.29350-15/219878272_1198397883960470_970262775430195039_n.jpg?_nc_cat=110&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=ftwEsIC6B0sAX-mVd6U&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT8QFYjmqGVhlBK-QIU0bBJDIyHi05C_YPTsJa9UvnPBdw&#038;oe=6320E1CA">
-                            <img class="btif-lazy-load" data-src="https://scontent.cdninstagram.com/v/t51.29350-15/219878272_1198397883960470_970262775430195039_n.jpg?_nc_cat=110&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=ftwEsIC6B0sAX-mVd6U&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT8QFYjmqGVhlBK-QIU0bBJDIyHi05C_YPTsJa9UvnPBdw&#038;oe=6320E1CA" 
+                            <img class="btif-lazy-load" data-src="https://scontent.cdninstagram.com/v/t51.29350-15/219878272_1198397883960470_970262775430195039_n.jpg?_nc_cat=110&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=ftwEsIC6B0sAX-mVd6U&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT8QFYjmqGVhlBK-QIU0bBJDIyHi05C_YPTsJa9UvnPBdw&#038;oe=6320E1CA"
                     data-alt="I love a good botanical garden, and Naples, Florida definitely delivered!
 .
 .
@@ -707,15 +733,16 @@ display: none;
             </li>
     <li>
                 <a href="https://scontent.cdninstagram.com/v/t51.29350-15/189819742_530810537927147_4180347239473333533_n.jpg?_nc_cat=104&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=wKWzdcbP1B4AX9OGLTX&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT8swXe_FaouBA3ACWQjtkoIERH5Kue9B4AnPtz74ZFxPw&#038;oe=6321326C">
-                            <img class="btif-lazy-load" data-src="https://scontent.cdninstagram.com/v/t51.29350-15/189819742_530810537927147_4180347239473333533_n.jpg?_nc_cat=104&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=wKWzdcbP1B4AX9OGLTX&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT8swXe_FaouBA3ACWQjtkoIERH5Kue9B4AnPtz74ZFxPw&#038;oe=6321326C" 
+                            <img class="btif-lazy-load" data-src="https://scontent.cdninstagram.com/v/t51.29350-15/189819742_530810537927147_4180347239473333533_n.jpg?_nc_cat=104&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=wKWzdcbP1B4AX9OGLTX&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT8swXe_FaouBA3ACWQjtkoIERH5Kue9B4AnPtz74ZFxPw&#038;oe=6321326C"
                     data-alt="Our travel in the last year has been very limited because of COVID. Luckily for Lauren, she has seen some incredibly beautiful places because of her job as a wetland biologist.
 
 Seen here is an eastern box turtle seen in the incredibly beautiful mountains and forests of West Virginia. These beautiful turtles are vulnerable due to habitat loss, and are always a treat to see during field work.">
 </a>
+
 </li>
 <li>
 <a href="https://scontent.cdninstagram.com/v/t51.29350-15/104079786_191320705526442_7447126636934923766_n.jpg?_nc_cat=101&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=vFzkUpp8GowAX8_JhTZ&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT9Taw7cR95hI9qW-nBmtRqXo_HoG6w5mcg_7pKJWqwg9w&#038;oe=6320A171">
-<img class="btif-lazy-load" data-src="https://scontent.cdninstagram.com/v/t51.29350-15/104079786_191320705526442_7447126636934923766_n.jpg?_nc_cat=101&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=vFzkUpp8GowAX8_JhTZ&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT9Taw7cR95hI9qW-nBmtRqXo_HoG6w5mcg_7pKJWqwg9w&#038;oe=6320A171" 
+<img class="btif-lazy-load" data-src="https://scontent.cdninstagram.com/v/t51.29350-15/104079786_191320705526442_7447126636934923766_n.jpg?_nc_cat=101&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=vFzkUpp8GowAX8_JhTZ&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT9Taw7cR95hI9qW-nBmtRqXo_HoG6w5mcg_7pKJWqwg9w&#038;oe=6320A171"
                     data-alt="Milford Sound! The towering peaks surrounding the fiord are truly a sight to see.
 .
 .
@@ -858,26 +885,26 @@ Seen here is an eastern box turtle seen in the incredibly beautiful mountains an
     						</form>
     					</div>
 
-
-</aside><aside id="custom_html-3" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget">Copyright &copy; 2016 - 2022 <b>Best Seen On Foot</b> All Rights Reserved</div></aside>		
+</aside><aside id="custom_html-3" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget">Copyright &copy; 2016 - 2022 <b>Best Seen On Foot</b> All Rights Reserved</div></aside>
 	</div>
 	</footer>
 		<div class="copyright text-center spacer">
 			        	Copyright © 2016 - 2021 Best Seen On Foot All Rights Reserved		</div>
-		<div class="scroll-top-wrapper"> <span class="scroll-top-inner"><i class="fa fa-2x fa-angle-up"></i></span></div> 
-		
-		<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '867560113588361',
-      cookie     : true,
-      xfbml      : true,
-      version    : 'v3.3'
-    });
-      
-    FB.AppEvents.logPageView();   
-      
-  };
+		<div class="scroll-top-wrapper"> <span class="scroll-top-inner"><i class="fa fa-2x fa-angle-up"></i></span></div>
+
+    	<script>
+
+window.fbAsyncInit = function() {
+FB.init({
+appId : '867560113588361',
+cookie : true,
+xfbml : true,
+version : 'v3.3'
+});
+
+    FB.AppEvents.logPageView();
+
+};
 
 (function(d, s, id){
 var js, fjs = d.getElementsByTagName(s)[0];
@@ -887,6 +914,7 @@ js.src = "https://connect.facebook.net/en_US/sdk.js";
 fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
 </script> <!-- Meta Pixel Event Code -->
+
 <script type='text/javascript'>
 document.addEventListener( 'wpcf7mailsent', function( event ) {
 if( "fb_pxl_code" in event.detail.apiResponse){

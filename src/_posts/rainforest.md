@@ -1,3 +1,37 @@
+---
+title: "Attempting to Leave Peru: A Story of Avianca Airlines"
+excerpt: "Hello everybody! Gerrod here to fill you in on some of the not so exciting parts of our travels - the traveling part..."
+coverImage: "/assets/blog/attempting-to-leave-peru-a-story-of-avianca-airlines/IMG_20181110_180957.jpg"
+date: "2018-12-05T00:00:00.000Z"
+author:
+  name: Gerrod Schirtzinger
+  picture: "/assets/authors/gerrod.jpg"
+  url: gerrod
+ogImage:
+  url: "/assets/blog/attempting-to-leave-peru-a-story-of-avianca-airlines/IMG_20181110_180957.jpg"
+location:
+  url: south-america/peru
+  name: Peru
+tags:
+  [
+    airplanes,
+    airport,
+    airports,
+    amazon planet,
+    avianca,
+    cusco,
+    flying,
+    lima,
+    miraflores,
+    peru,
+    priority pass,
+    travel,
+    travel blog,
+    travel couple,
+    travel more,
+  ]
+---
+
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -121,10 +155,6 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
                 h5{ font: 400 15px Poppins }
                 h6{ font: 400 12px Poppins }
 
-
-
-
-
 </style>
 <!-- Inline jetpack_facebook_likebox -->
 <style id='jetpack_facebook_likebox-inline-css' type='text/css'>
@@ -190,7 +220,7 @@ var chic_lifestyle_loadmore_params = {"ajaxurl":"https:\/\/www.bestseenonfoot.co
 <script type='text/javascript' src='https://cdn.bestseenonfoot.com/wp-content/themes/chic-lifestyle/js/loadmore.js?ver=6.0.2' id='chic_lifestyle_loadmore-js'></script>
 <script type='text/javascript' src='https://cdn.bestseenonfoot.com/wp-content/themes/travel-lifestyle/js/script.js?ver=6.0.2' id='travel-lifestyle-scripts-js'></script>
 <link rel="https://api.w.org/" href="https://www.bestseenonfoot.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.bestseenonfoot.com/wp-json/wp/v2/posts/285" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.bestseenonfoot.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.bestseenonfoot.com/wp-includes/wlwmanifest.xml" /> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.bestseenonfoot.com/wp-includes/wlwmanifest.xml" />
 <meta name="generator" content="WordPress 6.0.2" />
 <link rel='shortlink' href='https://wp.me/p7GhPn-4B' />
 <link rel="alternate" type="application/json+oembed" href="https://www.bestseenonfoot.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bestseenonfoot.com%2F2018%2F12%2F03%2Four-amazon-rainforest-trip%2F" />
@@ -347,7 +377,6 @@ display: none;
 
 <header>
 
-
     <section class="logo"  style="background-image:url(https://cdn.bestseenonfoot.com/wp-content/uploads/2019/05/PANO_20181207_122917.vr_.jpg)" >
     	<div class="container">
     		<div class="row top-one">
@@ -404,7 +433,7 @@ display: none;
 <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a title="About Us" href="https://www.bestseenonfoot.com/about-us/">About Us</a></li>
 <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a title="Contact Us" href="https://www.bestseenonfoot.com/contact-us/">Contact Us</a></li>
 <li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-26"><a title="Privacy Policy" href="https://www.bestseenonfoot.com/privacy-policy/">Privacy Policy</a></li>
-</ul></div>			        
+</ul></div>
 			    </div> <!-- /.end of collaspe navbar-collaspe -->
 			</nav>
 		</div>
@@ -425,15 +454,11 @@ display: none;
         <section class="page-section">
           <div class="detail-content">
 
-
-
-
 <div class="page-title">
   <h1>Our Amazon Rainforest Trip!</h1>
 </div>
 
 <div class="single-post">
-
 
     <div class="info">
       <ul class="list-inline">
@@ -479,14 +504,15 @@ display: none;
     </div>
 
   <div class="post-content">
-          <figure class="feature-image">        
+          <figure class="feature-image">
           <img width="4048" height="3036" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?fit=4048%2C3036&amp;ssl=1" class="attachment-full size-full wp-post-image" alt="Giant Kapok Tree in the Amazon" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?w=4048&amp;ssl=1 4048w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?resize=768%2C576&amp;ssl=1 768w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?resize=600%2C450&amp;ssl=1 600w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?w=1280&amp;ssl=1 1280w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?w=1920&amp;ssl=1 1920w" sizes="(max-width: 4048px) 100vw, 4048px" data-attachment-id="297" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181108_085844/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?fit=4048%2C3036&amp;ssl=1" data-orig-size="4048,3036" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Giant Kapok Tree in the Amazon" data-image-description="&lt;p&gt;Giant Kapok Tree in the Amazon&lt;/p&gt;
 " data-image-caption="&lt;p&gt;Giant Kapok Tree in the Amazon&lt;/p&gt;
-" data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?fit=300%2C225&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?fit=640%2C480&amp;ssl=1" />         
+" data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?fit=300%2C225&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?fit=640%2C480&amp;ssl=1" />
       </figure>
-        
+
     <article>
       <p>Hi Everyone! Lauren here to tell you about our trip to the Amazon! We attempted to go to the Amazon Rainforest in Ecuador, however things don’t always go as planned. So while we were still in Ecuador, we booked a tour using <a href="https://gulliver.com.ec/">Gulliver Expeditions</a> to a lodge called <a href="https://www.amazonplanetperu.com/en/">Amazon Planet</a> in Peru.</p>
+
 <p>Our tour to the Amazon started from a city called Puerto Maldonado, Peru. We opted to save some money and take a night bus with a company called <a href="http://www.cruzdelsur.com.pe/">Cruz Del Sur</a> from Cusco to Puerto Maldonado rather than fly. So on our last day in Cusco, we checked out of our hostel and did a lot of relaxing (which consisted of me binge watching Netflix rather than writing blog posts) before heading to the bus station in the evening. The bus was very nice, with very comfortable chairs and personal TVs for everyone. They even handed out snacks!</p>
 <p>Our bus departed at 9 pm so we were both planning on sleeping the majority of the time, but there were a lot of little kids they were crying so loud and screeching like pterodactyls. Gerrod tried playing his Nintendo Switch and watched Ready Player One in Spanish while I listened to music. We could both still hear the loud kids even with our headphones in. They did eventually quiet down, and we got a little bit of sleep.</p>
 <h2>Puerto Maldonado → Amazon Rainforest!</h2>
@@ -792,8 +818,8 @@ display: none;
 <div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-285" class="share-facebook sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/?share=facebook" target="_blank" title="Click to share on Facebook" ><span></span><span class="sharing-screen-reader-text">Click to share on Facebook (Opens in new window)</span></a></li><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-285" class="share-twitter sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/?share=twitter" target="_blank" title="Click to share on Twitter" ><span></span><span class="sharing-screen-reader-text">Click to share on Twitter (Opens in new window)</span></a></li><li><a href="#" class="sharing-anchor sd-button share-more"><span>More</span></a></li><li class="share-end"></li></ul><div class="sharing-hidden"><div class="inner" style="display: none;"><ul><li class="share-pinterest"><a rel="nofollow noopener noreferrer" data-shared="sharing-pinterest-285" class="share-pinterest sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/?share=pinterest" target="_blank" title="Click to share on Pinterest" ><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest (Opens in new window)</span></a></li><li class="share-reddit"><a rel="nofollow noopener noreferrer" data-shared="" class="share-reddit sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/?share=reddit" target="_blank" title="Click to share on Reddit" ><span></span><span class="sharing-screen-reader-text">Click to share on Reddit (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-print"><a rel="nofollow noopener noreferrer" data-shared="" class="share-print sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/#print" target="_blank" title="Click to print" ><span></span><span class="sharing-screen-reader-text">Click to print (Opens in new window)</span></a></li><li class="share-email"><a rel="nofollow noopener noreferrer" data-shared="" class="share-email sd-button share-icon no-text" href="mailto:?subject=%5BShared%20Post%5D%20Our%20Amazon%20Rainforest%20Trip%21&body=https%3A%2F%2Fwww.bestseenonfoot.com%2F2018%2F12%2F03%2Four-amazon-rainforest-trip%2F&share=email" target="_blank" title="Click to email a link to a friend" data-email-share-error-title="Do you have email set up?" data-email-share-error-text="If you&#039;re having problems sharing via email, you might not have email set up for your browser. You may need to create a new email yourself." data-email-share-nonce="cc443c0fb4" data-email-share-track-url="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/?share=email"><span></span><span class="sharing-screen-reader-text">Click to email a link to a friend (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-linkedin"><a rel="nofollow noopener noreferrer" data-shared="sharing-linkedin-285" class="share-linkedin sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/?share=linkedin" target="_blank" title="Click to share on LinkedIn" ><span></span><span class="sharing-screen-reader-text">Click to share on LinkedIn (Opens in new window)</span></a></li><li class="share-tumblr"><a rel="nofollow noopener noreferrer" data-shared="" class="share-tumblr sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/?share=tumblr" target="_blank" title="Click to share on Tumblr" ><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-pocket"><a rel="nofollow noopener noreferrer" data-shared="" class="share-pocket sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/?share=pocket" target="_blank" title="Click to share on Pocket" ><span></span><span class="sharing-screen-reader-text">Click to share on Pocket (Opens in new window)</span></a></li><li class="share-telegram"><a rel="nofollow noopener noreferrer" data-shared="" class="share-telegram sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/?share=telegram" target="_blank" title="Click to share on Telegram" ><span></span><span class="sharing-screen-reader-text">Click to share on Telegram (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-jetpack-whatsapp"><a rel="nofollow noopener noreferrer" data-shared="" class="share-jetpack-whatsapp sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/?share=jetpack-whatsapp" target="_blank" title="Click to share on WhatsApp" ><span></span><span class="sharing-screen-reader-text">Click to share on WhatsApp (Opens in new window)</span></a></li><li class="share-skype"><a rel="nofollow noopener noreferrer" data-shared="sharing-skype-285" class="share-skype sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/?share=skype" target="_blank" title="Click to share on Skype" ><span></span><span class="sharing-screen-reader-text">Click to share on Skype (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-end"></li></ul></div></div></div></div></div>
 <div id='jp-relatedposts' class='jp-relatedposts' >
 	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
-</div>      
-           
+</div>
+
     </article>
 
     </div>
@@ -815,7 +841,7 @@ display: none;
 </p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="a61f68c48a" /></p><p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="0"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
 	<p class="akismet_comment_form_privacy_notice">This site uses Akismet to reduce spam. <a href="https://akismet.com/privacy/" target="_blank" rel="nofollow noopener">Learn how your comment data is processed</a>.</p>	</div><!-- #comments -->
           </div><!-- /.end of deatil-content -->
-        </section> <!-- /.end of section -->  
+        </section> <!-- /.end of section -->
       </div>
 
       <div class="col-sm-3">
@@ -826,7 +852,7 @@ display: none;
 <ul class="popup-gallery photos-1 btif-square-images">
     <li>
                 <a href="https://scontent.cdninstagram.com/v/t51.29350-15/219878272_1198397883960470_970262775430195039_n.jpg?_nc_cat=110&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=dz3a7rosfNsAX9tCgBS&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT-oSY7Ow_zoOtfr4PkW19-RJT_5yMpZJZP6hmkdCrcDhA&#038;oe=6322DC0A">
-                            <img class="btif-lazy-load" data-src="https://scontent.cdninstagram.com/v/t51.29350-15/219878272_1198397883960470_970262775430195039_n.jpg?_nc_cat=110&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=dz3a7rosfNsAX9tCgBS&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT-oSY7Ow_zoOtfr4PkW19-RJT_5yMpZJZP6hmkdCrcDhA&#038;oe=6322DC0A" 
+                            <img class="btif-lazy-load" data-src="https://scontent.cdninstagram.com/v/t51.29350-15/219878272_1198397883960470_970262775430195039_n.jpg?_nc_cat=110&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=dz3a7rosfNsAX9tCgBS&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT-oSY7Ow_zoOtfr4PkW19-RJT_5yMpZJZP6hmkdCrcDhA&#038;oe=6322DC0A"
                     data-alt="I love a good botanical garden, and Naples, Florida definitely delivered!
 .
 .
@@ -837,15 +863,16 @@ display: none;
             </li>
     <li>
                 <a href="https://scontent.cdninstagram.com/v/t51.29350-15/189819742_530810537927147_4180347239473333533_n.jpg?_nc_cat=104&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=-dPAsyUUbVwAX_isJov&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT-13bBkZxyoNDWjfZJr9rTMGindeu1smVenQbrtfeGPHg&#038;oe=6321326C">
-                            <img class="btif-lazy-load" data-src="https://scontent.cdninstagram.com/v/t51.29350-15/189819742_530810537927147_4180347239473333533_n.jpg?_nc_cat=104&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=-dPAsyUUbVwAX_isJov&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT-13bBkZxyoNDWjfZJr9rTMGindeu1smVenQbrtfeGPHg&#038;oe=6321326C" 
+                            <img class="btif-lazy-load" data-src="https://scontent.cdninstagram.com/v/t51.29350-15/189819742_530810537927147_4180347239473333533_n.jpg?_nc_cat=104&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=-dPAsyUUbVwAX_isJov&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT-13bBkZxyoNDWjfZJr9rTMGindeu1smVenQbrtfeGPHg&#038;oe=6321326C"
                     data-alt="Our travel in the last year has been very limited because of COVID. Luckily for Lauren, she has seen some incredibly beautiful places because of her job as a wetland biologist.
 
 Seen here is an eastern box turtle seen in the incredibly beautiful mountains and forests of West Virginia. These beautiful turtles are vulnerable due to habitat loss, and are always a treat to see during field work.">
 </a>
+
 </li>
 <li>
 <a href="https://scontent.cdninstagram.com/v/t51.29350-15/104079786_191320705526442_7447126636934923766_n.jpg?_nc_cat=101&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=vFzkUpp8GowAX8_JhTZ&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT_p2YsITK06cKi691JmBO2n-adNyON4kNyJmUGFKC9g3w&#038;oe=63229BB1">
-<img class="btif-lazy-load" data-src="https://scontent.cdninstagram.com/v/t51.29350-15/104079786_191320705526442_7447126636934923766_n.jpg?_nc_cat=101&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=vFzkUpp8GowAX8_JhTZ&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT_p2YsITK06cKi691JmBO2n-adNyON4kNyJmUGFKC9g3w&#038;oe=63229BB1" 
+<img class="btif-lazy-load" data-src="https://scontent.cdninstagram.com/v/t51.29350-15/104079786_191320705526442_7447126636934923766_n.jpg?_nc_cat=101&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=vFzkUpp8GowAX8_JhTZ&#038;_nc_ht=scontent.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT_p2YsITK06cKi691JmBO2n-adNyON4kNyJmUGFKC9g3w&#038;oe=63229BB1"
                     data-alt="Milford Sound! The towering peaks surrounding the fiord are truly a sight to see.
 .
 .
@@ -988,26 +1015,26 @@ Seen here is an eastern box turtle seen in the incredibly beautiful mountains an
     						</form>
     					</div>
 
-
-</aside><aside id="custom_html-3" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget">Copyright &copy; 2016 - 2022 <b>Best Seen On Foot</b> All Rights Reserved</div></aside>		
+</aside><aside id="custom_html-3" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget">Copyright &copy; 2016 - 2022 <b>Best Seen On Foot</b> All Rights Reserved</div></aside>
 	</div>
 	</footer>
 		<div class="copyright text-center spacer">
 			        	Copyright © 2016 - 2021 Best Seen On Foot All Rights Reserved		</div>
-		<div class="scroll-top-wrapper"> <span class="scroll-top-inner"><i class="fa fa-2x fa-angle-up"></i></span></div> 
-		
-		<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '867560113588361',
-      cookie     : true,
-      xfbml      : true,
-      version    : 'v3.3'
-    });
-      
-    FB.AppEvents.logPageView();   
-      
-  };
+		<div class="scroll-top-wrapper"> <span class="scroll-top-inner"><i class="fa fa-2x fa-angle-up"></i></span></div>
+
+    	<script>
+
+window.fbAsyncInit = function() {
+FB.init({
+appId : '867560113588361',
+cookie : true,
+xfbml : true,
+version : 'v3.3'
+});
+
+    FB.AppEvents.logPageView();
+
+};
 
 (function(d, s, id){
 var js, fjs = d.getElementsByTagName(s)[0];
@@ -1017,6 +1044,7 @@ js.src = "https://connect.facebook.net/en_US/sdk.js";
 fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
 </script> <!-- Meta Pixel Event Code -->
+
 <script type='text/javascript'>
 document.addEventListener( 'wpcf7mailsent', function( event ) {
 if( "fb_pxl_code" in event.detail.apiResponse){
