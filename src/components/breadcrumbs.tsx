@@ -18,7 +18,7 @@ export default function Breadcrumbs() {
           crumb === ""
             ? "Home"
             : crumb
-                .split("-")
+                .split(/%20|-/)
                 .reduce((pc, cc) => {
                   return `${pc} ${cc.charAt(0).toUpperCase() + cc.slice(1)}`;
                 }, "")
