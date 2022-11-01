@@ -46,6 +46,11 @@ export default function WhereWeveBeen({ allPosts }: Props) {
                       French Polynesia
                     </Link>
                   </li>
+                  <li>
+                    <Link href="/locations/oceania/new-zealand-south-island">
+                      New Zealand - South Island
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>

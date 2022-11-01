@@ -17,14 +17,14 @@ const Layout = ({ children }: Props) => {
       <Nav />
       {/* <Script
         async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1408526493984577"
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${GOOGLE_ADS_ID}`}
         crossOrigin="anonymous"
       ></Script> */}
       {/* Top of page */}
       {/* <ins
         className="adsbygoogle"
         style={{ display: "block" }}
-        data-ad-client="ca-pub-1408526493984577"
+        data-ad-client={`${GOOGLE_ADS_ID}`}
         data-ad-slot="7920604231"
         data-ad-format="auto"
         data-full-width-responsive="true"

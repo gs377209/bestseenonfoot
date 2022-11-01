@@ -1,3 +1,4 @@
+import { BASE_URL, HOME_OG_IMAGE_URL } from "./constants";
 import { Feed } from "feed";
 import escape from "escape-html";
 import fs from "fs";
@@ -102,7 +103,6 @@ export const generateRssFeed = () => {
     "excerpt",
     "content",
   ]);
-  const siteURL = process.env.SITE_URL ?? "localhost";
   const date = new Date();
   const author = {
     email: "bestseenonfoot@gmail.com",
@@ -113,24 +113,24 @@ export const generateRssFeed = () => {
     author,
     copyright: `All rights reserved ${date.getFullYear()}, Best Seen On Foot`,
     description: "Travel Blog",
-    favicon: `${siteURL}/favicon/favicon.ico`,
+    favicon: `${BASE_URL}/favicon/favicon.ico`,
     feedLinks: {
-      atom: `${siteURL}/rss/atom.xml`,
-      json: `${siteURL}/rss/feed.json`,
-      rss2: `${siteURL}/rss/feed.xml`,
+      atom: `${BASE_URL}/rss/atom.xml`,
+      json: `${BASE_URL}/rss/feed.json`,
+      rss2: `${BASE_URL}/rss/feed.xml`,
     },
     generator: "Feed for Node.js",
-    id: siteURL,
-    image: `${siteURL}/assets/logo.jpg`,
-    link: siteURL,
+    id: BASE_URL,
+    image: HOME_OG_IMAGE_URL,
+    link: BASE_URL,
     title: "Best Seen On Foot",
     updated: date,
   });
   posts.forEach((post) => {
-    const url = `${siteURL}/posts/${post.slug}`;
+    const url = `${BASE_URL}/posts/${post.slug}`;
     const postAuthor = {
       email: author.email,
-      link: `${siteURL}/${post.author?.url ?? author.link}`,
+      link: `${BASE_URL}/${post.author?.url ?? author.link}`,
       name: post.author?.name ?? author.name,
     };
     feed.addItem({

@@ -1,5 +1,6 @@
 import { format, parseISO } from "date-fns";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { GOOGLE_ADS_ID } from "../lib/constants";
 import MoreStories from "./more-stories";
 import PostType from "../interfaces/post";
 import Script from "next/script";
@@ -62,14 +63,14 @@ export default function SideBar({ allPosts }: Props) {
     <aside className="lg:sticky lg:bottom-5  lg:col-span-1 lg:col-start-3 lg:self-end">
       <Script
         async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1408526493984577"
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${GOOGLE_ADS_ID}`}
         crossOrigin="anonymous"
       ></Script>
       {/* <!-- Sidebar 1 --> */}
       <ins
         className="adsbygoogle"
         style={{ display: "block" }}
-        data-ad-client="ca-pub-1408526493984577"
+        data-ad-client={`${GOOGLE_ADS_ID}`}
         data-ad-slot="6930778589"
         data-ad-format="auto"
         data-full-width-responsive="true"
@@ -84,7 +85,7 @@ export default function SideBar({ allPosts }: Props) {
         async
         defer
         crossOrigin="anonymous"
-        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v15.0&appId=867560113588361&autoLogAppEvents=1"
+        src={`https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v15.0&appId=${FACEBOOK_APP_ID}&autoLogAppEvents=1`}
         nonce="1RU6xNzb"
         onLoad={() => {
           window.FB.api(
@@ -171,14 +172,14 @@ export default function SideBar({ allPosts }: Props) {
       </form>
       <Script
         async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1408526493984577"
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${GOOGLE_ADS_ID}`}
         crossOrigin="anonymous"
       ></Script>
       {/* <!-- Sidebar 2 --> */}
       <ins
         className="adsbygoogle"
         style={{ display: "block" }}
-        data-ad-client="ca-pub-1408526493984577"
+        data-ad-client={`${GOOGLE_ADS_ID}`}
         data-ad-slot="4304615245"
         data-ad-format="auto"
         data-full-width-responsive="true"
