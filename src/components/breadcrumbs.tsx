@@ -22,6 +22,7 @@ export default function Breadcrumbs() {
                 .reduce((pc, cc) => {
                   return `${pc} ${cc.charAt(0).toUpperCase() + cc.slice(1)}`;
                 }, "")
+                .replaceAll("%C3%B1", "ñ")
                 .trim();
 
         if (crumbs.length === index + 1) {
