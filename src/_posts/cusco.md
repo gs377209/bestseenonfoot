@@ -2,7 +2,7 @@
 title: "Cusco!"
 excerpt: "Hi everyone, we are finally posting about the things we did in Cusco, Peru..."
 coverImage: "/assets/blog/cusco/IMG_20181102_115650.jpg"
-date: "2018-11-26T00:00:00.000Z"
+date: "2018-11-26T17:00:00.000Z"
 author:
   name: Lauren Schirtzinger
   picture: "/assets/authors/lauren.jpg"

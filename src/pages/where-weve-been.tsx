@@ -29,10 +29,16 @@ export default function WhereWeveBeen({ allPosts }: Props) {
               width="640"
               height="480"
             ></iframe>
+            <h2 className="mb-12 text-center text-4xl font-bold leading-tight tracking-tighter md:text-left md:text-6xl md:leading-none lg:text-7xl">
+              Locations
+            </h2>
             <ul>
               <li>
                 <Link href="/locations/south-america">South America</Link>
                 <ul>
+                  <li>
+                    <Link href="/locations/south-america/chile">Chile</Link>
+                  </li>
                   <li>
                     <Link href="/locations/south-america/ecuador">Ecuador</Link>
                   </li>

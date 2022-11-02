@@ -2,7 +2,7 @@
 title: "Attempting to Leave Peru: A Story of Avianca Airlines"
 excerpt: "Hello everybody! Gerrod here to fill you in on some of the not so exciting parts of our travels - the traveling part..."
 coverImage: "/assets/blog/attempting-to-leave-peru-a-story-of-avianca-airlines/IMG_20181110_180957.jpg"
-date: "2017-12-05T00:00:00.000Z"
+date: "2017-12-05T17:00:00.000Z"
 author:
   name: Gerrod Schirtzinger
   picture: "/assets/authors/gerrod.jpg"
@@ -35,11 +35,11 @@ tags:
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<link rel="pingback" href="https://www.bestseenonfoot.com/xmlrpc.php">
-	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="profile" href="https://gmpg.org/xfn/11">
+ <link rel="pingback" href="https://www.bestseenonfoot.com/xmlrpc.php">
+ <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 <!-- Jetpack Site Verification Tags -->
 <meta name="google-site-verification" content="A7rcwPe0UAd0ooHXWfWiEqA5gmHtZDHy4BnKllRBS0Q" />
 <meta name="msvalidate.01" content="8B1E4543A7E1F634287C3278796E71E4" />
@@ -86,23 +86,23 @@ tags:
 <script type="text/javascript">
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/cdn.bestseenonfoot.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.2"}};
 /*! This file is auto-generated */
-!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName["head"](0).appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
 </script>
 <style type="text/css">
 img.wp-smiley,
 img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 0.07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
+ display: inline !important;
+ border: none !important;
+ box-shadow: none !important;
+ height: 1em !important;
+ width: 1em !important;
+ margin: 0 0.07em !important;
+ vertical-align: -0.1em !important;
+ background: none !important;
+ padding: 0 !important;
 }
 </style>
-	<link rel='stylesheet' id='wp-block-library-css'  href='https://cdn.bestseenonfoot.com/wp-includes/css/dist/block-library/style.min.css?ver=6.0.2' type='text/css' media='all' />
+ <link rel='stylesheet' id='wp-block-library-css'  href='https://cdn.bestseenonfoot.com/wp-includes/css/dist/block-library/style.min.css?ver=6.0.2' type='text/css' media='all' />
 <style id='wp-block-library-inline-css' type='text/css'>
 .has-text-align-justify{text-align:justify;}
 </style>
@@ -159,7 +159,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <!-- Inline jetpack_facebook_likebox -->
 <style id='jetpack_facebook_likebox-inline-css' type='text/css'>
 .widget_facebook_likebox {
-	overflow: hidden;
+ overflow: hidden;
 }
 
 </style>
@@ -168,15 +168,15 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel='stylesheet' id='jetpack_css-css'  href='https://cdn.bestseenonfoot.com/wp-content/plugins/jetpack/css/jetpack.css?ver=11.3.1' type='text/css' media='all' />
 <!-- This site uses the Google Analytics by MonsterInsights plugin v6.2.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
 <script type="text/javascript" data-cfasync="false">
-	/* Function to detect opted out users */
-	function __gaTrackerIsOptedOut() {
-		return document.cookie.indexOf(disableStr + '=true') > -1;
-	}
+ /*Function to detect opted out users*/
+ function __gaTrackerIsOptedOut() {
+  return document.cookie.indexOf(disableStr + '=true') > -1;
+ }
 
     /* Disable tracking if the opt-out cookie exists. */
     var disableStr = 'ga-disable-UA-127112725-1';
     if ( __gaTrackerIsOptedOut() ) {
-    	window[disableStr] = true;
+     window[disableStr] = true;
     }
 
     /* Opt-out function */
@@ -186,8 +186,8 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
     }
 
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
 
     __gaTracker('create', 'UA-127112725-1', 'auto');
@@ -199,9 +199,9 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 </script>
 <!-- / Google Analytics by MonsterInsights -->
 <script type='text/javascript' id='jetpack_related-posts-js-extra'>
-/* <![CDATA[ */
+/*<![CDATA[*/
 var related_posts_js_options = {"post_heading":"h4"};
-/* ]]> */
+/*]]>*/
 </script>
 <script type='text/javascript' src='https://cdn.bestseenonfoot.com/wp-content/plugins/jetpack/_inc/build/related-posts/related-posts.min.js?ver=20211209' id='jetpack_related-posts-js'></script>
 <script type='text/javascript' id='monsterinsights-lite-frontend-script-js-extra'>
@@ -245,7 +245,7 @@ gtag('config', 'UA-127112725-1');
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
 n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+t.src=v;s=b.getElementsByTagName[e](0);s.parentNode.insertBefore(t,s)}(window,
 document,'script','https://connect.facebook.net/en_US/fbevents.js');
 </script>
 <!-- End Meta Pixel Code -->
@@ -340,12 +340,13 @@ margin-top: 0;
 }
 }
 
-#infinite-footer {
+# infinite-footer {
+
 display: none;
 }</style></head>
 
 <body data-rsssl=1 class="post-template-default single single-post postid-285 single-format-standard wp-custom-logo group-blog">
-	<amp-auto-ads type="adsense"
+ <amp-auto-ads type="adsense"
         data-ad-client="ca-pub-1408526493984577">
 </amp-auto-ads><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>    <script type='text/javascript'>
 
@@ -378,38 +379,38 @@ display: none;
 <header>
 
     <section class="logo"  style="background-image:url(https://cdn.bestseenonfoot.com/wp-content/uploads/2019/05/PANO_20181207_122917.vr_.jpg)" >
-    	<div class="container">
-    		<div class="row top-one">
-    			<!-- Brand and toggle get grouped for better mobile display -->
-    			<div class="col-sm-3">
+     <div class="container">
+      <div class="row top-one">
+       <!-- Brand and toggle get grouped for better mobile display -->
+       <div class="col-sm-3">
 
-    									<!-- top-bar -->
-    				<div class="social-icons">
-    				<ul class="list-inline">
-    																	        <li class="facebook"><a href="https://www.facebook.com/bestseenonfoot/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-    				    												        <li class="twitter"><a href="https://twitter.com/bestseenonfoot" target="_blank"><i class="fa fa-twitter"></i></a></li>
-    				    												        <li class="instagram"><a href="https://www.instagram.com/bestseenonfoot/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-    				    												        <li class="youtube-play"><a href="https://www.youtube.com/channel/UCpGnTSxYa1ubx4Exf1PQElw" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-    				    					</ul>
-    				</div>
-    				<!-- top-bar -->
-    								</div>
+             <!-- top-bar -->
+        <div class="social-icons">
+        <ul class="list-inline">
+                             <li class="facebook"><a href="https://www.facebook.com/bestseenonfoot/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li class="twitter"><a href="https://twitter.com/bestseenonfoot" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li class="instagram"><a href="https://www.instagram.com/bestseenonfoot/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                <li class="youtube-play"><a href="https://www.youtube.com/channel/UCpGnTSxYa1ubx4Exf1PQElw" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+                 </ul>
+        </div>
+        <!-- top-bar -->
+            </div>
 
-    			<div class="col-sm-6 text-center main-logo">
-    				<a href="https://www.bestseenonfoot.com/" class="custom-logo-link" rel="home"><img width="400" height="415" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/10/logo-400-2.jpg?fit=400%2C415&amp;ssl=1" class="custom-logo" alt="Best Seen On Foot Logo" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/10/logo-400-2.jpg?w=400&amp;ssl=1 400w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/10/logo-400-2.jpg?resize=289%2C300&amp;ssl=1 289w" sizes="(max-width: 400px) 100vw, 400px" data-attachment-id="95" data-permalink="https://www.bestseenonfoot.com/home/logo-400-2/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/10/logo-400-2.jpg?fit=400%2C415&amp;ssl=1" data-orig-size="400,415" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Best Seen On Foot Logo" data-image-description="&lt;p&gt;Best Seen On Foot Logo&lt;/p&gt;
+       <div class="col-sm-6 text-center main-logo">
+        <a href="https://www.bestseenonfoot.com/" class="custom-logo-link" rel="home"><img width="400" height="415" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/10/logo-400-2.jpg?fit=400%2C415&amp;ssl=1" class="custom-logo" alt="Best Seen On Foot Logo" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/10/logo-400-2.jpg?w=400&amp;ssl=1 400w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/10/logo-400-2.jpg?resize=289%2C300&amp;ssl=1 289w" sizes="(max-width: 400px) 100vw, 400px" data-attachment-id="95" data-permalink="https://www.bestseenonfoot.com/home/logo-400-2/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/10/logo-400-2.jpg?fit=400%2C415&amp;ssl=1" data-orig-size="400,415" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Best Seen On Foot Logo" data-image-description="&lt;p&gt;Best Seen On Foot Logo&lt;/p&gt;
 
 " data-image-caption="&lt;p&gt;Best Seen On Foot Logo&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/10/logo-400-2.jpg?fit=289%2C300&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/10/logo-400-2.jpg?fit=400%2C415&amp;ssl=1" /></a> </div>
 
-    			<div class="col-sm-3"><div class="search-top"><form role="search" method="get" class="search-form" action="https://www.bestseenonfoot.com/">
-    			<label>
-    				<span class="screen-reader-text">Search for:</span>
-    				<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
-    			</label>
-    			<input type="submit" class="search-submit" value="Search" />
-    		</form></div></div>
-    		</div>
-    	</div> <!-- /.end of container -->
+       <div class="col-sm-3"><div class="search-top"><form role="search" method="get" class="search-form" action="https://www.bestseenonfoot.com/">
+       <label>
+        <span class="screen-reader-text">Search for:</span>
+        <input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+       </label>
+       <input type="submit" class="search-submit" value="Search" />
+      </form></div></div>
+      </div>
+     </div> <!-- /.end of container -->
     </section> <!-- /.end of section -->
 
 
@@ -417,34 +418,34 @@ display: none;
 
 
     <section  class="main-nav nav-one  sticky-header">
-    	<div class="container">
-    		<nav class="navbar navbar-inverse">
-    	      	<button type="button" class="navbar-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#bs-example-navbar-collapse-1">
-    		        <span class="sr-only">Toggle navigation</span>
-    		        <span class="icon-bar"></span>
-    		        <span class="icon-bar"></span>
-    		        <span class="icon-bar"></span>
-    	      	</button>
-    			<!-- Collect the nav links, forms, and other content for toggling -->
-    			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    				<div class="menu-main-container"><ul id="menu-main" class="nav navbar-nav"><li id="menu-item-3479" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-3479"><a title="Blog" href="https://www.bestseenonfoot.com/">Blog</a></li>
+     <div class="container">
+      <nav class="navbar navbar-inverse">
+            <button type="button" class="navbar-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+       <!-- Collect the nav links, forms, and other content for toggling -->
+       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="menu-main-container"><ul id="menu-main" class="nav navbar-nav"><li id="menu-item-3479" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-3479"><a title="Blog" href="https://www.bestseenonfoot.com/">Blog</a></li>
 
 <li id="menu-item-427" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-427"><a title="Where We&#039;ve Been" href="https://www.bestseenonfoot.com/where-weve-been/">Where We&#8217;ve Been</a></li>
 <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a title="About Us" href="https://www.bestseenonfoot.com/about-us/">About Us</a></li>
 <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a title="Contact Us" href="https://www.bestseenonfoot.com/contact-us/">Contact Us</a></li>
 <li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-26"><a title="Privacy Policy" href="https://www.bestseenonfoot.com/privacy-policy/">Privacy Policy</a></li>
 </ul></div>
-			    </div> <!-- /.end of collaspe navbar-collaspe -->
-			</nav>
-		</div>
+       </div> <!-- /.end of collaspe navbar-collaspe -->
+   </nav>
+  </div>
 
     </section>
 
 </header><div class="breadcrumbs">
-	<div class="container">
-		<div class="breadcrumb-wrapper" itemscope itemtype="http://schema.org/BreadcrumbList">
+ <div class="container">
+  <div class="breadcrumb-wrapper" itemscope itemtype="http://schema.org/BreadcrumbList">
                 <div id="crumbs" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                    <a href="https://www.bestseenonfoot.com" itemprop="item">Home</a> <span class="separator">/</span> <a href="https://www.bestseenonfoot.com/location/south-america/">South America</a> <span class="separator">/</span> <a href="https://www.bestseenonfoot.com/location/south-america/peru/">Peru</a> <span class="separator">/</span> <span class="current">Our Amazon Rainforest Trip!</span></div></div><!-- .breadcrumb-wrapper -->	</div>
+                    <a href="https://www.bestseenonfoot.com" itemprop="item">Home</a> <span class="separator">/</span> <a href="https://www.bestseenonfoot.com/location/south-america/">South America</a> <span class="separator">/</span> <a href="https://www.bestseenonfoot.com/location/south-america/peru/">Peru</a> <span class="separator">/</span> <span class="current">Our Amazon Rainforest Trip!</span></div></div><!-- .breadcrumb-wrapper --> </div>
 </div>
 <div class="inside-page">
   <div class="container">
@@ -630,194 +631,194 @@ display: none;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112822.jpg?fit=300%2C225&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112822.jpg?fit=640%2C480&amp;ssl=1" loading="lazy" class="size-medium wp-image-301" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112822.jpg?resize=300%2C225&#038;ssl=1" alt="Gerrod: bird of paradise" width="300" height="225" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112822.jpg?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112822.jpg?resize=768%2C576&amp;ssl=1 768w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112822.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112822.jpg?resize=600%2C450&amp;ssl=1 600w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112822.jpg?w=1280&amp;ssl=1 1280w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112822.jpg?w=1920&amp;ssl=1 1920w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /><figcaption id="caption-attachment-301" class="wp-caption-text">Gerrod: bird of paradise</figcaption></figure>
 <h2>All of the Pics!</h2>
 <div data-carousel-extra='{"blog_id":1,"permalink":"https:\/\/www.bestseenonfoot.com\/2018\/12\/03\/our-amazon-rainforest-trip\/"}' id='gallery-1' class='gallery galleryid-285 gallery-columns-5 gallery-size-thumbnail'><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5727/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5727.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Titi Monkey" loading="lazy" aria-describedby="gallery-1-305" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5727.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5727.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5727.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5727.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="305" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5727/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5727.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Titi Monkey" data-image-description="&lt;p&gt;Titi Monkey&lt;/p&gt;
+   <div class='gallery-icon landscape'>
+    <a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5727/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5727.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Titi Monkey" loading="lazy" aria-describedby="gallery-1-305" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5727.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5727.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5727.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5727.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="305" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5727/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5727.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Titi Monkey" data-image-description="&lt;p&gt;Titi Monkey&lt;/p&gt;
 " data-image-caption="&lt;p&gt;Titi Monkey&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5727.jpg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5727.jpg?fit=640%2C427&amp;ssl=1" /></a>
-			</div>
-				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-305'>
-				Titi Monkey
-				</figcaption></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5867/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5867.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Three blue-and-yellow macaws in a tree" loading="lazy" aria-describedby="gallery-1-304" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5867.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5867.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5867.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5867.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="304" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5867/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5867.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Three blue-and-yellow macaws in a tree" data-image-description="&lt;p&gt;Three blue-and-yellow macaws in a tree&lt;/p&gt;
+   </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-1-305'>
+    Titi Monkey
+    </figcaption></figure><figure class='gallery-item'>
+   <div class='gallery-icon landscape'>
+    <a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5867/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5867.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Three blue-and-yellow macaws in a tree" loading="lazy" aria-describedby="gallery-1-304" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5867.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5867.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5867.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5867.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="304" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5867/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5867.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Three blue-and-yellow macaws in a tree" data-image-description="&lt;p&gt;Three blue-and-yellow macaws in a tree&lt;/p&gt;
 " data-image-caption="&lt;p&gt;Three blue-and-yellow macaws in a tree&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5867.jpg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5867.jpg?fit=640%2C427&amp;ssl=1" /></a>
-			</div>
-				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-304'>
-				Three blue-and-yellow macaws in a tree
-				</figcaption></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181108_094730/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_094730.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="In the canopy of a Kapok Tree" loading="lazy" aria-describedby="gallery-1-303" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_094730.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_094730.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_094730.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_094730.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="303" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181108_094730/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_094730.jpg?fit=4048%2C3036&amp;ssl=1" data-orig-size="4048,3036" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="In the canopy of a Kapok Tree" data-image-description="&lt;p&gt;In the canopy of a Kapok Tree&lt;/p&gt;
+   </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-1-304'>
+    Three blue-and-yellow macaws in a tree
+    </figcaption></figure><figure class='gallery-item'>
+   <div class='gallery-icon landscape'>
+    <a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181108_094730/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_094730.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="In the canopy of a Kapok Tree" loading="lazy" aria-describedby="gallery-1-303" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_094730.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_094730.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_094730.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_094730.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="303" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181108_094730/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_094730.jpg?fit=4048%2C3036&amp;ssl=1" data-orig-size="4048,3036" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="In the canopy of a Kapok Tree" data-image-description="&lt;p&gt;In the canopy of a Kapok Tree&lt;/p&gt;
 " data-image-caption="&lt;p&gt;In the canopy of a Kapok Tree&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_094730.jpg?fit=300%2C225&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_094730.jpg?fit=640%2C480&amp;ssl=1" /></a>
-			</div>
-				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-303'>
-				In the canopy of a Kapok Tree
-				</figcaption></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181108_113628/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_113628.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Napping in hammocks" loading="lazy" aria-describedby="gallery-1-302" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_113628.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_113628.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_113628.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_113628.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="302" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181108_113628/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_113628.jpg?fit=4048%2C3036&amp;ssl=1" data-orig-size="4048,3036" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Napping in hammocks" data-image-description="&lt;p&gt;Napping in hammocks&lt;/p&gt;
+   </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-1-303'>
+    In the canopy of a Kapok Tree
+    </figcaption></figure><figure class='gallery-item'>
+   <div class='gallery-icon landscape'>
+    <a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181108_113628/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_113628.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Napping in hammocks" loading="lazy" aria-describedby="gallery-1-302" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_113628.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_113628.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_113628.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_113628.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="302" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181108_113628/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_113628.jpg?fit=4048%2C3036&amp;ssl=1" data-orig-size="4048,3036" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Napping in hammocks" data-image-description="&lt;p&gt;Napping in hammocks&lt;/p&gt;
 " data-image-caption="&lt;p&gt;Napping in hammocks&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_113628.jpg?fit=300%2C225&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_113628.jpg?fit=640%2C480&amp;ssl=1" /></a>
-			</div>
-				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-302'>
-				Napping in hammocks
-				</figcaption></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181109_112822/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112822.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Gerrod: bird of paradise" loading="lazy" aria-describedby="gallery-1-301" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112822.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112822.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112822.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112822.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="301" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181109_112822/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112822.jpg?fit=4048%2C3036&amp;ssl=1" data-orig-size="4048,3036" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Gerrod: bird of paradise" data-image-description="&lt;p&gt;Gerrod: bird of paradise&lt;/p&gt;
+   </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-1-302'>
+    Napping in hammocks
+    </figcaption></figure><figure class='gallery-item'>
+   <div class='gallery-icon landscape'>
+    <a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181109_112822/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112822.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Gerrod: bird of paradise" loading="lazy" aria-describedby="gallery-1-301" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112822.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112822.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112822.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112822.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="301" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181109_112822/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112822.jpg?fit=4048%2C3036&amp;ssl=1" data-orig-size="4048,3036" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Gerrod: bird of paradise" data-image-description="&lt;p&gt;Gerrod: bird of paradise&lt;/p&gt;
 " data-image-caption="&lt;p&gt;Gerrod: bird of paradise&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112822.jpg?fit=300%2C225&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112822.jpg?fit=640%2C480&amp;ssl=1" /></a>
-			</div>
-				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-301'>
-				Gerrod: bird of paradise
-				</figcaption></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/olympus-digital-camera-23/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090767.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Gerrod says heyyy in the raft" loading="lazy" aria-describedby="gallery-1-300" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090767.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090767.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090767.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090767.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="300" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/olympus-digital-camera-23/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090767.jpg?fit=4000%2C3000&amp;ssl=1" data-orig-size="4000,3000" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Gerrod says heyyy in the raft" data-image-description="&lt;p&gt;Gerrod says heyyy in the raft&lt;/p&gt;
+   </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-1-301'>
+    Gerrod: bird of paradise
+    </figcaption></figure><figure class='gallery-item'>
+   <div class='gallery-icon landscape'>
+    <a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/olympus-digital-camera-23/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090767.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Gerrod says heyyy in the raft" loading="lazy" aria-describedby="gallery-1-300" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090767.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090767.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090767.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090767.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="300" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/olympus-digital-camera-23/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090767.jpg?fit=4000%2C3000&amp;ssl=1" data-orig-size="4000,3000" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Gerrod says heyyy in the raft" data-image-description="&lt;p&gt;Gerrod says heyyy in the raft&lt;/p&gt;
 " data-image-caption="&lt;p&gt;Gerrod says heyyy in the raft&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090767.jpg?fit=300%2C225&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090767.jpg?fit=640%2C480&amp;ssl=1" /></a>
-			</div>
-				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-300'>
-				Gerrod says heyyy in the raft
-				</figcaption></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/olympus-digital-camera-22/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090739.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Canoes in the marsh" loading="lazy" aria-describedby="gallery-1-299" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090739.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090739.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090739.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090739.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="299" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/olympus-digital-camera-22/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090739.jpg?fit=4000%2C3000&amp;ssl=1" data-orig-size="4000,3000" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Canoes in the marsh" data-image-description="&lt;p&gt;Canoes in the marsh&lt;/p&gt;
+   </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-1-300'>
+    Gerrod says heyyy in the raft
+    </figcaption></figure><figure class='gallery-item'>
+   <div class='gallery-icon landscape'>
+    <a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/olympus-digital-camera-22/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090739.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Canoes in the marsh" loading="lazy" aria-describedby="gallery-1-299" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090739.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090739.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090739.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090739.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="299" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/olympus-digital-camera-22/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090739.jpg?fit=4000%2C3000&amp;ssl=1" data-orig-size="4000,3000" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Canoes in the marsh" data-image-description="&lt;p&gt;Canoes in the marsh&lt;/p&gt;
 " data-image-caption="&lt;p&gt;Canoes in the marsh&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090739.jpg?fit=300%2C225&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090739.jpg?fit=640%2C480&amp;ssl=1" /></a>
-			</div>
-				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-299'>
-				Canoes in the marsh
-				</figcaption></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_6048/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6048.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Weird ancient bird called Hoatzin" loading="lazy" aria-describedby="gallery-1-298" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6048.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6048.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6048.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6048.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="298" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_6048/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6048.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Weird ancient bird called Hoatzin" data-image-description="&lt;p&gt;Weird ancient bird called Hoatzin&lt;/p&gt;
+   </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-1-299'>
+    Canoes in the marsh
+    </figcaption></figure><figure class='gallery-item'>
+   <div class='gallery-icon landscape'>
+    <a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_6048/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6048.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Weird ancient bird called Hoatzin" loading="lazy" aria-describedby="gallery-1-298" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6048.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6048.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6048.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6048.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="298" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_6048/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6048.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Weird ancient bird called Hoatzin" data-image-description="&lt;p&gt;Weird ancient bird called Hoatzin&lt;/p&gt;
 " data-image-caption="&lt;p&gt;Weird ancient bird called Hoatzin&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6048.jpg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6048.jpg?fit=640%2C427&amp;ssl=1" /></a>
-			</div>
-				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-298'>
-				Weird ancient bird called Hoatzin
-				</figcaption></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181108_085844/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Giant Kapok Tree in the Amazon" loading="lazy" aria-describedby="gallery-1-297" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="297" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181108_085844/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?fit=4048%2C3036&amp;ssl=1" data-orig-size="4048,3036" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Giant Kapok Tree in the Amazon" data-image-description="&lt;p&gt;Giant Kapok Tree in the Amazon&lt;/p&gt;
+   </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-1-298'>
+    Weird ancient bird called Hoatzin
+    </figcaption></figure><figure class='gallery-item'>
+   <div class='gallery-icon landscape'>
+    <a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181108_085844/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Giant Kapok Tree in the Amazon" loading="lazy" aria-describedby="gallery-1-297" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="297" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181108_085844/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?fit=4048%2C3036&amp;ssl=1" data-orig-size="4048,3036" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Giant Kapok Tree in the Amazon" data-image-description="&lt;p&gt;Giant Kapok Tree in the Amazon&lt;/p&gt;
 " data-image-caption="&lt;p&gt;Giant Kapok Tree in the Amazon&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?fit=300%2C225&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181108_085844.jpg?fit=640%2C480&amp;ssl=1" /></a>
-			</div>
-				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-297'>
-				Giant Kapok Tree in the Amazon
-				</figcaption></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5670/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5670.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="White Caiman" loading="lazy" aria-describedby="gallery-1-294" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5670.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5670.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5670.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5670.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="294" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5670/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5670.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="White Caiman" data-image-description="&lt;p&gt;White Caiman&lt;/p&gt;
+   </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-1-297'>
+    Giant Kapok Tree in the Amazon
+    </figcaption></figure><figure class='gallery-item'>
+   <div class='gallery-icon landscape'>
+    <a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5670/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5670.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="White Caiman" loading="lazy" aria-describedby="gallery-1-294" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5670.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5670.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5670.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5670.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="294" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5670/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5670.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="White Caiman" data-image-description="&lt;p&gt;White Caiman&lt;/p&gt;
 " data-image-caption="&lt;p&gt;White Caiman&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5670.jpg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5670.jpg?fit=640%2C427&amp;ssl=1" /></a>
-			</div>
-				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-294'>
-				White Caiman
-				</figcaption></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5886/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5886.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Awwww cute baby piggy-back ride" loading="lazy" aria-describedby="gallery-1-295" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5886.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5886.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5886.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5886.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="295" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5886/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5886.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Awwww cute baby piggy-back ride" data-image-description="&lt;p&gt;Awwww cute baby piggy-back ride&lt;/p&gt;
+   </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-1-294'>
+    White Caiman
+    </figcaption></figure><figure class='gallery-item'>
+   <div class='gallery-icon landscape'>
+    <a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5886/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5886.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Awwww cute baby piggy-back ride" loading="lazy" aria-describedby="gallery-1-295" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5886.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5886.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5886.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5886.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="295" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5886/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5886.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Awwww cute baby piggy-back ride" data-image-description="&lt;p&gt;Awwww cute baby piggy-back ride&lt;/p&gt;
 " data-image-caption="&lt;p&gt;Awwww cute baby piggy-back ride&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5886.jpg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5886.jpg?fit=640%2C427&amp;ssl=1" /></a>
-			</div>
-				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-295'>
-				Awwww cute baby piggy-back ride
-				</figcaption></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5930/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5930.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Squirrel monkeys!" loading="lazy" aria-describedby="gallery-1-296" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5930.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5930.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5930.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5930.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="296" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5930/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5930.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Squirrel monkeys!" data-image-description="&lt;p&gt;Squirrel monkeys!&lt;/p&gt;
+   </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-1-295'>
+    Awwww cute baby piggy-back ride
+    </figcaption></figure><figure class='gallery-item'>
+   <div class='gallery-icon landscape'>
+    <a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5930/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5930.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Squirrel monkeys!" loading="lazy" aria-describedby="gallery-1-296" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5930.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5930.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5930.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5930.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="296" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5930/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5930.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Squirrel monkeys!" data-image-description="&lt;p&gt;Squirrel monkeys!&lt;/p&gt;
 " data-image-caption="&lt;p&gt;Squirrel monkeys!&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5930.jpg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5930.jpg?fit=640%2C427&amp;ssl=1" /></a>
-			</div>
-				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-296'>
-				Squirrel monkeys!
-				</figcaption></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/olympus-digital-camera-25/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB080705.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Swinging bridge to the canopy of a Kapok Tree" loading="lazy" aria-describedby="gallery-1-336" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB080705.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB080705.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB080705.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB080705.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="336" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/olympus-digital-camera-25/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB080705.jpg?fit=4000%2C3000&amp;ssl=1" data-orig-size="4000,3000" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Swinging bridge to the canopy of a Kapok Tree" data-image-description="&lt;p&gt;Swinging bridge to the canopy of a Kapok Tree&lt;/p&gt;
+   </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-1-296'>
+    Squirrel monkeys!
+    </figcaption></figure><figure class='gallery-item'>
+   <div class='gallery-icon landscape'>
+    <a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/olympus-digital-camera-25/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB080705.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Swinging bridge to the canopy of a Kapok Tree" loading="lazy" aria-describedby="gallery-1-336" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB080705.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB080705.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB080705.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB080705.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="336" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/olympus-digital-camera-25/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB080705.jpg?fit=4000%2C3000&amp;ssl=1" data-orig-size="4000,3000" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Swinging bridge to the canopy of a Kapok Tree" data-image-description="&lt;p&gt;Swinging bridge to the canopy of a Kapok Tree&lt;/p&gt;
 " data-image-caption="&lt;p&gt;Swinging bridge to the canopy of a Kapok Tree&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB080705.jpg?fit=300%2C225&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB080705.jpg?fit=640%2C480&amp;ssl=1" /></a>
-			</div>
-				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-336'>
-				Swinging bridge to the canopy of a Kapok Tree
-				</figcaption></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181107_120524/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_120524.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Crusin&#039; down the river" loading="lazy" aria-describedby="gallery-1-335" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_120524.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_120524.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_120524.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_120524.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="335" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181107_120524/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_120524.jpg?fit=4048%2C3036&amp;ssl=1" data-orig-size="4048,3036" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Crusin&#8217; down the river" data-image-description="&lt;p&gt;Crusin&#8217; down the river&lt;/p&gt;
+   </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-1-336'>
+    Swinging bridge to the canopy of a Kapok Tree
+    </figcaption></figure><figure class='gallery-item'>
+   <div class='gallery-icon landscape'>
+    <a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181107_120524/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_120524.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Crusin&#039; down the river" loading="lazy" aria-describedby="gallery-1-335" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_120524.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_120524.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_120524.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_120524.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="335" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181107_120524/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_120524.jpg?fit=4048%2C3036&amp;ssl=1" data-orig-size="4048,3036" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Crusin&#8217; down the river" data-image-description="&lt;p&gt;Crusin&#8217; down the river&lt;/p&gt;
 " data-image-caption="&lt;p&gt;Crusin&#8217; down the river&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_120524.jpg?fit=300%2C225&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_120524.jpg?fit=640%2C480&amp;ssl=1" /></a>
-			</div>
-				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-335'>
-				Crusin&#8217; down the river
-				</figcaption></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_6067/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6067.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Caiman spotted in the marsh" loading="lazy" aria-describedby="gallery-1-334" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6067.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6067.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6067.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6067.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="334" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_6067/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6067.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Caiman spotted in the marsh" data-image-description="&lt;p&gt;Caiman spotted in the marsh&lt;/p&gt;
+   </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-1-335'>
+    Crusin&#8217; down the river
+    </figcaption></figure><figure class='gallery-item'>
+   <div class='gallery-icon landscape'>
+    <a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_6067/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6067.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Caiman spotted in the marsh" loading="lazy" aria-describedby="gallery-1-334" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6067.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6067.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6067.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6067.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="334" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_6067/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6067.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Caiman spotted in the marsh" data-image-description="&lt;p&gt;Caiman spotted in the marsh&lt;/p&gt;
 " data-image-caption="&lt;p&gt;Caiman spotted in the marsh&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6067.jpg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6067.jpg?fit=640%2C427&amp;ssl=1" /></a>
-			</div>
-				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-334'>
-				Caiman spotted in the marsh
-				</figcaption></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181109_112752/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112752.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Lauren: bird of paradise" loading="lazy" aria-describedby="gallery-1-331" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112752.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112752.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112752.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112752.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="331" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181109_112752/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112752.jpg?fit=4048%2C3036&amp;ssl=1" data-orig-size="4048,3036" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Lauren: bird of paradise" data-image-description="&lt;p&gt;Lauren: bird of paradise&lt;/p&gt;
+   </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-1-334'>
+    Caiman spotted in the marsh
+    </figcaption></figure><figure class='gallery-item'>
+   <div class='gallery-icon landscape'>
+    <a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181109_112752/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112752.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Lauren: bird of paradise" loading="lazy" aria-describedby="gallery-1-331" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112752.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112752.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112752.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112752.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="331" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181109_112752/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112752.jpg?fit=4048%2C3036&amp;ssl=1" data-orig-size="4048,3036" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Lauren: bird of paradise" data-image-description="&lt;p&gt;Lauren: bird of paradise&lt;/p&gt;
 " data-image-caption="&lt;p&gt;Lauren: bird of paradise&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112752.jpg?fit=300%2C225&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181109_112752.jpg?fit=640%2C480&amp;ssl=1" /></a>
-			</div>
-				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-331'>
-				Lauren: bird of paradise
-				</figcaption></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181107_152115/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_152115.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="On a nature walk with our guide" loading="lazy" aria-describedby="gallery-1-330" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_152115.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_152115.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_152115.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_152115.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="330" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181107_152115/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_152115.jpg?fit=4048%2C3036&amp;ssl=1" data-orig-size="4048,3036" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="On a nature walk with our guide" data-image-description="&lt;p&gt;On a nature walk with our guide&lt;/p&gt;
+   </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-1-331'>
+    Lauren: bird of paradise
+    </figcaption></figure><figure class='gallery-item'>
+   <div class='gallery-icon landscape'>
+    <a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181107_152115/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_152115.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="On a nature walk with our guide" loading="lazy" aria-describedby="gallery-1-330" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_152115.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_152115.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_152115.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_152115.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="330" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_20181107_152115/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_152115.jpg?fit=4048%2C3036&amp;ssl=1" data-orig-size="4048,3036" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="On a nature walk with our guide" data-image-description="&lt;p&gt;On a nature walk with our guide&lt;/p&gt;
 " data-image-caption="&lt;p&gt;On a nature walk with our guide&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_152115.jpg?fit=300%2C225&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_20181107_152115.jpg?fit=640%2C480&amp;ssl=1" /></a>
-			</div>
-				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-330'>
-				On a nature walk with our guide
-				</figcaption></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5938/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5938.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Look! A wild Squirrel Monkey!" loading="lazy" aria-describedby="gallery-1-326" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5938.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5938.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5938.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5938.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="326" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5938/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5938.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Look! A wild Squirrel Monkey!" data-image-description="&lt;p&gt;Look! A wild Squirrel Monkey!&lt;/p&gt;
+   </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-1-330'>
+    On a nature walk with our guide
+    </figcaption></figure><figure class='gallery-item'>
+   <div class='gallery-icon landscape'>
+    <a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5938/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5938.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Look! A wild Squirrel Monkey!" loading="lazy" aria-describedby="gallery-1-326" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5938.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5938.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5938.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5938.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="326" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5938/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5938.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Look! A wild Squirrel Monkey!" data-image-description="&lt;p&gt;Look! A wild Squirrel Monkey!&lt;/p&gt;
 " data-image-caption="&lt;p&gt;Look! A wild Squirrel Monkey!&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5938.jpg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5938.jpg?fit=640%2C427&amp;ssl=1" /></a>
-			</div>
-				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-326'>
-				Look! A wild Squirrel Monkey!
-				</figcaption></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5931/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5931.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Paint me like one of your French Squirrel Monkeys..." loading="lazy" aria-describedby="gallery-1-325" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5931.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5931.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5931.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5931.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="325" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5931/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5931.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Paint me like one of your French Squirrel Monkeys&#8230;" data-image-description="&lt;p&gt;Paint me like one of your French Squirrel Monkeys&#8230;&lt;/p&gt;
+   </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-1-326'>
+    Look! A wild Squirrel Monkey!
+    </figcaption></figure><figure class='gallery-item'>
+   <div class='gallery-icon landscape'>
+    <a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5931/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5931.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Paint me like one of your French Squirrel Monkeys..." loading="lazy" aria-describedby="gallery-1-325" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5931.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5931.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5931.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5931.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="325" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5931/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5931.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Paint me like one of your French Squirrel Monkeys&#8230;" data-image-description="&lt;p&gt;Paint me like one of your French Squirrel Monkeys&#8230;&lt;/p&gt;
 " data-image-caption="&lt;p&gt;Paint me like one of your French Squirrel Monkeys&#8230;&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5931.jpg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5931.jpg?fit=640%2C427&amp;ssl=1" /></a>
-			</div>
-				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-325'>
-				Paint me like one of your French Squirrel Monkeys&#8230;
-				</figcaption></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/olympus-digital-camera-24/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090771.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Lauren doing lots of work in the raft" loading="lazy" aria-describedby="gallery-1-324" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090771.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090771.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090771.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090771.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="324" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/olympus-digital-camera-24/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090771.jpg?fit=4000%2C3000&amp;ssl=1" data-orig-size="4000,3000" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Lauren doing lots of work in the raft" data-image-description="&lt;p&gt;Lauren doing lots of work in the raft&lt;/p&gt;
+   </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-1-325'>
+    Paint me like one of your French Squirrel Monkeys&#8230;
+    </figcaption></figure><figure class='gallery-item'>
+   <div class='gallery-icon landscape'>
+    <a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/olympus-digital-camera-24/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090771.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Lauren doing lots of work in the raft" loading="lazy" aria-describedby="gallery-1-324" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090771.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090771.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090771.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090771.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="324" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/olympus-digital-camera-24/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090771.jpg?fit=4000%2C3000&amp;ssl=1" data-orig-size="4000,3000" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Lauren doing lots of work in the raft" data-image-description="&lt;p&gt;Lauren doing lots of work in the raft&lt;/p&gt;
 " data-image-caption="&lt;p&gt;Lauren doing lots of work in the raft&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090771.jpg?fit=300%2C225&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/PB090771.jpg?fit=640%2C480&amp;ssl=1" /></a>
-			</div>
-				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-324'>
-				Lauren doing lots of work in the raft
-				</figcaption></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_6011/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6011.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Giant River Otters" loading="lazy" aria-describedby="gallery-1-322" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6011.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6011.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6011.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6011.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="322" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_6011/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6011.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Giant River Otters" data-image-description="&lt;p&gt;Giant River Otters&lt;/p&gt;
+   </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-1-324'>
+    Lauren doing lots of work in the raft
+    </figcaption></figure><figure class='gallery-item'>
+   <div class='gallery-icon landscape'>
+    <a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_6011/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6011.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Giant River Otters" loading="lazy" aria-describedby="gallery-1-322" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6011.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6011.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6011.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6011.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="322" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_6011/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6011.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Giant River Otters" data-image-description="&lt;p&gt;Giant River Otters&lt;/p&gt;
 " data-image-caption="&lt;p&gt;Giant River Otters&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6011.jpg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_6011.jpg?fit=640%2C427&amp;ssl=1" /></a>
-			</div>
-				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-322'>
-				Giant River Otters
-				</figcaption></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5833/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5833.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Listen coaxing a tarantula outside of its lair" loading="lazy" aria-describedby="gallery-1-321" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5833.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5833.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5833.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5833.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="321" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5833/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5833.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Listen coaxing a tarantula outside of its lair" data-image-description="" data-image-caption="&lt;p&gt;Listen coaxing a tarantula outside of its lair&lt;/p&gt;
+   </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-1-322'>
+    Giant River Otters
+    </figcaption></figure><figure class='gallery-item'>
+   <div class='gallery-icon landscape'>
+    <a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5833/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5833.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Listen coaxing a tarantula outside of its lair" loading="lazy" aria-describedby="gallery-1-321" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5833.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5833.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5833.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5833.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="321" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5833/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5833.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Listen coaxing a tarantula outside of its lair" data-image-description="" data-image-caption="&lt;p&gt;Listen coaxing a tarantula outside of its lair&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5833.jpg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5833.jpg?fit=640%2C427&amp;ssl=1" /></a>
-			</div>
-				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-321'>
-				Listen coaxing a tarantula outside of its lair
-				</figcaption></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5780/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5780.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Pink Toed Tarantula hiding in a tree" loading="lazy" aria-describedby="gallery-1-320" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5780.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5780.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5780.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5780.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="320" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5780/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5780.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Pink Toed Tarantula hiding in a tree" data-image-description="&lt;p&gt;Pink Toed Tarantula hiding in a tree&lt;/p&gt;
+   </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-1-321'>
+    Listen coaxing a tarantula outside of its lair
+    </figcaption></figure><figure class='gallery-item'>
+   <div class='gallery-icon landscape'>
+    <a href='https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5780/'><img width="150" height="150" src="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5780.jpg?resize=150%2C150&amp;ssl=1" class="attachment-thumbnail size-thumbnail" alt="Pink Toed Tarantula hiding in a tree" loading="lazy" aria-describedby="gallery-1-320" srcset="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5780.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5780.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5780.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5780.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-attachment-id="320" data-permalink="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/img_5780/" data-orig-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5780.jpg?fit=5184%2C3456&amp;ssl=1" data-orig-size="5184,3456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Pink Toed Tarantula hiding in a tree" data-image-description="&lt;p&gt;Pink Toed Tarantula hiding in a tree&lt;/p&gt;
 " data-image-caption="&lt;p&gt;Pink Toed Tarantula hiding in a tree&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5780.jpg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/www.bestseenonfoot.com/wp-content/uploads/2018/12/IMG_5780.jpg?fit=640%2C427&amp;ssl=1" /></a>
-			</div>
-				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-320'>
-				Pink Toed Tarantula hiding in a tree
-				</figcaption></figure>
-		</div>
+   </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-1-320'>
+    Pink Toed Tarantula hiding in a tree
+    </figcaption></figure>
+  </div>
 
 <div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-285" class="share-facebook sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/?share=facebook" target="_blank" title="Click to share on Facebook" ><span></span><span class="sharing-screen-reader-text">Click to share on Facebook (Opens in new window)</span></a></li><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-285" class="share-twitter sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/?share=twitter" target="_blank" title="Click to share on Twitter" ><span></span><span class="sharing-screen-reader-text">Click to share on Twitter (Opens in new window)</span></a></li><li><a href="#" class="sharing-anchor sd-button share-more"><span>More</span></a></li><li class="share-end"></li></ul><div class="sharing-hidden"><div class="inner" style="display: none;"><ul><li class="share-pinterest"><a rel="nofollow noopener noreferrer" data-shared="sharing-pinterest-285" class="share-pinterest sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/?share=pinterest" target="_blank" title="Click to share on Pinterest" ><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest (Opens in new window)</span></a></li><li class="share-reddit"><a rel="nofollow noopener noreferrer" data-shared="" class="share-reddit sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/?share=reddit" target="_blank" title="Click to share on Reddit" ><span></span><span class="sharing-screen-reader-text">Click to share on Reddit (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-print"><a rel="nofollow noopener noreferrer" data-shared="" class="share-print sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/#print" target="_blank" title="Click to print" ><span></span><span class="sharing-screen-reader-text">Click to print (Opens in new window)</span></a></li><li class="share-email"><a rel="nofollow noopener noreferrer" data-shared="" class="share-email sd-button share-icon no-text" href="mailto:?subject=%5BShared%20Post%5D%20Our%20Amazon%20Rainforest%20Trip%21&body=https%3A%2F%2Fwww.bestseenonfoot.com%2F2018%2F12%2F03%2Four-amazon-rainforest-trip%2F&share=email" target="_blank" title="Click to email a link to a friend" data-email-share-error-title="Do you have email set up?" data-email-share-error-text="If you&#039;re having problems sharing via email, you might not have email set up for your browser. You may need to create a new email yourself." data-email-share-nonce="cc443c0fb4" data-email-share-track-url="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/?share=email"><span></span><span class="sharing-screen-reader-text">Click to email a link to a friend (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-linkedin"><a rel="nofollow noopener noreferrer" data-shared="sharing-linkedin-285" class="share-linkedin sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/?share=linkedin" target="_blank" title="Click to share on LinkedIn" ><span></span><span class="sharing-screen-reader-text">Click to share on LinkedIn (Opens in new window)</span></a></li><li class="share-tumblr"><a rel="nofollow noopener noreferrer" data-shared="" class="share-tumblr sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/?share=tumblr" target="_blank" title="Click to share on Tumblr" ><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-pocket"><a rel="nofollow noopener noreferrer" data-shared="" class="share-pocket sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/?share=pocket" target="_blank" title="Click to share on Pocket" ><span></span><span class="sharing-screen-reader-text">Click to share on Pocket (Opens in new window)</span></a></li><li class="share-telegram"><a rel="nofollow noopener noreferrer" data-shared="" class="share-telegram sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/?share=telegram" target="_blank" title="Click to share on Telegram" ><span></span><span class="sharing-screen-reader-text">Click to share on Telegram (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-jetpack-whatsapp"><a rel="nofollow noopener noreferrer" data-shared="" class="share-jetpack-whatsapp sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/?share=jetpack-whatsapp" target="_blank" title="Click to share on WhatsApp" ><span></span><span class="sharing-screen-reader-text">Click to share on WhatsApp (Opens in new window)</span></a></li><li class="share-skype"><a rel="nofollow noopener noreferrer" data-shared="sharing-skype-285" class="share-skype sd-button share-icon no-text" href="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/?share=skype" target="_blank" title="Click to share on Skype" ><span></span><span class="sharing-screen-reader-text">Click to share on Skype (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-end"></li></ul></div></div></div></div></div>
 <div id='jp-relatedposts' class='jp-relatedposts' >
-	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+ <h3 class="jp-relatedposts-headline"><em>Related</em></h3>
 </div>
 
     </article>
@@ -827,19 +828,19 @@ display: none;
       </div>
 
 
-                          	<div id="comments" class="comments-area">
+                           <div id="comments" class="comments-area">
 
 
 
-    		<div id="respond" class="comment-respond">
-    	<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2018/12/03/our-amazon-rainforest-trip/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://www.bestseenonfoot.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message" aria-hidden="true">Required fields are marked <span class="required" aria-hidden="true">*</span></span></p><p class="comment-form-comment"><label for="comment">Comment <span class="required" aria-hidden="true">*</span></label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required" aria-hidden="true">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required /></p>
+      <div id="respond" class="comment-respond">
+     <h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2018/12/03/our-amazon-rainforest-trip/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://www.bestseenonfoot.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message" aria-hidden="true">Required fields are marked <span class="required" aria-hidden="true">*</span></span></p><p class="comment-form-comment"><label for="comment">Comment <span class="required" aria-hidden="true">*</span></label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required" aria-hidden="true">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required /></p>
 
 <p class="comment-form-email"><label for="email">Email <span class="required" aria-hidden="true">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required /></p>
 <p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
 <p class="comment-subscription-form"><input type="checkbox" name="subscribe_comments" id="subscribe_comments" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;" /> <label class="subscribe-label" id="subscribe-label" for="subscribe_comments">Notify me of follow-up comments by email.</label></p><p class="comment-subscription-form"><input type="checkbox" name="subscribe_blog" id="subscribe_blog" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;" /> <label class="subscribe-label" id="subscribe-blog-label" for="subscribe_blog">Notify me of new posts by email.</label></p><p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='285' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
-</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="a61f68c48a" /></p><p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="0"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
-	<p class="akismet_comment_form_privacy_notice">This site uses Akismet to reduce spam. <a href="https://akismet.com/privacy/" target="_blank" rel="nofollow noopener">Learn how your comment data is processed</a>.</p>	</div><!-- #comments -->
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="a61f68c48a" /></p><p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="0"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form> </div><!-- #respond -->
+ <p class="akismet_comment_form_privacy_notice">This site uses Akismet to reduce spam. <a href="https://akismet.com/privacy/" target="_blank" rel="nofollow noopener">Learn how your comment data is processed</a>.</p> </div><!-- #comments -->
           </div><!-- /.end of deatil-content -->
         </section> <!-- /.end of section -->
       </div>
@@ -847,7 +848,7 @@ display: none;
       <div class="col-sm-3">
 
 <div id="secondary" class="widget-area" role="complementary">
-	<aside id="btif_instagram_widget-2" class="widget widget_btif_instagram_widget"><h5 class="widget-title">The Insta!</h5>
+ <aside id="btif_instagram_widget-2" class="widget widget_btif_instagram_widget"><h5 class="widget-title">The Insta!</h5>
 <!-- This file should primarily consist of HTML with a little bit of PHP. -->
 <ul class="popup-gallery photos-1 btif-square-images">
     <li>
@@ -858,7 +859,7 @@ display: none;
 .
 .
 .
-#naplesflorida #naples #naplesbotanicalgarden #naplesbotanicalgardens #botanicalgardens #florida #floridausa">
+# naplesflorida #naples #naplesbotanicalgarden #naplesbotanicalgardens #botanicalgardens #florida #floridausa">
                     </a>
             </li>
     <li>
@@ -879,7 +880,7 @@ Seen here is an eastern box turtle seen in the incredibly beautiful mountains an
 .
 .
 .
-#milfordsound #newzealandgram #newzealandnature #newzealandvacations #milfordsoundnz #fiordlandnationalpark #fiord #travelcouple #southislandnz #nztravel #destinationnz #nature_perfection #newzealandguide #wanderlust">
+# milfordsound #newzealandgram #newzealandnature #newzealandvacations #milfordsoundnz #fiordlandnationalpark #fiord #travelcouple #southislandnz #nztravel #destinationnz #nature_perfection #newzealandguide #wanderlust">
 </a>
 </li>
 
@@ -898,11 +899,11 @@ Seen here is an eastern box turtle seen in the incredibly beautiful mountains an
      data-full-width-responsive="true"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
-</script></div></aside><aside id="facebook-likebox-2" class="widget widget_facebook_likebox"><h5 class="widget-title"><a href="https://www.facebook.com/bestseenonfoot">Check Out Our Facebook!</a></h5>		<div id="fb-root"></div>
-		<div class="fb-page" data-href="https://www.facebook.com/bestseenonfoot" data-width="500"  data-height="432" data-hide-cover="false" data-show-facepile="true" data-tabs="false" data-hide-cta="false" data-small-header="false">
-		<div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/bestseenonfoot"><a href="https://www.facebook.com/bestseenonfoot">Check Out Our Facebook!</a></blockquote></div>
-		</div>
-		</aside><aside id="rss_links-3" class="widget widget_rss_links"><h5 class="widget-title">RSS Feeds</h5><p><a target="_self" href="https://www.bestseenonfoot.com/feed/" title="Subscribe to posts"><img src="https://cdn.bestseenonfoot.com/wp-content/plugins/jetpack/images/rss/orange-small.png" alt="RSS feed" />&nbsp;RSS - Posts</a></p><p><a target="_self" href="https://www.bestseenonfoot.com/comments/feed/" title="Subscribe to comments"><img src="https://cdn.bestseenonfoot.com/wp-content/plugins/jetpack/images/rss/orange-small.png" alt="RSS feed" />&nbsp;RSS - Comments</a></p>
+</script></div></aside><aside id="facebook-likebox-2" class="widget widget_facebook_likebox"><h5 class="widget-title"><a href="https://www.facebook.com/bestseenonfoot">Check Out Our Facebook!</a></h5>  <div id="fb-root"></div>
+  <div class="fb-page" data-href="https://www.facebook.com/bestseenonfoot" data-width="500"  data-height="432" data-hide-cover="false" data-show-facepile="true" data-tabs="false" data-hide-cta="false" data-small-header="false">
+  <div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/bestseenonfoot"><a href="https://www.facebook.com/bestseenonfoot">Check Out Our Facebook!</a></blockquote></div>
+  </div>
+  </aside><aside id="rss_links-3" class="widget widget_rss_links"><h5 class="widget-title">RSS Feeds</h5><p><a target="_self" href="https://www.bestseenonfoot.com/feed/" title="Subscribe to posts"><img src="https://cdn.bestseenonfoot.com/wp-content/plugins/jetpack/images/rss/orange-small.png" alt="RSS feed" />&nbsp;RSS - Posts</a></p><p><a target="_self" href="https://www.bestseenonfoot.com/comments/feed/" title="Subscribe to comments"><img src="https://cdn.bestseenonfoot.com/wp-content/plugins/jetpack/images/rss/orange-small.png" alt="RSS feed" />&nbsp;RSS - Comments</a></p>
 </aside><aside id="custom_html-9" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Sidebar 2 -->
 <ins class="adsbygoogle"
@@ -914,28 +915,28 @@ Seen here is an eastern box turtle seen in the incredibly beautiful mountains an
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script></div></aside>
-		<aside id="recent-posts-2" class="widget widget_recent_entries">
-		<h5 class="widget-title">Recent Posts</h5>
-		<ul>
-											<li>
-					<a href="https://www.bestseenonfoot.com/2020/06/14/lord-of-the-rings-around-queenstown/">Lord of the Rings around Queenstown</a>
-											<span class="post-date">June 14, 2020</span>
-									</li>
-											<li>
-					<a href="https://www.bestseenonfoot.com/2020/05/30/exploring-milford-sound/">Exploring Milford Sound</a>
-											<span class="post-date">May 30, 2020</span>
-									</li>
-											<li>
-					<a href="https://www.bestseenonfoot.com/2020/05/28/central-otago-wineries/">Central Otago Wineries!</a>
-											<span class="post-date">May 28, 2020</span>
-									</li>
-					</ul>
+  <aside id="recent-posts-2" class="widget widget_recent_entries">
+  <h5 class="widget-title">Recent Posts</h5>
+  <ul>
+           <li>
+     <a href="https://www.bestseenonfoot.com/2020/06/14/lord-of-the-rings-around-queenstown/">Lord of the Rings around Queenstown</a>
+           <span class="post-date">June 14, 2020</span>
+         </li>
+           <li>
+     <a href="https://www.bestseenonfoot.com/2020/05/30/exploring-milford-sound/">Exploring Milford Sound</a>
+           <span class="post-date">May 30, 2020</span>
+         </li>
+           <li>
+     <a href="https://www.bestseenonfoot.com/2020/05/28/central-otago-wineries/">Central Otago Wineries!</a>
+           <span class="post-date">May 28, 2020</span>
+         </li>
+     </ul>
 
-    	</aside><aside id="archives-2" class="widget widget_archive"><h5 class="widget-title">Archives</h5>		<label class="screen-reader-text" for="archives-dropdown-2">Archives</label>
-    	<select id="archives-dropdown-2" name="archive-dropdown">
+     </aside><aside id="archives-2" class="widget widget_archive"><h5 class="widget-title">Archives</h5>  <label class="screen-reader-text" for="archives-dropdown-2">Archives</label>
+     <select id="archives-dropdown-2" name="archive-dropdown">
 
-    		<option value="">Select Month</option>
-    			<option value='https://www.bestseenonfoot.com/2020/06/'> June 2020 &nbsp;(1)</option>
+      <option value="">Select Month</option>
+       <option value='https://www.bestseenonfoot.com/2020/06/'> June 2020 &nbsp;(1)</option>
     <option value='https://www.bestseenonfoot.com/2020/05/'> May 2020 &nbsp;(3)</option>
     <option value='https://www.bestseenonfoot.com/2019/08/'> August 2019 &nbsp;(2)</option>
     <option value='https://www.bestseenonfoot.com/2019/06/'> June 2019 &nbsp;(1)</option>
@@ -947,23 +948,23 @@ Seen here is an eastern box turtle seen in the incredibly beautiful mountains an
     <option value='https://www.bestseenonfoot.com/2018/11/'> November 2018 &nbsp;(4)</option>
     <option value='https://www.bestseenonfoot.com/2018/10/'> October 2018 &nbsp;(4)</option>
 
-    	</select>
+     </select>
 
 <script type="text/javascript">
-/* <![CDATA[ */
+/*<![CDATA[*/
 (function() {
-	var dropdown = document.getElementById( "archives-dropdown-2" );
-	function onSelectChange() {
-		if ( dropdown.options[ dropdown.selectedIndex ].value !== '' ) {
-			document.location.href = this.options[ this.selectedIndex ].value;
-		}
-	}
-	dropdown.onchange = onSelectChange;
+ var dropdown = document.getElementById( "archives-dropdown-2" );
+ function onSelectChange() {
+  if ( dropdown.options[ dropdown.selectedIndex ].value !== '' ) {
+   document.location.href = this.options[ this.selectedIndex ].value;
+  }
+ }
+ dropdown.onchange = onSelectChange;
 })();
-/* ]]> */
+/*]]>*/
 </script>
 
-    		</aside><aside id="custom_html-8" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      </aside><aside id="custom_html-8" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 <!-- Sidebar 3 -->
 
@@ -984,45 +985,45 @@ Seen here is an eastern box turtle seen in the incredibly beautiful mountains an
 </div>
 
     <footer>
-    	<div class="container">
-    	<aside id="blog_subscription-3" class="widget widget_blog_subscription jetpack_subscription_widget"><h5 class="widget-title">Subscribe to Future Posts!</h5>
-    		<div class="wp-block-jetpack-subscriptions__container">
-    		<form action="#" method="post" accept-charset="utf-8" id="subscribe-blog-blog_subscription-3">
-    								<p id="subscribe-email">
-    					<label id="jetpack-subscribe-label"
-    						class="screen-reader-text"
-    						for="subscribe-field-blog_subscription-3">
-    						Email Address						</label>
-    					<input type="email" name="email" required="required"
-    																				value=""
-    						id="subscribe-field-blog_subscription-3"
-    						placeholder="Email Address"
-    					/>
-    				</p>
+     <div class="container">
+     <aside id="blog_subscription-3" class="widget widget_blog_subscription jetpack_subscription_widget"><h5 class="widget-title">Subscribe to Future Posts!</h5>
+      <div class="wp-block-jetpack-subscriptions__container">
+      <form action="#" method="post" accept-charset="utf-8" id="subscribe-blog-blog_subscription-3">
+            <p id="subscribe-email">
+         <label id="jetpack-subscribe-label"
+          class="screen-reader-text"
+          for="subscribe-field-blog_subscription-3">
+          Email Address      </label>
+         <input type="email" name="email" required="required"
+                        value=""
+          id="subscribe-field-blog_subscription-3"
+          placeholder="Email Address"
+         />
+        </p>
 
-    				<p id="subscribe-submit"
-    										>
-    					<input type="hidden" name="action" value="subscribe"/>
-    					<input type="hidden" name="source" value="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/"/>
-    					<input type="hidden" name="sub-type" value="widget"/>
-    					<input type="hidden" name="redirect_fragment" value="subscribe-blog-blog_subscription-3"/>
-    											<button type="submit"
-    														class="wp-block-button__link"
-    																				name="jetpack_subscriptions_widget"
-    					>
-    						Subscribe						</button>
-    				</p>
-    						</form>
-    					</div>
+        <p id="subscribe-submit"
+              >
+         <input type="hidden" name="action" value="subscribe"/>
+         <input type="hidden" name="source" value="https://www.bestseenonfoot.com/2018/12/03/our-amazon-rainforest-trip/"/>
+         <input type="hidden" name="sub-type" value="widget"/>
+         <input type="hidden" name="redirect_fragment" value="subscribe-blog-blog_subscription-3"/>
+               <button type="submit"
+                  class="wp-block-button__link"
+                        name="jetpack_subscriptions_widget"
+         >
+          Subscribe      </button>
+        </p>
+          </form>
+         </div>
 
 </aside><aside id="custom_html-3" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget">Copyright &copy; 2016 - 2022 <b>Best Seen On Foot</b> All Rights Reserved</div></aside>
-	</div>
-	</footer>
-		<div class="copyright text-center spacer">
-			        	Copyright © 2016 - 2021 Best Seen On Foot All Rights Reserved		</div>
-		<div class="scroll-top-wrapper"> <span class="scroll-top-inner"><i class="fa fa-2x fa-angle-up"></i></span></div>
+ </div>
+ </footer>
+  <div class="copyright text-center spacer">
+            Copyright © 2016 - 2021 Best Seen On Foot All Rights Reserved  </div>
+  <div class="scroll-top-wrapper"> <span class="scroll-top-inner"><i class="fa fa-2x fa-angle-up"></i></span></div>
 
-    	<script>
+     <script>
 
 window.fbAsyncInit = function() {
 FB.init({
@@ -1037,7 +1038,7 @@ version : 'v3.3'
 };
 
 (function(d, s, id){
-var js, fjs = d.getElementsByTagName(s)[0];
+var js, fjs = d.getElementsByTagName[s](0);
 if (d.getElementById(id)) {return;}
 js = d.createElement(s); js.id = id;
 js.src = "https://connect.facebook.net/en_US/sdk.js";
@@ -1060,168 +1061,168 @@ eval(event.detail.apiResponse.fb_pxl_code);
 </div>
 <div class="jp-carousel-overlay" style="display: none;">
 
-    	<div class="jp-carousel-container">
-    		<!-- The Carousel Swiper -->
-    		<div
-    			class="jp-carousel-wrap swiper-container jp-carousel-swiper-container jp-carousel-transitions"
-    			itemscope
-    			itemtype="https://schema.org/ImageGallery">
-    			<div class="jp-carousel swiper-wrapper"></div>
-    			<div class="jp-swiper-button-prev swiper-button-prev">
-    				<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-    					<mask id="maskPrev" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="9" height="12">
-    						<path d="M16.2072 16.59L11.6496 12L16.2072 7.41L14.8041 6L8.8335 12L14.8041 18L16.2072 16.59Z" fill="white"/>
-    					</mask>
-    					<g mask="url(#maskPrev)">
-    						<rect x="0.579102" width="23.8823" height="24" fill="#FFFFFF"/>
-    					</g>
-    				</svg>
-    			</div>
-    			<div class="jp-swiper-button-next swiper-button-next">
-    				<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-    					<mask id="maskNext" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="8" height="12">
-    						<path d="M8.59814 16.59L13.1557 12L8.59814 7.41L10.0012 6L15.9718 12L10.0012 18L8.59814 16.59Z" fill="white"/>
-    					</mask>
-    					<g mask="url(#maskNext)">
-    						<rect x="0.34375" width="23.8822" height="24" fill="#FFFFFF"/>
-    					</g>
-    				</svg>
-    			</div>
-    		</div>
-    		<!-- The main close buton -->
-    		<div class="jp-carousel-close-hint">
-    			<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-    				<mask id="maskClose" mask-type="alpha" maskUnits="userSpaceOnUse" x="5" y="5" width="15" height="14">
-    					<path d="M19.3166 6.41L17.9135 5L12.3509 10.59L6.78834 5L5.38525 6.41L10.9478 12L5.38525 17.59L6.78834 19L12.3509 13.41L17.9135 19L19.3166 17.59L13.754 12L19.3166 6.41Z" fill="white"/>
-    				</mask>
-    				<g mask="url(#maskClose)">
-    					<rect x="0.409668" width="23.8823" height="24" fill="#FFFFFF"/>
-    				</g>
-    			</svg>
-    		</div>
-    		<!-- Image info, comments and meta -->
-    		<div class="jp-carousel-info">
-    			<div class="jp-carousel-info-footer">
-    				<div class="jp-carousel-pagination-container">
-    					<div class="jp-swiper-pagination swiper-pagination"></div>
-    					<div class="jp-carousel-pagination"></div>
-    				</div>
-    				<div class="jp-carousel-photo-title-container">
-    					<h2 class="jp-carousel-photo-caption"></h2>
-    				</div>
-    				<div class="jp-carousel-photo-icons-container">
-    					<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-info" aria-label="Toggle photo metadata visibility">
-    						<span class="jp-carousel-icon">
-    							<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-    								<mask id="maskInfo" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
-    									<path fill-rule="evenodd" clip-rule="evenodd" d="M12.7537 2C7.26076 2 2.80273 6.48 2.80273 12C2.80273 17.52 7.26076 22 12.7537 22C18.2466 22 22.7046 17.52 22.7046 12C22.7046 6.48 18.2466 2 12.7537 2ZM11.7586 7V9H13.7488V7H11.7586ZM11.7586 11V17H13.7488V11H11.7586ZM4.79292 12C4.79292 16.41 8.36531 20 12.7537 20C17.142 20 20.7144 16.41 20.7144 12C20.7144 7.59 17.142 4 12.7537 4C8.36531 4 4.79292 7.59 4.79292 12Z" fill="white"/>
-    								</mask>
-    								<g mask="url(#maskInfo)">
-    									<rect x="0.8125" width="23.8823" height="24" fill="#FFFFFF"/>
-    								</g>
-    							</svg>
-    						</span>
-    					</a>
-    											<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-comments" aria-label="Toggle photo comments visibility">
-    						<span class="jp-carousel-icon">
-    							<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-    								<mask id="maskComments" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
-    									<path fill-rule="evenodd" clip-rule="evenodd" d="M4.3271 2H20.2486C21.3432 2 22.2388 2.9 22.2388 4V16C22.2388 17.1 21.3432 18 20.2486 18H6.31729L2.33691 22V4C2.33691 2.9 3.2325 2 4.3271 2ZM6.31729 16H20.2486V4H4.3271V18L6.31729 16Z" fill="white"/>
-    								</mask>
-    								<g mask="url(#maskComments)">
-    									<rect x="0.34668" width="23.8823" height="24" fill="#FFFFFF"/>
-    								</g>
-    							</svg>
+     <div class="jp-carousel-container">
+      <!-- The Carousel Swiper -->
+      <div
+       class="jp-carousel-wrap swiper-container jp-carousel-swiper-container jp-carousel-transitions"
+       itemscope
+       itemtype="https://schema.org/ImageGallery">
+       <div class="jp-carousel swiper-wrapper"></div>
+       <div class="jp-swiper-button-prev swiper-button-prev">
+        <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+         <mask id="maskPrev" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="9" height="12">
+          <path d="M16.2072 16.59L11.6496 12L16.2072 7.41L14.8041 6L8.8335 12L14.8041 18L16.2072 16.59Z" fill="white"/>
+         </mask>
+         <g mask="url(#maskPrev)">
+          <rect x="0.579102" width="23.8823" height="24" fill="#FFFFFF"/>
+         </g>
+        </svg>
+       </div>
+       <div class="jp-swiper-button-next swiper-button-next">
+        <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+         <mask id="maskNext" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="8" height="12">
+          <path d="M8.59814 16.59L13.1557 12L8.59814 7.41L10.0012 6L15.9718 12L10.0012 18L8.59814 16.59Z" fill="white"/>
+         </mask>
+         <g mask="url(#maskNext)">
+          <rect x="0.34375" width="23.8822" height="24" fill="#FFFFFF"/>
+         </g>
+        </svg>
+       </div>
+      </div>
+      <!-- The main close buton -->
+      <div class="jp-carousel-close-hint">
+       <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <mask id="maskClose" mask-type="alpha" maskUnits="userSpaceOnUse" x="5" y="5" width="15" height="14">
+         <path d="M19.3166 6.41L17.9135 5L12.3509 10.59L6.78834 5L5.38525 6.41L10.9478 12L5.38525 17.59L6.78834 19L12.3509 13.41L17.9135 19L19.3166 17.59L13.754 12L19.3166 6.41Z" fill="white"/>
+        </mask>
+        <g mask="url(#maskClose)">
+         <rect x="0.409668" width="23.8823" height="24" fill="#FFFFFF"/>
+        </g>
+       </svg>
+      </div>
+      <!-- Image info, comments and meta -->
+      <div class="jp-carousel-info">
+       <div class="jp-carousel-info-footer">
+        <div class="jp-carousel-pagination-container">
+         <div class="jp-swiper-pagination swiper-pagination"></div>
+         <div class="jp-carousel-pagination"></div>
+        </div>
+        <div class="jp-carousel-photo-title-container">
+         <h2 class="jp-carousel-photo-caption"></h2>
+        </div>
+        <div class="jp-carousel-photo-icons-container">
+         <a href="#" class="jp-carousel-icon-btn jp-carousel-icon-info" aria-label="Toggle photo metadata visibility">
+          <span class="jp-carousel-icon">
+           <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <mask id="maskInfo" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+             <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7537 2C7.26076 2 2.80273 6.48 2.80273 12C2.80273 17.52 7.26076 22 12.7537 22C18.2466 22 22.7046 17.52 22.7046 12C22.7046 6.48 18.2466 2 12.7537 2ZM11.7586 7V9H13.7488V7H11.7586ZM11.7586 11V17H13.7488V11H11.7586ZM4.79292 12C4.79292 16.41 8.36531 20 12.7537 20C17.142 20 20.7144 16.41 20.7144 12C20.7144 7.59 17.142 4 12.7537 4C8.36531 4 4.79292 7.59 4.79292 12Z" fill="white"/>
+            </mask>
+            <g mask="url(#maskInfo)">
+             <rect x="0.8125" width="23.8823" height="24" fill="#FFFFFF"/>
+            </g>
+           </svg>
+          </span>
+         </a>
+               <a href="#" class="jp-carousel-icon-btn jp-carousel-icon-comments" aria-label="Toggle photo comments visibility">
+          <span class="jp-carousel-icon">
+           <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <mask id="maskComments" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+             <path fill-rule="evenodd" clip-rule="evenodd" d="M4.3271 2H20.2486C21.3432 2 22.2388 2.9 22.2388 4V16C22.2388 17.1 21.3432 18 20.2486 18H6.31729L2.33691 22V4C2.33691 2.9 3.2325 2 4.3271 2ZM6.31729 16H20.2486V4H4.3271V18L6.31729 16Z" fill="white"/>
+            </mask>
+            <g mask="url(#maskComments)">
+             <rect x="0.34668" width="23.8823" height="24" fill="#FFFFFF"/>
+            </g>
+           </svg>
 
-    							<span class="jp-carousel-has-comments-indicator" aria-label="This image has comments."></span>
-    						</span>
-    					</a>
-    										</div>
-    			</div>
-    			<div class="jp-carousel-info-extra">
-    				<div class="jp-carousel-info-content-wrapper">
-    					<div class="jp-carousel-photo-title-container">
-    						<h2 class="jp-carousel-photo-title"></h2>
-    					</div>
-    					<div class="jp-carousel-comments-wrapper">
-    														<div id="jp-carousel-comments-loading">
-    								<span>Loading Comments...</span>
-    							</div>
-    							<div class="jp-carousel-comments"></div>
-    							<div id="jp-carousel-comment-form-container">
-    								<span id="jp-carousel-comment-form-spinner">&nbsp;</span>
-    								<div id="jp-carousel-comment-post-results"></div>
-    																													<form id="jp-carousel-comment-form">
-    											<label for="jp-carousel-comment-form-comment-field" class="screen-reader-text">Write a Comment...</label>
-    											<textarea
-    												name="comment"
-    												class="jp-carousel-comment-form-field jp-carousel-comment-form-textarea"
-    												id="jp-carousel-comment-form-comment-field"
-    												placeholder="Write a Comment..."
-    											></textarea>
-    											<div id="jp-carousel-comment-form-submit-and-info-wrapper">
-    												<div id="jp-carousel-comment-form-commenting-as">
-    																												<fieldset>
-    															<label for="jp-carousel-comment-form-email-field">Email (Required)</label>
-    															<input type="text" name="email" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-email-field" />
-    														</fieldset>
-    														<fieldset>
-    															<label for="jp-carousel-comment-form-author-field">Name (Required)</label>
-    															<input type="text" name="author" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-author-field" />
-    														</fieldset>
-    														<fieldset>
-    															<label for="jp-carousel-comment-form-url-field">Website</label>
-    															<input type="text" name="url" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-url-field" />
-    														</fieldset>
-    																										</div>
-    												<input
-    													type="submit"
-    													name="submit"
-    													class="jp-carousel-comment-form-button"
-    													id="jp-carousel-comment-form-button-submit"
-    													value="Post Comment" />
-    											</div>
-    										</form>
-    																										</div>
-    												</div>
-    					<div class="jp-carousel-image-meta">
-    						<div class="jp-carousel-title-and-caption">
-    							<div class="jp-carousel-photo-info">
-    								<h3 class="jp-carousel-caption" itemprop="caption description"></h3>
-    							</div>
+           <span class="jp-carousel-has-comments-indicator" aria-label="This image has comments."></span>
+          </span>
+         </a>
+              </div>
+       </div>
+       <div class="jp-carousel-info-extra">
+        <div class="jp-carousel-info-content-wrapper">
+         <div class="jp-carousel-photo-title-container">
+          <h2 class="jp-carousel-photo-title"></h2>
+         </div>
+         <div class="jp-carousel-comments-wrapper">
+                  <div id="jp-carousel-comments-loading">
+            <span>Loading Comments...</span>
+           </div>
+           <div class="jp-carousel-comments"></div>
+           <div id="jp-carousel-comment-form-container">
+            <span id="jp-carousel-comment-form-spinner">&nbsp;</span>
+            <div id="jp-carousel-comment-post-results"></div>
+                                 <form id="jp-carousel-comment-form">
+               <label for="jp-carousel-comment-form-comment-field" class="screen-reader-text">Write a Comment...</label>
+               <textarea
+                name="comment"
+                class="jp-carousel-comment-form-field jp-carousel-comment-form-textarea"
+                id="jp-carousel-comment-form-comment-field"
+                placeholder="Write a Comment..."
+               ></textarea>
+               <div id="jp-carousel-comment-form-submit-and-info-wrapper">
+                <div id="jp-carousel-comment-form-commenting-as">
+                                <fieldset>
+                   <label for="jp-carousel-comment-form-email-field">Email (Required)</label>
+                   <input type="text" name="email" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-email-field" />
+                  </fieldset>
+                  <fieldset>
+                   <label for="jp-carousel-comment-form-author-field">Name (Required)</label>
+                   <input type="text" name="author" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-author-field" />
+                  </fieldset>
+                  <fieldset>
+                   <label for="jp-carousel-comment-form-url-field">Website</label>
+                   <input type="text" name="url" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-url-field" />
+                  </fieldset>
+                              </div>
+                <input
+                 type="submit"
+                 name="submit"
+                 class="jp-carousel-comment-form-button"
+                 id="jp-carousel-comment-form-button-submit"
+                 value="Post Comment" />
+               </div>
+              </form>
+                              </div>
+                </div>
+         <div class="jp-carousel-image-meta">
+          <div class="jp-carousel-title-and-caption">
+           <div class="jp-carousel-photo-info">
+            <h3 class="jp-carousel-caption" itemprop="caption description"></h3>
+           </div>
 
-    							<div class="jp-carousel-photo-description"></div>
-    						</div>
-    						<ul class="jp-carousel-image-exif" style="display: none;"></ul>
-    						<a class="jp-carousel-image-download" target="_blank" style="display: none;">
-    							<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-    								<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="19" height="18">
-    									<path fill-rule="evenodd" clip-rule="evenodd" d="M5.84615 5V19H19.7775V12H21.7677V19C21.7677 20.1 20.8721 21 19.7775 21H5.84615C4.74159 21 3.85596 20.1 3.85596 19V5C3.85596 3.9 4.74159 3 5.84615 3H12.8118V5H5.84615ZM14.802 5V3H21.7677V10H19.7775V6.41L9.99569 16.24L8.59261 14.83L18.3744 5H14.802Z" fill="white"/>
-    								</mask>
-    								<g mask="url(#mask0)">
-    									<rect x="0.870605" width="23.8823" height="24" fill="#FFFFFF"/>
-    								</g>
-    							</svg>
-    							<span class="jp-carousel-download-text"></span>
-    						</a>
-    						<div class="jp-carousel-image-map" style="display: none;"></div>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
+           <div class="jp-carousel-photo-description"></div>
+          </div>
+          <ul class="jp-carousel-image-exif" style="display: none;"></ul>
+          <a class="jp-carousel-image-download" target="_blank" style="display: none;">
+           <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="19" height="18">
+             <path fill-rule="evenodd" clip-rule="evenodd" d="M5.84615 5V19H19.7775V12H21.7677V19C21.7677 20.1 20.8721 21 19.7775 21H5.84615C4.74159 21 3.85596 20.1 3.85596 19V5C3.85596 3.9 4.74159 3 5.84615 3H12.8118V5H5.84615ZM14.802 5V3H21.7677V10H19.7775V6.41L9.99569 16.24L8.59261 14.83L18.3744 5H14.802Z" fill="white"/>
+            </mask>
+            <g mask="url(#mask0)">
+             <rect x="0.870605" width="23.8823" height="24" fill="#FFFFFF"/>
+            </g>
+           </svg>
+           <span class="jp-carousel-download-text"></span>
+          </a>
+          <div class="jp-carousel-image-map" style="display: none;"></div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
 
-    	</div>
+     </div>
 
     <script type="text/javascript">
-    	window.WPCOM_sharing_counts = {"https:\/\/www.bestseenonfoot.com\/2018\/12\/03\/our-amazon-rainforest-trip\/":285};
+     window.WPCOM_sharing_counts = {"https:\/\/www.bestseenonfoot.com\/2018\/12\/03\/our-amazon-rainforest-trip\/":285};
     </script>
-    					<script type='text/javascript' src='https://cdn.bestseenonfoot.com/wp-content/plugins/jetpack/_inc/build/photon/photon.min.js?ver=20191001' id='jetpack-photon-js'></script>
+         <script type='text/javascript' src='https://cdn.bestseenonfoot.com/wp-content/plugins/jetpack/_inc/build/photon/photon.min.js?ver=20191001' id='jetpack-photon-js'></script>
 
 <script type='text/javascript' id='blossomthemes-email-newsletter-js-extra'>
-/* <![CDATA[ */
+/*<![CDATA[*/
 var bten_ajax_data = {"ajaxurl":"https:\/\/www.bestseenonfoot.com\/wp-admin\/admin-ajax.php"};
-/* ]]> */
+/*]]>*/
 </script>
 <script type='text/javascript' src='https://cdn.bestseenonfoot.com/wp-content/plugins/blossomthemes-email-newsletter/public/js/blossomthemes-email-newsletter-public.min.js?ver=2.2.0' id='blossomthemes-email-newsletter-js'></script>
 <script type='text/javascript' src='https://cdn.bestseenonfoot.com/wp-content/plugins/blossomthemes-email-newsletter/public/js/all.min.js?ver=6.1.1' id='all-js'></script>
@@ -1235,18 +1236,18 @@ var bten_ajax_data = {"ajaxurl":"https:\/\/www.bestseenonfoot.com\/wp-admin\/adm
 <script type='text/javascript' src='https://cdn.bestseenonfoot.com/wp-content/plugins/blossomthemes-toolkit/public/js/fontawesome/v4-shims.min.js?ver=6.1.1' id='v4-shims-js'></script>
 <script type='text/javascript' src='https://cdn.bestseenonfoot.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.6.3' id='swv-js'></script>
 <script type='text/javascript' id='contact-form-7-js-extra'>
-/* <![CDATA[ */
+/*<![CDATA[*/
 var wpcf7 = {"api":{"root":"https:\/\/www.bestseenonfoot.com\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
-/* ]]> */
+/*]]>*/
 </script>
 <script type='text/javascript' src='https://cdn.bestseenonfoot.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6.3' id='contact-form-7-js'></script>
 <script type='text/javascript' src='https://cdn.bestseenonfoot.com/wp-content/themes/chic-lifestyle/js/bootstrap.js?ver=5.0.0' id='bootstrap-js'></script>
 <script type='text/javascript' src='https://cdn.bestseenonfoot.com/wp-content/themes/chic-lifestyle/js/owl.carousel.js?ver=1.0.0' id='owl-js'></script>
 <script type='text/javascript' src='https://cdn.bestseenonfoot.com/wp-includes/js/comment-reply.min.js?ver=6.0.2' id='comment-reply-js'></script>
 <script type='text/javascript' id='jetpack-facebook-embed-js-extra'>
-/* <![CDATA[ */
+/*<![CDATA[*/
 var jpfbembed = {"appid":"249643311490","locale":"en_US"};
-/* ]]> */
+/*]]>*/
 </script>
 <script type='text/javascript' src='https://cdn.bestseenonfoot.com/wp-content/plugins/jetpack/_inc/build/facebook-embed.min.js?ver=11.3.1' id='jetpack-facebook-embed-js'></script>
 <script type='text/javascript' src='https://cdn.bestseenonfoot.com/wp-content/plugins/pwa-for-wp/assets/js/pwaforwp-video.js?ver=1.7.49' id='pwaforwp-video-js-js'></script>
@@ -1263,254 +1264,254 @@ var mystickyside_name = {"mystickyside_string":"#secondary","mystickyside_conten
 /* <![CDATA[ */
 var jetpackSwiperLibraryPath = {"url":"https:\/\/cdn.bestseenonfoot.com\/wp-content\/plugins\/jetpack\/_inc\/build\/carousel\/swiper-bundle.min.js"};
 var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/www.bestseenonfoot.com\/wp-admin\/admin-ajax.php","nonce":"fe1aa93728","display_exif":"1","display_comments":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/www.bestseenonfoot.com\/wp-login.php?redirect_to=https%3A%2F%2Fwww.bestseenonfoot.com%2F2018%2F12%2F03%2Four-amazon-rainforest-trip%2F","blog_id":"1","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"]};
-/* ]]> */
+/*]]>*/
 </script>
 <script type='text/javascript' src='https://cdn.bestseenonfoot.com/wp-content/plugins/jetpack/_inc/build/carousel/jetpack-carousel.min.js?ver=11.3.1' id='jetpack-carousel-js'></script>
 <script defer type='text/javascript' src='https://cdn.bestseenonfoot.com/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1658889731' id='akismet-frontend-js'></script>
 <script type='text/javascript' id='sharing-js-js-extra'>
-/* <![CDATA[ */
+/*<![CDATA[*/
 var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":"1"};
-/* ]]> */
+/*]]>*/
 </script>
 <script type='text/javascript' src='https://cdn.bestseenonfoot.com/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js?ver=11.3.1' id='sharing-js-js'></script>
 <script type='text/javascript' id='sharing-js-js-after'>
 var windowOpen;
-			( function () {
-				function matches( el, sel ) {
-					return !! (
-						el.matches && el.matches( sel ) ||
-						el.msMatchesSelector && el.msMatchesSelector( sel )
-					);
-				}
+   ( function () {
+    function matches( el, sel ) {
+     return !! (
+      el.matches && el.matches( sel ) ||
+      el.msMatchesSelector && el.msMatchesSelector( sel )
+     );
+    }
 
-				document.body.addEventListener( 'click', function ( event ) {
-					if ( ! event.target ) {
-						return;
-					}
+    document.body.addEventListener( 'click', function ( event ) {
+     if ( ! event.target ) {
+      return;
+     }
 
-					var el;
-					if ( matches( event.target, 'a.share-facebook' ) ) {
-						el = event.target;
-					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-facebook' ) ) {
-						el = event.target.parentNode;
-					}
+     var el;
+     if ( matches( event.target, 'a.share-facebook' ) ) {
+      el = event.target;
+     } else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-facebook' ) ) {
+      el = event.target.parentNode;
+     }
 
-					if ( el ) {
-						event.preventDefault();
+     if ( el ) {
+      event.preventDefault();
 
-						// If there's another sharing window open, close it.
-						if ( typeof windowOpen !== 'undefined' ) {
-							windowOpen.close();
-						}
-						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
-						return false;
-					}
-				} );
-			} )();
+      // If there's another sharing window open, close it.
+      if ( typeof windowOpen !== 'undefined' ) {
+       windowOpen.close();
+      }
+      windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+      return false;
+     }
+    } );
+   } )();
 var windowOpen;
-			( function () {
-				function matches( el, sel ) {
-					return !! (
-						el.matches && el.matches( sel ) ||
-						el.msMatchesSelector && el.msMatchesSelector( sel )
-					);
-				}
+   ( function () {
+    function matches( el, sel ) {
+     return !! (
+      el.matches && el.matches( sel ) ||
+      el.msMatchesSelector && el.msMatchesSelector( sel )
+     );
+    }
 
-				document.body.addEventListener( 'click', function ( event ) {
-					if ( ! event.target ) {
-						return;
-					}
+    document.body.addEventListener( 'click', function ( event ) {
+     if ( ! event.target ) {
+      return;
+     }
 
-					var el;
-					if ( matches( event.target, 'a.share-twitter' ) ) {
-						el = event.target;
-					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-twitter' ) ) {
-						el = event.target.parentNode;
-					}
+     var el;
+     if ( matches( event.target, 'a.share-twitter' ) ) {
+      el = event.target;
+     } else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-twitter' ) ) {
+      el = event.target.parentNode;
+     }
 
-					if ( el ) {
-						event.preventDefault();
+     if ( el ) {
+      event.preventDefault();
 
-						// If there's another sharing window open, close it.
-						if ( typeof windowOpen !== 'undefined' ) {
-							windowOpen.close();
-						}
-						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
-						return false;
-					}
-				} );
-			} )();
+      // If there's another sharing window open, close it.
+      if ( typeof windowOpen !== 'undefined' ) {
+       windowOpen.close();
+      }
+      windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+      return false;
+     }
+    } );
+   } )();
 var windowOpen;
-			( function () {
-				function matches( el, sel ) {
-					return !! (
-						el.matches && el.matches( sel ) ||
-						el.msMatchesSelector && el.msMatchesSelector( sel )
-					);
-				}
+   ( function () {
+    function matches( el, sel ) {
+     return !! (
+      el.matches && el.matches( sel ) ||
+      el.msMatchesSelector && el.msMatchesSelector( sel )
+     );
+    }
 
-				document.body.addEventListener( 'click', function ( event ) {
-					if ( ! event.target ) {
-						return;
-					}
+    document.body.addEventListener( 'click', function ( event ) {
+     if ( ! event.target ) {
+      return;
+     }
 
-					var el;
-					if ( matches( event.target, 'a.share-linkedin' ) ) {
-						el = event.target;
-					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-linkedin' ) ) {
-						el = event.target.parentNode;
-					}
+     var el;
+     if ( matches( event.target, 'a.share-linkedin' ) ) {
+      el = event.target;
+     } else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-linkedin' ) ) {
+      el = event.target.parentNode;
+     }
 
-					if ( el ) {
-						event.preventDefault();
+     if ( el ) {
+      event.preventDefault();
 
-						// If there's another sharing window open, close it.
-						if ( typeof windowOpen !== 'undefined' ) {
-							windowOpen.close();
-						}
-						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomlinkedin', 'menubar=1,resizable=1,width=580,height=450' );
-						return false;
-					}
-				} );
-			} )();
+      // If there's another sharing window open, close it.
+      if ( typeof windowOpen !== 'undefined' ) {
+       windowOpen.close();
+      }
+      windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomlinkedin', 'menubar=1,resizable=1,width=580,height=450' );
+      return false;
+     }
+    } );
+   } )();
 var windowOpen;
-			( function () {
-				function matches( el, sel ) {
-					return !! (
-						el.matches && el.matches( sel ) ||
-						el.msMatchesSelector && el.msMatchesSelector( sel )
-					);
-				}
+   ( function () {
+    function matches( el, sel ) {
+     return !! (
+      el.matches && el.matches( sel ) ||
+      el.msMatchesSelector && el.msMatchesSelector( sel )
+     );
+    }
 
-				document.body.addEventListener( 'click', function ( event ) {
-					if ( ! event.target ) {
-						return;
-					}
+    document.body.addEventListener( 'click', function ( event ) {
+     if ( ! event.target ) {
+      return;
+     }
 
-					var el;
-					if ( matches( event.target, 'a.share-tumblr' ) ) {
-						el = event.target;
-					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-tumblr' ) ) {
-						el = event.target.parentNode;
-					}
+     var el;
+     if ( matches( event.target, 'a.share-tumblr' ) ) {
+      el = event.target;
+     } else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-tumblr' ) ) {
+      el = event.target.parentNode;
+     }
 
-					if ( el ) {
-						event.preventDefault();
+     if ( el ) {
+      event.preventDefault();
 
-						// If there's another sharing window open, close it.
-						if ( typeof windowOpen !== 'undefined' ) {
-							windowOpen.close();
-						}
-						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomtumblr', 'menubar=1,resizable=1,width=450,height=450' );
-						return false;
-					}
-				} );
-			} )();
+      // If there's another sharing window open, close it.
+      if ( typeof windowOpen !== 'undefined' ) {
+       windowOpen.close();
+      }
+      windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomtumblr', 'menubar=1,resizable=1,width=450,height=450' );
+      return false;
+     }
+    } );
+   } )();
 var windowOpen;
-			( function () {
-				function matches( el, sel ) {
-					return !! (
-						el.matches && el.matches( sel ) ||
-						el.msMatchesSelector && el.msMatchesSelector( sel )
-					);
-				}
+   ( function () {
+    function matches( el, sel ) {
+     return !! (
+      el.matches && el.matches( sel ) ||
+      el.msMatchesSelector && el.msMatchesSelector( sel )
+     );
+    }
 
-				document.body.addEventListener( 'click', function ( event ) {
-					if ( ! event.target ) {
-						return;
-					}
+    document.body.addEventListener( 'click', function ( event ) {
+     if ( ! event.target ) {
+      return;
+     }
 
-					var el;
-					if ( matches( event.target, 'a.share-pocket' ) ) {
-						el = event.target;
-					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-pocket' ) ) {
-						el = event.target.parentNode;
-					}
+     var el;
+     if ( matches( event.target, 'a.share-pocket' ) ) {
+      el = event.target;
+     } else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-pocket' ) ) {
+      el = event.target.parentNode;
+     }
 
-					if ( el ) {
-						event.preventDefault();
+     if ( el ) {
+      event.preventDefault();
 
-						// If there's another sharing window open, close it.
-						if ( typeof windowOpen !== 'undefined' ) {
-							windowOpen.close();
-						}
-						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcompocket', 'menubar=1,resizable=1,width=450,height=450' );
-						return false;
-					}
-				} );
-			} )();
+      // If there's another sharing window open, close it.
+      if ( typeof windowOpen !== 'undefined' ) {
+       windowOpen.close();
+      }
+      windowOpen = window.open( el.getAttribute( 'href' ), 'wpcompocket', 'menubar=1,resizable=1,width=450,height=450' );
+      return false;
+     }
+    } );
+   } )();
 var windowOpen;
-			( function () {
-				function matches( el, sel ) {
-					return !! (
-						el.matches && el.matches( sel ) ||
-						el.msMatchesSelector && el.msMatchesSelector( sel )
-					);
-				}
+   ( function () {
+    function matches( el, sel ) {
+     return !! (
+      el.matches && el.matches( sel ) ||
+      el.msMatchesSelector && el.msMatchesSelector( sel )
+     );
+    }
 
-				document.body.addEventListener( 'click', function ( event ) {
-					if ( ! event.target ) {
-						return;
-					}
+    document.body.addEventListener( 'click', function ( event ) {
+     if ( ! event.target ) {
+      return;
+     }
 
-					var el;
-					if ( matches( event.target, 'a.share-telegram' ) ) {
-						el = event.target;
-					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-telegram' ) ) {
-						el = event.target.parentNode;
-					}
+     var el;
+     if ( matches( event.target, 'a.share-telegram' ) ) {
+      el = event.target;
+     } else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-telegram' ) ) {
+      el = event.target.parentNode;
+     }
 
-					if ( el ) {
-						event.preventDefault();
+     if ( el ) {
+      event.preventDefault();
 
-						// If there's another sharing window open, close it.
-						if ( typeof windowOpen !== 'undefined' ) {
-							windowOpen.close();
-						}
-						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomtelegram', 'menubar=1,resizable=1,width=450,height=450' );
-						return false;
-					}
-				} );
-			} )();
+      // If there's another sharing window open, close it.
+      if ( typeof windowOpen !== 'undefined' ) {
+       windowOpen.close();
+      }
+      windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomtelegram', 'menubar=1,resizable=1,width=450,height=450' );
+      return false;
+     }
+    } );
+   } )();
 var windowOpen;
-			( function () {
-				function matches( el, sel ) {
-					return !! (
-						el.matches && el.matches( sel ) ||
-						el.msMatchesSelector && el.msMatchesSelector( sel )
-					);
-				}
+   ( function () {
+    function matches( el, sel ) {
+     return !! (
+      el.matches && el.matches( sel ) ||
+      el.msMatchesSelector && el.msMatchesSelector( sel )
+     );
+    }
 
-				document.body.addEventListener( 'click', function ( event ) {
-					if ( ! event.target ) {
-						return;
-					}
+    document.body.addEventListener( 'click', function ( event ) {
+     if ( ! event.target ) {
+      return;
+     }
 
-					var el;
-					if ( matches( event.target, 'a.share-skype' ) ) {
-						el = event.target;
-					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-skype' ) ) {
-						el = event.target.parentNode;
-					}
+     var el;
+     if ( matches( event.target, 'a.share-skype' ) ) {
+      el = event.target;
+     } else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-skype' ) ) {
+      el = event.target.parentNode;
+     }
 
-					if ( el ) {
-						event.preventDefault();
+     if ( el ) {
+      event.preventDefault();
 
-						// If there's another sharing window open, close it.
-						if ( typeof windowOpen !== 'undefined' ) {
-							windowOpen.close();
-						}
-						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomskype', 'menubar=1,resizable=1,width=305,height=665' );
-						return false;
-					}
-				} );
-			} )();
+      // If there's another sharing window open, close it.
+      if ( typeof windowOpen !== 'undefined' ) {
+       windowOpen.close();
+      }
+      windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomskype', 'menubar=1,resizable=1,width=305,height=665' );
+      return false;
+     }
+    } );
+   } )();
 </script>
 <script src='https://stats.wp.com/e-202236.js' defer></script>
 <script>
-	_stq = window._stq || [];
-	_stq.push([ 'view', {v:'ext',j:'1:11.3.1',blog:'113512661',post:'285',tz:'-4',srv:'www.bestseenonfoot.com'} ]);
-	_stq.push([ 'clickTrackerInit', '113512661', '285' ]);
+ _stq = window._stq || [];
+ _stq.push([ 'view', {v:'ext',j:'1:11.3.1',blog:'113512661',post:'285',tz:'-4',srv:'www.bestseenonfoot.com'} ]);
+ _stq.push([ 'clickTrackerInit', '113512661', '285' ]);
 </script>
 
     </body>

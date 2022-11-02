@@ -23,6 +23,7 @@ export default function Breadcrumbs() {
                   return `${pc} ${cc.charAt(0).toUpperCase() + cc.slice(1)}`;
                 }, "")
                 .replaceAll("%C3%B1", "ñ")
+                .replaceAll("%C3%B3", "ó")
                 .trim();
 
         if (crumbs.length === index + 1) {

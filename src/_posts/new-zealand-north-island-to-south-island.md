@@ -3,7 +3,7 @@ title: "New Zealand: North Island to South Island"
 excerpt: "Hey everyone! Lauren here to tell you about our journey from the North
 Island to the South Island of New Zealand..."
 coverImage: "/assets/blog/new-zealand-north-island-to-south-island/IMG_9126.jpg"
-date: "2019-06-03T00:00:00.000Z"
+date: "2019-06-03T17:00:00.000Z"
 author:
   name: Lauren Schirtzinger
   picture: "/assets/authors/lauren.jpg"

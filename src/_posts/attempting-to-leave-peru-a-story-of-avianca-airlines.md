@@ -2,7 +2,7 @@
 title: "Attempting to Leave Peru: A Story of Avianca Airlines"
 excerpt: "Hello everybody! Gerrod here to fill you in on some of the not so exciting parts of our travels - the traveling part..."
 coverImage: "/assets/blog/attempting-to-leave-peru-a-story-of-avianca-airlines/IMG_20181110_180957.jpg"
-date: "2018-12-05T00:00:00.000Z"
+date: "2018-12-05T17:00:00.000Z"
 author:
   name: Gerrod Schirtzinger
   picture: "/assets/authors/gerrod.jpg"

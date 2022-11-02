@@ -8,5 +8,12 @@
     "sort-vars": "warn",
     "no-unused-private-class-members": "warn",
     "no-unused-expressions": "warn"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*.md"],
+      "parser": "eslint-plugin-markdownlint/parser",
+      "extends": ["plugin:markdownlint/recommended"]
+    }
+  ]
 }
