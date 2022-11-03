@@ -1,10 +1,18 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleChevronUp } from "@fortawesome/free-solid-svg-icons";
+
 export default function ScrollToTop() {
   return (
-    <div className="scroll-top-wrapper">
-      {" "}
-      <span className="scroll-top-inner">
-        <i className="fa fa-2x fa-angle-up"></i>
-      </span>
-    </div>
+    <button
+      onClick={() => {
+        window.scrollTo({
+          behavior: "smooth",
+          top: 0,
+        });
+      }}
+      className="prose md:prose-lg lg:prose-xl"
+    >
+      <FontAwesomeIcon icon={faCircleChevronUp} /> Scroll To Top
+    </button>
   );
 }

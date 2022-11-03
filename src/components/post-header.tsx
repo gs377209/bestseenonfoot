@@ -1,8 +1,14 @@
+import {
+  faCalendarDays,
+  faLocationDot,
+  faTags,
+} from "@fortawesome/free-solid-svg-icons";
 import { format, parseISO } from "date-fns";
 import type Author from "../interfaces/author";
 import Avatar from "./avatar";
 import CoverImage from "./cover-image";
 import DateFormatter from "./date-formatter";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Fragment } from "react";
 import Link from "next/link";
 import Location from "../interfaces/location";
@@ -49,14 +55,17 @@ const PostHeader = ({
           </Link>
         </div>
         <div className="mb-6 flex flex-col text-lg">
-          <Link
-            href={`/archives/${format(parseISO(date), "yyyy/MM/dd")}`}
-            className="font-medium text-gray-900 underline"
-          >
-            <DateFormatter dateString={date} />
-          </Link>
           <div>
-            Location:{" "}
+            <FontAwesomeIcon icon={faCalendarDays} />{" "}
+            <Link
+              href={`/archives/${format(parseISO(date), "yyyy/MM/dd")}`}
+              className="font-medium text-gray-900 underline"
+            >
+              <DateFormatter dateString={date} />
+            </Link>
+          </div>
+          <div>
+            <FontAwesomeIcon icon={faLocationDot} /> Location:{" "}
             <Link
               href={`/locations/${location.url}`}
               className="font-medium text-gray-900 underline"
@@ -65,8 +74,8 @@ const PostHeader = ({
             </Link>
           </div>
           <div>
-            Tags:{" "}
-            {tags.map((tag, index) => {
+            <FontAwesomeIcon icon={faTags} /> Tags:{" "}
+            {tags.sort().map((tag, index) => {
               return (
                 <Fragment key={tag}>
                   <Link

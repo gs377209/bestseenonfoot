@@ -20,7 +20,7 @@ export default function PostFooter({ morePosts }: Props) {
         <div
           className="fb-share-button mr-2"
           data-href={shareURL}
-          data-layout="button_count"
+          data-layout="button"
           data-size="large"
           data-lazy="true"
         >
