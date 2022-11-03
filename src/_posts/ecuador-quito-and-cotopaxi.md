@@ -55,10 +55,7 @@ Lauren (and Gerrod)
 
 Links to some of the things I mentioned:
 
-[https://www.casaurbanahostal.com/](https://www.casaurbanahostal.com/)
-
-[http://www.happygringo.com/](http://www.happygringo.com/)
-
-[https://gulliver.com.ec/](https://gulliver.com.ec/)
-
-[http://freewalkingtourecuador.com/](http://freewalkingtourecuador.com/)
+- [https://www.casaurbanahostal.com/](https://www.casaurbanahostal.com/)
+- [http://www.happygringo.com/](http://www.happygringo.com/)
+- [https://gulliver.com.ec/](https://gulliver.com.ec/)
+- [http://freewalkingtourecuador.com/](http://freewalkingtourecuador.com/)

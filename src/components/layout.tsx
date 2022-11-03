@@ -4,6 +4,7 @@ import Header from "./header";
 import Meta from "./meta";
 import Nav from "./nav";
 import React from "react";
+import ScrollToTop from "./scroll-to-top";
 
 type Props = {
   children: React.ReactNode;
@@ -35,7 +36,11 @@ const Layout = ({ children }: Props) => {
       <Breadcrumbs />
       <div className="min-h-screen">
         <main>{children}</main>
+        <div className="container mx-auto mb-5 px-5">
+          <ScrollToTop />
+        </div>
       </div>
+
       <Footer />
     </>
   );
