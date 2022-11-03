@@ -43,6 +43,11 @@ export default function WhereWeveBeen({ allPosts }: Props) {
                     <Link href="/locations/south-america/ecuador">Ecuador</Link>
                   </li>
                   <li>
+                    <Link href="/locations/south-america/paraguay">
+                      Paraguay
+                    </Link>
+                  </li>
+                  <li>
                     <Link href="/locations/south-america/peru">Peru</Link>
                   </li>
                 </ul>

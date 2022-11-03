@@ -24,6 +24,9 @@ export default function Breadcrumbs() {
                 }, "")
                 .replaceAll("%C3%B1", "ñ")
                 .replaceAll("%C3%B3", "ó")
+                .replaceAll("%C3%A9", "é")
+                .replaceAll("%C3%AD", "í")
+                .replaceAll("%C3%A1", "á")
                 .trim();
 
         if (crumbs.length === index + 1) {

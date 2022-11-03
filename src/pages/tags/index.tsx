@@ -1,8 +1,10 @@
 import Container from "../../components/container";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
 import Link from "next/link";
 import Post from "../../interfaces/post";
 import SideBar from "../../components/side-bar";
+import { faTag } from "@fortawesome/free-solid-svg-icons";
 import { getAllPosts } from "../../lib/api";
 
 type Props = {
@@ -24,9 +26,10 @@ export default function Tags({ allPosts, tags }: Props) {
             Tags
           </h1>
           <ul className="mb-32 grid grid-cols-2 gap-y-20 md:grid-cols-4 md:gap-x-16 md:gap-y-32 lg:gap-x-32">
-            {tags.map((tag) => {
+            {tags.sort().map((tag) => {
               return (
                 <li key={tag}>
+                  <FontAwesomeIcon icon={faTag} />{" "}
                   <Link
                     href={`/tags/${tag}`}
                     className="font-medium text-gray-900 underline"
