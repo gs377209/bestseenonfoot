@@ -1,6 +1,6 @@
 ---
 title: "Machu Picchu and the End of the Trek"
-excerpt: "Hello everybody! Gerrod here to fill you in on some of the not so exciting parts of our travels - the traveling part..."
+excerpt: "As the last day of our Salkantay Trek, we had the option of either hiking up to Machu Picchu at 4am, or waiting for a bus to take us to the top..."
 coverImage: "/assets/blog/machu-picchu-and-the-end-of-the-trek/IMG_5442.jpg"
 date: "2018-11-04T17:00:00.000Z"
 author:
