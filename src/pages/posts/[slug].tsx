@@ -10,6 +10,7 @@ import PostTitle from "../../components/post-title";
 import type PostType from "../../interfaces/post";
 import SideBar from "../../components/side-bar";
 import { useRouter } from "next/router";
+import { Fragment } from "react";
 
 type Props = {
   post: PostType;
@@ -104,12 +105,13 @@ export default function Post({ post, allPosts, morePosts }: Props) {
                 />
                 {post.tags.sort().map((tag) => {
                   return (
-                    <meta
-                      property="article:tag"
-                      content={tag}
-                      key={tag}
-                      itemProp="keywords"
-                    />
+                    <Fragment key={tag}>
+                      <meta
+                        property="article:tag"
+                        content={tag}
+                        itemProp="keywords"
+                      />
+                    </Fragment>
                   );
                 })}
                 <meta
