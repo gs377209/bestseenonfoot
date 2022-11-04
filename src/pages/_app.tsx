@@ -7,6 +7,7 @@ import {
   GOOGLE_OPTIMIZE_ID,
   GOOGLE_TAG_MANAGER_ID,
 } from "../lib/constants";
+import { Analytics } from "@vercel/analytics/react";
 import type { AppProps } from "next/app";
 import Layout from "../components/layout";
 import Script from "next/script";
@@ -82,6 +83,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Layout>
         <Component {...pageProps} />
       </Layout>
+      <Analytics />
     </>
   );
 }
