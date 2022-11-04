@@ -144,7 +144,6 @@ export const generateRssFeed = () => {
       title: post.title,
     });
   });
-  fs.mkdirSync("./public/rss", { recursive: true });
   fs.writeFileSync("./public/feed.xml", feed.rss2());
   fs.writeFileSync("./public/atom.xml", feed.atom1());
   fs.writeFileSync("./public/feed.json", feed.json1());
