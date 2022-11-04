@@ -1,4 +1,5 @@
 import { getAllPosts, getPostBySlug } from "../../lib/api";
+import { BASE_URL } from "../../lib/constants";
 import Container from "../../components/container";
 import ErrorPage from "next/error";
 import Head from "next/head";
@@ -30,7 +31,11 @@ export default function Post({ post, allPosts, morePosts }: Props) {
           <PostTitle>Loading…</PostTitle>
         ) : (
           <>
-            <article className="container mx-auto mb-32 lg:col-span-2">
+            <article
+              className="container mx-auto mb-32 lg:col-span-2"
+              itemScope
+              itemType="https://schema.org/BlogPosting"
+            >
               <Head>
                 <title>{titleText}</title>
                 <meta name="description" content={post.excerpt} key="desc" />
@@ -42,28 +47,42 @@ export default function Post({ post, allPosts, morePosts }: Props) {
                 />
                 <meta
                   property="og:image"
-                  content={post.ogImage.url}
+                  content={BASE_URL + post.ogImage.url}
                   key="og:image"
                 />
                 <meta property="og:type" content="article" key="og:type" />
+                <meta property="article:published_time" content={post.date} />
+                <meta property="article:modified_time" content={post.date} />
                 <meta
-                  property="og:site_name"
-                  content="Best Seen On Foot"
-                  key="og:site_name"
+                  property="article:expiration_time"
+                  content="2100-01-01T00:00:00.000Z"
                 />
                 <meta
+                  property="article:author:first_name"
+                  content={post.author.name.split(" ")[0]}
+                />{" "}
+                <meta
+                  property="article:author:last_name"
+                  content={post.author.name.split(" ")[1]}
+                />{" "}
+                <meta
+                  property="article:author:username"
+                  content={post.author.url}
+                />{" "}
+                <meta property="article:section" content="Travel" />
+                {post.tags.sort().map((tag) => {
+                  return (
+                    <meta property="article:tag" content={tag} key={tag} />
+                  );
+                })}
+                <meta
                   property="og:url"
-                  content={`https://bestseenonfoot.com/posts/${post.slug}`}
+                  content={`${BASE_URL}/posts/${post.slug}`}
                   key="og:url"
                 />
                 <meta
-                  name="twitter:card"
-                  content="summary"
-                  key="twitter:card"
-                />
-                <meta
                   name="twitter:url"
-                  content={`https://bestseenonfoot.com/posts/${post.slug}`}
+                  content={`${BASE_URL}/posts/${post.slug}`}
                   key="twitter:url"
                 />
                 <meta
@@ -82,9 +101,9 @@ export default function Post({ post, allPosts, morePosts }: Props) {
                   key="twitter:image"
                 />
                 <meta
-                  name="twitter:creator"
-                  content="@bestseenonfoot"
-                  key="twitter:creator"
+                  name="twitter:image:alt"
+                  content={`${titleText} Feature Image`}
+                  key="twitter:image:alt"
                 />
               </Head>
               <PostHeader
