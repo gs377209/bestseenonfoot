@@ -6,9 +6,10 @@ type Props = {
   title: string;
   src: string;
   slug?: string;
+  isShareImage?: boolean;
 };
 
-const CoverImage = ({ title, src, slug }: Props) => {
+const CoverImage = ({ title, src, slug, isShareImage }: Props) => {
   const image = (
     <Image
       src={src}
@@ -19,7 +20,7 @@ const CoverImage = ({ title, src, slug }: Props) => {
       width="1036"
       height="691"
       priority
-      itemProp="image"
+      itemProp={isShareImage ? "image" : undefined}
     />
   );
   return (

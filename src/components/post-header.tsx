@@ -43,7 +43,7 @@ const PostHeader = ({
         </Link>
       </div>
       <div className="mb-8 sm:mx-0 md:mb-16">
-        <CoverImage title={title} src={coverImage} />
+        <CoverImage title={title} src={coverImage} isShareImage />
       </div>
       <div className="mx-auto">
         <div className="mb-6 block md:hidden">
