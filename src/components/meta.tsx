@@ -1,4 +1,4 @@
-import { HOME_OG_IMAGE_URL } from "../lib/constants";
+import { BASE_URL, FACEBOOK_APP_ID, HOME_OG_IMAGE_URL } from "../lib/constants";
 import Head from "next/head";
 
 const Meta = () => {
@@ -36,7 +36,6 @@ const Meta = () => {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta name="description" content={`A travel blog`} key="desc" />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} key="og:image" />
-
       <meta
         name="viewport"
         content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover"
@@ -48,13 +47,12 @@ const Meta = () => {
       <meta name="format-detection" content="telephone=no" />
       <meta name="mobile-web-app-capable" content="yes" />
       <meta name="msapplication-tap-highlight" content="no" />
-
-      <meta name="twitter:card" content="summary" key="twitter:card" />
       <meta
-        name="twitter:url"
-        content="https://bestseenonfoot.com"
-        key="twitter:url"
+        name="twitter:card"
+        content="summary_large_image"
+        key="twitter:card"
       />
+      <meta name="twitter:url" content={BASE_URL} key="twitter:url" />
       <meta
         name="twitter:title"
         content="Best Seen On Foot"
@@ -67,7 +65,7 @@ const Meta = () => {
       />
       <meta
         name="twitter:image"
-        content="https://bestseenonfoot.com/favicon/android-chrome-192x192.png"
+        content={`${BASE_URL}/favicon/android-chrome-192x192.png`}
         key="twitter:image"
       />
       <meta
@@ -87,11 +85,14 @@ const Meta = () => {
         content="Best Seen On Foot"
         key="og:site_name"
       />
+      <meta property="og:url" content={BASE_URL} key="og:url" />
       <meta
-        property="og:url"
-        content="https://bestseenonfoot.com"
-        key="og:url"
+        name="twitter:image:alt"
+        content="Best Seen on Foot Logo"
+        key="twitter:image:alt"
       />
+      <meta property="fb:app_id" content={FACEBOOK_APP_ID} />
+      <meta name="twitter:site" content="@bestseenonfoot" />
     </Head>
   );
 };

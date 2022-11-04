@@ -19,6 +19,7 @@ const CoverImage = ({ title, src, slug }: Props) => {
       width="1036"
       height="691"
       priority
+      itemProp="image"
     />
   );
   return (
