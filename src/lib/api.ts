@@ -115,9 +115,9 @@ export const generateRssFeed = () => {
     description: "Travel Blog",
     favicon: `${BASE_URL}/favicon/favicon.ico`,
     feedLinks: {
-      atom: `${BASE_URL}/rss/atom.xml`,
-      json: `${BASE_URL}/rss/feed.json`,
-      rss2: `${BASE_URL}/rss/feed.xml`,
+      atom: `${BASE_URL}/atom.xml`,
+      json: `${BASE_URL}/feed.json`,
+      rss2: `${BASE_URL}/feed.xml`,
     },
     generator: "Feed for Node.js",
     id: BASE_URL,
@@ -145,7 +145,7 @@ export const generateRssFeed = () => {
     });
   });
   fs.mkdirSync("./public/rss", { recursive: true });
-  fs.writeFileSync("./public/rss/feed.xml", feed.rss2());
-  fs.writeFileSync("./public/rss/atom.xml", feed.atom1());
-  fs.writeFileSync("./public/rss/feed.json", feed.json1());
+  fs.writeFileSync("./public/feed.xml", feed.rss2());
+  fs.writeFileSync("./public/atom.xml", feed.atom1());
+  fs.writeFileSync("./public/feed.json", feed.json1());
 };

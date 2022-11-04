@@ -129,7 +129,7 @@ export default function SideBar({ allPosts }: Props) {
       </h2>
       <a
         className="font-medium text-gray-900 underline"
-        href="/rss/feed.xml"
+        href="/feed.xml"
         target="_blank"
       >
         <FontAwesomeIcon icon={faSquareRss} color="orange" /> Posts RSS Feed
