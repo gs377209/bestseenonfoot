@@ -36,7 +36,7 @@ const Layout = ({ children }: Props) => {
       <Breadcrumbs />
       <div className="min-h-screen">
         <main>{children}</main>
-        <div className="container mx-auto mb-5 px-5">
+        <div className="container mx-auto my-5 px-5">
           <ScrollToTop />
         </div>
       </div>
