@@ -42,7 +42,10 @@ type Props = {
 
 const PostBody = ({ content }: Props) => {
   return (
-    <div className="prose mb-5 max-w-none md:prose-lg lg:prose-xl">
+    <div
+      className="prose mb-5 max-w-none md:prose-lg lg:prose-xl"
+      itemProp="articleBody"
+    >
       <ReactMarkdown components={components}>{content}</ReactMarkdown>
     </div>
   );

@@ -93,6 +93,18 @@ const Meta = () => {
       />
       <meta property="fb:app_id" content={FACEBOOK_APP_ID} />
       <meta name="twitter:site" content="@bestseenonfoot" />
+      <meta
+        name="og:image:alt"
+        content="Best Seen on Foot Logo"
+        key="og:image:alt"
+      />
+      <meta name="author" content="Best Seen on Foot" key="author" />
+      <meta
+        name="publish_date"
+        property="og:publish_date"
+        content="2018-10-01T17:00:00.000Z"
+        key="publish_date"
+      />
     </Head>
   );
 };

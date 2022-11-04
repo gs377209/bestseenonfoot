@@ -38,8 +38,18 @@ export default function Post({ post, allPosts, morePosts }: Props) {
             >
               <Head>
                 <title>{titleText}</title>
-                <meta name="description" content={post.excerpt} key="desc" />
-                <meta property="og:title" content={titleText} key="og:title" />
+                <meta
+                  name="description"
+                  content={post.excerpt}
+                  key="desc"
+                  itemProp="abstract"
+                />
+                <meta
+                  property="og:title"
+                  content={post.title}
+                  key="og:title"
+                  itemProp="headline"
+                />
                 <meta
                   property="og:description"
                   content={post.excerpt}
@@ -51,34 +61,62 @@ export default function Post({ post, allPosts, morePosts }: Props) {
                   key="og:image"
                 />
                 <meta property="og:type" content="article" key="og:type" />
-                <meta property="article:published_time" content={post.date} />
-                <meta property="article:modified_time" content={post.date} />
+                <meta
+                  property="article:published_time"
+                  content={post.date}
+                  itemProp="datePublished"
+                />
+                <meta
+                  property="article:modified_time"
+                  content={post.date}
+                  itemProp="dateModified"
+                />
                 <meta
                   property="article:expiration_time"
                   content="2100-01-01T00:00:00.000Z"
+                  itemProp="expires"
                 />
                 <meta
                   property="article:author:first_name"
                   content={post.author.name.split(" ")[0]}
-                />{" "}
+                />
                 <meta
                   property="article:author:last_name"
                   content={post.author.name.split(" ")[1]}
-                />{" "}
+                />
                 <meta
                   property="article:author:username"
                   content={post.author.url}
-                />{" "}
-                <meta property="article:section" content="Travel" />
+                />
+                <meta
+                  property="author:first_name"
+                  content={post.author.name.split(" ")[0]}
+                />
+                <meta
+                  property="author:last_name"
+                  content={post.author.name.split(" ")[1]}
+                />
+                <meta property="author:username" content={post.author.url} />
+                <meta
+                  property="article:section"
+                  content="Travel"
+                  itemProp="articleSection"
+                />
                 {post.tags.sort().map((tag) => {
                   return (
-                    <meta property="article:tag" content={tag} key={tag} />
+                    <meta
+                      property="article:tag"
+                      content={tag}
+                      key={tag}
+                      itemProp="keywords"
+                    />
                   );
                 })}
                 <meta
                   property="og:url"
                   content={`${BASE_URL}/posts/${post.slug}`}
                   key="og:url"
+                  itemProp="url"
                 />
                 <meta
                   name="twitter:url"
@@ -87,7 +125,7 @@ export default function Post({ post, allPosts, morePosts }: Props) {
                 />
                 <meta
                   name="twitter:title"
-                  content={titleText}
+                  content={post.title}
                   key="twitter:title"
                 />
                 <meta
@@ -102,8 +140,20 @@ export default function Post({ post, allPosts, morePosts }: Props) {
                 />
                 <meta
                   name="twitter:image:alt"
-                  content={`${titleText} Feature Image`}
+                  content={`${post.title} Feature Image`}
                   key="twitter:image:alt"
+                />
+                <meta
+                  name="og:image:alt"
+                  content={`${post.title} Feature Image`}
+                  key="og:image:alt"
+                />
+                <meta name="author" content={post.author.name} key="author" />
+                <meta
+                  name="publish_date"
+                  property="og:publish_date"
+                  content={post.date}
+                  key="publish_date"
                 />
               </Head>
               <PostHeader
