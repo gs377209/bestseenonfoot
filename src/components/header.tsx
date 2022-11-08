@@ -1,24 +1,36 @@
 import Image from "next/image";
 import Link from "next/link";
-import { SITE_LOGO } from "../lib/constants";
 import SocialIcons from "./social-icons";
+import glacier from "../../public/assets/PANO_20181207_122917.jpg";
+import logo from "../../public/assets/logo.jpg";
 
 const Header = () => {
   return (
-    <header
-      className="flex h-[33vh] flex-col items-center justify-evenly bg-cover"
-      style={{
-        backgroundImage: "url(/assets/PANO_20181207_122917.jpg)",
-      }}
-    >
+    <header className="flex h-[33vh] flex-col items-center justify-evenly">
+      <div className="absolute -z-10 h-[33vh] w-[100vw] overflow-hidden">
+        <Image
+          alt="Glacier"
+          src={glacier}
+          placeholder="blur"
+          style={{
+            objectFit: "cover",
+          }}
+          priority
+          fill
+          sizes="100vw"
+          quality={100}
+        />
+      </div>
       <Link href="/">
         <Image
           className="h-[25vh] w-[25vh] rounded-3xl"
           width="512"
           height="512"
-          src={SITE_LOGO}
+          src={logo}
           alt="Best Seen On Foot Logo"
           title="Best Seen On Foot"
+          priority
+          placeholder="blur"
         />
       </Link>
 

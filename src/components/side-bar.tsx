@@ -78,28 +78,6 @@ export default function SideBar({ allPosts }: Props) {
       <Script id="sidebar-ad-1" strategy="lazyOnload">
         {`(adsbygoogle = window.adsbygoogle || []).push({});`}
       </Script>
-      {/* TODO: Insta Feed <h2>The Insta!</h2>
-      <Script
-        id="insta-feed"
-        strategy="lazyOnload"
-        async
-        defer
-        crossOrigin="anonymous"
-        src={`https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v15.0&appId=${FACEBOOK_APP_ID}&autoLogAppEvents=1`}
-        nonce="1RU6xNzb"
-        onLoad={() => {
-          window.FB.api(
-            "/instagram_oembed?url=https://www.instagram.com/p/CRiDbNusQD4/",
-            function (response) {
-              if (response && !response.error) {
-                console.log(response);
-              } else {
-                console.log(response.error);
-              }
-            }
-          );
-        }}
-      ></Script> */}
       <h2 className="mt-5 mb-8 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
         Check out our Facebook
       </h2>

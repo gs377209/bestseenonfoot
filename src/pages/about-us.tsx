@@ -4,6 +4,9 @@ import Image from "next/image";
 import PostType from "../interfaces/post";
 import SideBar from "../components/side-bar";
 import { getAllPosts } from "../lib/api";
+import picOfGerrod from "../../public/assets/20180708_202213.jpg";
+import picOfLauren from "../../public/assets/OI000004.jpg";
+import picOfUs from "../../public/assets/20180922_193351.jpg";
 
 type Props = {
   allPosts: PostType[];
@@ -25,11 +28,11 @@ export default function AboutUs({ allPosts }: Props) {
             <p>
               <a href="/assets/20180922_193351.jpg">
                 <Image
-                  src="/assets/20180922_193351.jpg"
-                  width="1296"
-                  height="972"
+                  src={picOfUs}
                   alt="Picture of Lauren and Gerrod"
                   title="Picture of Lauren and Gerrod"
+                  priority
+                  placeholder="blur"
                 />
               </a>
             </p>
@@ -54,11 +57,10 @@ export default function AboutUs({ allPosts }: Props) {
             <p>
               <a href="/assets/OI000004.jpg">
                 <Image
-                  src="/assets/OI000004.jpg"
-                  width="1024"
-                  height="768"
+                  src={picOfLauren}
                   alt="Picture of Lauren"
                   title="Picture of Lauren"
+                  placeholder="blur"
                 />
               </a>
             </p>
@@ -90,11 +92,10 @@ export default function AboutUs({ allPosts }: Props) {
             <p>
               <a href="/assets/20180708_202213.jpg">
                 <Image
-                  src="/assets/20180708_202213.jpg"
-                  width="1008"
-                  height="756"
+                  src={picOfGerrod}
                   alt="Picture of Gerrod"
                   title="Picture of Gerrod"
+                  placeholder="blur"
                 />
               </a>
             </p>
