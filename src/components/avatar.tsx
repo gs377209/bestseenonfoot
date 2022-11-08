@@ -18,6 +18,9 @@ const Avatar = ({ name, picture, large }: Props) => {
         alt={name}
         width="144"
         height="144"
+        priority
+        placeholder="blur"
+        blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM0uTyzHgAFBAIh7MnC9QAAAABJRU5ErkJggg=="
       />
       <div className="ml-4 text-xl font-bold">{name}</div>
     </div>
