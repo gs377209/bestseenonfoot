@@ -1,4 +1,5 @@
 import { generateRssFeed, getAllPosts } from "../lib/api";
+import { BASE_URL } from "../lib/constants";
 import Container from "../components/container";
 import Head from "next/head";
 import HeroPost from "../components/hero-post";
@@ -20,6 +21,7 @@ export default function Index({ allPosts }: Props) {
     <>
       <Head>
         <title>{titleText}</title>
+        <link rel="canonical" href={BASE_URL} key="canonical" />
       </Head>
       <Container>
         <section className="mx-auto mb-32 lg:col-span-2">

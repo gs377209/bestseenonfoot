@@ -1,6 +1,8 @@
+import { BASE_URL } from "../lib/constants";
 import Container from "../components/container";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import PostType from "../interfaces/post";
 import SideBar from "../components/side-bar";
 import { getAllPosts } from "../lib/api";
@@ -19,6 +21,7 @@ export default function AboutUs({ allPosts }: Props) {
     <>
       <Head>
         <title>{titleText}</title>
+        <link rel="canonical" href={`${BASE_URL}/about-us`} key="canonical" />
       </Head>
       <Container>
         <section className="container prose mx-auto mb-32 max-w-none md:prose-lg lg:col-span-2 lg:prose-xl">
@@ -26,7 +29,7 @@ export default function AboutUs({ allPosts }: Props) {
           <article>
             <h2>Welcome to Best Seen On Foot!</h2>
             <p>
-              <a href="/assets/20180922_193351.jpg">
+              <Link href="/assets/20180922_193351.jpg">
                 <Image
                   src={picOfUs}
                   alt="Picture of Lauren and Gerrod"
@@ -34,7 +37,7 @@ export default function AboutUs({ allPosts }: Props) {
                   priority
                   placeholder="blur"
                 />
-              </a>
+              </Link>
             </p>
             <p>
               We are Gerrod and Lauren Schirtzinger, a fairly average american
@@ -55,14 +58,14 @@ export default function AboutUs({ allPosts }: Props) {
             <h2>SOME BACKGROUND</h2>
             <h3>Lauren Schirtzinger:</h3>
             <p>
-              <a href="/assets/OI000004.jpg">
+              <Link href="/assets/OI000004.jpg">
                 <Image
                   src={picOfLauren}
                   alt="Picture of Lauren"
                   title="Picture of Lauren"
                   placeholder="blur"
                 />
-              </a>
+              </Link>
             </p>
             <p>
               Hi! My name is Lauren. I am currently 27, and I am from Columbus,
@@ -90,14 +93,14 @@ export default function AboutUs({ allPosts }: Props) {
             </p>
             <h3>Gerrod Schirtzinger:</h3>
             <p>
-              <a href="/assets/20180708_202213.jpg">
+              <Link href="/assets/20180708_202213.jpg">
                 <Image
                   src={picOfGerrod}
                   alt="Picture of Gerrod"
                   title="Picture of Gerrod"
                   placeholder="blur"
                 />
-              </a>
+              </Link>
             </p>
             <p>
               Gerrod is also currently 27, and he is also from Columbus, Ohio,

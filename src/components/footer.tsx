@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <footer className="border-t border-neutral-200 bg-neutral-50">
@@ -6,9 +8,9 @@ const Footer = () => {
           <h2 className="text-center text-4xl font-bold leading-tight tracking-tighter lg:mb-0 lg:pr-4 lg:text-left lg:text-6xl">
             Contact Us
           </h2>
-          <a className="underline" href="mailto:bestseenonfoot@gmail.com">
+          <Link className="underline" href="mailto:bestseenonfoot@gmail.com">
             bestseenonfoot@gmail.com
-          </a>
+          </Link>
         </div>
         {/* TODO: email subscribe <h3 className="mb-10 text-center text-4xl font-bold leading-tight tracking-tighter lg:mb-0 lg:w-1/2 lg:pr-4 lg:text-left lg:text-[2.5rem]">
             Subscribe to Future Posts!

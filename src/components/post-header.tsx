@@ -58,7 +58,7 @@ const PostHeader = ({
           <div>
             <FontAwesomeIcon icon={faCalendarDays} />{" "}
             <Link
-              href={`/archives/${format(parseISO(date), "yyyy/MM/dd")}`}
+              href={`/archives/${format(parseISO(date), "yyyy/M/d")}`}
               className="font-medium text-gray-900 underline"
             >
               <DateFormatter dateString={date} />
@@ -79,7 +79,7 @@ const PostHeader = ({
               return (
                 <Fragment key={tag}>
                   <Link
-                    href={`/tags/${tag}`}
+                    href={`/tags/${encodeURIComponent(tag)}`}
                     className="font-medium text-gray-900 underline"
                   >
                     {tag}

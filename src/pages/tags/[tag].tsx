@@ -1,4 +1,5 @@
 import { getAllPosts, getAllPostsByTag } from "../../lib/api";
+import { BASE_URL } from "../../lib/constants";
 import Container from "../../components/container";
 import Head from "next/head";
 import MoreStories from "../../components/more-stories";
@@ -18,6 +19,11 @@ export default function Tag({ allPosts, allPostsByTag, tag }: Props) {
     <>
       <Head>
         <title>{titleText}</title>
+        <link
+          rel="canonical"
+          href={`${BASE_URL}/tags/${encodeURIComponent(tag)}`}
+          key="canonical"
+        />
       </Head>
       <Container>
         <section className="mx-auto mb-32 lg:col-span-2">

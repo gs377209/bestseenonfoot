@@ -1,18 +1,19 @@
 import { format, parseISO } from "date-fns";
 import { getAllPosts, getAllPostsByDate } from "../../../lib/api";
+import { BASE_URL } from "../../../lib/constants";
 import Container from "../../../components/container";
 import DateFormatter from "../../../components/date-formatter";
 import Head from "next/head";
+import { InferGetStaticPropsType } from "next";
 import MoreStories from "../../../components/more-stories";
 import Post from "../../../interfaces/post";
 import SideBar from "../../../components/side-bar";
 
-type Props = {
-  allPosts: Post[];
-  allPostsByDate: Post[];
-};
-
-export default function YearArchives({ allPosts, allPostsByDate }: Props) {
+export default function YearArchives({
+  allPosts,
+  allPostsByDate,
+  params: { year },
+}: InferGetStaticPropsType<typeof getStaticProps>) {
   const firstPost = allPostsByDate[0];
   const titleText = `${format(
     parseISO(firstPost.date),
@@ -23,6 +24,11 @@ export default function YearArchives({ allPosts, allPostsByDate }: Props) {
     <>
       <Head>
         <title>{titleText}</title>
+        <link
+          rel="canonical"
+          href={`${BASE_URL}/archives/${year}`}
+          key="canonical"
+        />
       </Head>
       <Container>
         <section className="mx-auto mb-32 lg:col-span-2">
@@ -52,7 +58,7 @@ export const getStaticProps = async ({ params }: Params) => {
     "author",
     "coverImage",
     "excerpt",
-  ]);
+  ]) as Post[];
   const allPosts = getAllPosts([
     "title",
     "date",
@@ -60,10 +66,10 @@ export const getStaticProps = async ({ params }: Params) => {
     "author",
     "coverImage",
     "excerpt",
-  ]);
+  ]) as Post[];
 
   return {
-    props: { allPosts, allPostsByDate },
+    props: { allPosts, allPostsByDate, params },
   };
 };
 
