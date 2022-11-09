@@ -32,7 +32,7 @@ const CoverImage = ({ title, src, slug, isShareImage }: Props) => {
           {image}
         </Link>
       ) : (
-        <a href={src}>{image}</a>
+        <Link href={src}>{image}</Link>
       )}
     </div>
   );

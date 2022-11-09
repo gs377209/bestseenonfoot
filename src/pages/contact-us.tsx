@@ -4,6 +4,7 @@ import {
   faCircleExclamation,
   faCircleNotch,
 } from "@fortawesome/free-solid-svg-icons";
+import { BASE_URL } from "../lib/constants";
 import Container from "../components/container";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
@@ -70,6 +71,7 @@ export default function ContactUs({ allPosts }: Props) {
     <>
       <Head>
         <title>{titleText}</title>
+        <link rel="canonical" href={`${BASE_URL}/contact-us`} key="canonical" />
       </Head>
       <Container>
         <section className="container prose mx-auto mb-32 max-w-none md:prose-lg lg:col-span-2 lg:prose-xl">

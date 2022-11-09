@@ -5,12 +5,13 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 
 export default function SocialIcons() {
   return (
     <ul className="flex min-w-full justify-evenly">
       <li>
-        <a
+        <Link
           href="https://www.facebook.com/bestseenonfoot/"
           target="_blank"
           rel="noreferrer noopener"
@@ -22,10 +23,10 @@ export default function SocialIcons() {
             className="rounded-lg bg-white"
             size="2xl"
           />
-        </a>
+        </Link>
       </li>
       <li>
-        <a
+        <Link
           href="https://twitter.com/bestseenonfoot"
           target="_blank"
           rel="noreferrer noopener"
@@ -37,10 +38,10 @@ export default function SocialIcons() {
             className="rounded-lg bg-white"
             size="2xl"
           />
-        </a>
+        </Link>
       </li>
       <li>
-        <a
+        <Link
           href="https://www.instagram.com/bestseenonfoot/"
           target="_blank"
           rel="noreferrer noopener"
@@ -52,10 +53,10 @@ export default function SocialIcons() {
             className="rounded-lg bg-white"
             size="2xl"
           />
-        </a>
+        </Link>
       </li>
       <li>
-        <a
+        <Link
           href="https://www.youtube.com/channel/UCpGnTSxYa1ubx4Exf1PQElw"
           target="_blank"
           rel="noreferrer noopener"
@@ -67,7 +68,7 @@ export default function SocialIcons() {
             className="rounded-lg bg-white"
             size="2xl"
           />
-        </a>
+        </Link>
       </li>
     </ul>
   );

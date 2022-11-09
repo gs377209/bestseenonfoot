@@ -1,5 +1,6 @@
 import ReactMarkdown, { Components } from "react-markdown";
 import Image from "next/image";
+import Link from "next/link";
 
 const components: Components = {
   // eslint-disable-next-line no-unused-vars
@@ -18,9 +19,9 @@ const components: Components = {
       );
     }
     return (
-      <a href={href} {...props}>
+      <Link href={href ?? ""} {...props}>
         {children}
-      </a>
+      </Link>
     );
   },
   img: ({ src, alt, title }) => {

@@ -1,15 +1,15 @@
 import { BASE_URL } from "../lib/constants";
+import Link from "next/link";
 import MoreStories from "./more-stories";
 import Post from "../interfaces/post";
-import { useRouter } from "next/router";
 
 type Props = {
   morePosts: Post[];
+  slug: string;
 };
 
-export default function PostFooter({ morePosts }: Props) {
-  const { asPath } = useRouter();
-  const shareURL = BASE_URL + asPath;
+export default function PostFooter({ morePosts, slug }: Props) {
+  const shareURL = BASE_URL + slug;
 
   return (
     <div>
@@ -24,7 +24,7 @@ export default function PostFooter({ morePosts }: Props) {
           data-size="large"
           data-lazy="true"
         >
-          <a
+          <Link
             target="_blank"
             href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
               shareURL
@@ -33,9 +33,9 @@ export default function PostFooter({ morePosts }: Props) {
             rel="noreferrer noopener"
           >
             Share
-          </a>
+          </Link>
         </div>
-        <a
+        <Link
           href="https://twitter.com/share?ref_src=twsrc%5Etfw"
           className="twitter-share-button"
           data-size="large"
@@ -46,7 +46,7 @@ export default function PostFooter({ morePosts }: Props) {
           data-lazy="true"
         >
           Tweet
-        </a>
+        </Link>
       </div>
 
       <MoreStories posts={morePosts} />

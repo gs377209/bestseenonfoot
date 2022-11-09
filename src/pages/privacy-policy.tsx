@@ -17,6 +17,11 @@ export default function PrivacyPolicy({ allPosts }: Props) {
     <>
       <Head>
         <title>{titleText}</title>
+        <link
+          rel="canonical"
+          href={`${BASE_URL}/privacy-policy`}
+          key="canonical"
+        />
       </Head>
       <Container>
         <section className="container prose mx-auto mb-32 max-w-none md:prose-lg lg:col-span-2 lg:prose-xl">
@@ -42,13 +47,13 @@ export default function PrivacyPolicy({ allPosts }: Props) {
             An anonymized string created from your email address (also called
             a hash) may be provided to the Gravatar service to see if you are
             using it. The Gravatar service privacy policy is available here:{" "}
-            <a
+            <Link
               href="https://automattic.com/privacy/"
               target="_blank"
               rel="noreferrer noopener"
             >
               https://automattic.com/privacy/
-            </a>
+            </Link>
             . After approval of your comment, your profile picture is visible
             to the public in the context of your comment.
           </p> */}
@@ -111,21 +116,21 @@ export default function PrivacyPolicy({ allPosts }: Props) {
 
             <p>
               You can always use browser tools to delete and block cookies.{" "}
-              <a
+              <Link
                 rel="noopener noreferrer"
                 href="http://optout.networkadvertising.org/"
                 target="_blank"
               >
                 NAI Opt Out
-              </a>{" "}
+              </Link>{" "}
               or{" "}
-              <a
+              <Link
                 rel="noopener noreferrer"
                 href="http://optout.aboutads.info/"
                 target="_blank"
               >
                 DDA Opt Out
-              </a>{" "}
+              </Link>{" "}
               are also good ways to clean up a lot of tracking and advertising
               cookies on your browser.
             </p>

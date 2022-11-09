@@ -1,4 +1,5 @@
 import { getAllPosts, getAllPostsByPlace } from "../../lib/api";
+import { BASE_URL } from "../../lib/constants";
 import Container from "../../components/container";
 import Head from "next/head";
 import MoreStories from "../../components/more-stories";
@@ -9,15 +10,26 @@ type Props = {
   allPosts: Post[];
   allPostsByPlace: Post[];
   place: string;
+  placeUrl: string;
 };
 
-export default function Place({ allPosts, allPostsByPlace, place }: Props) {
+export default function Place({
+  allPosts,
+  allPostsByPlace,
+  place,
+  placeUrl,
+}: Props) {
   const titleText = `${place} Posts | Best Seen on Foot`;
 
   return (
     <>
       <Head>
         <title>{titleText}</title>
+        <link
+          rel="canonical"
+          href={`${BASE_URL}/locations/${placeUrl}`}
+          key="canonical"
+        />
       </Head>
       <Container>
         <section className="mx-auto mb-32 lg:col-span-2">
@@ -71,6 +83,7 @@ export const getStaticProps = async ({ params }: Params) => {
           return `${pc} ${cc.charAt(0).toUpperCase() + cc.slice(1)}`;
         }, "")
         .trim(),
+      placeUrl: params.place.join("/"),
     },
   };
 };

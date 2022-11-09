@@ -1,5 +1,6 @@
 import { format, parseISO } from "date-fns";
 import { getAllPosts, getAllPostsByDate } from "../../../../lib/api";
+import { BASE_URL } from "../../../../lib/constants";
 import Container from "../../../../components/container";
 import DateFormatter from "../../../../components/date-formatter";
 import Head from "next/head";
@@ -10,9 +11,14 @@ import SideBar from "../../../../components/side-bar";
 type Props = {
   allPosts: Post[];
   allPostsByDate: Post[];
+  params: Params["params"];
 };
 
-export default function DateArchives({ allPosts, allPostsByDate }: Props) {
+export default function DateArchives({
+  allPosts,
+  allPostsByDate,
+  params: { year, month, date },
+}: Props) {
   const firstPost = allPostsByDate[0];
   const titleText = `${format(
     parseISO(firstPost.date),
@@ -23,6 +29,11 @@ export default function DateArchives({ allPosts, allPostsByDate }: Props) {
     <>
       <Head>
         <title>{titleText}</title>
+        <link
+          rel="canonical"
+          href={`${BASE_URL}/archives/${year}/${month}/${date}`}
+          key="canonical"
+        />
       </Head>
       <Container>
         <section className="mx-auto mb-32 lg:col-span-2">
@@ -64,7 +75,7 @@ export const getStaticProps = async ({ params }: Params) => {
   ]);
 
   return {
-    props: { allPosts, allPostsByDate },
+    props: { allPosts, allPostsByDate, params },
   };
 };
 

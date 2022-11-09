@@ -1,14 +1,18 @@
+import { BASE_URL } from "../lib/constants";
 import Container from "../components/container";
 import Head from "next/head";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function Custom500() {
   const titleText = `Best Seen on Foot`;
+  const { reload } = useRouter();
 
   return (
     <>
       <Head>
         <title>{titleText}</title>
+        <link rel="canonical" href={`${BASE_URL}/500`} key="canonical" />
       </Head>
       <Container>
         <section className="container prose mx-auto mb-32 max-w-none md:prose-lg lg:col-span-2 lg:prose-xl">
@@ -19,7 +23,7 @@ export default function Custom500() {
             Try{" "}
             <button
               className="font-medium text-gray-900 underline"
-              onClick={() => window.location.reload()}
+              onClick={() => reload()}
             >
               refreshing
             </button>{" "}

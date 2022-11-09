@@ -18,16 +18,16 @@ type Props = {
 };
 
 export default function Post({ post, allPosts, morePosts }: Props) {
-  const router = useRouter();
+  const { isFallback } = useRouter();
   const titleText = `${post.title} | Best Seen On Foot`;
 
-  if (!router.isFallback && !post?.slug) {
+  if (!isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />;
   }
   return (
     <>
       <Container>
-        {router.isFallback ? (
+        {isFallback ? (
           <PostTitle>Loading…</PostTitle>
         ) : (
           <>
@@ -38,6 +38,11 @@ export default function Post({ post, allPosts, morePosts }: Props) {
             >
               <Head>
                 <title>{titleText}</title>
+                <link
+                  rel="canonical"
+                  href={`${BASE_URL}/posts/${post.slug}`}
+                  key="canonical"
+                />
                 <meta
                   name="description"
                   content={post.excerpt}
@@ -160,7 +165,7 @@ export default function Post({ post, allPosts, morePosts }: Props) {
                 tags={post.tags}
               />
               <PostBody content={post.content} />
-              <PostFooter morePosts={morePosts} />
+              <PostFooter morePosts={morePosts} slug={post.slug} />
             </article>
           </>
         )}

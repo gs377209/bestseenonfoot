@@ -1,11 +1,17 @@
+import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import cn from "classnames";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
+import { useRouter } from "next/router";
 
 export default function Nav() {
+  const { asPath } = useRouter();
   const [isMobileMenuVisible, setIsMobileMenuVisible] = useState(false);
+
+  useEffect(() => {
+    setIsMobileMenuVisible(false);
+  }, [asPath]);
 
   return (
     <nav className="sticky top-0 z-10 mb-5 min-h-[3rem] bg-emerald-400 p-5">
@@ -40,7 +46,7 @@ export default function Nav() {
             </li>
             <li>
               <Link
-                href="/where-weve-been/"
+                href="/where-weve-been"
                 className="block border-b border-gray-100 py-2 pl-3 pr-4 text-black hover:bg-gray-50 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700"
               >
                 Where We&apos;ve Been
@@ -48,7 +54,7 @@ export default function Nav() {
             </li>
             <li>
               <Link
-                href="/about-us/"
+                href="/about-us"
                 className="block border-b border-gray-100 py-2 pl-3 pr-4 text-black hover:bg-gray-50 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700"
               >
                 About Us
@@ -56,7 +62,7 @@ export default function Nav() {
             </li>
             <li>
               <Link
-                href="/contact-us/"
+                href="/contact-us"
                 className="block border-b border-gray-100 py-2 pl-3 pr-4 text-black hover:bg-gray-50 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700"
               >
                 Contact Us
@@ -64,7 +70,7 @@ export default function Nav() {
             </li>
             <li>
               <Link
-                href="/privacy-policy/"
+                href="/privacy-policy"
                 className="block border-b border-gray-100 py-2 pl-3 pr-4 text-black hover:bg-gray-50 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700"
               >
                 Privacy Policy

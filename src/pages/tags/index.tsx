@@ -1,3 +1,4 @@
+import { BASE_URL } from "../../lib/constants";
 import Container from "../../components/container";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
@@ -19,6 +20,7 @@ export default function Tags({ allPosts, tags }: Props) {
     <>
       <Head>
         <title>{titleText}</title>
+        <link rel="canonical" href={`${BASE_URL}/tags`} key="canonical" />
       </Head>
       <Container>
         <section className="container mx-auto mb-32 lg:col-span-2">
@@ -31,7 +33,7 @@ export default function Tags({ allPosts, tags }: Props) {
                 <li key={tag}>
                   <FontAwesomeIcon icon={faTag} />{" "}
                   <Link
-                    href={`/tags/${tag}`}
+                    href={`/tags/${encodeURIComponent(tag)}`}
                     className="font-medium text-gray-900 underline"
                   >
                     {tag}

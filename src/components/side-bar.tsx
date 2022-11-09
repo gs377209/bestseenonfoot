@@ -1,6 +1,7 @@
 import { format, parseISO } from "date-fns";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { GOOGLE_ADS_ID } from "../lib/constants";
+import Link from "next/link";
 import MoreStories from "./more-stories";
 import PostType from "../interfaces/post";
 import Script from "next/script";
@@ -13,7 +14,7 @@ type Props = {
 };
 
 export default function SideBar({ allPosts }: Props) {
-  const router = useRouter();
+  const { push } = useRouter();
 
   const archives = useMemo(() => {
     const finalOptions: {
@@ -97,21 +98,21 @@ export default function SideBar({ allPosts }: Props) {
           cite="https://www.facebook.com/bestseenonfoot/"
           className="fb-xfbml-parse-ignore"
         >
-          <a href="https://www.facebook.com/bestseenonfoot/">
+          <Link href="https://www.facebook.com/bestseenonfoot/">
             Best Seen On Foot
-          </a>
+          </Link>
         </blockquote>
       </div>
       <h2 className="mb-8 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
         Subscribe
       </h2>
-      <a
+      <Link
         className="font-medium text-gray-900 underline"
         href="/feed.xml"
         target="_blank"
       >
         <FontAwesomeIcon icon={faSquareRss} color="orange" /> Posts RSS Feed
-      </a>
+      </Link>
       <h2 className="mt-5 mb-8 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
         Recent Posts
       </h2>
@@ -134,7 +135,7 @@ export default function SideBar({ allPosts }: Props) {
           className="mt-1 block min-w-fit rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
           onChange={(e) => {
             if (e.currentTarget.value) {
-              router.push(e.currentTarget.value);
+              push(e.currentTarget.value);
             }
           }}
         >
