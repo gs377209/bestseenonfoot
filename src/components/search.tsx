@@ -1,4 +1,5 @@
 import { FormEvent, useState } from "react";
+import { format, parseISO } from "date-fns";
 import PostType from "../interfaces/post";
 
 interface Props {
@@ -10,6 +11,23 @@ const fuseOptions = {
     {
       name: "title",
       weight: 1,
+    },
+    {
+      name: "tags",
+      weight: 0.75,
+    },
+    {
+      name: "author.name",
+      weight: 0.5,
+    },
+    {
+      name: "location.name",
+      weight: 0.5,
+    },
+    {
+      getFn: (post: PostType) => format(parseISO(post.date), "LLLL	d, yyyy"),
+      name: "date",
+      weight: 0.3,
     },
   ],
 };

@@ -1,14 +1,14 @@
-import { BASE_URL } from "../lib/constants";
-import Container from "../components/container";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import PostType from "../interfaces/post";
-import SideBar from "../components/side-bar";
-import { getAllPosts } from "../lib/api";
 import picOfGerrod from "../../public/assets/20180708_202213.jpg";
-import picOfLauren from "../../public/assets/OI000004.jpg";
 import picOfUs from "../../public/assets/20180922_193351.jpg";
+import picOfLauren from "../../public/assets/OI000004.jpg";
+import Container from "../components/container";
+import SideBar from "../components/side-bar";
+import PostType from "../interfaces/post";
+import { getAllPosts } from "../lib/api";
+import { BASE_URL } from "../lib/constants";
 
 type Props = {
   allPosts: PostType[];
@@ -131,6 +131,8 @@ export const getStaticProps = async () => {
     "author",
     "coverImage",
     "excerpt",
+    "location",
+    "tags",
   ]);
 
   return {
