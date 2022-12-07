@@ -63,7 +63,6 @@ export default function SideBar({ allPosts }: Props) {
 
   return (
     <aside className="lg:sticky lg:top-[3.8125rem] lg:col-span-1 lg:col-start-3 lg:h-[calc(100vh-2.75rem)] lg:self-start lg:overflow-y-auto lg:overflow-x-hidden">
-      <Search posts={allPosts} />
       <Script
         async
         src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${GOOGLE_ADS_ID}`}
@@ -81,6 +80,10 @@ export default function SideBar({ allPosts }: Props) {
       <Script id="sidebar-ad-1" strategy="lazyOnload">
         {`(adsbygoogle = window.adsbygoogle || []).push({});`}
       </Script>
+      <h2 className="mt-5 mb-8 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
+        Search For Posts
+      </h2>
+      <Search posts={allPosts} />
       <h2 className="mt-5 mb-8 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
         Check out our Facebook
       </h2>

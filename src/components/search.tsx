@@ -6,32 +6,6 @@ interface Props {
   posts: PostType[];
 }
 
-const fuseOptions = {
-  keys: [
-    {
-      name: "title",
-      weight: 1,
-    },
-    {
-      name: "tags",
-      weight: 0.75,
-    },
-    {
-      name: "author.name",
-      weight: 0.5,
-    },
-    {
-      name: "location.name",
-      weight: 0.5,
-    },
-    {
-      getFn: (post: PostType) => format(parseISO(post.date), "LLLL	d, yyyy"),
-      name: "date",
-      weight: 0.3,
-    },
-  ],
-};
-
 export default function Search({ posts }: Props) {
   const [results, setResults] = useState<PostType[]>();
 
@@ -41,6 +15,9 @@ export default function Search({ posts }: Props) {
 
   return (
     <form onSubmit={handleSubmit} className="grid grid-cols-1 gap-6">
+      <label className="sr-only" htmlFor="search">
+        Search for Posts
+      </label>
       <input
         type="search"
         placeholder="Search for Posts"
@@ -48,6 +25,32 @@ export default function Search({ posts }: Props) {
           const { value } = e.currentTarget;
 
           const Fuse = (await import("fuse.js")).default;
+          const fuseOptions = {
+            keys: [
+              {
+                name: "title",
+                weight: 1,
+              },
+              {
+                name: "tags",
+                weight: 0.75,
+              },
+              {
+                name: "author.name",
+                weight: 0.5,
+              },
+              {
+                name: "location.name",
+                weight: 0.5,
+              },
+              {
+                getFn: (post: PostType) =>
+                  format(parseISO(post.date), "LLLL	d, yyyy"),
+                name: "date",
+                weight: 0.3,
+              },
+            ],
+          };
           const fuse = new Fuse(posts, fuseOptions);
 
           setResults(fuse.search(value).map((result) => result.item));
