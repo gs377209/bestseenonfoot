@@ -5,6 +5,7 @@ import Link from "next/link";
 import MoreStories from "./more-stories";
 import PostType from "../interfaces/post";
 import Script from "next/script";
+import Search from "./search";
 import { faSquareRss } from "@fortawesome/free-solid-svg-icons";
 import { useMemo } from "react";
 import { useRouter } from "next/router";
@@ -62,6 +63,7 @@ export default function SideBar({ allPosts }: Props) {
 
   return (
     <aside className="lg:sticky lg:top-[3.8125rem] lg:col-span-1 lg:col-start-3 lg:h-[calc(100vh-2.75rem)] lg:self-start lg:overflow-y-auto lg:overflow-x-hidden">
+      <Search posts={allPosts} />
       <Script
         async
         src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${GOOGLE_ADS_ID}`}
