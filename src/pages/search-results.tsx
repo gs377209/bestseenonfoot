@@ -1,8 +1,8 @@
 import { format, parseISO } from "date-fns";
-import Fuse from "fuse.js";
 import { GetServerSideProps, InferGetServerSidePropsType } from "next";
 import Head from "next/head";
 import Container from "../components/container";
+import MoreStories from "../components/more-stories";
 import Search from "../components/search";
 import SideBar from "../components/side-bar";
 import PostType from "../interfaces/post";
@@ -22,18 +22,19 @@ export default function SearchResults({
         <title>{titleText}</title>
         <link
           rel="canonical"
-          href={`${BASE_URL}/search-results`}
+          href={`${BASE_URL}/search-results?query=${search}`}
           key="canonical"
         />
       </Head>
       <Container>
-        <section className="container prose mx-auto mb-32 max-w-none md:prose-lg lg:col-span-2 lg:prose-xl">
-          <h1>Search Results For &quot;{search}&quot;</h1>
-          <article>
-            <h2>Welcome to Best Seen On Foot!</h2>
-            <pre>Results: {JSON.stringify(filteredPosts, null, 2)}</pre>
-            <Search posts={allPosts} />
-          </article>
+        <section className="mx-auto mb-32 lg:col-span-2">
+          <h1 className="mb-5 text-5xl font-bold leading-tight tracking-tighter md:pr-8 md:text-7xl">
+            Search Results For &quot;{search}&quot;
+          </h1>
+          <div className="mb-10">
+            <Search />
+          </div>
+          <MoreStories posts={filteredPosts} hideHeader />
         </section>
         <SideBar allPosts={allPosts} />
       </Container>
@@ -57,6 +58,7 @@ export const getServerSideProps: GetServerSideProps<{
     "tags",
   ]) as PostType[];
 
+  const Fuse = (await import("fuse.js")).default;
   const fuseOptions = {
     keys: [
       {
@@ -81,6 +83,7 @@ export const getServerSideProps: GetServerSideProps<{
         weight: 0.3,
       },
     ],
+    threshold: 0.4,
   };
   const fuse = new Fuse(allPosts, fuseOptions);
   const filteredPosts = fuse

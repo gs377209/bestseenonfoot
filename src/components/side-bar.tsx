@@ -83,7 +83,7 @@ export default function SideBar({ allPosts }: Props) {
       <h2 className="mt-5 mb-8 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
         Search For Posts
       </h2>
-      <Search posts={allPosts} key={asPath} />
+      <Search key={asPath} />
       <h2 className="mt-5 mb-8 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
         Check out our Facebook
       </h2>

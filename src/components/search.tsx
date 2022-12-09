@@ -1,61 +1,25 @@
 import { faCircleNotch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import classNames from "classnames";
-import { format, parseISO } from "date-fns";
 import { useRouter } from "next/router";
 import { FormEvent, useState } from "react";
-import PostType from "../interfaces/post";
 
-interface Props {
-  posts: PostType[];
-}
-
-export default function Search({ posts }: Props) {
+export default function Search() {
   const router = useRouter();
-  const [results, setResults] = useState<PostType[]>();
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleSubmit = async (event: FormEvent) => {
     event.preventDefault();
     setIsSubmitting(true);
     const form = event.target as HTMLFormElement;
-    const Fuse = (await import("fuse.js")).default;
-    const fuseOptions = {
-      keys: [
-        {
-          name: "title",
-          weight: 1,
-        },
-        {
-          name: "tags",
-          weight: 0.75,
-        },
-        {
-          name: "author.name",
-          weight: 0.5,
-        },
-        {
-          name: "location.name",
-          weight: 0.5,
-        },
-        {
-          getFn: (post: PostType) => format(parseISO(post.date), "LLLL	d, yyyy"),
-          name: "date",
-          weight: 0.3,
-        },
-      ],
-    };
-    const fuse = new Fuse(posts, fuseOptions);
-    setResults(
-      fuse.search(form.search.value as string).map((result) => result.item)
-    );
+
     router.push(`/search-results?query=${form.search.value}`);
 
     setIsSubmitting(false);
   };
 
   return (
-    <form onSubmit={handleSubmit} className="grid grid-cols-2 gap-6">
+    <form onSubmit={handleSubmit} className="grid grid-cols-3 gap-3">
       <label className="sr-only" htmlFor="search">
         Search for Posts
       </label>
@@ -64,7 +28,7 @@ export default function Search({ posts }: Props) {
         placeholder="Search for Posts"
         id="search"
         name="search"
-        className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+        className="col-span-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
       />
       <button
         type="submit"
@@ -85,10 +49,9 @@ export default function Search({ posts }: Props) {
             Processing...
           </>
         ) : (
-          "Submit"
+          "Search"
         )}
       </button>
-      <pre>Results: {JSON.stringify(results, null, 2)}</pre>
     </form>
   );
 }

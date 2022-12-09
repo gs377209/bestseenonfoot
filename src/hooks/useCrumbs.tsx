@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 
 export default function useCrumbs() {
   const { asPath, isReady } = useRouter();
@@ -7,7 +7,7 @@ export default function useCrumbs() {
 
   useEffect(() => {
     if (isReady) {
-      setCrumbs(asPath.split("/"));
+      setCrumbs(asPath.split("?")[0].split("/"));
     }
   }, [isReady, asPath]);
 

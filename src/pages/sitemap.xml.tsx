@@ -1,8 +1,8 @@
-import { BASE_URL } from "../lib/constants";
+import { parseISO } from "date-fns";
 import { GetServerSideProps } from "next";
 import PostType from "../interfaces/post";
 import { getAllPosts } from "../lib/api";
-import { parseISO } from "date-fns";
+import { BASE_URL } from "../lib/constants";
 
 function generateSiteMap(
   posts: PostType[],
@@ -29,6 +29,9 @@ function generateSiteMap(
       </url>
       <url>
         <loc>${BASE_URL}/privacy-policy</loc>
+      </url>
+       <url>
+        <loc>${BASE_URL}/search-results</loc>
       </url>
       <url>
         <loc>${BASE_URL}/where-weve-been</loc>
