@@ -1,20 +1,21 @@
-import { format, parseISO } from "date-fns";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { GOOGLE_ADS_ID } from "../lib/constants";
-import Link from "next/link";
-import MoreStories from "./more-stories";
-import PostType from "../interfaces/post";
-import Script from "next/script";
 import { faSquareRss } from "@fortawesome/free-solid-svg-icons";
-import { useMemo } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { format, parseISO } from "date-fns";
+import Link from "next/link";
 import { useRouter } from "next/router";
+import Script from "next/script";
+import { useMemo } from "react";
+import PostType from "../interfaces/post";
+import { GOOGLE_ADS_ID } from "../lib/constants";
+import MoreStories from "./more-stories";
+import Search from "./search";
 
 type Props = {
   allPosts: PostType[];
 };
 
 export default function SideBar({ allPosts }: Props) {
-  const { push } = useRouter();
+  const { push, asPath } = useRouter();
 
   const archives = useMemo(() => {
     const finalOptions: {
@@ -79,6 +80,10 @@ export default function SideBar({ allPosts }: Props) {
       <Script id="sidebar-ad-1" strategy="lazyOnload">
         {`(adsbygoogle = window.adsbygoogle || []).push({});`}
       </Script>
+      <h2 className="mt-5 mb-8 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
+        Search For Posts
+      </h2>
+      <Search key={asPath} />
       <h2 className="mt-5 mb-8 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
         Check out our Facebook
       </h2>
