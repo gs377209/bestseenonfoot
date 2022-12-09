@@ -3,7 +3,16 @@
   "rules": {
     "no-duplicate-imports": "warn",
     "no-useless-rename": "warn",
-    "sort-imports": "warn",
+    "sort-imports": [
+      "warn",
+      {
+        "ignoreCase": false,
+        "ignoreDeclarationSort": true,
+        "ignoreMemberSort": false,
+        "memberSyntaxSortOrder": ["none", "all", "multiple", "single"],
+        "allowSeparatedGroups": false
+      }
+    ],
     "sort-keys": "warn",
     "sort-vars": "warn",
     "no-unused-private-class-members": "warn",

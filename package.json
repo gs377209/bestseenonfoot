@@ -28,6 +28,7 @@
     "date-fns": "^2.29.3",
     "escape-html": "^1.0.3",
     "feed": "^4.2.2",
+    "fuse.js": "^6.6.2",
     "gray-matter": "^4.0.3",
     "next": "^13.0.5",
     "next-pwa": "^5.6.0",

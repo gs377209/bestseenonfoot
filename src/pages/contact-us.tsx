@@ -26,9 +26,9 @@ export default function ContactUs({ allPosts }: Props) {
   } | null>(null);
 
   const handleSubmit = async (event: FormEvent) => {
+    event.preventDefault();
     setIsSubmitting(true);
     setServerMessage(null);
-    event.preventDefault();
     const form = event.target as HTMLFormElement;
     const data = {
       Email: form.Email.value as string,
