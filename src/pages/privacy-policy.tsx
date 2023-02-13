@@ -24,7 +24,7 @@ export default function PrivacyPolicy({ allPosts }: Props) {
         />
       </Head>
       <Container>
-        <section className="container prose mx-auto mb-32 max-w-none md:prose-lg lg:col-span-2 lg:prose-xl">
+        <section className="container prose mx-auto mb-32 max-w-none md:prose-lg lg:prose-xl lg:col-span-2">
           <h1>Privacy Policy</h1>
           <article>
             <h2>Who we are</h2>

@@ -24,7 +24,7 @@ export default function AboutUs({ allPosts }: Props) {
         <link rel="canonical" href={`${BASE_URL}/about-us`} key="canonical" />
       </Head>
       <Container>
-        <section className="container prose mx-auto mb-32 max-w-none md:prose-lg lg:col-span-2 lg:prose-xl">
+        <section className="container prose mx-auto mb-32 max-w-none md:prose-lg lg:prose-xl lg:col-span-2">
           <h1>About Us</h1>
           <article>
             <h2>Welcome to Best Seen On Foot!</h2>

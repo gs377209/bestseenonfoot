@@ -15,7 +15,7 @@ export default function Custom500() {
         <link rel="canonical" href={`${BASE_URL}/500`} key="canonical" />
       </Head>
       <Container>
-        <section className="container prose mx-auto mb-32 max-w-none md:prose-lg lg:col-span-2 lg:prose-xl">
+        <section className="container prose mx-auto mb-32 max-w-none md:prose-lg lg:prose-xl lg:col-span-2">
           <h1 className="text-5xl font-bold leading-tight tracking-tighter md:pr-8 md:text-8xl">
             500 - Server-side error occurred
           </h1>
