@@ -15,7 +15,15 @@
     "mdlint": "markdownlint-cli2 '**/*.md' '#node_modules'",
     "mdlintfix": "markdownlint-cli2-fix '**/*.md' '#node_modules'",
     "typecheck": "tsc",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "npm run component:headless && npm run e2e:headless",
+    "e2e": "start-server-and-test dev http://localhost:3000 \"cypress open --e2e\"",
+    "e2e:headless": "start-server-and-test dev http://localhost:3000 \"cypress run --e2e\"",
+    "component": "cypress open --component",
+    "component:headless": "cypress run --component",
+    "preversion": "prettier --check . && npm run typecheck && npm run lint && npm run mdlint && npm run test",
+    "version": "npm run build && git add -A dist",
+    "postversion": "git push && git push --tags && rm -rf build/temp"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
@@ -48,6 +56,7 @@
     "@types/react-dom": "^18.0.11",
     "autoprefixer": "^10.4.13",
     "cssnano": "^5.1.15",
+    "cypress": "^12.7.0",
     "eslint": "^8.35.0",
     "eslint-config-next": "^13.2.1",
     "eslint-config-prettier": "^8.6.0",
@@ -59,6 +68,7 @@
     "postcss-import": "^15.1.0",
     "prettier": "2.8.4",
     "prettier-plugin-tailwindcss": "^0.2.3",
+    "start-server-and-test": "^2.0.0",
     "tailwindcss": "^3.2.7",
     "typescript": "^4.9.5"
   },
