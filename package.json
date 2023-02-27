@@ -22,8 +22,8 @@
     "component": "cypress open --component",
     "component:headless": "cypress run --component",
     "preversion": "prettier --check . && npm run typecheck && npm run lint && npm run mdlint && npm run test",
-    "version": "npm run build && git add -A dist",
-    "postversion": "git push && git push --tags && rm -rf build/temp"
+    "version": "npm run build && git add .",
+    "postversion": "git push && git push --tags && rm -rf .next"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
