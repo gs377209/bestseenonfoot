@@ -19,6 +19,7 @@
     "test": "npm run component:headless && npm run e2e:headless",
     "e2e": "start-server-and-test dev http://localhost:3000 \"cypress open --e2e\"",
     "e2e:headless": "start-server-and-test dev http://localhost:3000 \"cypress run --e2e\"",
+    "e2e:playwright": "playwright test",
     "component": "cypress open --component",
     "component:headless": "cypress run --component",
     "preversion": "prettier --check . && npm run typecheck && npm run lint && npm run mdlint && npm run test",
@@ -48,6 +49,7 @@
     "sharp": "^0.31.3"
   },
   "devDependencies": {
+    "@playwright/test": "^1.31.2",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.9",
     "@types/escape-html": "^1.0.2",
