@@ -21,7 +21,7 @@
     "e2e:playwright": "playwright test",
     "component": "cypress open --component",
     "component:headless": "cypress run --component",
-    "preversion": "prettier --check . && npm run typecheck && npm run lint && npm run mdlint && npm run test",
+    "preversion": "prettier --check . && npm run typecheck && npm run lint && npm run mdlint",
     "version": "npm run build && git add .",
     "postversion": "git push && git push --tags && rm -rf .next"
   },

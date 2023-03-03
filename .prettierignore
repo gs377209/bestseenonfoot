@@ -151,3 +151,10 @@ public/sw.js
 public/sw.js.map
 public/workbox-*.js
 public/workbox-*.js.map
+
+# e2e
+cypress/screenshots
+cypress/videos
+/test-results/
+/playwright-report/
+/playwright/.cache/
