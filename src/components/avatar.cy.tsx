@@ -3,9 +3,7 @@ import Avatar from "./avatar";
 describe("<Avatar />", () => {
   it("should render and display expected content", () => {
     // Mount the React component for the Avatar
-    cy.mount(
-      <Avatar name="Test Test" picture="/public/assets/authors/gerrod.jpg" />
-    );
+    cy.mount(<Avatar name="Test Test" picture="/assets/authors/gerrod.jpg" />);
 
     // The new component should contain a div with "Test Test"
     cy.get("div").contains("Test");
