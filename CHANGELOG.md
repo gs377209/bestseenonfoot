@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.5.0
+
+- Updating dependencies
+
 ## v1.4.0
 
 - Unit Testing with Jest
