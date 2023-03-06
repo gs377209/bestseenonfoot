@@ -1,4 +1,4 @@
-import Avatar from "./avatar";
+import Avatar from "../../src/components/avatar";
 
 describe("<Avatar />", () => {
   it("should render and display expected content", () => {
