@@ -37,3 +37,5 @@ jobs:
         run: npm run lint
       - name: Lint MD
         run: npm run mdlint
+      - name: Jest Testing
+        run: npm run test:ci

@@ -6,6 +6,7 @@ export default defineConfig({
       bundler: "webpack",
       framework: "next",
     },
+    specPattern: "cypress/component/**/*.cy.{js,jsx,ts,tsx}",
   },
   defaultCommandTimeout: 10000,
   e2e: {
