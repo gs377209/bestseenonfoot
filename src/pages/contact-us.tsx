@@ -88,7 +88,7 @@ export default function ContactUs({ allPosts }: Props) {
             {serverMessage && (
               <div
                 className={classNames(
-                  "mb-4 rounded-lg bg-green-100 py-5 px-6 text-base text-green-700",
+                  "mb-4 rounded-lg bg-green-100 px-6 py-5 text-base text-green-700",
                   {
                     "bg-green-100 text-green-700": !serverMessage.isError,
                     "bg-red-100 text-red-700": serverMessage.isError,
