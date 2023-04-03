@@ -4,6 +4,7 @@
 
 - Updating dependencies
 - Prettier formatting updates
+- Update test snapshots
 
 ## v2.1.0
 

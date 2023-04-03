@@ -3,7 +3,7 @@
 exports[`renders homepage unchanged 1`] = `
 <div>
   <section
-    class="mt-16 mb-16 flex flex-col items-center md:mb-12 "
+    class="mb-16 mt-16 flex flex-col items-center md:mb-12 "
   >
     <h1
       class="text-5xl font-bold leading-tight tracking-tighter md:pr-8 md:text-7xl"
