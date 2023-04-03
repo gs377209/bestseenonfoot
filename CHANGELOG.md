@@ -3,6 +3,7 @@
 ## v2.2.0
 
 - Updating dependencies
+- Prettier formatting updates
 
 ## v2.1.0
 
