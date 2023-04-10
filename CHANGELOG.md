@@ -3,6 +3,7 @@
 ## v2.3.0
 
 - Updating dependencies
+- Update Node and npm version settings
 
 ## v2.2.0
 
