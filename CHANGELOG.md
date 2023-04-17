@@ -1,5 +1,10 @@
 # Changelog
 
+## v3.0.0
+
+- Updating dependencies
+- `cssnano` major update
+
 ## v2.3.0
 
 - Updating dependencies
