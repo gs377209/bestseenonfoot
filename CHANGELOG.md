@@ -1,5 +1,10 @@
 # Changelog
 
+## v4.0.0
+
+- Updating dependencies
+- `@vercel/analytics` major update
+
 ## v3.0.0
 
 - Updating dependencies
