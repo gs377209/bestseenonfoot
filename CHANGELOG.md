@@ -1,5 +1,9 @@
 # Changelog
 
+## v4.9.0 (2023-07-03)
+
+- Updating dependencies
+
 ## v4.8.0 (2023-06-26)
 
 - Updating dependencies
