@@ -17,7 +17,7 @@ export default function YearArchives({
   const firstPost = allPostsByDate[0];
   const titleText = `${format(
     parseISO(firstPost.date),
-    "yyyy"
+    "yyyy",
   )} | Best Seen on Foot`;
 
   return (

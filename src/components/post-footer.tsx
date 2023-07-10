@@ -27,7 +27,7 @@ export default function PostFooter({ morePosts, slug }: Props) {
           <Link
             target="_blank"
             href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
-              shareURL
+              shareURL,
             )}&amp;src=sdkpreparse`}
             className="fb-xfbml-parse-ignore"
             rel="noreferrer noopener"

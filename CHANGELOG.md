@@ -1,5 +1,9 @@
 # Changelog
 
+## v5.0.0 (2023-07-10)
+
+- Updating dependencies (major)
+
 ## v4.9.0 (2023-07-03)
 
 - Updating dependencies

@@ -31,7 +31,7 @@ export default function Nav() {
         <div
           className={cn(
             "w-full items-center justify-between md:order-1 md:flex md:w-auto",
-            { hidden: !isMobileMenuVisible }
+            { hidden: !isMobileMenuVisible },
           )}
           id="mobile-menu-3"
         >

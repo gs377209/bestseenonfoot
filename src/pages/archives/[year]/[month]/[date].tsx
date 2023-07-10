@@ -22,7 +22,7 @@ export default function DateArchives({
   const firstPost = allPostsByDate[0];
   const titleText = `${format(
     parseISO(firstPost.date),
-    "LLLL	d, yyyy"
+    "LLLL	d, yyyy",
   )} | Best Seen on Foot`;
 
   return (

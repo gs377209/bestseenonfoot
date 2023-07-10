@@ -92,7 +92,7 @@ export default function ContactUs({ allPosts }: Props) {
                   {
                     "bg-green-100 text-green-700": !serverMessage.isError,
                     "bg-red-100 text-red-700": serverMessage.isError,
-                  }
+                  },
                 )}
               >
                 {serverMessage.isError ? (
@@ -167,7 +167,7 @@ export default function ContactUs({ allPosts }: Props) {
                   "inline-flex max-w-xs items-center justify-center rounded-md bg-slate-500 px-4 py-2 text-sm font-semibold leading-6 text-white shadow transition duration-150 ease-in-out hover:bg-slate-400",
                   {
                     "cursor-not-allowed": isSubmitting,
-                  }
+                  },
                 )}
                 disabled={isSubmitting}
               >
