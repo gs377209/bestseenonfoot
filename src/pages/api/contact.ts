@@ -6,7 +6,7 @@ type ResponseData = {
 
 export default async function handler(
   req: NextApiRequest,
-  res: NextApiResponse<ResponseData>
+  res: NextApiResponse<ResponseData>,
 ) {
   const body = req.body;
 
@@ -26,7 +26,7 @@ export default async function handler(
           "Content-Type": "application/json",
         },
         method: "POST",
-      }
+      },
     );
 
     const json = await response.json();

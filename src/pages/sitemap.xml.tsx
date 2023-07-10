@@ -8,7 +8,7 @@ function generateSiteMap(
   posts: PostType[],
   tags: string[],
   locationUrls: string[],
-  dateUrls: string[]
+  dateUrls: string[],
 ) {
   return `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -115,14 +115,14 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     const date = parseISO(post.date);
     dateUrls.add(date.getFullYear().toString());
     dateUrls.add(
-      date.getFullYear().toString() + "/" + (date.getMonth() + 1).toString()
+      date.getFullYear().toString() + "/" + (date.getMonth() + 1).toString(),
     );
     dateUrls.add(
       date.getFullYear().toString() +
         "/" +
         (date.getMonth() + 1).toString() +
         "/" +
-        date.getDate().toString()
+        date.getDate().toString(),
     );
   });
 
@@ -131,7 +131,7 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     allPosts,
     Array.from(uniqueTags),
     Array.from(locationUrls),
-    Array.from(dateUrls)
+    Array.from(dateUrls),
   );
 
   res.setHeader("Content-Type", "text/xml");
