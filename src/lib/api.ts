@@ -52,7 +52,7 @@ export function getAllPosts(fields: string[] = []) {
 
 export function getAllPostsByDate(
   date: { year: string; month?: string; date?: string },
-  fields: string[] = []
+  fields: string[] = [],
 ) {
   return getAllPosts(fields).filter((post) => {
     const postDate = parseISO(post.date);

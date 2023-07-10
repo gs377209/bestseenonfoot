@@ -17,7 +17,7 @@ export default function MonthArchives({
   const firstPost = allPostsByDate[0];
   const titleText = `${format(
     parseISO(firstPost.date),
-    "LLLL, yyyy"
+    "LLLL, yyyy",
   )} | Best Seen on Foot`;
 
   return (
