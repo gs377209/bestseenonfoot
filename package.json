@@ -72,7 +72,7 @@
     "jest-environment-jsdom": "^29.6.1",
     "lint-staged": "^13.2.3",
     "markdownlint-cli2": "^0.8.1",
-    "postcss": "^8.4.26",
+    "postcss": "^8.4.27",
     "postcss-import": "^15.1.0",
     "prettier": "3.0.0",
     "prettier-plugin-tailwindcss": "^0.3.0",
