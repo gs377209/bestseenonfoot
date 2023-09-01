@@ -2,7 +2,7 @@ import Avatar from "../../src/components/avatar";
 
 describe("<Avatar />", () => {
   // TODO: issues with cypress and new preloader
-  it.skip("should render and display expected content", () => {
+  it("should render and display expected content", () => {
     // Mount the React component for the Avatar
     cy.mount(<Avatar name="Test Test" picture="/assets/authors/gerrod.jpg" />);
 
