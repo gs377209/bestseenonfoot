@@ -1,7 +1,7 @@
-import { BASE_URL } from "../lib/constants";
-import Container from "../components/container";
 import Head from "next/head";
 import Link from "next/link";
+import Container from "../components/container";
+import { BASE_URL } from "../lib/constants";
 
 export default function Custom404() {
   const titleText = `Best Seen on Foot`;
