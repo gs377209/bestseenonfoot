@@ -1,8 +1,13 @@
 # Changelog
 
-## v8.0.0 (2023-09-05)
+## v8.0.0 (2023-10-02)
 
 - Updating dependencies (major)
+
+## v7.0.0 (2023-09-05)
+
+- Updating dependencies (major)
+- Cypress to v13
 
 ## v6.1.0 (2023-09-01)
 
