@@ -1,5 +1,8 @@
-import "@fortawesome/fontawesome-svg-core/styles.css";
-import "../styles/index.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import { Analytics } from "@vercel/analytics/react";
+import type { AppProps } from "next/app";
+import Script from "next/script";
+import Layout from "../components/layout";
 import {
   FACEBOOK_APP_ID,
   FACEBOOK_PIXEL_ID,
@@ -7,11 +10,9 @@ import {
   GOOGLE_OPTIMIZE_ID,
   GOOGLE_TAG_MANAGER_ID,
 } from "../lib/constants";
-import { Analytics } from "@vercel/analytics/react";
-import type { AppProps } from "next/app";
-import Layout from "../components/layout";
-import Script from "next/script";
-import { config } from "@fortawesome/fontawesome-svg-core";
+
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import "../styles/index.css";
 
 config.autoAddCss = false;
 
@@ -77,7 +78,6 @@ function MyApp({ Component, pageProps }: AppProps) {
         async
         strategy="lazyOnload"
         src="https://platform.twitter.com/widgets.js"
-        charSet="utf-8"
       />
 
       <Layout>
