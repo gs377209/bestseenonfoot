@@ -1,9 +1,9 @@
+import React from "react";
 import Breadcrumbs from "./breadcrumbs";
 import Footer from "./footer";
 import Header from "./header";
 import Meta from "./meta";
 import Nav from "./nav";
-import React from "react";
 import ScrollToTop from "./scroll-to-top";
 
 type Props = {
@@ -16,11 +16,6 @@ const Layout = ({ children }: Props) => {
       <Meta />
       <Header />
       <Nav />
-      {/* <Script
-        async
-        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${GOOGLE_ADS_ID}`}
-        crossOrigin="anonymous"
-      ></Script> */}
       {/* Top of page */}
       {/* <ins
         className="adsbygoogle"
@@ -30,9 +25,11 @@ const Layout = ({ children }: Props) => {
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-      <Script id="top-of-page-ad" strategy="lazyOnload">
-        {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-      </Script> */}
+      <Script id="top-of-page-ad" strategy="lazyOnload" onReady={() => {
+          // @ts-expect-error
+          // eslint-disable-next-line no-undef
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        }}/> */}
       <Breadcrumbs />
       <div className="min-h-screen">
         <main>{children}</main>

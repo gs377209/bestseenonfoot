@@ -19,13 +19,11 @@ const PostBody = ({ content }: Props) => {
             if (/(youtube-nocookie|youtube)\.com/.test(href ?? "")) {
               return (
                 <iframe
-                  width="560"
-                  height="315"
                   src={href}
                   title="YouTube video player"
-                  style={{ border: "none" }}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
+                  className="w-full aspect-video"
                 ></iframe>
               );
             }

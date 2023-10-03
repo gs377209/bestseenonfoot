@@ -24,7 +24,7 @@ const HeroPost = ({
   return (
     <section>
       <div className="mb-8 md:mb-16">
-        <CoverImage title={title} src={coverImage} slug={slug} />
+        <CoverImage title={title} src={coverImage} slug={slug} priority />
       </div>
       <div className="mb-20 md:mb-28 md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8">
         <div>
@@ -43,7 +43,7 @@ const HeroPost = ({
         </div>
         <div>
           <p className="mb-4 text-lg leading-relaxed">{excerpt}</p>
-          <Avatar name={author.name} picture={author.picture} />
+          <Avatar name={author.name} picture={author.picture} priority />
         </div>
       </div>
     </section>

@@ -63,11 +63,6 @@ export default function SideBar({ allPosts }: Props) {
 
   return (
     <aside className="lg:sticky lg:top-[3.8125rem] lg:col-span-1 lg:col-start-3 lg:h-[calc(100vh-2.75rem)] lg:self-start lg:overflow-y-auto lg:overflow-x-hidden">
-      <Script
-        async
-        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${GOOGLE_ADS_ID}`}
-        crossOrigin="anonymous"
-      ></Script>
       {/* <!-- Sidebar 1 --> */}
       <ins
         className="adsbygoogle"
@@ -77,9 +72,15 @@ export default function SideBar({ allPosts }: Props) {
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-      <Script id="sidebar-ad-1" strategy="lazyOnload">
-        {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-      </Script>
+      <Script
+        id="sidebar-ad-1"
+        strategy="lazyOnload"
+        onReady={() => {
+          // @ts-expect-error
+          // eslint-disable-next-line no-undef
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        }}
+      />
       <h2 className="mb-8 mt-5 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
         Search For Posts
       </h2>
@@ -154,11 +155,6 @@ export default function SideBar({ allPosts }: Props) {
           })}
         </select>
       </form>
-      <Script
-        async
-        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${GOOGLE_ADS_ID}`}
-        crossOrigin="anonymous"
-      ></Script>
       {/* <!-- Sidebar 2 --> */}
       <ins
         className="adsbygoogle"
@@ -168,9 +164,15 @@ export default function SideBar({ allPosts }: Props) {
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-      <Script id="sidebar-ad-2" strategy="lazyOnload">
-        {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-      </Script>
+      <Script
+        id="sidebar-ad-2"
+        strategy="lazyOnload"
+        onReady={() => {
+          // @ts-expect-error
+          // eslint-disable-next-line no-undef
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        }}
+      />
     </aside>
   );
 }
