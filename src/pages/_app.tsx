@@ -1,5 +1,8 @@
-import "@fortawesome/fontawesome-svg-core/styles.css";
-import "../styles/index.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import { Analytics } from "@vercel/analytics/react";
+import type { AppProps } from "next/app";
+import Script from "next/script";
+import Layout from "../components/layout";
 import {
   FACEBOOK_APP_ID,
   FACEBOOK_PIXEL_ID,
@@ -7,11 +10,9 @@ import {
   GOOGLE_OPTIMIZE_ID,
   GOOGLE_TAG_MANAGER_ID,
 } from "../lib/constants";
-import { Analytics } from "@vercel/analytics/react";
-import type { AppProps } from "next/app";
-import Layout from "../components/layout";
-import Script from "next/script";
-import { config } from "@fortawesome/fontawesome-svg-core";
+
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import "../styles/index.css";
 
 config.autoAddCss = false;
 
@@ -20,7 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       {/* tags/analytics */}
       {/* <!-- Google Tag Manager --> */}
-      <Script id="google-tag">
+      <Script id="google-tag" strategy="afterInteractive">
         {`
           (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -33,10 +34,11 @@ function MyApp({ Component, pageProps }: AppProps) {
 
       {/* <!-- Google tag (gtag.js) - analytics --> */}
       <Script
+        strategy="afterInteractive"
         async
         src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ANALYTICS_ID}`}
       ></Script>
-      <Script id="google-analytics">
+      <Script id="google-analytics" strategy="afterInteractive">
         {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -46,6 +48,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           `}
       </Script>
       <Script
+        strategy="afterInteractive"
         src={`https://www.googleoptimize.com/optimize.js?id=${GOOGLE_OPTIMIZE_ID}`}
       ></Script>
       {/* Global Site Code Pixel - Facebook Pixel */}
@@ -77,7 +80,6 @@ function MyApp({ Component, pageProps }: AppProps) {
         async
         strategy="lazyOnload"
         src="https://platform.twitter.com/widgets.js"
-        charSet="utf-8"
       />
 
       <Layout>

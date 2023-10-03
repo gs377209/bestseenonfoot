@@ -39,11 +39,11 @@ const PostHeader = ({
           href={`/authors/${author.url}`}
           className="font-medium text-gray-900 underline"
         >
-          <Avatar name={author.name} picture={author.picture} />
+          <Avatar name={author.name} picture={author.picture} priority />
         </Link>
       </div>
       <div className="mb-8 sm:mx-0 md:mb-16">
-        <CoverImage title={title} src={coverImage} isShareImage />
+        <CoverImage title={title} src={coverImage} isShareImage priority />
       </div>
       <div className="mx-auto">
         <div className="mb-6 block md:hidden">
@@ -51,7 +51,7 @@ const PostHeader = ({
             href={`/authors/${author.url}`}
             className="font-medium text-gray-900 underline"
           >
-            <Avatar name={author.name} picture={author.picture} />
+            <Avatar name={author.name} picture={author.picture} priority />
           </Link>
         </div>
         <div className="mb-6 flex flex-col text-lg">

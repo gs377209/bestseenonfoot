@@ -1,11 +1,11 @@
+import { Head, Html, Main, NextScript } from "next/document";
+import Image from "next/image";
+import Script from "next/script";
 import {
   FACEBOOK_PIXEL_ID,
   GOOGLE_ADS_ID,
   GOOGLE_TAG_MANAGER_ID,
 } from "../lib/constants";
-import { Head, Html, Main, NextScript } from "next/document";
-import Image from "next/image";
-import Script from "next/script";
 
 export default function Document() {
   return (

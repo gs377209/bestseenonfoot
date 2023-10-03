@@ -1,13 +1,14 @@
-import Image from "next/image";
 import classNames from "classnames";
+import Image from "next/image";
 
 type Props = {
   name: string;
   picture: string;
   large?: boolean;
+  priority: boolean;
 };
 
-const Avatar = ({ name, picture, large }: Props) => {
+const Avatar = ({ name, picture, large, priority }: Props) => {
   return (
     <div className="flex items-center">
       <Image
@@ -18,7 +19,7 @@ const Avatar = ({ name, picture, large }: Props) => {
         alt={name}
         width="144"
         height="144"
-        priority
+        priority={priority}
         placeholder="blur"
         blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM0uTyzHgAFBAIh7MnC9QAAAABJRU5ErkJggg=="
       />
