@@ -28,7 +28,12 @@ const PostPreview = ({
       {condensed ? (
         <>
           <div className="mb-5 w-32">
-            <CoverImage slug={slug} title={title} src={coverImage} />
+            <CoverImage
+              slug={slug}
+              title={title}
+              src={coverImage}
+              priority={false}
+            />
           </div>
           <h3 className="mb-3 text-lg leading-snug">
             <Link
@@ -46,7 +51,12 @@ const PostPreview = ({
       ) : (
         <>
           <div className="mb-5">
-            <CoverImage slug={slug} title={title} src={coverImage} />
+            <CoverImage
+              slug={slug}
+              title={title}
+              src={coverImage}
+              priority={false}
+            />
           </div>
           <h3 className="mb-3 text-3xl leading-snug">
             <Link
@@ -61,7 +71,11 @@ const PostPreview = ({
             <DateFormatter dateString={date} />
           </div>
           <p className="mb-4 text-lg leading-relaxed">{excerpt}</p>
-          <Avatar name={author.name} picture={author.picture} />
+          <Avatar
+            name={author.name}
+            picture={author.picture}
+            priority={false}
+          />
         </>
       )}
     </article>

@@ -1,9 +1,9 @@
+import React from "react";
 import Breadcrumbs from "./breadcrumbs";
 import Footer from "./footer";
 import Header from "./header";
 import Meta from "./meta";
 import Nav from "./nav";
-import React from "react";
 import ScrollToTop from "./scroll-to-top";
 
 type Props = {
@@ -16,11 +16,6 @@ const Layout = ({ children }: Props) => {
       <Meta />
       <Header />
       <Nav />
-      {/* <Script
-        async
-        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${GOOGLE_ADS_ID}`}
-        crossOrigin="anonymous"
-      ></Script> */}
       {/* Top of page */}
       {/* <ins
         className="adsbygoogle"
