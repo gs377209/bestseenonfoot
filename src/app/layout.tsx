@@ -41,6 +41,13 @@ export default function RootLayout({
             src={`https://www.facebook.com/tr?id=${FACEBOOK_PIXEL_ID}&ev=PageView&noscript=1`}
           />
         </noscript>
+        <meta property="fb:app_id" content={FACEBOOK_APP_ID} />
+        <meta
+          name="publish_date"
+          property="og:publish_date"
+          content="2018-10-01T17:00:00.000Z"
+          key="publish_date"
+        />
       </head>
       <body>
         {/* <!-- Google Tag Manager (noscript) --> */}

@@ -67,7 +67,7 @@ export default function SideBar({ allPosts }: Props) {
     <aside className="lg:sticky lg:top-[3.8125rem] lg:col-span-1 lg:col-start-3 lg:h-[calc(100vh-2.75rem)] lg:self-start lg:overflow-y-auto lg:overflow-x-hidden">
       {/* <!-- Sidebar 1 --> */}
       <ins
-        key={`${pathname}${searchParams}`}
+        key={`side-bar-1-ins-${pathname}${searchParams}`}
         className="adsbygoogle"
         style={{ display: "block" }}
         data-ad-client={`${GOOGLE_ADS_ID}`}
@@ -76,7 +76,7 @@ export default function SideBar({ allPosts }: Props) {
         data-full-width-responsive="true"
       ></ins>
       <Script
-        key={`${pathname}${searchParams}`}
+        key={`side-bar-1-script-${pathname}${searchParams}`}
         id="sidebar-ad-1"
         strategy="lazyOnload"
       >
@@ -85,12 +85,12 @@ export default function SideBar({ allPosts }: Props) {
       <h2 className="mb-8 mt-5 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
         Search For Posts
       </h2>
-      <Search key={`${pathname}${searchParams}`} />
+      <Search key={`side-bar-search-${pathname}${searchParams}`} />
       <h2 className="mb-8 mt-5 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
         Check out our Facebook
       </h2>
       <div
-        key={`${pathname}${searchParams}`}
+        key={`side-bar-fb-${pathname}${searchParams}`}
         className="fb-page mb-5"
         data-href="https://www.facebook.com/bestseenonfoot/"
         data-tabs=""
@@ -159,7 +159,7 @@ export default function SideBar({ allPosts }: Props) {
       </form>
       {/* <!-- Sidebar 2 --> */}
       <ins
-        key={`${pathname}${searchParams}`}
+        key={`side-bar-2-ins-${pathname}${searchParams}`}
         className="adsbygoogle"
         style={{ display: "block" }}
         data-ad-client={`${GOOGLE_ADS_ID}`}
@@ -168,7 +168,7 @@ export default function SideBar({ allPosts }: Props) {
         data-full-width-responsive="true"
       ></ins>
       <Script
-        key={`${pathname}${searchParams}`}
+        key={`side-bar-2-script-${pathname}${searchParams}`}
         id="sidebar-ad-2"
         strategy="lazyOnload"
       >

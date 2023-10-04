@@ -2,7 +2,6 @@ import React from "react";
 import Breadcrumbs from "./breadcrumbs";
 import Footer from "./footer";
 import Header from "./header";
-import Meta from "./meta";
 import Nav from "./nav";
 import ScrollToTop from "./scroll-to-top";
 
@@ -13,7 +12,6 @@ type Props = {
 const Layout = ({ children }: Props) => {
   return (
     <>
-      <Meta />
       <Header />
       <Nav />
       {/* Top of page */}
