@@ -25,11 +25,9 @@ const Layout = ({ children }: Props) => {
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-      <Script id="top-of-page-ad" strategy="lazyOnload" onReady={() => {
-          // @ts-expect-error
-          // eslint-disable-next-line no-undef
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        }}/> */}
+      <Script id="top-of-page-ad" strategy="lazyOnload">
+        {`(adsbygoogle = window.adsbygoogle || []).push({});`}
+      </Script> */}
       <Breadcrumbs />
       <div className="min-h-screen">
         <main>{children}</main>

@@ -72,15 +72,9 @@ export default function SideBar({ allPosts }: Props) {
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-      <Script
-        id="sidebar-ad-1"
-        strategy="lazyOnload"
-        onReady={() => {
-          // @ts-expect-error
-          // eslint-disable-next-line no-undef
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        }}
-      />
+      <Script id="sidebar-ad-1" strategy="lazyOnload">
+        {`(adsbygoogle = window.adsbygoogle || []).push({});`}
+      </Script>
       <h2 className="mb-8 mt-5 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
         Search For Posts
       </h2>
@@ -164,15 +158,9 @@ export default function SideBar({ allPosts }: Props) {
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-      <Script
-        id="sidebar-ad-2"
-        strategy="lazyOnload"
-        onReady={() => {
-          // @ts-expect-error
-          // eslint-disable-next-line no-undef
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        }}
-      />
+      <Script id="sidebar-ad-2" strategy="lazyOnload">
+        {`(adsbygoogle = window.adsbygoogle || []).push({});`}
+      </Script>
     </aside>
   );
 }
