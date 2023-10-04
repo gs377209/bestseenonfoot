@@ -2,20 +2,22 @@ import { faSquareRss } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { format, parseISO } from "date-fns";
 import Link from "next/link";
-import { useRouter } from "next/router";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import Script from "next/script";
 import { useMemo } from "react";
-import PostType from "../interfaces/post";
+import { Post } from "../interfaces/post";
 import { GOOGLE_ADS_ID } from "../lib/constants";
 import MoreStories from "./more-stories";
 import Search from "./search";
 
 type Props = {
-  allPosts: PostType[];
+  allPosts: Post[];
 };
 
 export default function SideBar({ allPosts }: Props) {
-  const { push, asPath } = useRouter();
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
 
   const archives = useMemo(() => {
     const finalOptions: {
@@ -78,7 +80,7 @@ export default function SideBar({ allPosts }: Props) {
       <h2 className="mb-8 mt-5 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
         Search For Posts
       </h2>
-      <Search key={asPath} />
+      <Search key={`${pathname}${searchParams}`} />
       <h2 className="mb-8 mt-5 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
         Check out our Facebook
       </h2>
@@ -135,7 +137,7 @@ export default function SideBar({ allPosts }: Props) {
           className="mt-1 block min-w-fit rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
           onChange={(e) => {
             if (e.currentTarget.value) {
-              push(e.currentTarget.value);
+              router.push(e.currentTarget.value);
             }
           }}
         >

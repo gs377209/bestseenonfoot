@@ -3,7 +3,7 @@ import Link from "next/link";
 import Avatar from "../../components/avatar";
 import Container from "../../components/container";
 import SideBar from "../../components/side-bar";
-import Post from "../../interfaces/post";
+import { Post } from "../../interfaces/post";
 import { getAllPosts } from "../../lib/api";
 import { BASE_URL } from "../../lib/constants";
 

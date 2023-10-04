@@ -1,20 +1,20 @@
-import { FormEvent, useState } from "react";
 import {
   faCircleCheck,
   faCircleExclamation,
   faCircleNotch,
 } from "@fortawesome/free-solid-svg-icons";
-import { BASE_URL } from "../lib/constants";
-import Container from "../components/container";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Head from "next/head";
-import PostType from "../interfaces/post";
-import SideBar from "../components/side-bar";
 import classNames from "classnames";
+import Head from "next/head";
+import { FormEvent, useState } from "react";
+import Container from "../components/container";
+import SideBar from "../components/side-bar";
+import { Post } from "../interfaces/post";
 import { getAllPosts } from "../lib/api";
+import { BASE_URL } from "../lib/constants";
 
 type Props = {
-  allPosts: PostType[];
+  allPosts: Post[];
 };
 
 export default function ContactUs({ allPosts }: Props) {

@@ -1,6 +1,4 @@
-interface Location {
+export interface Location {
   url: string;
   name: string;
 }
-
-export default Location;

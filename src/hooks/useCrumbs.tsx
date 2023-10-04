@@ -1,15 +1,18 @@
-import { useRouter } from "next/router";
+"use client";
+
+import { usePathname, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
 export default function useCrumbs() {
-  const { asPath, isReady } = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
   const [crumbs, setCrumbs] = useState<string[]>([]);
 
   useEffect(() => {
-    if (isReady) {
-      setCrumbs(asPath.split("?")[0].split("/"));
+    if (pathname) {
+      setCrumbs(pathname.split("/"));
     }
-  }, [isReady, asPath]);
+  }, [pathname, searchParams]);
 
   return crumbs;
 }

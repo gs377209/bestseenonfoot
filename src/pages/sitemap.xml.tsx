@@ -1,11 +1,11 @@
 import { parseISO } from "date-fns";
 import { GetServerSideProps } from "next";
-import PostType from "../interfaces/post";
+import { Post } from "../interfaces/post";
 import { getAllPosts } from "../lib/api";
 import { BASE_URL } from "../lib/constants";
 
 function generateSiteMap(
-  posts: PostType[],
+  posts: Post[],
   tags: string[],
   locationUrls: string[],
   dateUrls: string[],
@@ -94,12 +94,7 @@ function SiteMap() {
 }
 
 export const getServerSideProps: GetServerSideProps = async ({ res }) => {
-  const allPosts = getAllPosts([
-    "date",
-    "slug",
-    "tags",
-    "location",
-  ]) as PostType[];
+  const allPosts = getAllPosts(["date", "slug", "tags", "location"]) as Post[];
   const uniqueTags = new Set<string>();
   const locationUrls = new Set<string>();
   const dateUrls = new Set<string>();

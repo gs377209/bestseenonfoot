@@ -1,12 +1,11 @@
-import { BASE_URL } from "../lib/constants";
-import Container from "../components/container";
 import Head from "next/head";
 import Link from "next/link";
-import { useRouter } from "next/router";
+import ReloadPageButton from "src/components/reload-page-button";
+import Container from "../components/container";
+import { BASE_URL } from "../lib/constants";
 
 export default function Custom500() {
   const titleText = `Best Seen on Foot`;
-  const { reload } = useRouter();
 
   return (
     <>
@@ -20,14 +19,8 @@ export default function Custom500() {
             500 - Server-side error occurred
           </h1>
           <p className="mt-5">
-            Try{" "}
-            <button
-              className="font-medium text-gray-900 underline"
-              onClick={() => reload()}
-            >
-              refreshing
-            </button>{" "}
-            the page or going back to the{" "}
+            Try <ReloadPageButton>refreshing</ReloadPageButton> the page or
+            going back to the{" "}
             <Link href="/" className="font-medium text-gray-900 underline">
               Homepage
             </Link>

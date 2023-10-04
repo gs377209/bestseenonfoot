@@ -1,12 +1,12 @@
-import { BASE_URL } from "../../lib/constants";
-import Container from "../../components/container";
+import { faTag } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
 import Link from "next/link";
-import Post from "../../interfaces/post";
+import Container from "../../components/container";
 import SideBar from "../../components/side-bar";
-import { faTag } from "@fortawesome/free-solid-svg-icons";
+import { Post } from "../../interfaces/post";
 import { getAllPosts } from "../../lib/api";
+import { BASE_URL } from "../../lib/constants";
 
 type Props = {
   allPosts: Post[];

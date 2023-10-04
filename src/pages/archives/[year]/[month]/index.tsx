@@ -1,13 +1,13 @@
 import { format, parseISO } from "date-fns";
-import { getAllPosts, getAllPostsByDate } from "../../../../lib/api";
-import { BASE_URL } from "../../../../lib/constants";
+import { InferGetStaticPropsType } from "next";
+import Head from "next/head";
 import Container from "../../../../components/container";
 import DateFormatter from "../../../../components/date-formatter";
-import Head from "next/head";
-import { InferGetStaticPropsType } from "next";
 import MoreStories from "../../../../components/more-stories";
-import Post from "../../../../interfaces/post";
 import SideBar from "../../../../components/side-bar";
+import { Post } from "../../../../interfaces/post";
+import { getAllPosts, getAllPostsByDate } from "../../../../lib/api";
+import { BASE_URL } from "../../../../lib/constants";
 
 export default function MonthArchives({
   allPosts,

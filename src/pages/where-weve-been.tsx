@@ -1,13 +1,13 @@
-import { BASE_URL } from "../lib/constants";
-import Container from "../components/container";
 import Head from "next/head";
 import Link from "next/link";
-import PostType from "../interfaces/post";
+import Container from "../components/container";
 import SideBar from "../components/side-bar";
+import { Post } from "../interfaces/post";
 import { getAllPosts } from "../lib/api";
+import { BASE_URL } from "../lib/constants";
 
 type Props = {
-  allPosts: PostType[];
+  allPosts: Post[];
 };
 
 export default function WhereWeveBeen({ allPosts }: Props) {

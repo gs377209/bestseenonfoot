@@ -16,13 +16,13 @@
     "incremental": true,
     "types": ["node"],
     "baseUrl": "./",
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
-  "plugins": [
-    {
-      "name": "next"
-    }
-  ],
   "exclude": ["node_modules"],
   "include": [
     "next-env.d.ts",

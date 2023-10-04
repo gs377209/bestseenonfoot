@@ -6,12 +6,12 @@ import picOfUs from "../../public/assets/20180922_193351.jpg";
 import picOfLauren from "../../public/assets/OI000004.jpg";
 import Container from "../components/container";
 import SideBar from "../components/side-bar";
-import PostType from "../interfaces/post";
+import { Post } from "../interfaces/post";
 import { getAllPosts } from "../lib/api";
 import { BASE_URL } from "../lib/constants";
 
 type Props = {
-  allPosts: PostType[];
+  allPosts: Post[];
 };
 
 export default function AboutUs({ allPosts }: Props) {

@@ -1,10 +1,10 @@
+import Head from "next/head";
+import Container from "../../components/container";
+import MoreStories from "../../components/more-stories";
+import SideBar from "../../components/side-bar";
+import { Post } from "../../interfaces/post";
 import { getAllPosts, getAllPostsByAuthor } from "../../lib/api";
 import { BASE_URL } from "../../lib/constants";
-import Container from "../../components/container";
-import Head from "next/head";
-import MoreStories from "../../components/more-stories";
-import Post from "../../interfaces/post";
-import SideBar from "../../components/side-bar";
 
 type Props = {
   allPosts: Post[];

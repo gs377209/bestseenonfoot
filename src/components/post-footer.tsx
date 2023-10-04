@@ -1,7 +1,7 @@
-import { BASE_URL } from "../lib/constants";
 import Link from "next/link";
+import { Post } from "../interfaces/post";
+import { BASE_URL } from "../lib/constants";
 import MoreStories from "./more-stories";
-import Post from "../interfaces/post";
 
 type Props = {
   morePosts: Post[];

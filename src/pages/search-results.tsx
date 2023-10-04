@@ -5,7 +5,7 @@ import Container from "../components/container";
 import MoreStories from "../components/more-stories";
 import Search from "../components/search";
 import SideBar from "../components/side-bar";
-import PostType from "../interfaces/post";
+import { Post } from "../interfaces/post";
 import { getAllPosts } from "../lib/api";
 import { BASE_URL } from "../lib/constants";
 
@@ -43,8 +43,8 @@ export default function SearchResults({
 }
 
 export const getServerSideProps: GetServerSideProps<{
-  allPosts: PostType[];
-  filteredPosts: PostType[];
+  allPosts: Post[];
+  filteredPosts: Post[];
   search: string;
 }> = async ({ query }) => {
   const allPosts = getAllPosts([
@@ -56,7 +56,7 @@ export const getServerSideProps: GetServerSideProps<{
     "excerpt",
     "location",
     "tags",
-  ]) as PostType[];
+  ]) as Post[];
 
   const Fuse = (await import("fuse.js")).default;
   const fuseOptions = {
@@ -78,7 +78,7 @@ export const getServerSideProps: GetServerSideProps<{
         weight: 0.5,
       },
       {
-        getFn: (post: PostType) => format(parseISO(post.date), "LLLL	d, yyyy"),
+        getFn: (post: Post) => format(parseISO(post.date), "LLLL	d, yyyy"),
         name: "date",
         weight: 0.3,
       },

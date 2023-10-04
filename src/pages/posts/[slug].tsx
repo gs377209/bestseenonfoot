@@ -1,20 +1,20 @@
-import { getAllPosts, getPostBySlug } from "../../lib/api";
-import { BASE_URL } from "../../lib/constants";
-import Container from "../../components/container";
 import ErrorPage from "next/error";
 import Head from "next/head";
+import { useRouter } from "next/router";
+import Container from "../../components/container";
 import PostBody from "../../components/post-body";
 import PostFooter from "../../components/post-footer";
 import PostHeader from "../../components/post-header";
 import PostTitle from "../../components/post-title";
-import type PostType from "../../interfaces/post";
 import SideBar from "../../components/side-bar";
-import { useRouter } from "next/router";
+import type Post from "../../interfaces/post";
+import { getAllPosts, getPostBySlug } from "../../lib/api";
+import { BASE_URL } from "../../lib/constants";
 
 type Props = {
-  post: PostType;
-  allPosts: PostType[];
-  morePosts: PostType[];
+  post: Post;
+  allPosts: Post[];
+  morePosts: Post[];
 };
 
 export default function Post({ post, allPosts, morePosts }: Props) {
