@@ -1,6 +1,5 @@
 import { Analytics } from "@vercel/analytics/react";
 import { Metadata } from "next";
-import { Inter } from "next/font/google";
 import Image from "next/image";
 import Script from "next/script";
 import React from "react";
@@ -19,19 +18,13 @@ export const metadata: Metadata = {
   title: "Best Seen on Foot",
 };
 
-// If loading a variable font, you don't need to specify the font weight
-const inter = Inter({
-  subsets: ["latin"],
-  display: "swap",
-});
-
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en-US" className={inter.className}>
+    <html lang="en-US">
       <head>
         <noscript>
           <Image
@@ -63,48 +56,110 @@ export default function RootLayout({
         ></Script>
         {/* tags/analytics */}
         {/* <!-- Google Tag Manager --> */}
-        <Script id="google-tag">
-          {`
-          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-          })(window,document,'script','dataLayer','${GOOGLE_TAG_MANAGER_ID}');
-          `}
-        </Script>
+        <Script
+          id="google-tag"
+          strategy="afterInteractive"
+          onReady={() => {
+            (function (w, d, s, l, i) {
+              // @ts-expect-error
+              w[l] = w[l] || [];
+              // @ts-expect-error
+              // eslint-disable-next-line sort-keys
+              w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+              var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                // eslint-disable-next-line sort-vars
+                dl = l != "dataLayer" ? "&l=" + l : "";
+              // @ts-expect-error
+              j.async = true;
+              // @ts-expect-error
+              j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+              // @ts-expect-error
+              f.parentNode.insertBefore(j, f);
+            })(window, document, "script", "dataLayer", GOOGLE_TAG_MANAGER_ID);
+          }}
+        />
         {/* <!-- End Google Tag Manager --> */}
 
         {/* <!-- Google tag (gtag.js) - analytics --> */}
         <Script
+          strategy="afterInteractive"
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ANALYTICS_ID}`}
         ></Script>
-        <Script id="google-analytics">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', '${GOOGLE_ANALYTICS_ID}');
-          `}
-        </Script>
         <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          onReady={() => {
+            // @ts-expect-error
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+              // @ts-expect-error
+              // eslint-disable-next-line no-undef
+              dataLayer.push(arguments);
+            }
+            // @ts-expect-error
+            gtag("js", new Date());
+
+            // @ts-expect-error
+            gtag("config", GOOGLE_ANALYTICS_ID);
+          }}
+        />
+        <Script
+          strategy="afterInteractive"
           src={`https://www.googleoptimize.com/optimize.js?id=${GOOGLE_OPTIMIZE_ID}`}
         ></Script>
         {/* Global Site Code Pixel - Facebook Pixel */}
-        <Script id="fb-pixel" strategy="afterInteractive">
-          {`
-            !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', ${FACEBOOK_PIXEL_ID});
-          `}
-        </Script>
+        <Script
+          id="fb-pixel"
+          strategy="afterInteractive"
+          onReady={() => {
+            // @ts-expect-error
+            // eslint-disable-next-line no-unused-expressions
+            !(function (f, b, e, v, n, t, s) {
+              // @ts-expect-error
+              if (f.fbq) return;
+              // @ts-expect-error
+              n = f.fbq = function () {
+                // @ts-expect-error
+                // eslint-disable-next-line no-unused-expressions
+                n.callMethod
+                  ? // @ts-expect-error
+                    n.callMethod.apply(n, arguments)
+                  : // @ts-expect-error
+                    n.queue.push(arguments);
+              };
+              // @ts-expect-error
+              if (!f._fbq) f._fbq = n;
+              // @ts-expect-error
+              n.push = n;
+              // @ts-expect-error
+              n.loaded = !0;
+              // @ts-expect-error
+              n.version = "2.0";
+              // @ts-expect-error
+              n.queue = [];
+              // @ts-expect-error
+              t = b.createElement(e);
+              // @ts-expect-error
+              t.async = !0;
+              // @ts-expect-error
+              t.src = v;
+              // @ts-expect-error
+              s = b.getElementsByTagName(e)[0];
+              // @ts-expect-error
+              s.parentNode.insertBefore(t, s);
+            })(
+              window,
+              document,
+              "script",
+              "https://connect.facebook.net/en_US/fbevents.js",
+            );
+            // @ts-expect-error
+            // eslint-disable-next-line no-undef
+            fbq("init", FACEBOOK_PIXEL_ID);
+          }}
+        />
 
         {/* social */}
         <div id="fb-root"></div>
