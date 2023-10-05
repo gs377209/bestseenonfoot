@@ -66,6 +66,13 @@ export default function SideBar({ allPosts }: Props) {
   return (
     <aside className="lg:sticky lg:top-[3.8125rem] lg:col-span-1 lg:col-start-3 lg:h-[calc(100vh-2.75rem)] lg:self-start lg:overflow-y-auto lg:overflow-x-hidden">
       {/* <!-- Sidebar 1 --> */}
+      <Script
+        async
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${GOOGLE_ADS_ID}`}
+        crossOrigin="anonymous"
+        strategy="lazyOnload"
+        key={`side-bar-1-g-script-${pathname}${searchParams}`}
+      ></Script>
       <ins
         key={`side-bar-1-ins-${pathname}${searchParams}`}
         className="adsbygoogle block"
@@ -157,6 +164,13 @@ export default function SideBar({ allPosts }: Props) {
         </select>
       </form>
       {/* <!-- Sidebar 2 --> */}
+      <Script
+        async
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${GOOGLE_ADS_ID}`}
+        crossOrigin="anonymous"
+        strategy="lazyOnload"
+        key={`side-bar-2-g-script-${pathname}${searchParams}`}
+      ></Script>
       <ins
         key={`side-bar-2-ins-${pathname}${searchParams}`}
         className="adsbygoogle block"
