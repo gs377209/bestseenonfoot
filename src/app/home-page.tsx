@@ -7,9 +7,9 @@ import MoreStories from "src/components/more-stories";
 import SideBar from "src/components/side-bar";
 import { Post } from "src/interfaces/post";
 
-type Props = {
+interface Props {
   allPosts: Post[];
-};
+}
 
 export default function HomePage({ allPosts }: Props) {
   const heroPost = allPosts[0];

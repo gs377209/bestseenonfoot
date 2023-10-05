@@ -1,16 +1,16 @@
+import Container from "@/components/container";
+import MoreStories from "@/components/more-stories";
+import SideBar from "@/components/side-bar";
+import { Post } from "@/interfaces/post";
+import { getAllPosts, getAllPostsByTag } from "@/lib/api";
+import { BASE_URL } from "@/lib/constants";
 import Head from "next/head";
-import Container from "../../components/container";
-import MoreStories from "../../components/more-stories";
-import SideBar from "../../components/side-bar";
-import { Post } from "../../interfaces/post";
-import { getAllPosts, getAllPostsByTag } from "../../lib/api";
-import { BASE_URL } from "../../lib/constants";
 
-type Props = {
+interface Props {
   allPosts: Post[];
   allPostsByTag: Post[];
   tag: string;
-};
+}
 
 export default function Tag({ allPosts, allPostsByTag, tag }: Props) {
   const titleText = `${tag} Posts | Best Seen on Foot`;
@@ -38,11 +38,11 @@ export default function Tag({ allPosts, allPostsByTag, tag }: Props) {
   );
 }
 
-type Params = {
+interface Params {
   params: {
     tag: string;
   };
-};
+}
 
 export const getStaticProps = async ({ params }: Params) => {
   const allPostsByTag = getAllPostsByTag(params.tag, [

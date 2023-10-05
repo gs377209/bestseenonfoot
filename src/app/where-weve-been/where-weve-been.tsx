@@ -5,9 +5,9 @@ import SideBar from "@/components/side-bar";
 import { Post } from "@/interfaces/post";
 import Link from "next/link";
 
-type Props = {
+interface Props {
   allPosts: Post[];
-};
+}
 
 export default function WhereWeveBeen({ allPosts }: Props) {
   return (

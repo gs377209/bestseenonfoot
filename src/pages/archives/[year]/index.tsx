@@ -1,13 +1,13 @@
+import Container from "@/components/container";
+import DateFormatter from "@/components/date-formatter";
+import MoreStories from "@/components/more-stories";
+import SideBar from "@/components/side-bar";
+import { Post } from "@/interfaces/post";
+import { getAllPosts, getAllPostsByDate } from "@/lib/api";
+import { BASE_URL } from "@/lib/constants";
 import { format, parseISO } from "date-fns";
 import { InferGetStaticPropsType } from "next";
 import Head from "next/head";
-import Container from "../../../components/container";
-import DateFormatter from "../../../components/date-formatter";
-import MoreStories from "../../../components/more-stories";
-import SideBar from "../../../components/side-bar";
-import { Post } from "../../../interfaces/post";
-import { getAllPosts, getAllPostsByDate } from "../../../lib/api";
-import { BASE_URL } from "../../../lib/constants";
 
 export default function YearArchives({
   allPosts,
@@ -44,11 +44,11 @@ export default function YearArchives({
   );
 }
 
-type Params = {
+interface Params {
   params: {
     year: string;
   };
-};
+}
 
 export const getStaticProps = async ({ params }: Params) => {
   const allPostsByDate = getAllPostsByDate(params, [

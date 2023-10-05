@@ -1,18 +1,18 @@
+import Container from "@/components/container";
+import DateFormatter from "@/components/date-formatter";
+import MoreStories from "@/components/more-stories";
+import SideBar from "@/components/side-bar";
+import { Post } from "@/interfaces/post";
+import { getAllPosts, getAllPostsByDate } from "@/lib/api";
+import { BASE_URL } from "@/lib/constants";
 import { format, parseISO } from "date-fns";
 import Head from "next/head";
-import Container from "../../../../components/container";
-import DateFormatter from "../../../../components/date-formatter";
-import MoreStories from "../../../../components/more-stories";
-import SideBar from "../../../../components/side-bar";
-import { Post } from "../../../../interfaces/post";
-import { getAllPosts, getAllPostsByDate } from "../../../../lib/api";
-import { BASE_URL } from "../../../../lib/constants";
 
-type Props = {
+interface Props {
   allPosts: Post[];
   allPostsByDate: Post[];
   params: Params["params"];
-};
+}
 
 export default function DateArchives({
   allPosts,
@@ -48,13 +48,13 @@ export default function DateArchives({
   );
 }
 
-type Params = {
+interface Params {
   params: {
     year: string;
     month: string;
     date: string;
   };
-};
+}
 
 export const getStaticProps = async ({ params }: Params) => {
   const allPostsByDate = getAllPostsByDate(params, [

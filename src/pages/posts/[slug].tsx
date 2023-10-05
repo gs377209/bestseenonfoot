@@ -1,23 +1,23 @@
+import Container from "@/components/container";
+import PostBody from "@/components/post-body";
+import PostFooter from "@/components/post-footer";
+import PostHeader from "@/components/post-header";
+import PostTitle from "@/components/post-title";
+import SideBar from "@/components/side-bar";
+import { Post } from "@/interfaces/post";
+import { getAllPosts, getPostBySlug } from "@/lib/api";
+import { BASE_URL } from "@/lib/constants";
 import ErrorPage from "next/error";
 import Head from "next/head";
 import { useRouter } from "next/router";
-import Container from "../../components/container";
-import PostBody from "../../components/post-body";
-import PostFooter from "../../components/post-footer";
-import PostHeader from "../../components/post-header";
-import PostTitle from "../../components/post-title";
-import SideBar from "../../components/side-bar";
-import type Post from "../../interfaces/post";
-import { getAllPosts, getPostBySlug } from "../../lib/api";
-import { BASE_URL } from "../../lib/constants";
 
-type Props = {
+interface Props {
   post: Post;
   allPosts: Post[];
   morePosts: Post[];
-};
+}
 
-export default function Post({ post, allPosts, morePosts }: Props) {
+export default function PostPage({ post, allPosts, morePosts }: Props) {
   const { isFallback } = useRouter();
   const titleText = `${post.title} | Best Seen On Foot`;
 
@@ -175,11 +175,11 @@ export default function Post({ post, allPosts, morePosts }: Props) {
   );
 }
 
-type Params = {
+interface Params {
   params: {
     slug: string;
   };
-};
+}
 
 export async function getStaticProps({ params }: Params) {
   const post = getPostBySlug(params.slug, [

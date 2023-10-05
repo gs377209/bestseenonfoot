@@ -1,6 +1,6 @@
 import { config } from "@fortawesome/fontawesome-svg-core";
 import { Analytics } from "@vercel/analytics/react";
-import type { AppProps } from "next/app";
+import { AppProps } from "next/app";
 import Script from "next/script";
 import Layout from "../components/layout";
 import {

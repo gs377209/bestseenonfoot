@@ -10,9 +10,9 @@ import { GOOGLE_ADS_ID } from "../lib/constants";
 import MoreStories from "./more-stories";
 import Search from "./search";
 
-type Props = {
+interface Props {
   allPosts: Post[];
-};
+}
 
 export default function SideBar({ allPosts }: Props) {
   const router = useRouter();

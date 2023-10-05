@@ -1,17 +1,17 @@
+import Container from "@/components/container";
+import MoreStories from "@/components/more-stories";
+import SideBar from "@/components/side-bar";
+import { Post } from "@/interfaces/post";
+import { getAllPosts, getAllPostsByPlace } from "@/lib/api";
+import { BASE_URL } from "@/lib/constants";
 import Head from "next/head";
-import Container from "../../components/container";
-import MoreStories from "../../components/more-stories";
-import SideBar from "../../components/side-bar";
-import { Post } from "../../interfaces/post";
-import { getAllPosts, getAllPostsByPlace } from "../../lib/api";
-import { BASE_URL } from "../../lib/constants";
 
-type Props = {
+interface Props {
   allPosts: Post[];
   allPostsByPlace: Post[];
   place: string;
   placeUrl: string;
-};
+}
 
 export default function Place({
   allPosts,
@@ -44,11 +44,11 @@ export default function Place({
   );
 }
 
-type Params = {
+interface Params {
   params: {
     place: string[];
   };
-};
+}
 
 export const getStaticProps = async ({ params }: Params) => {
   const allPostsByPlace = getAllPostsByPlace(

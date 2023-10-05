@@ -1,14 +1,14 @@
+import Container from "@/components/container";
+import MoreStories from "@/components/more-stories";
+import SideBar from "@/components/side-bar";
+import { Post } from "@/interfaces/post";
+import { getAllPosts } from "@/lib/api";
+import { BASE_URL } from "@/lib/constants";
 import Head from "next/head";
-import Container from "../../components/container";
-import MoreStories from "../../components/more-stories";
-import SideBar from "../../components/side-bar";
-import { Post } from "../../interfaces/post";
-import { getAllPosts } from "../../lib/api";
-import { BASE_URL } from "../../lib/constants";
 
-type Props = {
+interface Props {
   allPosts: Post[];
-};
+}
 
 export default function Archives({ allPosts }: Props) {
   const titleText = `Archives | Best Seen on Foot`;

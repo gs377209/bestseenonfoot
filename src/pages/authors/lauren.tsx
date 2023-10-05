@@ -1,15 +1,15 @@
+import Container from "@/components/container";
+import MoreStories from "@/components/more-stories";
+import SideBar from "@/components/side-bar";
+import { Post } from "@/interfaces/post";
+import { getAllPosts, getAllPostsByAuthor } from "@/lib/api";
+import { BASE_URL } from "@/lib/constants";
 import Head from "next/head";
-import Container from "../../components/container";
-import MoreStories from "../../components/more-stories";
-import SideBar from "../../components/side-bar";
-import { Post } from "../../interfaces/post";
-import { getAllPosts, getAllPostsByAuthor } from "../../lib/api";
-import { BASE_URL } from "../../lib/constants";
 
-type Props = {
+interface Props {
   allPosts: Post[];
   allPostsByAuthor: Post[];
-};
+}
 
 export default function Lauren({ allPosts, allPostsByAuthor }: Props) {
   const titleText = `Lauren's Posts | Best Seen on Foot`;

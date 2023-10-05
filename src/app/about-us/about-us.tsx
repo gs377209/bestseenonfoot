@@ -9,9 +9,9 @@ import { Post } from "@/interfaces/post";
 import Image from "next/image";
 import Link from "next/link";
 
-type Props = {
+interface Props {
   allPosts: Post[];
-};
+}
 
 export default function AboutUs({ allPosts }: Props) {
   return (

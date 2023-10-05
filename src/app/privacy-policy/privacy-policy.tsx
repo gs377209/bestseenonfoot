@@ -6,9 +6,9 @@ import { Post } from "@/interfaces/post";
 import { BASE_URL } from "@/lib/constants";
 import Link from "next/link";
 
-type Props = {
+interface Props {
   allPosts: Post[];
-};
+}
 
 export default function PrivacyPolicy({ allPosts }: Props) {
   return (

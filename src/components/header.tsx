@@ -1,7 +1,7 @@
+import glacier from "@/assets/PANO_20181207_122917.jpg";
+import logo from "@/assets/logo.jpg";
 import Image from "next/image";
 import Link from "next/link";
-import glacier from "../../public/assets/PANO_20181207_122917.jpg";
-import logo from "../../public/assets/logo.jpg";
 import SocialIcons from "./social-icons";
 
 const Header = () => {

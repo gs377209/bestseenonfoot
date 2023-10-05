@@ -1,17 +1,17 @@
+import Container from "@/components/container";
+import SideBar from "@/components/side-bar";
+import { Post } from "@/interfaces/post";
+import { getAllPosts } from "@/lib/api";
+import { BASE_URL } from "@/lib/constants";
 import { faTag } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
 import Link from "next/link";
-import Container from "../../components/container";
-import SideBar from "../../components/side-bar";
-import { Post } from "../../interfaces/post";
-import { getAllPosts } from "../../lib/api";
-import { BASE_URL } from "../../lib/constants";
 
-type Props = {
+interface Props {
   allPosts: Post[];
   tags: string[];
-};
+}
 
 export default function Tags({ allPosts, tags }: Props) {
   const titleText = `Tags | Best Seen on Foot`;

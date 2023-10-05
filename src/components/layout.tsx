@@ -5,9 +5,9 @@ import Header from "./header";
 import Nav from "./nav";
 import ScrollToTop from "./scroll-to-top";
 
-type Props = {
+interface Props {
   children: React.ReactNode;
-};
+}
 
 const Layout = ({ children }: Props) => {
   return (

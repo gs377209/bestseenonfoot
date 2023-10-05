@@ -12,9 +12,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import classNames from "classnames";
 import { FormEvent, useState } from "react";
 
-type Props = {
+interface Props {
   allPosts: Post[];
-};
+}
 
 export default function ContactUs({ allPosts }: Props) {
   const [isSubmitting, setIsSubmitting] = useState(false);

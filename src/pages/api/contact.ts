@@ -1,8 +1,8 @@
-import type { NextApiRequest, NextApiResponse } from "next";
+import { NextApiRequest, NextApiResponse } from "next";
 
-type ResponseData = {
+interface ResponseData {
   data: string;
-};
+}
 
 export default async function handler(
   req: NextApiRequest,

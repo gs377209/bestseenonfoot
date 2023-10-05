@@ -1,10 +1,10 @@
-import { BASE_URL, HOME_OG_IMAGE_URL } from "./constants";
-import { Feed } from "feed";
-import escape from "escape-html";
-import fs from "fs";
-import { join } from "path";
-import matter from "gray-matter";
 import { parseISO } from "date-fns";
+import escape from "escape-html";
+import { Feed } from "feed";
+import fs from "fs";
+import matter from "gray-matter";
+import { join } from "path";
+import { BASE_URL, HOME_OG_IMAGE_URL } from "./constants";
 
 const postsDirectory = join(process.cwd(), "src/_posts");
 
@@ -12,15 +12,15 @@ export function getPostSlugs() {
   return fs.readdirSync(postsDirectory);
 }
 
+interface Items {
+  [key: string]: any;
+}
+
 export function getPostBySlug(slug: string, fields: string[] = []) {
   const realSlug = slug.replace(/\.md$/, "");
   const fullPath = join(postsDirectory, `${realSlug}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
-
-  type Items = {
-    [key: string]: any;
-  };
 
   const items: Items = {};
 

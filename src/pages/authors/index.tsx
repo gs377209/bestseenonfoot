@@ -1,15 +1,15 @@
+import Avatar from "@/components/avatar";
+import Container from "@/components/container";
+import SideBar from "@/components/side-bar";
+import { Post } from "@/interfaces/post";
+import { getAllPosts } from "@/lib/api";
+import { BASE_URL } from "@/lib/constants";
 import Head from "next/head";
 import Link from "next/link";
-import Avatar from "../../components/avatar";
-import Container from "../../components/container";
-import SideBar from "../../components/side-bar";
-import { Post } from "../../interfaces/post";
-import { getAllPosts } from "../../lib/api";
-import { BASE_URL } from "../../lib/constants";
 
-type Props = {
+interface Props {
   allPosts: Post[];
-};
+}
 
 export default function Authors({ allPosts }: Props) {
   const titleText = `Authors | Best Seen on Foot`;
