@@ -16,7 +16,7 @@ export default function Document() {
             alt="facebook pixel"
             height="1"
             width="1"
-            style={{ display: "none" }}
+            className="hidden"
             src={`https://www.facebook.com/tr?id=${FACEBOOK_PIXEL_ID}&ev=PageView&noscript=1`}
           />
         </noscript>
@@ -28,7 +28,7 @@ export default function Document() {
             src={`https://www.googletagmanager.com/ns.html?id=${GOOGLE_TAG_MANAGER_ID}`}
             height="0"
             width="0"
-            style={{ display: "none", visibility: "hidden" }}
+            className="hidden invisible"
           ></iframe>
         </noscript>
         {/* <!-- End Google Tag Manager (noscript) --> */}

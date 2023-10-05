@@ -16,8 +16,7 @@ const Layout = ({ children }: Props) => {
       <Nav />
       {/* Top of page */}
       {/* <ins
-        className="adsbygoogle"
-        style={{ display: "block" }}
+        className="adsbygoogle block"
         data-ad-client={`${GOOGLE_ADS_ID}`}
         data-ad-slot="7920604231"
         data-ad-format="auto"

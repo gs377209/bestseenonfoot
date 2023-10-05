@@ -1,6 +1,13 @@
+import { BASE_URL } from "@/lib/constants";
+import { Metadata } from "next";
 import { Post } from "src/interfaces/post";
 import { getAllPosts } from "src/lib/api";
 import ContactUs from "./contact-us";
+
+export const metadata: Metadata = {
+  alternates: { canonical: `${BASE_URL}/contact-us` },
+  title: "Contact Us | Best Seen on Foot",
+};
 
 const getPosts = async () => {
   return getAllPosts([

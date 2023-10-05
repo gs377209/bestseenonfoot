@@ -12,9 +12,7 @@ const Header = () => {
           alt="Glacier"
           src={glacier}
           placeholder="blur"
-          style={{
-            objectFit: "cover",
-          }}
+          className="object-cover"
           priority
           fill
           sizes="100vw"

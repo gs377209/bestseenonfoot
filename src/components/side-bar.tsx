@@ -68,8 +68,7 @@ export default function SideBar({ allPosts }: Props) {
       {/* <!-- Sidebar 1 --> */}
       <ins
         key={`side-bar-1-ins-${pathname}${searchParams}`}
-        className="adsbygoogle"
-        style={{ display: "block" }}
+        className="adsbygoogle block"
         data-ad-client={`${GOOGLE_ADS_ID}`}
         data-ad-slot="6930778589"
         data-ad-format="auto"
@@ -160,8 +159,7 @@ export default function SideBar({ allPosts }: Props) {
       {/* <!-- Sidebar 2 --> */}
       <ins
         key={`side-bar-2-ins-${pathname}${searchParams}`}
-        className="adsbygoogle"
-        style={{ display: "block" }}
+        className="adsbygoogle block"
         data-ad-client={`${GOOGLE_ADS_ID}`}
         data-ad-slot="4304615245"
         data-ad-format="auto"
