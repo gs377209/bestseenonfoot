@@ -1,7 +1,9 @@
 import { config } from "@fortawesome/fontawesome-svg-core";
 import { Analytics } from "@vercel/analytics/react";
 import { Metadata } from "next";
+import Image from "next/image";
 import Script from "next/script";
+import React from "react";
 import Layout from "../components/layout";
 import {
   FACEBOOK_APP_ID,
@@ -13,9 +15,7 @@ import {
 } from "../lib/constants";
 
 import "@fortawesome/fontawesome-svg-core/styles.css";
-import Image from "next/image";
-import React from "react";
-import "../styles/index.css";
+import "../styles/globals.css";
 
 config.autoAddCss = false;
 

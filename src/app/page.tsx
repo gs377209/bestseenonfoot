@@ -1,11 +1,7 @@
 import { Metadata } from "next";
 import { Post } from "src/interfaces/post";
 import { generateRssFeed, getAllPosts } from "src/lib/api";
-import {
-  BASE_URL,
-  FACEBOOK_APP_ID,
-  HOME_OG_IMAGE_URL,
-} from "src/lib/constants";
+import { BASE_URL, HOME_OG_IMAGE_URL } from "src/lib/constants";
 import HomePage from "./home-page";
 
 export const metadata: Metadata = {
@@ -45,7 +41,7 @@ export const metadata: Metadata = {
   },
 };
 
-const getPosts = () => {
+const getPosts = async () => {
   const allPosts = getAllPosts([
     "title",
     "date",
@@ -59,7 +55,7 @@ const getPosts = () => {
   return allPosts;
 };
 
-export default function Page() {
-  const getAllPosts = getPosts();
+export default async function Page() {
+  const getAllPosts = await getPosts();
   return <HomePage allPosts={getAllPosts} />;
 }

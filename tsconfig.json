@@ -4,6 +4,7 @@
     "module": "esnext",
     "jsx": "preserve",
     "strict": true,
+    "noImplicitAny": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
@@ -15,8 +16,15 @@
     "isolatedModules": true,
     "incremental": true,
     "types": ["node"],
-    "baseUrl": "./",
-    "noImplicitAny": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["src/components/*"],
+      "@/hooks/*": ["src/hooks/*"],
+      "@/interfaces/*": ["src/interfaces/*"],
+      "@/lib/*": ["src/lib/*"],
+      "@/assets/*": ["public/assets/*"],
+      "@/styles/*": ["src/styles/*"]
+    },
     "plugins": [
       {
         "name": "next"

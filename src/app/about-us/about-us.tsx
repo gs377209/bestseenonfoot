@@ -1,14 +1,15 @@
+"use client";
+
+import picOfGerrod from "@/assets/20180708_202213.jpg";
+import picOfUs from "@/assets/20180922_193351.jpg";
+import picOfLauren from "@/assets/OI000004.jpg";
+import Container from "@/components/container";
+import SideBar from "@/components/side-bar";
+import { Post } from "@/interfaces/post";
+import { BASE_URL } from "@/lib/constants";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import picOfGerrod from "../../public/assets/20180708_202213.jpg";
-import picOfUs from "../../public/assets/20180922_193351.jpg";
-import picOfLauren from "../../public/assets/OI000004.jpg";
-import Container from "../components/container";
-import SideBar from "../components/side-bar";
-import { Post } from "../interfaces/post";
-import { getAllPosts } from "../lib/api";
-import { BASE_URL } from "../lib/constants";
 
 type Props = {
   allPosts: Post[];
@@ -122,18 +123,3 @@ export default function AboutUs({ allPosts }: Props) {
     </>
   );
 }
-
-export const getStaticProps = async () => {
-  const allPosts = getAllPosts([
-    "title",
-    "date",
-    "slug",
-    "author",
-    "coverImage",
-    "excerpt",
-  ]);
-
-  return {
-    props: { allPosts },
-  };
-};
