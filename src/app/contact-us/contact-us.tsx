@@ -1,3 +1,9 @@
+"use client";
+
+import Container from "@/components/container";
+import SideBar from "@/components/side-bar";
+import { Post } from "@/interfaces/post";
+import { BASE_URL } from "@/lib/constants";
 import {
   faCircleCheck,
   faCircleExclamation,
@@ -7,11 +13,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import classNames from "classnames";
 import Head from "next/head";
 import { FormEvent, useState } from "react";
-import Container from "../components/container";
-import SideBar from "../components/side-bar";
-import { Post } from "../interfaces/post";
-import { getAllPosts } from "../lib/api";
-import { BASE_URL } from "../lib/constants";
 
 type Props = {
   allPosts: Post[];
@@ -191,18 +192,3 @@ export default function ContactUs({ allPosts }: Props) {
     </>
   );
 }
-
-export const getStaticProps = async () => {
-  const allPosts = getAllPosts([
-    "title",
-    "date",
-    "slug",
-    "author",
-    "coverImage",
-    "excerpt",
-  ]);
-
-  return {
-    props: { allPosts },
-  };
-};
