@@ -1,17 +1,15 @@
-import { NextApiRequest, NextApiResponse } from "next";
+import { NextRequest, NextResponse } from "next/server";
 
-interface ResponseData {
-  data: string;
-}
+export const runtime = "edge";
 
-export default async function handler(
-  req: NextApiRequest,
-  res: NextApiResponse<ResponseData>,
-) {
-  const body = req.body;
+export async function POST(req: NextRequest) {
+  const body = await req.json();
 
-  if (!body.Name || !body.Email || !body.Message) {
-    return res.status(400).json({ data: "Missing required data" });
+  if (!body?.Name || !body?.Email || !body?.Message) {
+    return NextResponse.json(
+      { data: "Missing required data" },
+      { status: 400 },
+    );
   }
 
   try {
@@ -31,11 +29,11 @@ export default async function handler(
 
     const json = await response.json();
     if (response.ok) {
-      res.status(200).json({ data: `Success` });
+      return NextResponse.json({ data: `Success` }, { status: 200 });
     } else {
-      res.status(502).json({ data: `Error: ${json}` });
+      return NextResponse.json({ data: `Error: ${json}` }, { status: 502 });
     }
   } catch (error) {
-    res.status(502).json({ data: `Error: ${error}` });
+    return NextResponse.json({ data: `Error: ${error}` }, { status: 502 });
   }
 }

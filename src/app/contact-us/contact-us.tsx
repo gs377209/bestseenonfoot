@@ -42,12 +42,14 @@ export default function ContactUs({ allPosts }: Props) {
         },
         method: "POST",
       });
+
       const json = await response.json();
       if (!response.ok) {
         setServerMessage({
           isError: true,
-          message: `Seems like something is wrong; feel free to email us directly at bestseenonfoot@gmail.com. Error: ${json}`,
+          message: `Seems like something is wrong; feel free to email us directly at bestseenonfoot@gmail.com`,
         });
+        console.error(json);
       } else {
         setServerMessage({
           isError: false,
@@ -59,8 +61,9 @@ export default function ContactUs({ allPosts }: Props) {
     } catch (error) {
       setServerMessage({
         isError: true,
-        message: `Seems like something is wrong; feel free to email us directly at bestseenonfoot@gmail.com. Error: ${error}`,
+        message: `Seems like something is wrong; feel free to email us directly at bestseenonfoot@gmail.com`,
       });
+      console.error(error);
     }
     setIsSubmitting(false);
   };
