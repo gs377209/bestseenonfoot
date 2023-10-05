@@ -25,5 +25,6 @@ const getPosts = async () => {
 
 export default async function Page() {
   const getAllPosts = await getPosts();
+
   return <HomePage allPosts={getAllPosts} />;
 }

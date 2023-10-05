@@ -1,7 +1,7 @@
+import { Post } from "@/interfaces/post";
+import { getAllPosts } from "@/lib/api";
 import { BASE_URL } from "@/lib/constants";
 import { Metadata } from "next";
-import { Post } from "src/interfaces/post";
-import { getAllPosts } from "src/lib/api";
 import AboutUs from "./about-us";
 
 export const metadata: Metadata = {
@@ -21,8 +21,7 @@ const getPosts = async () => {
 };
 
 export default async function Page() {
-  // Fetch data directly in a Server Component
   const allPosts = await getPosts();
-  // Forward fetched data to your Client Component
+
   return <AboutUs allPosts={allPosts} />;
 }

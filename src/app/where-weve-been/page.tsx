@@ -2,11 +2,11 @@ import { Post } from "@/interfaces/post";
 import { getAllPosts } from "@/lib/api";
 import { BASE_URL } from "@/lib/constants";
 import { Metadata } from "next";
-import ContactUs from "./contact-us";
+import WhereWeveBeen from "./where-weve-been";
 
 export const metadata: Metadata = {
-  alternates: { canonical: `${BASE_URL}/contact-us` },
-  title: "Contact Us | Best Seen on Foot",
+  alternates: { canonical: `${BASE_URL}/where-weve-been` },
+  title: "Where We've Been | Best Seen on Foot",
 };
 
 const getPosts = async () => {
@@ -23,5 +23,5 @@ const getPosts = async () => {
 export default async function Page() {
   const allPosts = await getPosts();
 
-  return <ContactUs allPosts={allPosts} />;
+  return <WhereWeveBeen allPosts={allPosts} />;
 }
