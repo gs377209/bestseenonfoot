@@ -23,7 +23,16 @@ config.autoAddCss = false;
 
 export const metadata: Metadata = {
   alternates: { canonical: BASE_URL },
-  authors: [{ name: "Best Seen on Foot" }],
+  authors: [
+    {
+      name: "Lauren Schirtzinger",
+      url: `${BASE_URL}/authors/lauren`,
+    },
+    {
+      name: "Gerrod Schirtzinger",
+      url: `${BASE_URL}/authors/gerrod`,
+    },
+  ],
   description: "Welcome to our travels!",
   openGraph: {
     description: "A travel blog",
@@ -40,6 +49,10 @@ export const metadata: Metadata = {
     title: "Best Seen On Foot",
     type: "website",
     url: BASE_URL,
+  },
+  other: {
+    ["fb:app_id"]: FACEBOOK_APP_ID,
+    publish_date: "2018-10-01T17:00:00.000Z",
   },
   title: "Best Seen on Foot",
   twitter: {
@@ -67,14 +80,6 @@ export default function RootLayout({
   return (
     <html lang="en-US">
       <head>
-        <meta property="fb:app_id" content={FACEBOOK_APP_ID} />
-        <meta
-          name="publish_date"
-          property="og:publish_date"
-          content="2018-10-01T17:00:00.000Z"
-          key="publish_date"
-        />
-
         <noscript>
           <Image
             alt="facebook pixel"

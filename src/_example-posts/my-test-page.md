@@ -2,7 +2,7 @@
 title: "Meow!"
 excerpt: "Meow Meow..."
 coverImage: "/assets/blog/unsorted/1.png"
-date: "2017-10-10T05:35:07.322Z"
+date: "2017-10-10T17:00:00.000Z"
 author:
   name: Meowtthew Purrson
   picture: "/assets/authors/meowtthew purrson.jpg"

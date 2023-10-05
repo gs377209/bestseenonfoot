@@ -5,9 +5,9 @@ import { format, parseISO } from "date-fns";
 import { Metadata } from "next";
 import SearchResults from "./search-results";
 
-type Props = {
+interface Props {
   searchParams: { [key: string]: string | string[] | undefined };
-};
+}
 
 export async function generateMetadata({
   searchParams,
