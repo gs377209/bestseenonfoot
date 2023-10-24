@@ -1,5 +1,10 @@
 # Changelog
 
+## v9.0.0 (2023-10-24)
+
+- Migrating to app directory
+- Updating dependencies (major)
+
 ## v8.0.0 (2023-10-02)
 
 - Updating dependencies (major)
