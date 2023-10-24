@@ -1,6 +1,8 @@
-import { Fragment } from "react";
+"use client";
+
+import useCrumbs from "@/hooks/useCrumbs";
 import Link from "next/link";
-import useCrumbs from "../hooks/useCrumbs";
+import { Fragment } from "react";
 
 export default function Breadcrumbs() {
   const crumbs = useCrumbs();

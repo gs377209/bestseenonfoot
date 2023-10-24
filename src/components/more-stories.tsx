@@ -1,12 +1,12 @@
-import type Post from "../interfaces/post";
-import PostPreview from "./post-preview";
+import { Post } from "@/interfaces/post";
 import cn from "classnames";
+import PostPreview from "./post-preview";
 
-type Props = {
+interface Props {
   posts: Post[];
   hideHeader?: boolean;
   condensed?: boolean;
-};
+}
 
 const MoreStories = ({ posts, hideHeader, condensed }: Props) => {
   return (

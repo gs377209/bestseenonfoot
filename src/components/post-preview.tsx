@@ -1,10 +1,10 @@
-import type Author from "../interfaces/author";
+import { Author } from "@/interfaces/author";
+import Link from "next/link";
 import Avatar from "./avatar";
 import CoverImage from "./cover-image";
 import DateFormatter from "./date-formatter";
-import Link from "next/link";
 
-type Props = {
+interface Props {
   title: string;
   coverImage: string;
   date: string;
@@ -12,7 +12,7 @@ type Props = {
   author: Author;
   slug: string;
   condensed?: boolean;
-};
+}
 
 const PostPreview = ({
   title,

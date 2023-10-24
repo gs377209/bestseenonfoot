@@ -6,6 +6,7 @@
     "prettier"
   ],
   "rules": {
+    "@next/next/no-before-interactive-script-outside-document": "off",
     "no-duplicate-imports": "warn",
     "no-useless-rename": "warn",
     "sort-imports": [

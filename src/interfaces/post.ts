@@ -1,7 +1,7 @@
-import type Author from "./author";
-import Location from "./location";
+import { Author } from "./author";
+import { Location } from "./location";
 
-type PostType = {
+export interface Post {
   slug: string;
   title: string;
   date: string;
@@ -14,6 +14,4 @@ type PostType = {
   content: string;
   location: Location;
   tags: string[];
-};
-
-export default PostType;
+}

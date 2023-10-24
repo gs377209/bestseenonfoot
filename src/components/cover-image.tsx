@@ -1,14 +1,14 @@
+import cn from "classnames";
 import Image from "next/image";
 import Link from "next/link";
-import cn from "classnames";
 
-type Props = {
+interface Props {
   title: string;
   src: string;
   slug?: string;
   isShareImage?: boolean;
   priority: boolean;
-};
+}
 
 const CoverImage = ({ title, src, slug, isShareImage, priority }: Props) => {
   const image = (

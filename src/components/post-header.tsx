@@ -1,27 +1,27 @@
+import { Author } from "@/interfaces/author";
+import { Location } from "@/interfaces/location";
 import {
   faCalendarDays,
   faLocationDot,
   faTags,
 } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { format, parseISO } from "date-fns";
-import type Author from "../interfaces/author";
+import Link from "next/link";
+import { Fragment } from "react";
 import Avatar from "./avatar";
 import CoverImage from "./cover-image";
 import DateFormatter from "./date-formatter";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Fragment } from "react";
-import Link from "next/link";
-import Location from "../interfaces/location";
 import PostTitle from "./post-title";
 
-type Props = {
+interface Props {
   title: string;
   coverImage: string;
   date: string;
   author: Author;
   location: Location;
   tags: string[];
-};
+}
 
 const PostHeader = ({
   title,

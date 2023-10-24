@@ -1,17 +1,20 @@
-import { useEffect, useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Link from "next/link";
-import cn from "classnames";
+"use client";
+
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { useRouter } from "next/router";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import cn from "classnames";
+import Link from "next/link";
+import { usePathname, useSearchParams } from "next/navigation";
+import { useEffect, useState } from "react";
 
 export default function Nav() {
-  const { asPath } = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
   const [isMobileMenuVisible, setIsMobileMenuVisible] = useState(false);
 
   useEffect(() => {
     setIsMobileMenuVisible(false);
-  }, [asPath]);
+  }, [pathname, searchParams]);
 
   return (
     <nav className="sticky top-0 z-10 mb-5 min-h-[3rem] bg-emerald-400 p-5">

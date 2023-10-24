@@ -1,7 +1,9 @@
+"use client";
+
 import { faCircleNotch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import classNames from "classnames";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import { FormEvent, useState } from "react";
 
 export default function Search() {
