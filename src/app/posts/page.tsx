@@ -2,7 +2,7 @@ import { Post } from "@/interfaces/post";
 import { getAllPosts } from "@/lib/api";
 import { BASE_URL } from "@/lib/constants";
 import { Metadata } from "next";
-import Posts from ".";
+import Posts from "./posts";
 
 export const metadata: Metadata = {
   alternates: { canonical: `${BASE_URL}/posts` },

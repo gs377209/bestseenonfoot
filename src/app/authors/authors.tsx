@@ -1,5 +1,3 @@
-"use client";
-
 import Avatar from "@/components/avatar";
 import Container from "@/components/container";
 import SideBar from "@/components/side-bar";

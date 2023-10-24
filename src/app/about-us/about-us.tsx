@@ -1,5 +1,3 @@
-"use client";
-
 import picOfGerrod from "@/assets/20180708_202213.jpg";
 import picOfUs from "@/assets/20180922_193351.jpg";
 import picOfLauren from "@/assets/OI000004.jpg";

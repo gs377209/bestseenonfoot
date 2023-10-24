@@ -1,5 +1,3 @@
-"use client";
-
 import Container from "src/components/container";
 import HeroPost from "src/components/hero-post";
 import Intro from "src/components/intro";

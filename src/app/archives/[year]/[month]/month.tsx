@@ -1,5 +1,3 @@
-"use client";
-
 import Container from "@/components/container";
 import DateFormatter from "@/components/date-formatter";
 import MoreStories from "@/components/more-stories";

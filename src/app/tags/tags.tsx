@@ -1,5 +1,3 @@
-"use client";
-
 import Container from "@/components/container";
 import SideBar from "@/components/side-bar";
 import { Post } from "@/interfaces/post";

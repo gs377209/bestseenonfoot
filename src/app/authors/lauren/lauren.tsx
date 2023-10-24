@@ -1,5 +1,3 @@
-"use client";
-
 import Container from "@/components/container";
 import MoreStories from "@/components/more-stories";
 import SideBar from "@/components/side-bar";
