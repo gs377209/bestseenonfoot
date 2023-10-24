@@ -34,6 +34,7 @@ export const metadata: Metadata = {
     },
   ],
   description: "Welcome to our travels!",
+  metadataBase: new URL(BASE_URL),
   openGraph: {
     description: "A travel blog",
     images: [
