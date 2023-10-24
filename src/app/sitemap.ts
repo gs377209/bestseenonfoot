@@ -1,8 +1,8 @@
+import { Post } from "@/interfaces/post";
+import { getAllPosts } from "@/lib/api";
+import { BASE_URL } from "@/lib/constants";
 import { parseISO } from "date-fns";
 import { MetadataRoute } from "next";
-import { Post } from "../interfaces/post";
-import { getAllPosts } from "../lib/api";
-import { BASE_URL } from "../lib/constants";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const allPosts = getAllPosts(["date", "slug", "tags", "location"]) as Post[];

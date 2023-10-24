@@ -14,7 +14,12 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const titleText = `${format(
-    parseISO(`${params.year}-${params.month}-01T17:00:00.000Z`),
+    parseISO(
+      `${params.year.padStart(4, "0")}-${params.month.padStart(
+        2,
+        "0",
+      )}-01T17:00:00.000Z`,
+    ),
     "LLLL, yyyy",
   )} | Best Seen on Foot`;
 

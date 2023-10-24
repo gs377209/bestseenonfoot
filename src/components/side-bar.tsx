@@ -1,3 +1,7 @@
+"use client";
+
+import { Post } from "@/interfaces/post";
+import { GOOGLE_ADS_ID } from "@/lib/constants";
 import { faSquareRss } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { format, parseISO } from "date-fns";
@@ -5,8 +9,6 @@ import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import Script from "next/script";
 import { useMemo } from "react";
-import { Post } from "../interfaces/post";
-import { GOOGLE_ADS_ID } from "../lib/constants";
 import MoreStories from "./more-stories";
 import Search from "./search";
 

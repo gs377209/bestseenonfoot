@@ -3,7 +3,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { useEffect } from "react";
-import Container from "../components/container";
+import Container from "@/components/container";
 
 export const metadata: Metadata = {
   title: "Best Seen on Foot",

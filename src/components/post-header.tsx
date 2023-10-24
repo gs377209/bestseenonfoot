@@ -1,3 +1,5 @@
+import { Author } from "@/interfaces/author";
+import { Location } from "@/interfaces/location";
 import {
   faCalendarDays,
   faLocationDot,
@@ -7,8 +9,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { format, parseISO } from "date-fns";
 import Link from "next/link";
 import { Fragment } from "react";
-import { Author } from "../interfaces/author";
-import Location from "../interfaces/location";
 import Avatar from "./avatar";
 import CoverImage from "./cover-image";
 import DateFormatter from "./date-formatter";
