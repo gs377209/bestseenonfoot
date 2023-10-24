@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 
-type Props = {
+interface Props {
   content: string;
-};
+}
 
 const PostBody = ({ content }: Props) => {
   return (

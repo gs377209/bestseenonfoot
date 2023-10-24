@@ -1,12 +1,12 @@
-import { BASE_URL } from "../lib/constants";
+import { Post } from "@/interfaces/post";
+import { BASE_URL } from "@/lib/constants";
 import Link from "next/link";
 import MoreStories from "./more-stories";
-import Post from "../interfaces/post";
 
-type Props = {
+interface Props {
   morePosts: Post[];
   slug: string;
-};
+}
 
 export default function PostFooter({ morePosts, slug }: Props) {
   const shareURL = BASE_URL + slug;

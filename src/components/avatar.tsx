@@ -1,12 +1,12 @@
 import classNames from "classnames";
 import Image from "next/image";
 
-type Props = {
+interface Props {
   name: string;
   picture: string;
   large?: boolean;
   priority: boolean;
-};
+}
 
 const Avatar = ({ name, picture, large, priority }: Props) => {
   return (
