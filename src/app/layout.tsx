@@ -1,10 +1,4 @@
-import { config } from "@fortawesome/fontawesome-svg-core";
-import { Analytics } from "@vercel/analytics/react";
-import { Metadata } from "next";
-import Image from "next/image";
-import Script from "next/script";
-import React from "react";
-import Layout from "../components/layout";
+import Layout from "@/components/layout";
 import {
   BASE_URL,
   FACEBOOK_APP_ID,
@@ -14,10 +8,17 @@ import {
   GOOGLE_OPTIMIZE_ID,
   GOOGLE_TAG_MANAGER_ID,
   HOME_OG_IMAGE_URL,
-} from "../lib/constants";
+} from "@/lib/constants";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import { Analytics } from "@vercel/analytics/react";
+import { Metadata } from "next";
+import Image from "next/image";
+import Script from "next/script";
+import React from "react";
 
 import "@fortawesome/fontawesome-svg-core/styles.css";
-import "../styles/globals.css";
+
+import "@/styles/globals.css";
 
 config.autoAddCss = false;
 
