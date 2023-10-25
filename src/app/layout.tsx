@@ -132,27 +132,26 @@ export default function RootLayout({
           strategy="afterInteractive"
           src={`https://www.googleoptimize.com/optimize.js?id=${GOOGLE_OPTIMIZE_ID}`}
         ></Script>
-
-        {/* social */}
-        <Script
-          async
-          defer
-          strategy="lazyOnload"
-          crossOrigin="anonymous"
-          src={`https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v15.0&appId=${FACEBOOK_APP_ID}&autoLogAppEvents=1`}
-          nonce="1RU6xNzb"
-        />
-        <Script
-          async
-          strategy="lazyOnload"
-          src="https://platform.twitter.com/widgets.js"
-        />
       </head>
       <body>
         <Layout>{children}</Layout>
         <Analytics />
         {/* social */}
         <div id="fb-root"></div>
+        {/* social */}
+        <Script
+          async
+          defer
+          strategy="lazyOnload"
+          crossOrigin="anonymous"
+          src={`https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0&appId=${FACEBOOK_APP_ID}&autoLogAppEvents=1`}
+          nonce="bt5hNPrJ"
+        />
+        <Script
+          async
+          strategy="lazyOnload"
+          src="https://platform.twitter.com/widgets.js"
+        />
         <FacebookPixel />
         <Suspense fallback={null}>
           <NavigationEvents />
