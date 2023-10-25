@@ -1,9 +1,13 @@
+import Container from "@/components/container";
+import { BASE_URL } from "@/lib/constants";
 import { Metadata } from "next";
 import Link from "next/link";
-import Container from "@/components/container";
 
 export const metadata: Metadata = {
-  title: "Best Seen on Foot",
+  alternates: {
+    canonical: `${BASE_URL}/not-found`,
+  },
+  title: `Page Not Found | Best Seen on Foot`,
 };
 
 export default function NotFound() {

@@ -8,7 +8,8 @@ import { format, parseISO } from "date-fns";
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import Script from "next/script";
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
+import FacebookPageBlock from "./FacebookPageBlock";
 import MoreStories from "./more-stories";
 import Search from "./search";
 
@@ -20,6 +21,11 @@ export default function SideBar({ allPosts }: Props) {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
+  const [url, setUrl] = useState("");
+
+  useEffect(() => {
+    setUrl(`${pathname}${searchParams.toString() ? "?" + searchParams : ""}`);
+  }, [pathname, searchParams]);
 
   const archives = useMemo(() => {
     const finalOptions: {
@@ -73,52 +79,29 @@ export default function SideBar({ allPosts }: Props) {
         src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${GOOGLE_ADS_ID}`}
         crossOrigin="anonymous"
         strategy="lazyOnload"
-        key={`side-bar-1-g-script-${pathname}${searchParams}`}
+        key={`side-bar-1-g-script-${url}`}
+        onReady={() => {
+          // @ts-expect-error
+          // eslint-disable-next-line no-undef
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        }}
       ></Script>
       <ins
-        key={`side-bar-1-ins-${pathname}${searchParams}`}
+        key={`side-bar-1-ins-${url}`}
         className="adsbygoogle block"
         data-ad-client={`${GOOGLE_ADS_ID}`}
         data-ad-slot="6930778589"
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-      <Script
-        key={`side-bar-1-script-${pathname}${searchParams}`}
-        id="sidebar-ad-1"
-        strategy="lazyOnload"
-      >
-        {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-      </Script>
       <h2 className="mb-8 mt-5 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
         Search For Posts
       </h2>
-      <Search key={`side-bar-search-${pathname}${searchParams}`} />
+      <Search key={`side-bar-search-${url}`} />
       <h2 className="mb-8 mt-5 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
         Check out our Facebook
       </h2>
-      <div
-        key={`side-bar-fb-${pathname}${searchParams}`}
-        className="fb-page mb-5"
-        data-href="https://www.facebook.com/bestseenonfoot/"
-        data-tabs=""
-        data-width="300"
-        data-height=""
-        data-small-header="false"
-        data-adapt-container-width="true"
-        data-hide-cover="false"
-        data-show-facepile="true"
-        data-lazy="true"
-      >
-        <blockquote
-          cite="https://www.facebook.com/bestseenonfoot/"
-          className="fb-xfbml-parse-ignore"
-        >
-          <Link href="https://www.facebook.com/bestseenonfoot/">
-            Best Seen On Foot
-          </Link>
-        </blockquote>
-      </div>
+      <FacebookPageBlock key={`side-bar-fb-${url}`} />
       <h2 className="mb-8 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
         Subscribe
       </h2>
@@ -171,23 +154,21 @@ export default function SideBar({ allPosts }: Props) {
         src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${GOOGLE_ADS_ID}`}
         crossOrigin="anonymous"
         strategy="lazyOnload"
-        key={`side-bar-2-g-script-${pathname}${searchParams}`}
+        key={`side-bar-2-g-script-${url}`}
+        onReady={() => {
+          // @ts-expect-error
+          // eslint-disable-next-line no-undef
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        }}
       ></Script>
       <ins
-        key={`side-bar-2-ins-${pathname}${searchParams}`}
+        key={`side-bar-2-ins-${url}`}
         className="adsbygoogle block"
         data-ad-client={`${GOOGLE_ADS_ID}`}
         data-ad-slot="4304615245"
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-      <Script
-        key={`side-bar-2-script-${pathname}${searchParams}`}
-        id="sidebar-ad-2"
-        strategy="lazyOnload"
-      >
-        {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-      </Script>
     </aside>
   );
 }

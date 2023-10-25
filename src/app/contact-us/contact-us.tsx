@@ -3,6 +3,7 @@
 import Container from "@/components/container";
 import SideBar from "@/components/side-bar";
 import { Post } from "@/interfaces/post";
+import * as gtag from "@/lib/gtag";
 import {
   faCircleCheck,
   faCircleExclamation,
@@ -33,6 +34,13 @@ export default function ContactUs({ allPosts }: Props) {
       Message: form.Message.value as string,
       Name: form.Name.value as string,
     };
+
+    gtag.event({
+      action: "submit_form",
+      category: "Contact",
+      label: JSON.stringify(data),
+      value: JSON.stringify(data),
+    });
 
     try {
       const response = await fetch("/api/contact", {

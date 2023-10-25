@@ -22,6 +22,11 @@ const Layout = ({ children }: Props) => {
         crossOrigin="anonymous"
         strategy="lazyOnload"
         key={`top-of-page-g-script-${pathname}${searchParams}`}
+        onReady={() => {
+          // @ts-expect-error
+          // eslint-disable-next-line no-undef
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        }}
       ></Script>
       <ins
         key={`top-of-page-ins-${pathname}${searchParams}`}
@@ -30,12 +35,7 @@ const Layout = ({ children }: Props) => {
         data-ad-slot="7920604231"
         data-ad-format="auto"
         data-full-width-responsive="true"
-      ></ins>
-      <Script
-        key={`top-of-page-script-${pathname}${searchParams}`}
-      id="top-of-page-ad" strategy="lazyOnload">
-        {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-      </Script> */}
+      ></ins> */}
       <Breadcrumbs />
       <div className="min-h-screen">
         <main>{children}</main>
