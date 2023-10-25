@@ -14,21 +14,18 @@ location:
   name: Chile
 tags:
   [
+    bus,
     buses,
-    chile,
-    transportation,
-    amazon planet,
-    avianca,
-    cusco,
-    flying,
-    lima,
-    miraflores,
-    peru,
-    priority pass,
+    bustravel,
+    Chile,
+    nomads,
+    northernchile,
+    southamerica,
+    southamericabybus,
     travel,
-    travel blog,
-    travel couple,
-    travel more,
+    travelcouple,
+    travelmore,
+    wanderlust,
   ]
 ---
 
