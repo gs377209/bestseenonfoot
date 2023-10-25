@@ -1,4 +1,5 @@
 import FacebookPixel from "@/components/FacebookPixel";
+import { NavigationEvents } from "@/components/NavigationEvents";
 import Layout from "@/components/layout";
 import {
   BASE_URL,
@@ -15,7 +16,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Script from "next/script";
-import React from "react";
+import React, { Suspense } from "react";
 
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
@@ -113,7 +114,7 @@ export default function RootLayout({
 
         {/* tags/analytics */}
         {/* <!-- Google Tag Manager --> */}
-        <Script id="google-tag" strategy="lazyOnload">
+        <Script id="google-tag" strategy="afterInteractive">
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${GOOGLE_TAG_MANAGER_ID}');`}
         </Script>
         {/* <!-- End Google Tag Manager --> */}
@@ -124,7 +125,7 @@ export default function RootLayout({
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ANALYTICS_ID}`}
         ></Script>
-        <Script id="google-analytics" strategy="lazyOnload">
+        <Script id="google-analytics" strategy="afterInteractive">
           {`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', '${GOOGLE_ANALYTICS_ID}');`}
         </Script>
         <Script
@@ -153,6 +154,9 @@ export default function RootLayout({
         {/* social */}
         <div id="fb-root"></div>
         <FacebookPixel />
+        <Suspense fallback={null}>
+          <NavigationEvents />
+        </Suspense>
       </body>
     </html>
   );
