@@ -4,7 +4,7 @@ export const GTM_ID = GOOGLE_TAG_MANAGER_ID;
 
 export const pageview = (url: string) => {
   // @ts-expect-error
-  window?.dataLayer.push({
+  window?.dataLayer?.push({
     event: "pageview",
     page: url,
   });

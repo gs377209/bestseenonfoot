@@ -24,7 +24,7 @@ export default function SideBar({ allPosts }: Props) {
   const [url, setUrl] = useState("");
 
   useEffect(() => {
-    setUrl(`${pathname}?${searchParams}`);
+    setUrl(`${pathname}${searchParams.toString() ? "?" + searchParams : ""}`);
   }, [pathname, searchParams]);
 
   const archives = useMemo(() => {

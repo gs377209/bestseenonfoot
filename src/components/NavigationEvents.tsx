@@ -10,7 +10,9 @@ export function NavigationEvents() {
   const searchParams = useSearchParams();
 
   useEffect(() => {
-    const url = `${pathname}?${searchParams}`;
+    const url = `${pathname}${
+      searchParams.toString() ? "?" + searchParams : ""
+    }`;
     gtm.pageview(url);
     gtag.pageview(url);
   }, [pathname, searchParams]);
