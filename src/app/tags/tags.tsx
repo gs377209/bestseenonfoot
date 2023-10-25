@@ -23,7 +23,7 @@ export default function Tags({ allPosts, tags }: Props) {
               <li key={tag}>
                 <FontAwesomeIcon icon={faTag} />{" "}
                 <Link
-                  href={`/tags/${encodeURIComponent(tag)}`}
+                  href={`/tags/${tag}`}
                   className="font-medium text-gray-900 underline"
                 >
                   {tag}
