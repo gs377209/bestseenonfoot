@@ -37,11 +37,6 @@ export default function Locations({ allPosts }: Props) {
               <Link href="/locations/oceania">Oceania</Link>
               <ul>
                 <li>
-                  <Link href="/locations/oceania/french-polynesia">
-                    French Polynesia
-                  </Link>
-                </li>
-                <li>
                   <Link href="/locations/oceania/new-zealand-south-island">
                     New Zealand - South Island
                   </Link>

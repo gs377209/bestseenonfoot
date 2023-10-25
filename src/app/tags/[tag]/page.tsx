@@ -11,9 +11,9 @@ interface Props {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     alternates: {
-      canonical: `${BASE_URL}/tags/${encodeURIComponent(params.tag)}`,
+      canonical: `${BASE_URL}/tags/${params.tag}`,
     },
-    title: `${params.tag} Posts | Best Seen on Foot`,
+    title: `${decodeURIComponent(params.tag)} Posts | Best Seen on Foot`,
   };
 }
 
@@ -28,13 +28,13 @@ export async function generateStaticParams() {
 
   return [
     ...Array.from(uniqueTags).map((tag) => ({
-      tag,
+      tag: encodeURIComponent(tag),
     })),
   ];
 }
 
 const getPostsAndTags = async (params: Props["params"]) => {
-  const allPostsByTag = getAllPostsByTag(params.tag, [
+  const allPostsByTag = getAllPostsByTag(decodeURIComponent(params.tag), [
     "title",
     "date",
     "slug",
@@ -55,7 +55,7 @@ const getPostsAndTags = async (params: Props["params"]) => {
   return {
     allPosts,
     allPostsByTag,
-    tag: params.tag,
+    tag: decodeURIComponent(params.tag),
   };
 };
 
