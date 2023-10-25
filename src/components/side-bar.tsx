@@ -80,6 +80,11 @@ export default function SideBar({ allPosts }: Props) {
         crossOrigin="anonymous"
         strategy="lazyOnload"
         key={`side-bar-1-g-script-${url}`}
+        onReady={() => {
+          // @ts-expect-error
+          // eslint-disable-next-line no-undef
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        }}
       ></Script>
       <ins
         key={`side-bar-1-ins-${url}`}
@@ -89,13 +94,6 @@ export default function SideBar({ allPosts }: Props) {
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-      <Script
-        key={`side-bar-1-script-${url}`}
-        id="sidebar-ad-1"
-        strategy="lazyOnload"
-      >
-        {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-      </Script>
       <h2 className="mb-8 mt-5 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
         Search For Posts
       </h2>
@@ -157,6 +155,11 @@ export default function SideBar({ allPosts }: Props) {
         crossOrigin="anonymous"
         strategy="lazyOnload"
         key={`side-bar-2-g-script-${url}`}
+        onReady={() => {
+          // @ts-expect-error
+          // eslint-disable-next-line no-undef
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        }}
       ></Script>
       <ins
         key={`side-bar-2-ins-${url}`}
@@ -166,13 +169,6 @@ export default function SideBar({ allPosts }: Props) {
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-      <Script
-        key={`side-bar-2-script-${url}`}
-        id="sidebar-ad-2"
-        strategy="lazyOnload"
-      >
-        {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-      </Script>
     </aside>
   );
 }
