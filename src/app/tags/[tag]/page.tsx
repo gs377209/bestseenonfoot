@@ -28,7 +28,7 @@ export async function generateStaticParams() {
 
   return [
     ...Array.from(uniqueTags).map((tag) => ({
-      tag: encodeURIComponent(tag),
+      tag: tag,
     })),
   ];
 }

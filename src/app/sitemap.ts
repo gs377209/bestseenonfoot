@@ -56,7 +56,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const tagSiteMapData = Array.from(uniqueTags).map((tag) => {
     return {
       lastModified: new Date(),
-      url: `${BASE_URL}/tags/${tag}`,
+      url: `${BASE_URL}/tags/${encodeURIComponent(tag)}`,
     };
   });
 

@@ -79,7 +79,7 @@ const PostHeader = ({
               return (
                 <Fragment key={tag}>
                   <Link
-                    href={`/tags/${tag}`}
+                    href={`/tags/${encodeURIComponent(tag)}`}
                     className="font-medium text-gray-900 underline"
                   >
                     {tag}

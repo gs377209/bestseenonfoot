@@ -3,6 +3,7 @@ import SideBar from "@/components/side-bar";
 import { Post } from "@/interfaces/post";
 import { BASE_URL } from "@/lib/constants";
 import Link from "next/link";
+import { Suspense } from "react";
 
 interface Props {
   allPosts: Post[];
@@ -190,7 +191,9 @@ export default function PrivacyPolicy({ allPosts }: Props) {
           <p>We do not send or sell your data to any third parties.</p>
         </article>
       </section>
-      <SideBar allPosts={allPosts} />
+      <Suspense fallback={null}>
+        <SideBar allPosts={allPosts} />
+      </Suspense>
     </Container>
   );
 }

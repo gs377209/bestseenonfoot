@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import Breadcrumbs from "./breadcrumbs";
 import Footer from "./footer";
 import Header from "./header";
@@ -13,7 +13,9 @@ const Layout = ({ children }: Props) => {
   return (
     <>
       <Header />
-      <Nav />
+      <Suspense fallback={null}>
+        <Nav />
+      </Suspense>
       {/* Top of page */}
       {/*
       <Script
@@ -36,7 +38,9 @@ const Layout = ({ children }: Props) => {
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins> */}
-      <Breadcrumbs />
+      <Suspense fallback={null}>
+        <Breadcrumbs />
+      </Suspense>
       <div className="min-h-screen">
         <main>
           {children}

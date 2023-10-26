@@ -16,19 +16,15 @@ export default function Breadcrumbs() {
     <div className="container mx-auto p-5">
       {crumbs.map((crumb, index) => {
         const href = crumb === "" ? "/" : crumbs.slice(0, index + 1).join("/");
+        const crumbDecoded = decodeURIComponent(crumb);
         const crumbDisplay =
-          crumb === ""
+          crumbDecoded === ""
             ? "Home"
-            : crumb
-                .split(/%20|-/)
+            : crumbDecoded
+                .split(/\s|-/)
                 .reduce((pc, cc) => {
                   return `${pc} ${cc.charAt(0).toUpperCase() + cc.slice(1)}`;
                 }, "")
-                .replaceAll("%C3%B1", "ñ")
-                .replaceAll("%C3%B3", "ó")
-                .replaceAll("%C3%A9", "é")
-                .replaceAll("%C3%AD", "í")
-                .replaceAll("%C3%A1", "á")
                 .trim();
 
         if (crumbs.length === index + 1) {

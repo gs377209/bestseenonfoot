@@ -6,6 +6,7 @@ import SideBar from "@/components/side-bar";
 import { Post } from "@/interfaces/post";
 import Image from "next/image";
 import Link from "next/link";
+import { Suspense } from "react";
 
 interface Props {
   allPosts: Post[];
@@ -106,7 +107,9 @@ export default function AboutUs({ allPosts }: Props) {
           </p>
         </article>
       </section>
-      <SideBar allPosts={allPosts} />
+      <Suspense fallback={null}>
+        <SideBar allPosts={allPosts} />
+      </Suspense>
     </Container>
   );
 }

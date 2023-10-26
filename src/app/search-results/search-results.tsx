@@ -3,6 +3,7 @@ import MoreStories from "@/components/more-stories";
 import Search from "@/components/search";
 import SideBar from "@/components/side-bar";
 import { Post } from "@/interfaces/post";
+import { Suspense } from "react";
 
 interface Props {
   allPosts: Post[];
@@ -26,7 +27,9 @@ export default function SearchResults({
         </div>
         <MoreStories posts={filteredPosts} hideHeader />
       </section>
-      <SideBar allPosts={allPosts} />
+      <Suspense fallback={null}>
+        <SideBar allPosts={allPosts} />
+      </Suspense>
     </Container>
   );
 }

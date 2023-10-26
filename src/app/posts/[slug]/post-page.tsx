@@ -4,6 +4,7 @@ import PostFooter from "@/components/post-footer";
 import PostHeader from "@/components/post-header";
 import SideBar from "@/components/side-bar";
 import { Post } from "@/interfaces/post";
+import { Suspense } from "react";
 
 interface Props {
   post: Post;
@@ -30,7 +31,9 @@ export default function PostPage({ post, allPosts, morePosts }: Props) {
         <PostBody content={post.content} />
         <PostFooter morePosts={morePosts} slug={post.slug} />
       </article>
-      <SideBar allPosts={allPosts} />
+      <Suspense fallback={null}>
+        <SideBar allPosts={allPosts} />
+      </Suspense>
     </Container>
   );
 }

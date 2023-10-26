@@ -11,7 +11,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import classNames from "classnames";
-import { FormEvent, useState } from "react";
+import { FormEvent, Suspense, useState } from "react";
 
 interface Props {
   allPosts: Post[];
@@ -187,7 +187,9 @@ export default function ContactUs({ allPosts }: Props) {
           </form>
         </article>
       </section>
-      <SideBar allPosts={allPosts} />
+      <Suspense fallback={null}>
+        <SideBar allPosts={allPosts} />
+      </Suspense>
     </Container>
   );
 }

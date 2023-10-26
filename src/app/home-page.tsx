@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import Container from "src/components/container";
 import HeroPost from "src/components/hero-post";
 import Intro from "src/components/intro";
@@ -29,7 +30,9 @@ export default function HomePage({ allPosts }: Props) {
         )}
         {morePosts.length > 0 && <MoreStories posts={morePosts} />}
       </section>
-      <SideBar allPosts={allPosts} />
+      <Suspense fallback={null}>
+        <SideBar allPosts={allPosts} />
+      </Suspense>
     </Container>
   );
 }

@@ -3,6 +3,7 @@ import Container from "@/components/container";
 import SideBar from "@/components/side-bar";
 import { Post } from "@/interfaces/post";
 import Link from "next/link";
+import { Suspense } from "react";
 
 interface Props {
   allPosts: Post[];
@@ -44,7 +45,9 @@ export default function Authors({ allPosts }: Props) {
           </li>
         </ul>
       </section>
-      <SideBar allPosts={allPosts} />
+      <Suspense fallback={null}>
+        <SideBar allPosts={allPosts} />
+      </Suspense>
     </Container>
   );
 }
