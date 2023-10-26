@@ -43,9 +43,7 @@ const Layout = ({ children }: Props) => {
         data-full-width-responsive="true"
       ></ins> */}
       <Suspense
-        fallback={
-          <div className="animate-pulse bg-gray-700 container mx-auto p-5"></div>
-        }
+        fallback={<div className="animate-pulse container mx-auto p-5"></div>}
       >
         <Breadcrumbs />
       </Suspense>
