@@ -13,7 +13,11 @@ const Layout = ({ children }: Props) => {
   return (
     <>
       <Header />
-      <Suspense fallback={null}>
+      <Suspense
+        fallback={
+          <nav className="animate-pulse sticky top-0 z-10 mb-5 min-h-[3rem] bg-emerald-400 p-5"></nav>
+        }
+      >
         <Nav />
       </Suspense>
       {/* Top of page */}
@@ -38,7 +42,11 @@ const Layout = ({ children }: Props) => {
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins> */}
-      <Suspense fallback={null}>
+      <Suspense
+        fallback={
+          <div className="animate-pulse bg-gray-700 container mx-auto p-5"></div>
+        }
+      >
         <Breadcrumbs />
       </Suspense>
       <div className="min-h-screen">
