@@ -18,7 +18,7 @@ const MoreStories = ({ posts, hideHeader, condensed }: Props) => {
       )}
       <div
         className={cn({
-          "mb-32 grid grid-cols-1 gap-y-20 md:grid-cols-2 md:gap-x-16 md:gap-y-32 lg:gap-x-32":
+          "grid grid-cols-1 gap-y-20 md:grid-cols-2 md:gap-x-16 md:gap-y-32 lg:gap-x-32":
             !condensed,
           "mb-5 gap-y-5": condensed,
         })}

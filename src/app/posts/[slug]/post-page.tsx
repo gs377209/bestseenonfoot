@@ -15,7 +15,7 @@ export default function PostPage({ post, allPosts, morePosts }: Props) {
   return (
     <Container>
       <article
-        className="container mx-auto mb-32 lg:col-span-2"
+        className="container mx-auto lg:col-span-2"
         itemScope
         itemType="https://schema.org/BlogPosting"
       >

@@ -15,7 +15,7 @@ export default function HomePage({ allPosts }: Props) {
 
   return (
     <Container>
-      <section className="mx-auto mb-32 lg:col-span-2">
+      <section className="mx-auto lg:col-span-2">
         <Intro />
         {heroPost && (
           <HeroPost

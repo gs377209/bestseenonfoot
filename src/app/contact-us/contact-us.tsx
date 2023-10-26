@@ -78,7 +78,7 @@ export default function ContactUs({ allPosts }: Props) {
 
   return (
     <Container>
-      <section className="container prose mx-auto mb-32 max-w-none md:prose-lg lg:prose-xl lg:col-span-2">
+      <section className="container prose mx-auto max-w-none md:prose-lg lg:prose-xl lg:col-span-2">
         <h1>Contact Us</h1>
         <article>
           <p>Hi There,</p>

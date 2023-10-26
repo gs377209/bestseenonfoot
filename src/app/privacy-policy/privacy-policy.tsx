@@ -11,7 +11,7 @@ interface Props {
 export default function PrivacyPolicy({ allPosts }: Props) {
   return (
     <Container>
-      <section className="container prose mx-auto mb-32 max-w-none md:prose-lg lg:prose-xl lg:col-span-2">
+      <section className="container prose mx-auto max-w-none md:prose-lg lg:prose-xl lg:col-span-2">
         <h1>Privacy Policy</h1>
         <article>
           <h2>Who we are</h2>
