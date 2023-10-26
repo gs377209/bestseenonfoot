@@ -10,7 +10,7 @@ interface Props {
 export default function Posts({ allPosts }: Props) {
   return (
     <Container>
-      <section className="mx-auto mb-32 lg:col-span-2">
+      <section className="mx-auto lg:col-span-2">
         <h1 className="text-5xl font-bold leading-tight tracking-tighter md:pr-8 md:text-7xl">
           Posts
         </h1>

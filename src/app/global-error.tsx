@@ -28,7 +28,7 @@ export default function GlobalError({
     <html>
       <body>
         <Container>
-          <section className="container prose mx-auto mb-32 max-w-none md:prose-lg lg:prose-xl lg:col-span-3">
+          <section className="container prose mx-auto max-w-none md:prose-lg lg:prose-xl lg:col-span-3">
             <h1 className="text-5xl font-bold leading-tight tracking-tighter md:pr-8 md:text-8xl">
               Something Went Wrong!
             </h1>

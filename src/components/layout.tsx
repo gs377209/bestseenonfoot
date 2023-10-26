@@ -38,10 +38,10 @@ const Layout = ({ children }: Props) => {
       ></ins> */}
       <Breadcrumbs />
       <div className="min-h-screen">
-        <main>{children}</main>
-        <div className="container mx-auto my-5 px-5">
+        <main>
+          {children}
           <ScrollToTop />
-        </div>
+        </main>
       </div>
 
       <Footer />
