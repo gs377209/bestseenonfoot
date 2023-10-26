@@ -13,7 +13,7 @@ import {
 } from "@/lib/constants";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import { Analytics } from "@vercel/analytics/react";
-import { Metadata } from "next";
+import { Metadata, Viewport } from "next";
 import Image from "next/image";
 import Script from "next/script";
 import React, { Suspense } from "react";
@@ -23,6 +23,11 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import "@/styles/globals.css";
 
 config.autoAddCss = false;
+
+export const viewport: Viewport = {
+  colorScheme: "normal",
+  themeColor: "white",
+};
 
 export const metadata: Metadata = {
   alternates: { canonical: BASE_URL },
