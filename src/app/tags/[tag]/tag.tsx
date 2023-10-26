@@ -21,7 +21,7 @@ export default function Tag({ allPosts, allPostsByTag, tag }: Props) {
       </section>
       <Suspense
         fallback={
-          <aside className="animate-pulse bg-gray-700 mt-4 lg:mt-0 lg:sticky lg:top-[3.8125rem] lg:col-span-1 lg:col-start-3 lg:h-[calc(100vh-2.75rem)] lg:self-start lg:overflow-y-auto lg:overflow-x-hidden"></aside>
+          <aside className="animate-pulse mt-4 lg:mt-0 lg:sticky lg:top-[3.8125rem] lg:col-span-1 lg:col-start-3 lg:h-[calc(100vh-2.75rem)] lg:self-start lg:overflow-y-auto lg:overflow-x-hidden"></aside>
         }
       >
         <SideBar allPosts={allPosts} />
