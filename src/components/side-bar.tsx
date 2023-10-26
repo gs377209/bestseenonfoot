@@ -72,7 +72,7 @@ export default function SideBar({ allPosts }: Props) {
   }, [allPosts]);
 
   return (
-    <aside className="lg:sticky lg:top-[3.8125rem] lg:col-span-1 lg:col-start-3 lg:h-[calc(100vh-2.75rem)] lg:self-start lg:overflow-y-auto lg:overflow-x-hidden">
+    <aside className="mt-4 lg:mt-0 lg:sticky lg:top-[3.8125rem] lg:col-span-1 lg:col-start-3 lg:h-[calc(100vh-2.75rem)] lg:self-start lg:overflow-y-auto lg:overflow-x-hidden">
       {/* <!-- Sidebar 1 --> */}
       <Script
         async

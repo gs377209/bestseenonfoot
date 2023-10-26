@@ -4,6 +4,7 @@ import { Post } from "@/interfaces/post";
 import { faTag } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
+import { Suspense } from "react";
 
 interface Props {
   allPosts: Post[];
@@ -23,7 +24,7 @@ export default function Tags({ allPosts, tags }: Props) {
               <li key={tag}>
                 <FontAwesomeIcon icon={faTag} />{" "}
                 <Link
-                  href={`/tags/${tag}`}
+                  href={`/tags/${encodeURIComponent(tag)}`}
                   className="font-medium text-gray-900 underline"
                 >
                   {tag}
@@ -33,7 +34,9 @@ export default function Tags({ allPosts, tags }: Props) {
           })}
         </ul>
       </section>
-      <SideBar allPosts={allPosts} />
+      <Suspense fallback={null}>
+        <SideBar allPosts={allPosts} />
+      </Suspense>
     </Container>
   );
 }

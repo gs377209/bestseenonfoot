@@ -83,14 +83,14 @@ export function getAllPostsByAuthor(author: string, fields: string[] = []) {
 
 export function getAllPostsByTag(tag: string, fields: string[] = []) {
   return getAllPosts(fields).filter((post) => {
-    return post.tags.includes(tag);
+    return (post.tags as string[]).some((postTag) => postTag === tag);
   });
 }
 
 export function getAllPostsByPlace(place: string, fields: string[] = []) {
   return getAllPosts(fields).filter((post) => {
-    const postLocations = post.location.url.split("/");
-    return postLocations.includes(place);
+    const postLocations = post.location.url.split("/") as string[];
+    return postLocations.some((postPlace) => postPlace === place);
   });
 }
 
@@ -113,7 +113,7 @@ export const generateRssFeed = () => {
     author,
     copyright: `All rights reserved ${date.getFullYear()}, Best Seen On Foot`,
     description: "Travel Blog",
-    favicon: `${BASE_URL}/favicon/favicon.ico`,
+    favicon: `${BASE_URL}/favicon.ico`,
     feedLinks: {
       atom: `${BASE_URL}/atom.xml`,
       json: `${BASE_URL}/feed.json`,

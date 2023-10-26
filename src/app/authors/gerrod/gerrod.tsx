@@ -2,6 +2,7 @@ import Container from "@/components/container";
 import MoreStories from "@/components/more-stories";
 import SideBar from "@/components/side-bar";
 import { Post } from "@/interfaces/post";
+import { Suspense } from "react";
 
 interface Props {
   allPosts: Post[];
@@ -17,7 +18,9 @@ export default function Gerrod({ allPosts, allPostsByAuthor }: Props) {
         </h1>
         <MoreStories posts={allPostsByAuthor} hideHeader />
       </section>
-      <SideBar allPosts={allPosts} />
+      <Suspense fallback={null}>
+        <SideBar allPosts={allPosts} />
+      </Suspense>
     </Container>
   );
 }
