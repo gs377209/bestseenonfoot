@@ -10,7 +10,7 @@ export interface ContactFormState {
 }
 
 const schema = z.object({
-  email: z
+  Email: z
     .string({
       invalid_type_error: "Email must be a string",
       required_error: "Email is required",
@@ -18,14 +18,14 @@ const schema = z.object({
     .email({ message: "Email is invalid" })
     .trim()
     .min(1, { message: "Email must be 1 or more characters long" }),
-  message: z
+  Message: z
     .string({
       invalid_type_error: "Message must be a string",
       required_error: "Message is required",
     })
     .trim()
     .min(2, { message: "Message must be 2 or more characters long" }),
-  name: z
+  Name: z
     .string({
       invalid_type_error: "Name must be a string",
       required_error: "Name is required",
@@ -40,9 +40,9 @@ export async function sendContactRequest(
 ) {
   try {
     const paresResult = schema.safeParse({
-      email: formData.get("email"),
-      message: formData.get("message"),
-      name: formData.get("name"),
+      Email: formData.get("email"),
+      Message: formData.get("message"),
+      Name: formData.get("name"),
     });
 
     if (!paresResult.success) {
