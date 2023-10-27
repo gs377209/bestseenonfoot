@@ -26,7 +26,7 @@ config.autoAddCss = false;
 
 export const viewport: Viewport = {
   colorScheme: "normal",
-  themeColor: "white",
+  themeColor: "#34D399",
 };
 
 export const metadata: Metadata = {
