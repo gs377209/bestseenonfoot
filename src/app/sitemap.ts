@@ -1,5 +1,5 @@
 import { Post } from "@/interfaces/post";
-import { getAllPosts } from "@/lib/api";
+import { generateRssFeed, getAllPosts } from "@/lib/api";
 import { BASE_URL } from "@/lib/constants";
 import { parseISO } from "date-fns";
 import { MetadataRoute } from "next";
@@ -59,6 +59,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${BASE_URL}/tags/${encodeURIComponent(tag)}`,
     };
   });
+
+  generateRssFeed();
 
   return [
     {
