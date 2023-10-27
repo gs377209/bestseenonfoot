@@ -1,10 +1,10 @@
+import Container from "@/components/container";
+import HeroPost from "@/components/hero-post";
+import Intro from "@/components/intro";
+import MoreStories from "@/components/more-stories";
+import SideBar from "@/components/side-bar";
+import { Post } from "@/interfaces/post";
 import { Suspense } from "react";
-import Container from "src/components/container";
-import HeroPost from "src/components/hero-post";
-import Intro from "src/components/intro";
-import MoreStories from "src/components/more-stories";
-import SideBar from "src/components/side-bar";
-import { Post } from "src/interfaces/post";
 
 interface Props {
   allPosts: Post[];

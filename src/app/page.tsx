@@ -1,7 +1,7 @@
+import { Post } from "@/interfaces/post";
+import { getAllPosts } from "@/lib/api";
 import { BASE_URL } from "@/lib/constants";
 import { Metadata } from "next";
-import { Post } from "src/interfaces/post";
-import { generateRssFeed, getAllPosts } from "src/lib/api";
 import HomePage from "./home-page";
 
 export const metadata: Metadata = {
@@ -18,7 +18,6 @@ const getPosts = async () => {
     "coverImage",
     "excerpt",
   ]) as Post[];
-  generateRssFeed();
 
   return allPosts;
 };
