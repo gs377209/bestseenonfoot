@@ -1,5 +1,10 @@
 # Changelog
 
+## v10.0.0 (2023-10-27)
+
+- Next.js 14
+- Updating dependencies (major)
+
 ## v9.0.0 (2023-10-24)
 
 - Migrating to app directory
