@@ -27,6 +27,6 @@ export default function manifest(): MetadataRoute.Manifest {
     orientation: "portrait",
     short_name: "Best Seen",
     start_url: "/",
-    theme_color: "#FFFFFF",
+    theme_color: "#34D399",
   };
 }
