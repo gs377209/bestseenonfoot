@@ -11,70 +11,67 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import classNames from "classnames";
-import { FormEvent, Suspense, useState } from "react";
+import { Suspense, useEffect } from "react";
+import { useFormState, useFormStatus } from "react-dom";
+import { ContactFormState, sendContactRequest } from "./actions";
+
+const initialState: ContactFormState = {
+  isError: false,
+  message: null,
+};
 
 interface Props {
   allPosts: Post[];
 }
 
-export default function ContactUs({ allPosts }: Props) {
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [serverMessage, setServerMessage] = useState<{
-    isError: boolean;
-    message: string;
-  } | null>(null);
+export function SubmitButton() {
+  const { pending, data } = useFormStatus();
 
-  const handleSubmit = async (event: FormEvent) => {
-    event.preventDefault();
-    setIsSubmitting(true);
-    setServerMessage(null);
-    const form = event.target as HTMLFormElement;
-    const data = {
-      Email: form.Email.value as string,
-      Message: form.Message.value as string,
-      Name: form.Name.value as string,
-    };
-
-    gtag.event({
-      action: "submit_form",
-      category: "Contact",
-      label: JSON.stringify(data),
-      value: JSON.stringify(data),
-    });
-
-    try {
-      const response = await fetch("/api/contact", {
-        body: JSON.stringify(data),
-        headers: {
-          "Content-Type": "application/json",
-        },
-        method: "POST",
+  useEffect(() => {
+    if (data) {
+      const formData = JSON.stringify({
+        email: data.get("email"),
+        message: data.get("message"),
+        name: data.get("name"),
       });
 
-      const json = await response.json();
-      if (!response.ok) {
-        setServerMessage({
-          isError: true,
-          message: `Seems like something is wrong; feel free to email us directly at bestseenonfoot@gmail.com`,
-        });
-        console.error(json);
-      } else {
-        setServerMessage({
-          isError: false,
-          message:
-            "Thanks for your message! We will get back to you as soon as possible!",
-        });
-        form.reset();
-      }
-    } catch (error) {
-      setServerMessage({
-        isError: true,
-        message: `Seems like something is wrong; feel free to email us directly at bestseenonfoot@gmail.com`,
+      gtag.event({
+        action: "submit_form",
+        category: "Contact",
+        label: formData,
+        value: formData,
       });
-      console.error(error);
     }
-    setIsSubmitting(false);
-  };
+  }, [data]);
+
+  return (
+    <button
+      type="submit"
+      className={classNames(
+        "inline-flex max-w-xs items-center justify-center rounded-md bg-slate-500 px-4 py-2 text-sm font-semibold leading-6 text-white shadow transition duration-150 ease-in-out hover:bg-slate-400",
+        {
+          "cursor-not-allowed": pending,
+        },
+      )}
+      disabled={pending}
+    >
+      {pending ? (
+        <>
+          <FontAwesomeIcon
+            icon={faCircleNotch}
+            className="-ml-1 mr-3 h-5 w-5 animate-spin text-white"
+          />{" "}
+          Processing...
+        </>
+      ) : (
+        "Submit"
+      )}
+    </button>
+  );
+}
+
+export default function ContactUs({ allPosts }: Props) {
+  const [state, formAction] = useFormState(sendContactRequest, initialState);
 
   return (
     <Container>
@@ -89,31 +86,40 @@ export default function ContactUs({ allPosts }: Props) {
           </p>
           <p>Thanks,</p>
           <p>Best Seen On Foot</p>
-          {serverMessage && (
+          {state.message && (
             <div
+              aria-live="polite"
+              role="status"
               className={classNames(
                 "mb-4 rounded-lg bg-green-100 px-6 py-5 text-base text-green-700",
                 {
-                  "bg-green-100 text-green-700": !serverMessage.isError,
-                  "bg-red-100 text-red-700": serverMessage.isError,
+                  "bg-green-100 text-green-700": !state.isError,
+                  "bg-red-100 text-red-700": state.isError,
                 },
               )}
             >
-              {serverMessage.isError ? (
+              {state.isError ? (
                 <FontAwesomeIcon icon={faCircleExclamation} className="mr-3" />
               ) : (
                 <FontAwesomeIcon icon={faCircleCheck} className="mr-3" />
               )}
-              {serverMessage.message}
+              {state.message}
+              {state.errorList && (
+                <ul className="marker:text-red-700">
+                  {state.errorList.map((error) => (
+                    <li key={error}>{error}</li>
+                  ))}
+                </ul>
+              )}
             </div>
           )}
-          <form onSubmit={handleSubmit} className="grid grid-cols-1 gap-6">
+          <form action={formAction} className="grid grid-cols-1 gap-6">
             <label className="block">
               <span className="text-gray-700">Name</span>
               <input
                 type="text"
-                id="Name"
-                name="Name"
+                id="name"
+                name="name"
                 required
                 className="
                     mt-1
@@ -130,8 +136,8 @@ export default function ContactUs({ allPosts }: Props) {
               <span className="text-gray-700">Email</span>
               <input
                 type="email"
-                id="Email"
-                name="Email"
+                id="email"
+                name="email"
                 required
                 className="
                     mt-1
@@ -147,8 +153,8 @@ export default function ContactUs({ allPosts }: Props) {
             <label className="block">
               <span className="text-gray-700">Message</span>
               <textarea
-                id="Message"
-                name="Message"
+                id="message"
+                name="message"
                 required
                 className="
                     mt-1
@@ -162,28 +168,7 @@ export default function ContactUs({ allPosts }: Props) {
                 rows={3}
               ></textarea>
             </label>
-            <button
-              type="submit"
-              className={classNames(
-                "inline-flex max-w-xs items-center justify-center rounded-md bg-slate-500 px-4 py-2 text-sm font-semibold leading-6 text-white shadow transition duration-150 ease-in-out hover:bg-slate-400",
-                {
-                  "cursor-not-allowed": isSubmitting,
-                },
-              )}
-              disabled={isSubmitting}
-            >
-              {isSubmitting ? (
-                <>
-                  <FontAwesomeIcon
-                    icon={faCircleNotch}
-                    className="-ml-1 mr-3 h-5 w-5 animate-spin text-white"
-                  />{" "}
-                  Processing...
-                </>
-              ) : (
-                "Submit"
-              )}
-            </button>
+            <SubmitButton />
           </form>
         </article>
       </section>
