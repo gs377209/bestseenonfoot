@@ -10,7 +10,7 @@ author:
 ogImage:
   url: "/assets/blog/puerto-montt-and-the-los-lagos-region-of-chile-part-1-arriving-in-puerto-montt-and-petrohue/IMG_6503.JPG"
 location:
-  url: south-america/Chile
+  url: south-america/chile
   name: Chile
 tags:
   [
