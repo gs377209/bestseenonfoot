@@ -1,4 +1,5 @@
 import React, { Suspense } from "react";
+import GoogleAd from "./GoogleAd";
 import Breadcrumbs from "./breadcrumbs";
 import Footer from "./footer";
 import Header from "./header";
@@ -20,28 +21,9 @@ const Layout = ({ children }: Props) => {
       >
         <Nav />
       </Suspense>
-      {/* Top of page */}
-      {/*
-      <Script
-        async
-        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${GOOGLE_ADS_ID}`}
-        crossOrigin="anonymous"
-        strategy="lazyOnload"
-        key={`top-of-page-g-script-${pathname}${searchParams}`}
-        onReady={() => {
-          // @ts-expect-error
-          // eslint-disable-next-line no-undef
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        }}
-      ></Script>
-      <ins
-        key={`top-of-page-ins-${pathname}${searchParams}`}
-        className="adsbygoogle block"
-        data-ad-client={`${GOOGLE_ADS_ID}`}
-        data-ad-slot="7920604231"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      ></ins> */}
+      <Suspense fallback={<></>}>
+        <GoogleAd slot="7920604231" adSpot="top-of-page" />
+      </Suspense>
       <Suspense
         fallback={<div className="animate-pulse container mx-auto p-5"></div>}
       >
@@ -53,7 +35,6 @@ const Layout = ({ children }: Props) => {
           <ScrollToTop />
         </main>
       </div>
-
       <Footer />
     </>
   );

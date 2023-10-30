@@ -1,15 +1,14 @@
 "use client";
 
 import { Post } from "@/interfaces/post";
-import { GOOGLE_ADS_ID } from "@/lib/constants";
 import { faSquareRss } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { format, parseISO } from "date-fns";
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import Script from "next/script";
 import { useEffect, useMemo, useState } from "react";
 import FacebookPageBlock from "./FacebookPageBlock";
+import GoogleAd from "./GoogleAd";
 import MoreStories from "./more-stories";
 import Search from "./search";
 
@@ -73,27 +72,7 @@ export default function SideBar({ allPosts }: Props) {
 
   return (
     <aside className="mt-4 lg:mt-0 lg:sticky lg:top-[3.8125rem] lg:col-span-1 lg:col-start-3 lg:h-[calc(100vh-2.75rem)] lg:self-start lg:overflow-y-auto lg:overflow-x-hidden">
-      {/* <!-- Sidebar 1 --> */}
-      <Script
-        async
-        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${GOOGLE_ADS_ID}`}
-        crossOrigin="anonymous"
-        strategy="lazyOnload"
-        key={`side-bar-1-g-script-${url}`}
-        onReady={() => {
-          // @ts-expect-error
-          // eslint-disable-next-line no-undef
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        }}
-      ></Script>
-      <ins
-        key={`side-bar-1-ins-${url}`}
-        className="adsbygoogle block"
-        data-ad-client={`${GOOGLE_ADS_ID}`}
-        data-ad-slot="6930778589"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      ></ins>
+      <GoogleAd slot="6930778589" adSpot="side-bar-1" />
       <h2 className="mb-8 mt-5 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
         Search For Posts
       </h2>
@@ -148,27 +127,7 @@ export default function SideBar({ allPosts }: Props) {
           })}
         </select>
       </form>
-      {/* <!-- Sidebar 2 --> */}
-      <Script
-        async
-        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${GOOGLE_ADS_ID}`}
-        crossOrigin="anonymous"
-        strategy="lazyOnload"
-        key={`side-bar-2-g-script-${url}`}
-        onReady={() => {
-          // @ts-expect-error
-          // eslint-disable-next-line no-undef
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        }}
-      ></Script>
-      <ins
-        key={`side-bar-2-ins-${url}`}
-        className="adsbygoogle block"
-        data-ad-client={`${GOOGLE_ADS_ID}`}
-        data-ad-slot="4304615245"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      ></ins>
+      <GoogleAd slot="4304615245" adSpot="side-bar-2" />
     </aside>
   );
 }
