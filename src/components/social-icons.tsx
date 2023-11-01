@@ -57,7 +57,7 @@ export default function SocialIcons() {
       </li>
       <li>
         <Link
-          href="https://www.youtube.com/channel/UCpGnTSxYa1ubx4Exf1PQElw"
+          href="https://www.youtube.com/@bestseenonfoot5516"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Best Seen On Foot Youtube"

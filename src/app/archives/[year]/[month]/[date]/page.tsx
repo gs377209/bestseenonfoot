@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       )}-${params.date.padStart(2, "0")}T17:00:00.000Z`,
     ),
     "LLLL	d, yyyy",
-  )} | Best Seen on Foot`;
+  )}`;
 
   return {
     alternates: {

@@ -16,7 +16,7 @@ export async function generateMetadata({
     alternates: {
       canonical: `${BASE_URL}/search-results?query=${searchParams?.query}`,
     },
-    title: "Search Results | Best Seen on Foot",
+    title: "Search Results",
   };
 }
 

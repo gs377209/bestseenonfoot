@@ -6,7 +6,7 @@ import Tags from "./tags";
 
 export const metadata: Metadata = {
   alternates: { canonical: `${BASE_URL}/tags` },
-  title: "Tags | Best Seen on Foot",
+  title: "Tags",
 };
 
 const getPostsAndTags = async () => {

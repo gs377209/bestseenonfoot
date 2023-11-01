@@ -1,5 +1,11 @@
 # Changelog
 
+## v11.0.0 (2023-11-01)
+
+- Third party libraries
+- Changes after new Next course
+- Updating dependencies (minor)
+
 ## v10.0.0 (2023-10-27)
 
 - Next.js 14

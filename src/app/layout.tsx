@@ -12,6 +12,7 @@ import {
   HOME_OG_IMAGE_URL,
 } from "@/lib/constants";
 import { config } from "@fortawesome/fontawesome-svg-core";
+// import { GoogleTagManager } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/react";
 import { Metadata, Viewport } from "next";
 import Image from "next/image";
@@ -63,7 +64,10 @@ export const metadata: Metadata = {
     ["fb:app_id"]: FACEBOOK_APP_ID,
     publish_date: "2018-10-01T17:00:00.000Z",
   },
-  title: "Best Seen on Foot",
+  title: {
+    default: "Best Seen on Foot",
+    template: "%s | Best Seen on Foot",
+  },
   twitter: {
     card: "summary_large_image",
     creator: "@bestseenonfoot",
@@ -162,6 +166,7 @@ export default function RootLayout({
           <NavigationEvents />
         </Suspense>
       </body>
+      {/* <GoogleTagManager gtmId={GOOGLE_TAG_MANAGER_ID} /> */}
     </html>
   );
 }

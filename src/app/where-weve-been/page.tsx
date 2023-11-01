@@ -6,7 +6,7 @@ import WhereWeveBeen from "./where-weve-been";
 
 export const metadata: Metadata = {
   alternates: { canonical: `${BASE_URL}/where-weve-been` },
-  title: "Where We've Been | Best Seen on Foot",
+  title: "Where We've Been",
 };
 
 const getPosts = async () => {

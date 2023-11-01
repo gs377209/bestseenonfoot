@@ -1,14 +1,14 @@
 ---
 title: "Meow!"
 excerpt: "Meow Meow..."
-coverImage: "/assets/blog/unsorted/1.png"
-date: "2017-10-10T17:00:00.000Z"
+coverImage: "/assets/blog/unsorted/3.2.jpg"
+date: "2023-10-10T17:00:00.000Z"
 author:
   name: Meowtthew Purrson
-  picture: "/assets/authors/meowtthew purrson.jpg"
+  picture: "/assets/authors/meowtthew%20purrson.jpg"
   url: meowtthew
 ogImage:
-  url: "/assets/blog/unsorted/1.png"
+  url: "/assets/blog/unsorted/3.2.jpg"
 location:
   url: south-america/meow
   name: meow

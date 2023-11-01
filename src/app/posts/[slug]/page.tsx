@@ -54,7 +54,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     other: {
       publish_date: post.date,
     },
-    title: `${post.title} | Best Seen On Foot`,
+    title: `${post.title}`,
     twitter: {
       description: post.excerpt,
       images: [

@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: `${BASE_URL}/locations/${placeUrl}`,
     },
-    title: `${place} Posts | Best Seen on Foot`,
+    title: `${place} Posts`,
   };
 }
 

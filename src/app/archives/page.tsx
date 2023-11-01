@@ -6,7 +6,7 @@ import Archives from "./archives";
 
 export const metadata: Metadata = {
   alternates: { canonical: `${BASE_URL}/archives` },
-  title: "Archives | Best Seen on Foot",
+  title: "Archives",
 };
 
 const getPosts = async () => {

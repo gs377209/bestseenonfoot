@@ -6,7 +6,7 @@ import PrivacyPolicy from "./privacy-policy";
 
 export const metadata: Metadata = {
   alternates: { canonical: `${BASE_URL}/privacy-policy` },
-  title: "Privacy Policy | Best Seen on Foot",
+  title: "Privacy Policy",
 };
 
 const getPosts = async () => {

@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       )}-01T17:00:00.000Z`,
     ),
     "LLLL, yyyy",
-  )} | Best Seen on Foot`;
+  )}`;
 
   return {
     alternates: {

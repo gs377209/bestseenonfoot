@@ -101,7 +101,7 @@ jellyfish, and a seal swimming in the water.
 
 [![The Interislander sailing through the Queen Charlotte Sound!!](/assets/blog/new-zealand-north-island-to-south-island/IMG_9126.jpg "The Interislander sailing through the Queen Charlotte Sound!!")](/assets/blog/new-zealand-north-island-to-south-island/IMG_9126.jpg)
 
-[Perito Moreno Glacier Breaking](https://www.youtube.com/embed/dYqjqlshPWk)
+[Riding the New Zealand Interislander](https://www.youtube.com/embed/dYqjqlshPWk)
 
 ## Arrival in Picton
 
