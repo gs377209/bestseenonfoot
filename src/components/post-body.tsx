@@ -1,5 +1,7 @@
+// import { YouTubeEmbed } from "@next/third-parties/google";
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 import ReactMarkdown from "react-markdown";
 
 interface Props {
@@ -15,27 +17,51 @@ const PostBody = ({ content }: Props) => {
       <ReactMarkdown
         components={{
           // eslint-disable-next-line no-unused-vars
-          a: ({ node, children, href, ref, ...props }) => {
-            if (/(youtube-nocookie|youtube)\.com/.test(href ?? "")) {
+          a: ({ node, children, href, ref, ...rest }) => {
+            if (/youtube-nocookie\.com/.test(href ?? "")) {
               return (
                 <iframe
                   src={href}
-                  title="YouTube video player"
+                  title={`${children?.toString()} Video`}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                   className="w-full aspect-video"
-                ></iframe>
+                >
+                  {children}
+                </iframe>
+              );
+            } else if (/youtube\.com/.test(href ?? "")) {
+              // const videoId = href?.split("/").pop();
+              // return (
+              //   <YouTubeEmbed
+              //     {...rest}
+              //     videoid={videoId}
+              //     playlabel={`Play ${children?.toString()} Video`}
+              //   />
+              // );
+              return (
+                <iframe
+                  src={href}
+                  title={`${children?.toString()} Video`}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full aspect-video"
+                >
+                  {children}
+                </iframe>
               );
             }
             return (
-              <Link href={href ?? ""} {...props}>
+              <Link {...rest} href={href ?? ""}>
                 {children}
               </Link>
             );
           },
-          img: ({ src, alt, title }) => {
+          // eslint-disable-next-line no-unused-vars
+          img: ({ node, src, alt, title, ref, ...rest }) => {
             return (
               <Image
+                {...rest}
                 src={src ?? ""}
                 alt={alt ?? ""}
                 title={title}
@@ -45,6 +71,26 @@ const PostBody = ({ content }: Props) => {
                 blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM0uTyzHgAFBAIh7MnC9QAAAABJRU5ErkJggg=="
               />
             );
+          },
+          // eslint-disable-next-line no-unused-vars
+          p: ({ node, children, ...rest }) => {
+            const isYoutubeEmbed =
+              React.Children.toArray(children).findIndex((child) => {
+                if (React.isValidElement(child)) {
+                  return (
+                    child.props.node.tagName === "a" &&
+                    /youtube\.com/.test(child.props.href ?? "")
+                  );
+                }
+              }) !== -1;
+            if (isYoutubeEmbed) {
+              return (
+                <div {...rest} className="my-5">
+                  {children}
+                </div>
+              );
+            }
+            return <p {...rest}>{children}</p>;
           },
         }}
       >

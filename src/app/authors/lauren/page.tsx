@@ -6,7 +6,7 @@ import Lauren from "./lauren";
 
 export const metadata: Metadata = {
   alternates: { canonical: `${BASE_URL}/authors/lauren` },
-  title: "Lauren's Posts | Best Seen on Foot",
+  title: "Lauren's Posts",
 };
 
 const getPosts = async () => {

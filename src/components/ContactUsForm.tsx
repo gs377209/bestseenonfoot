@@ -1,6 +1,6 @@
 "use client";
 
-import { ContactFormState, sendContactRequest } from "@/app/contact-us/actions";
+import { ContactFormState, sendContactRequest } from "@/lib/actions";
 import * as gtag from "@/lib/gtag";
 import {
   faCircleCheck,
@@ -67,10 +67,16 @@ export default function ContactUs() {
   const [state, formAction] = useFormState(sendContactRequest, initialState);
 
   return (
-    <form action={formAction} className="grid grid-cols-1 gap-6">
+    <form
+      action={formAction}
+      className="grid grid-cols-1 gap-6"
+      aria-describedby="form-status"
+    >
       {state.message && (
         <div
+          key={state.message}
           aria-live="polite"
+          id="form-status"
           role="status"
           className={classNames(
             "mb-4 rounded-lg bg-green-100 px-6 py-5 text-base text-green-700",

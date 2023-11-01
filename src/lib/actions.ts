@@ -38,30 +38,29 @@ export async function sendContactRequest(
   prevState: ContactFormState,
   formData: FormData,
 ) {
+  const paresResult = schema.safeParse({
+    Email: formData.get("email"),
+    Message: formData.get("message"),
+    Name: formData.get("name"),
+  });
+
+  if (!paresResult.success) {
+    console.error("Form Errors: ", paresResult.error);
+    const formattedErrors = paresResult.error.flatten();
+
+    return {
+      errorList: [
+        ...formattedErrors.formErrors,
+        ...Object.values(formattedErrors.fieldErrors).flatMap(
+          (errors) => errors,
+        ),
+      ],
+      isError: true,
+      message: `Please correct the issues listed below`,
+    };
+  }
+
   try {
-    const paresResult = schema.safeParse({
-      Email: formData.get("email"),
-      Message: formData.get("message"),
-      Name: formData.get("name"),
-    });
-
-    if (!paresResult.success) {
-      console.error("Form Errors: ", paresResult.error);
-      const formattedErrors = paresResult.error.flatten();
-
-      revalidatePath("/");
-      return {
-        errorList: [
-          ...formattedErrors.formErrors,
-          ...Object.values(formattedErrors.fieldErrors).flatMap(
-            (errors) => errors,
-          ),
-        ],
-        isError: true,
-        message: `Please correct the issues listed below`,
-      };
-    }
-
     // https://medium.com/@dmccoy/how-to-submit-an-html-form-to-google-sheets-without-google-forms-b833952cc175
     // original from: http://mashe.hawksey.info/2014/07/google-sheets-as-a-database-insert-with-apps-script-using-postget-methods-with-ajax-example/
     // original gist: https://gist.github.com/willpatera/ee41ae374d3c9839c2d6
@@ -77,14 +76,7 @@ export async function sendContactRequest(
     );
 
     const json = await response.json();
-    revalidatePath("/");
-    if (response.ok) {
-      return {
-        isError: false,
-        message:
-          "Thanks for your message! We will get back to you as soon as possible!",
-      };
-    } else {
+    if (!response.ok) {
       console.error("Error: ", json);
       return {
         isError: true,
@@ -98,4 +90,11 @@ export async function sendContactRequest(
       message: `Seems like something is wrong; feel free to email us directly at bestseenonfoot@gmail.com`,
     };
   }
+
+  revalidatePath("/contact-us");
+  return {
+    isError: false,
+    message:
+      "Thanks for your message! We will get back to you as soon as possible!",
+  };
 }

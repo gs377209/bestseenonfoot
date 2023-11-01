@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: `${BASE_URL}/tags/${params.tag}`,
     },
-    title: `${decodeURIComponent(params.tag)} Posts | Best Seen on Foot`,
+    title: `${decodeURIComponent(params.tag)} Posts`,
   };
 }
 

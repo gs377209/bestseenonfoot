@@ -6,7 +6,7 @@ import AboutUs from "./about-us";
 
 export const metadata: Metadata = {
   alternates: { canonical: `${BASE_URL}/about-us` },
-  title: "About Us | Best Seen on Foot",
+  title: "About Us",
 };
 
 const getPosts = async () => {

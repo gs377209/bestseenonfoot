@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: `${BASE_URL}/not-found`,
   },
-  title: `Page Not Found | Best Seen on Foot`,
+  title: "Page Not Found",
 };
 
 export default function NotFound() {

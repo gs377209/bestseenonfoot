@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: `${BASE_URL}/error`,
   },
-  title: `Error | Best Seen on Foot`,
+  title: "Error",
 };
 
 export default function GlobalError({
