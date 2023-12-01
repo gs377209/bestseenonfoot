@@ -12,7 +12,7 @@ import {
   HOME_OG_IMAGE_URL,
 } from "@/lib/constants";
 import { config } from "@fortawesome/fontawesome-svg-core";
-// import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/react";
 import { Metadata, Viewport } from "next";
 import Image from "next/image";
@@ -102,16 +102,6 @@ export default function RootLayout({
             src={`https://www.facebook.com/tr?id=${FACEBOOK_PIXEL_ID}&ev=PageView&noscript=1`}
           />
         </noscript>
-        {/* <!-- Google Tag Manager (noscript) --> */}
-        <noscript>
-          <iframe
-            src={`https://www.googletagmanager.com/ns.html?id=${GOOGLE_TAG_MANAGER_ID}`}
-            height="0"
-            width="0"
-            className="hidden invisible"
-          ></iframe>
-        </noscript>
-        {/* <!-- End Google Tag Manager (noscript) --> */}
 
         {/* ads/consent */}
         <Script
@@ -122,11 +112,6 @@ export default function RootLayout({
         ></Script>
 
         {/* tags/analytics */}
-        {/* <!-- Google Tag Manager --> */}
-        <Script id="google-tag" strategy="afterInteractive">
-          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${GOOGLE_TAG_MANAGER_ID}');`}
-        </Script>
-        {/* <!-- End Google Tag Manager --> */}
 
         {/* <!-- Google tag (gtag.js) - analytics --> */}
         <Script
@@ -166,7 +151,7 @@ export default function RootLayout({
           <NavigationEvents />
         </Suspense>
       </body>
-      {/* <GoogleTagManager gtmId={GOOGLE_TAG_MANAGER_ID} /> */}
+      <GoogleTagManager gtmId={GOOGLE_TAG_MANAGER_ID ?? ""} />
     </html>
   );
 }
