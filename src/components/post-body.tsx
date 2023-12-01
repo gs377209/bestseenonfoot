@@ -1,4 +1,4 @@
-// import { YouTubeEmbed } from "@next/third-parties/google";
+import { YouTubeEmbed } from "@next/third-parties/google";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -31,24 +31,12 @@ const PostBody = ({ content }: Props) => {
                 </iframe>
               );
             } else if (/youtube\.com/.test(href ?? "")) {
-              // const videoId = href?.split("/").pop();
-              // return (
-              //   <YouTubeEmbed
-              //     {...rest}
-              //     videoid={videoId}
-              //     playlabel={`Play ${children?.toString()} Video`}
-              //   />
-              // );
+              const videoId = href?.split("/").pop();
               return (
-                <iframe
-                  src={href}
-                  title={`${children?.toString()} Video`}
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="w-full aspect-video"
-                >
-                  {children}
-                </iframe>
+                <YouTubeEmbed
+                  videoid={videoId ?? ""}
+                  playlabel={`Play ${children?.toString()} Video`}
+                />
               );
             }
             return (

@@ -1,5 +1,10 @@
 # Changelog
 
+## v12.0.0 (2023-12-01)
+
+- Actually use third parties
+- Updating dependencies (minor)
+
 ## v11.0.0 (2023-11-01)
 
 - Third party libraries

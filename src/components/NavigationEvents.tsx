@@ -1,7 +1,7 @@
 "use client";
 
 import * as gtag from "@/lib/gtag";
-// import { sendGTMEvent } from "@next/third-parties/google";
+import { sendGTMEvent } from "@next/third-parties/google";
 import { usePathname, useSearchParams } from "next/navigation";
 import { useEffect } from "react";
 
@@ -13,15 +13,7 @@ export function NavigationEvents() {
     const url = `${pathname}${
       searchParams.toString() ? "?" + searchParams : ""
     }`;
-    // sendGTMEvent({
-    //   event: "Pageview",
-    //   page: url,
-    //   pagePath: url,
-    //   pageTitle: url,
-    //   visitorType: "visitor",
-    // });
-    // @ts-expect-error - replace with above code when ready
-    window?.dataLayer?.push({
+    sendGTMEvent({
       event: "Pageview",
       page: url,
       pagePath: url,
