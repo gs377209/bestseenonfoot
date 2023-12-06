@@ -1,5 +1,6 @@
 "use server";
 
+import * as ContactSubmissionRepository from "@/database/ContactSubmissionRepository";
 import { revalidatePath } from "next/cache";
 import { z } from "zod";
 
@@ -10,7 +11,7 @@ export interface ContactFormState {
 }
 
 const schema = z.object({
-  Email: z
+  email: z
     .string({
       invalid_type_error: "Email must be a string",
       required_error: "Email is required",
@@ -18,14 +19,14 @@ const schema = z.object({
     .email({ message: "Email is invalid" })
     .trim()
     .min(1, { message: "Email must be 1 or more characters long" }),
-  Message: z
+  message: z
     .string({
       invalid_type_error: "Message must be a string",
       required_error: "Message is required",
     })
     .trim()
     .min(2, { message: "Message must be 2 or more characters long" }),
-  Name: z
+  name: z
     .string({
       invalid_type_error: "Name must be a string",
       required_error: "Name is required",
@@ -39,9 +40,9 @@ export async function sendContactRequest(
   formData: FormData,
 ) {
   const paresResult = schema.safeParse({
-    Email: formData.get("email"),
-    Message: formData.get("message"),
-    Name: formData.get("name"),
+    email: formData.get("email"),
+    message: formData.get("message"),
+    name: formData.get("name"),
   });
 
   if (!paresResult.success) {
@@ -61,23 +62,12 @@ export async function sendContactRequest(
   }
 
   try {
-    // https://medium.com/@dmccoy/how-to-submit-an-html-form-to-google-sheets-without-google-forms-b833952cc175
-    // original from: http://mashe.hawksey.info/2014/07/google-sheets-as-a-database-insert-with-apps-script-using-postget-methods-with-ajax-example/
-    // original gist: https://gist.github.com/willpatera/ee41ae374d3c9839c2d6
-    const response = await fetch(
-      `https://script.google.com/macros/s/AKfycbw1XPnt5cBSOEd3Uu7rbm5s-NvoDew_IE67mMezJZqwnZqOJBPaYIguZPz_CXlh6o78lA/exec`,
-      {
-        body: JSON.stringify(paresResult.data),
-        headers: {
-          "Content-Type": "application/json",
-        },
-        method: "POST",
-      },
+    const response = await ContactSubmissionRepository.createContactSubmission(
+      paresResult.data,
     );
 
-    const json = await response.json();
-    if (!response.ok) {
-      console.error("Error: ", json);
+    if (!response) {
+      console.error("Error: ", response);
       return {
         isError: true,
         message: `Seems like something is wrong; feel free to email us directly at bestseenonfoot@gmail.com`,
