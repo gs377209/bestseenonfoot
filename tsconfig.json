@@ -24,7 +24,8 @@
       "@/lib/*": ["src/lib/*"],
       "@/assets/*": ["public/assets/*"],
       "@/styles/*": ["src/styles/*"],
-      "@/app/*": ["src/app/*"]
+      "@/app/*": ["src/app/*"],
+      "@/database/*": ["src/database/*"]
     },
     "plugins": [
       {
