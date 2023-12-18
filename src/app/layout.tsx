@@ -14,6 +14,7 @@ import {
 import { config } from "@fortawesome/fontawesome-svg-core";
 import { GoogleTagManager } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Metadata, Viewport } from "next";
 import Image from "next/image";
 import Script from "next/script";
@@ -130,6 +131,7 @@ export default function RootLayout({
       <body>
         <Layout>{children}</Layout>
         <Analytics />
+        <SpeedInsights />
         {/* social */}
         <div id="fb-root"></div>
         {/* social */}
