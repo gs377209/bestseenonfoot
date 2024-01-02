@@ -23,14 +23,14 @@ jobs:
           # wait for 2 minutes for the server to respond
           wait-on-timeout: 120
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         if: failure()
         with:
           name: cypress-screenshots
           path: cypress/screenshots
 
       # Test run video was always captured, so this action uses "always()" condition
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: cypress-videos
@@ -44,14 +44,14 @@ jobs:
           # to run component tests we need to use "component: true"
           component: true
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         if: failure()
         with:
           name: cypress-screenshots
           path: cypress/screenshots
 
       # Test run video was always captured, so this action uses "always()" condition
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: cypress-videos
