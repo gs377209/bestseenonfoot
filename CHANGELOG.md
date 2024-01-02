@@ -1,5 +1,10 @@
 # Changelog
 
+## v13.0.0 (2024-01-02)
+
+- Updating dependencies (major)
+- Fix labeler
+
 ## v12.0.0 (2023-12-01)
 
 - Actually use third parties
