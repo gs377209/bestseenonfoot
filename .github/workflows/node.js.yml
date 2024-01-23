@@ -34,3 +34,5 @@ jobs:
         run: npm run mdlint
       - name: Jest Testing
         run: npm run test:ci
+      - name: Vitest Testing
+        run: npm run test:vitest
