@@ -35,4 +35,4 @@ jobs:
       - name: Jest Testing
         run: npm run test:ci
       - name: Vitest Testing
-        run: npm run test:vitest
+        run: npm run test:vitest:ci
