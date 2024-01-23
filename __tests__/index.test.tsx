@@ -1,6 +1,5 @@
-import "@testing-library/jest-dom";
-import { render, screen } from "@testing-library/react";
 import Intro from "@/components/intro";
+import { render, screen } from "@testing-library/react";
 
 describe("Intro", () => {
   it("renders a heading", () => {
