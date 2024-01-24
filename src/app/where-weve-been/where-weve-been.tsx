@@ -31,6 +31,11 @@ export default function WhereWeveBeen({ allPosts }: Props) {
               <Link href="/locations/south-america">South America</Link>
               <ul>
                 <li>
+                  <Link href="/locations/south-america/argentina">
+                    Argentina
+                  </Link>
+                </li>
+                <li>
                   <Link href="/locations/south-america/chile">Chile</Link>
                 </li>
                 <li>
@@ -47,11 +52,6 @@ export default function WhereWeveBeen({ allPosts }: Props) {
             <li>
               <Link href="/locations/oceania">Oceania</Link>
               <ul>
-                <li>
-                  <Link href="/locations/oceania/french-polynesia">
-                    French Polynesia
-                  </Link>
-                </li>
                 <li>
                   <Link href="/locations/oceania/new-zealand-south-island">
                     New Zealand - South Island
