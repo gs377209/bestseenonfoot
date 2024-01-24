@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { format, parseISO } from "date-fns";
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { useEffect, useMemo, useState } from "react";
+import { useMemo } from "react";
 import FacebookPageBlock from "./FacebookPageBlock";
 import GoogleAd from "./GoogleAd";
 import MoreStories from "./more-stories";
@@ -20,11 +20,7 @@ export default function SideBar({ allPosts }: Props) {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const [url, setUrl] = useState("");
-
-  useEffect(() => {
-    setUrl(`${pathname}${searchParams.toString() ? "?" + searchParams : ""}`);
-  }, [pathname, searchParams]);
+  const url = `${pathname}${searchParams.toString() ? "?" + searchParams : ""}`;
 
   const archives = useMemo(() => {
     const finalOptions: {

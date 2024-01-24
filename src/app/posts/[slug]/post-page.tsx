@@ -29,7 +29,9 @@ export default function PostPage({ post, allPosts, morePosts }: Props) {
           tags={post.tags}
         />
         <PostBody content={post.content} />
-        <PostFooter morePosts={morePosts} slug={post.slug} />
+        <Suspense fallback={<div></div>}>
+          <PostFooter morePosts={morePosts} slug={post.slug} />
+        </Suspense>
       </article>
       <Suspense
         fallback={

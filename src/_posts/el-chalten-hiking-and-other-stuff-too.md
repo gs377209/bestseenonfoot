@@ -1,14 +1,14 @@
 ---
 title: "El Chaltén: Hiking and Other Stuff Too"
 excerpt: "Hello Everyone! Gerrod here to fill you in on some of the things we chose to do with our time in El Chaltén..."
-coverImage: "/assets/blog/el-chalten-hiking-and-other-stuff-too/IMG_6836.jpg"
+coverImage: "/assets/blog/el-chalten-hiking-and-other-stuff-too/IMG_6836.JPG"
 date: "2019-01-22T17:00:00.000Z"
 author:
   name: Gerrod Schirtzinger
   picture: "/assets/authors/gerrod.jpg"
   url: gerrod
 ogImage:
-  url: "/assets/blog/el-chalten-hiking-and-other-stuff-too/IMG_6836.jpg"
+  url: "/assets/blog/el-chalten-hiking-and-other-stuff-too/IMG_6836.JPG"
 location:
   url: south-america/argentina
   name: Argentina

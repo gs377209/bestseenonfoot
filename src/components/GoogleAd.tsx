@@ -3,7 +3,6 @@
 import { GOOGLE_ADS_ID } from "@/lib/constants";
 import { usePathname, useSearchParams } from "next/navigation";
 import Script from "next/script";
-import { useEffect, useState } from "react";
 
 interface Props {
   adSpot: string;
@@ -13,11 +12,7 @@ interface Props {
 const GoogleAd = ({ adSpot, slot }: Props) => {
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const [url, setUrl] = useState("");
-
-  useEffect(() => {
-    setUrl(`${pathname}${searchParams.toString() ? "?" + searchParams : ""}`);
-  }, [pathname, searchParams]);
+  const url = `${pathname}${searchParams.toString() ? "?" + searchParams : ""}`;
 
   return (
     <>
