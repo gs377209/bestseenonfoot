@@ -1,6 +1,5 @@
 "use client";
 
-import * as gtag from "@/lib/gtag";
 import { sendGTMEvent } from "@next/third-parties/google";
 import { usePathname, useSearchParams } from "next/navigation";
 import { useEffect } from "react";
@@ -20,7 +19,6 @@ export function NavigationEvents() {
       pageTitle: url,
       visitorType: "visitor",
     });
-    gtag.pageview(url);
   }, [pathname, searchParams]);
 
   return null;

@@ -1,19 +1,19 @@
 import { expect, test } from "@playwright/test";
 
-test.beforeEach(async () => {
-  // Block these routes for each test in this file.
-  // await context.route(/.*google-analytics\.com/, (route) => route.abort());
-  // await context.route(/.*googletagmanager\.com/, (route) => route.abort());
-  // await context.route(/.*googleoptimize\.com/, (route) => route.abort());
-  // await context.route(/.*googlesyndication\.com/, (route) => route.abort());
-  // await context.route(/.*google\.com/, (route) => route.abort());
-  // await context.route(/.*googleadservices\.com/, (route) => route.abort());
-  // await context.route(/.*doubleclick\.net/, (route) => route.abort());
-  // await context.route(/.*facebook\.net/, (route) => route.abort());
-  // await context.route(/.*facebook\.com/, (route) => route.abort());
-  // await context.route(/.*fbcdn\.net/, (route) => route.abort());
-  // await context.route(/.*twitter\.com/, (route) => route.abort());
-});
+// test.beforeEach(async ({ context }) => {
+//   // Block these routes for each test in this file.
+//   await context.route(/.*google-analytics\.com/, (route) => route.abort());
+//   await context.route(/.*googletagmanager\.com/, (route) => route.abort());
+//   await context.route(/.*googleoptimize\.com/, (route) => route.abort());
+//   await context.route(/.*googlesyndication\.com/, (route) => route.abort());
+//   await context.route(/.*google\.com/, (route) => route.abort());
+//   await context.route(/.*googleadservices\.com/, (route) => route.abort());
+//   await context.route(/.*doubleclick\.net/, (route) => route.abort());
+//   await context.route(/.*facebook\.net/, (route) => route.abort());
+//   await context.route(/.*facebook\.com/, (route) => route.abort());
+//   await context.route(/.*fbcdn\.net/, (route) => route.abort());
+//   await context.route(/.*twitter\.com/, (route) => route.abort());
+// });
 
 test.describe("desktop tests", () => {
   test.skip(() => false, "Desktop only!");

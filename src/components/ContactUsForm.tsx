@@ -1,13 +1,13 @@
 "use client";
 
 import { ContactFormState, sendContactRequest } from "@/lib/actions";
-import * as gtag from "@/lib/gtag";
 import {
   faCircleCheck,
   faCircleExclamation,
   faCircleNotch,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { sendGTMEvent } from "@next/third-parties/google";
 import classNames from "classnames";
 import { useEffect } from "react";
 import { useFormState, useFormStatus } from "react-dom";
@@ -28,9 +28,10 @@ function SubmitButton() {
         name: data.get("name"),
       });
 
-      gtag.event({
+      sendGTMEvent({
         action: "submit_form",
         category: "Contact",
+        event: "submit_form",
         label: formData,
         value: formData,
       });
