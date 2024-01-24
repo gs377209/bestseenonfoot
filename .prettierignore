@@ -160,3 +160,6 @@ cypress/videos
 /playwright/.cache/
 cypress/downloads
 *.jpg
+*.JPG
+*.png
+*.PNG
