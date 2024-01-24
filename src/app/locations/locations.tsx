@@ -21,6 +21,11 @@ export default function Locations({ allPosts }: Props) {
               <Link href="/locations/south-america">South America</Link>
               <ul>
                 <li>
+                  <Link href="/locations/south-america/argentina">
+                    Argentina
+                  </Link>
+                </li>
+                <li>
                   <Link href="/locations/south-america/chile">Chile</Link>
                 </li>
                 <li>

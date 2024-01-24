@@ -6,7 +6,6 @@ import {
   FACEBOOK_APP_ID,
   FACEBOOK_PIXEL_ID,
   GOOGLE_ADS_ID,
-  GOOGLE_ANALYTICS_ID,
   GOOGLE_OPTIMIZE_ID,
   GOOGLE_TAG_MANAGER_ID,
   HOME_OG_IMAGE_URL,
@@ -112,17 +111,9 @@ export default function RootLayout({
           crossOrigin="anonymous"
         ></Script>
 
-        {/* tags/analytics */}
+        {/* tags/analytics/other */}
 
-        {/* <!-- Google tag (gtag.js) - analytics --> */}
-        <Script
-          strategy="afterInteractive"
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ANALYTICS_ID}`}
-        ></Script>
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', '${GOOGLE_ANALYTICS_ID}');`}
-        </Script>
+        {/* <!-- Google optimize - other --> */}
         <Script
           strategy="afterInteractive"
           src={`https://www.googleoptimize.com/optimize.js?id=${GOOGLE_OPTIMIZE_ID}`}
