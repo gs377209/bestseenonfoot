@@ -1,5 +1,12 @@
 # Changelog
 
+## v14.0.0 (2024-01-24)
+
+- Updating dependencies (minor)
+- Testing
+- Analytics
+- Random fixes
+
 ## v13.0.0 (2024-01-02)
 
 - Updating dependencies (major)
