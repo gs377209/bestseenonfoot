@@ -1,5 +1,16 @@
 # Best Seen On Foot
 
+[![CodeQL](https://github.com/gs377209/bestseenonfoot/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/gs377209/bestseenonfoot/actions/workflows/github-code-scanning/codeql)
+[![Cypress Tests](https://github.com/gs377209/bestseenonfoot/actions/workflows/cypress.yml/badge.svg)](https://github.com/gs377209/bestseenonfoot/actions/workflows/cypress.yml)
+[![Dependency Review](https://github.com/gs377209/bestseenonfoot/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/gs377209/bestseenonfoot/actions/workflows/dependency-review.yml)
+[![Greetings](https://github.com/gs377209/bestseenonfoot/actions/workflows/greetings.yml/badge.svg)](https://github.com/gs377209/bestseenonfoot/actions/workflows/greetings.yml)
+[![Manual workflow](https://github.com/gs377209/bestseenonfoot/actions/workflows/manual.yml/badge.svg)](https://github.com/gs377209/bestseenonfoot/actions/workflows/manual.yml)
+[![Mark stale issues and pull requests](https://github.com/gs377209/bestseenonfoot/actions/workflows/stale.yml/badge.svg)](https://github.com/gs377209/bestseenonfoot/actions/workflows/stale.yml)
+[![Node.js CI](https://github.com/gs377209/bestseenonfoot/actions/workflows/node.js.yml/badge.svg)](https://github.com/gs377209/bestseenonfoot/actions/workflows/node.js.yml)
+[![OSSAR](https://github.com/gs377209/bestseenonfoot/actions/workflows/ossar.yml/badge.svg)](https://github.com/gs377209/bestseenonfoot/actions/workflows/ossar.yml)
+[![Playwright Tests](https://github.com/gs377209/bestseenonfoot/actions/workflows/playwright.yml/badge.svg)](https://github.com/gs377209/bestseenonfoot/actions/workflows/playwright.yml)
+[![Pull Request Labeler](https://github.com/gs377209/bestseenonfoot/actions/workflows/labeler.yml/badge.svg)](https://github.com/gs377209/bestseenonfoot/actions/workflows/labeler.yml)
+
 Travel Blog
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
