@@ -159,6 +159,8 @@ cypress/videos
 /playwright-report/
 /playwright/.cache/
 cypress/downloads
+
+# images
 *.jpg
 *.JPG
 *.png
