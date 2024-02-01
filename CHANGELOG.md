@@ -1,5 +1,11 @@
 # Changelog
 
+## v15.0.0 (2024-02-01)
+
+- Updates (major)
+- Husky Changes
+- Workflow updates
+
 ## v14.0.0 (2024-01-24)
 
 - Updating dependencies (minor)
