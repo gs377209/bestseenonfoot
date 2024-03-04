@@ -25,19 +25,19 @@
       "@/assets/*": ["public/assets/*"],
       "@/styles/*": ["src/styles/*"],
       "@/app/*": ["src/app/*"],
-      "@/database/*": ["src/database/*"],
+      "@/database/*": ["src/database/*"]
     },
     "plugins": [
       {
-        "name": "next",
-      },
-    ],
+        "name": "next"
+      }
+    ]
   },
   "exclude": ["node_modules"],
   "include": [
     "next-env.d.ts",
     "src/**/*.ts",
     "src/**/*.tsx",
-    ".next/types/**/*.ts",
-  ],
+    ".next/types/**/*.ts"
+  ]
 }
