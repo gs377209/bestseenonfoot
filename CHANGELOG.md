@@ -1,5 +1,11 @@
 # Changelog
 
+## v15.1.0 (2024-03-04)
+
+- Updates (major)
+- Husky Changes
+- Workflow updates
+
 ## v15.0.0 (2024-02-01)
 
 - Updates (major)
