@@ -2,9 +2,7 @@
 
 ## v15.1.0 (2024-03-04)
 
-- Updates (major)
-- Husky Changes
-- Workflow updates
+- Updates (minor)
 
 ## v15.0.0 (2024-02-01)
 
