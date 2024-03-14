@@ -27,6 +27,7 @@ export default function AboutUs({ allPosts }: Props) {
                 title="Picture of Lauren and Gerrod"
                 priority
                 placeholder="blur"
+                onError={(e) => console.error(e)}
               />
             </Link>
           </p>
@@ -55,6 +56,7 @@ export default function AboutUs({ allPosts }: Props) {
                 alt="Picture of Lauren"
                 title="Picture of Lauren"
                 placeholder="blur"
+                onError={(e) => console.error(e)}
               />
             </Link>
           </p>
@@ -89,6 +91,7 @@ export default function AboutUs({ allPosts }: Props) {
                 alt="Picture of Gerrod"
                 title="Picture of Gerrod"
                 placeholder="blur"
+                onError={(e) => console.error(e)}
               />
             </Link>
           </p>

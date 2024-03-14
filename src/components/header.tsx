@@ -17,6 +17,7 @@ const Header = () => {
           fill
           sizes="100vw"
           quality={100}
+          onError={(e) => console.error(e)}
         />
       </div>
       <Link href="/">
@@ -29,6 +30,7 @@ const Header = () => {
           title="Best Seen On Foot"
           priority
           placeholder="blur"
+          onError={(e) => console.error(e)}
         />
       </Link>
 

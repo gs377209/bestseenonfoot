@@ -22,6 +22,7 @@ const Avatar = ({ name, picture, large, priority }: Props) => {
         priority={priority}
         placeholder="blur"
         blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM0uTyzHgAFBAIh7MnC9QAAAABJRU5ErkJggg=="
+        onError={(e) => console.error(e)}
       />
       <div className="ml-4 text-xl font-bold">{name}</div>
     </div>

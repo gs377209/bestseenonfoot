@@ -100,6 +100,7 @@ export default function RootLayout({
             width="1"
             className="hidden"
             src={`https://www.facebook.com/tr?id=${FACEBOOK_PIXEL_ID}&ev=PageView&noscript=1`}
+            onError={(e) => console.error(e)}
           />
         </noscript>
 
