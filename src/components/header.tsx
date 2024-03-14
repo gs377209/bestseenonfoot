@@ -10,6 +10,7 @@ const Header = () => {
           alt="Glacier"
           src="/assets/PANO_20181207_122917.jpg"
           placeholder="blur"
+          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM0uTyzHgAFBAIh7MnC9QAAAABJRU5ErkJggg=="
           className="object-cover"
           priority
           fill
@@ -27,6 +28,7 @@ const Header = () => {
           title="Best Seen On Foot"
           priority
           placeholder="blur"
+          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM0uTyzHgAFBAIh7MnC9QAAAABJRU5ErkJggg=="
         />
       </Link>
 

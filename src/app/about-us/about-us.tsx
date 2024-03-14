@@ -24,6 +24,9 @@ export default function AboutUs({ allPosts }: Props) {
                 title="Picture of Lauren and Gerrod"
                 priority
                 placeholder="blur"
+                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM0uTyzHgAFBAIh7MnC9QAAAABJRU5ErkJggg=="
+                width="2592"
+                height="1944"
               />
             </Link>
           </p>
@@ -52,6 +55,9 @@ export default function AboutUs({ allPosts }: Props) {
                 alt="Picture of Lauren"
                 title="Picture of Lauren"
                 placeholder="blur"
+                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM0uTyzHgAFBAIh7MnC9QAAAABJRU5ErkJggg=="
+                width="2048"
+                height="1536"
               />
             </Link>
           </p>
@@ -86,6 +92,9 @@ export default function AboutUs({ allPosts }: Props) {
                 alt="Picture of Gerrod"
                 title="Picture of Gerrod"
                 placeholder="blur"
+                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM0uTyzHgAFBAIh7MnC9QAAAABJRU5ErkJggg=="
+                width="4032"
+                height="3024"
               />
             </Link>
           </p>
