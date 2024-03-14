@@ -57,7 +57,6 @@ const PostBody = ({ content }: Props) => {
                 height="691"
                 placeholder="blur"
                 blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM0uTyzHgAFBAIh7MnC9QAAAABJRU5ErkJggg=="
-                onError={(e) => console.error(e)}
               />
             );
           },

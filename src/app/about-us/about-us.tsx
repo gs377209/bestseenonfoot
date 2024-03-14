@@ -1,6 +1,3 @@
-import picOfGerrod from "@/assets/20180708_202213.jpg";
-import picOfUs from "@/assets/20180922_193351.jpg";
-import picOfLauren from "@/assets/OI000004.jpg";
 import Container from "@/components/container";
 import SideBar from "@/components/side-bar";
 import { Post } from "@/interfaces/post";
@@ -22,12 +19,11 @@ export default function AboutUs({ allPosts }: Props) {
           <p>
             <Link href="/assets/20180922_193351.jpg">
               <Image
-                src={picOfUs}
+                src="/assets/20180922_193351.jpg"
                 alt="Picture of Lauren and Gerrod"
                 title="Picture of Lauren and Gerrod"
                 priority
                 placeholder="blur"
-                onError={(e) => console.error(e)}
               />
             </Link>
           </p>
@@ -52,11 +48,10 @@ export default function AboutUs({ allPosts }: Props) {
           <p>
             <Link href="/assets/OI000004.jpg">
               <Image
-                src={picOfLauren}
+                src="/assets/OI000004.jpg"
                 alt="Picture of Lauren"
                 title="Picture of Lauren"
                 placeholder="blur"
-                onError={(e) => console.error(e)}
               />
             </Link>
           </p>
@@ -87,11 +82,10 @@ export default function AboutUs({ allPosts }: Props) {
           <p>
             <Link href="/assets/20180708_202213.jpg">
               <Image
-                src={picOfGerrod}
+                src="/assets/20180708_202213.jpg"
                 alt="Picture of Gerrod"
                 title="Picture of Gerrod"
                 placeholder="blur"
-                onError={(e) => console.error(e)}
               />
             </Link>
           </p>

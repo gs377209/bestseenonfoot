@@ -1,5 +1,3 @@
-import glacier from "@/assets/PANO_20181207_122917.jpg";
-import logo from "@/assets/logo.jpg";
 import Image from "next/image";
 import Link from "next/link";
 import SocialIcons from "./social-icons";
@@ -10,14 +8,13 @@ const Header = () => {
       <div className="absolute -z-10 h-[33vh] w-[100vw] overflow-hidden">
         <Image
           alt="Glacier"
-          src={glacier}
+          src="/assets/PANO_20181207_122917.jpg"
           placeholder="blur"
           className="object-cover"
           priority
           fill
           sizes="100vw"
           quality={100}
-          onError={(e) => console.error(e)}
         />
       </div>
       <Link href="/">
@@ -25,12 +22,11 @@ const Header = () => {
           className="h-[25vh] w-[25vh] rounded-3xl"
           width="512"
           height="512"
-          src={logo}
+          src="/assets/logo.jpg"
           alt="Best Seen On Foot Logo"
           title="Best Seen On Foot"
           priority
           placeholder="blur"
-          onError={(e) => console.error(e)}
         />
       </Link>
 

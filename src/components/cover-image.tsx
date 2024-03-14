@@ -24,7 +24,6 @@ const CoverImage = ({ title, src, slug, isShareImage, priority }: Props) => {
       itemProp={isShareImage ? "image" : undefined}
       placeholder="blur"
       blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM0uTyzHgAFBAIh7MnC9QAAAABJRU5ErkJggg=="
-      onError={(e) => console.error(e)}
     />
   );
   return (
