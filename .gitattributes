@@ -2,3 +2,4 @@
 *.JPG !text !filter !merge !diff
 *.png !text !filter !merge !diff
 *.PNG !text !filter !merge !diff
+public/assets/blog/** filter=lfs diff=lfs merge=lfs -text
