@@ -1,5 +1,9 @@
 # Changelog
 
+## v15.1.1 (2024-04-01)
+
+- Fix audit issues
+
 ## v15.1.0 (2024-03-04)
 
 - Updates (minor)
