@@ -1,5 +1,11 @@
 # Changelog
 
+## v15.2.0 (2024-04-01)
+
+- Fix audit issues
+- Updates (minor)
+- Mendoza
+
 ## v15.1.0 (2024-03-04)
 
 - Updates (minor)
