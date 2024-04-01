@@ -4,6 +4,7 @@
 
 - Fix audit issues
 - Updates (minor)
+- Mendoza
 
 ## v15.1.0 (2024-03-04)
 
