@@ -2,13 +2,16 @@ import ContactUsForm from "@/components/ContactUsForm";
 import Container from "@/components/container";
 import SideBar from "@/components/side-bar";
 import { Post } from "@/interfaces/post";
+import { getConsentCookie } from "@/lib/actions";
 import { Suspense } from "react";
 
 interface Props {
   allPosts: Post[];
 }
 
-export default function ContactUs({ allPosts }: Props) {
+export default async function ContactUs({ allPosts }: Props) {
+  const consentGranted = await getConsentCookie();
+
   return (
     <Container>
       <section className="container prose mx-auto max-w-none md:prose-lg lg:prose-xl lg:col-span-2">
@@ -24,7 +27,7 @@ export default function ContactUs({ allPosts }: Props) {
           <p>Best Seen On Foot</p>
         </article>
         <Suspense fallback={<form className="grid grid-cols-1 gap-6"></form>}>
-          <ContactUsForm />
+          <ContactUsForm consentGranted={consentGranted} />
         </Suspense>
       </section>
       <Suspense

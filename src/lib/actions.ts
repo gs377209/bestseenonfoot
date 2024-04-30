@@ -2,6 +2,7 @@
 
 import * as ContactSubmissionRepository from "@/database/ContactSubmissionRepository";
 import { revalidatePath } from "next/cache";
+import { cookies } from "next/headers";
 import { z } from "zod";
 
 export interface ContactFormState {
@@ -87,4 +88,12 @@ export async function sendContactRequest(
     message:
       "Thanks for your message! We will get back to you as soon as possible!",
   };
+}
+
+export async function setConsentCookie(value: "true" | "false") {
+  cookies().set("consentGranted", value);
+}
+
+export async function getConsentCookie() {
+  return cookies().get("consentGranted")?.value === "true";
 }

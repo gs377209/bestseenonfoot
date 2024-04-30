@@ -17,11 +17,15 @@ const initialState: ContactFormState = {
   message: null,
 };
 
-function SubmitButton() {
+interface Props {
+  consentGranted: boolean;
+}
+
+function SubmitButton({ consentGranted }: Props) {
   const { pending, data } = useFormStatus();
 
   useEffect(() => {
-    if (data) {
+    if (data && consentGranted) {
       const formData = JSON.stringify({
         email: data.get("email"),
         message: data.get("message"),
@@ -36,7 +40,7 @@ function SubmitButton() {
         value: formData,
       });
     }
-  }, [data]);
+  }, [consentGranted, data]);
 
   return (
     <button
@@ -64,7 +68,7 @@ function SubmitButton() {
   );
 }
 
-export default function ContactUs() {
+export default function ContactUs({ consentGranted }: Props) {
   const [state, formAction] = useFormState(sendContactRequest, initialState);
 
   return (
@@ -156,7 +160,7 @@ export default function ContactUs() {
           rows={3}
         ></textarea>
       </label>
-      <SubmitButton />
+      <SubmitButton consentGranted={consentGranted} />
     </form>
   );
 }
