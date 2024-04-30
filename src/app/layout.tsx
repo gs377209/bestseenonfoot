@@ -2,7 +2,6 @@ import ConsentBar from "@/components/ConsentBar";
 import FacebookPixel from "@/components/FacebookPixel";
 import { NavigationEvents } from "@/components/NavigationEvents";
 import Layout from "@/components/layout";
-import { getConsentCookie } from "@/lib/actions";
 import {
   BASE_URL,
   FACEBOOK_APP_ID,
@@ -11,6 +10,7 @@ import {
   GOOGLE_OPTIMIZE_ID,
   HOME_OG_IMAGE_URL,
 } from "@/lib/constants";
+import { getConsentCookie } from "@/lib/cookies";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";

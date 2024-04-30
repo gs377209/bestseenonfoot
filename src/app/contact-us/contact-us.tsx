@@ -2,7 +2,7 @@ import ContactUsForm from "@/components/ContactUsForm";
 import Container from "@/components/container";
 import SideBar from "@/components/side-bar";
 import { Post } from "@/interfaces/post";
-import { getConsentCookie } from "@/lib/actions";
+import { getConsentCookie } from "@/lib/cookies";
 import { Suspense } from "react";
 
 interface Props {

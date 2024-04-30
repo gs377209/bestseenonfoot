@@ -1,7 +1,7 @@
 "use client";
 
-import { setConsentCookie } from "@/lib/actions";
 import { GOOGLE_TAG_MANAGER_ID } from "@/lib/constants";
+import { setConsentCookie } from "@/lib/cookies";
 import { GoogleTagManager } from "@next/third-parties/google";
 import { useState } from "react";
 import CookieConsent, { OPTIONS } from "react-cookie-consent";
