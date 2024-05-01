@@ -15,7 +15,6 @@ location:
 tags:
   [
     argentina,
-    travelargentina,
     boats,
     brothers,
     capuchinmonkey,
@@ -23,13 +22,13 @@ tags:
     family,
     iguazu,
     iguazufalls,
-    iguazu,
-    jungle,
     IguazuNationalPark,
-    wanderlust,
-    travelcouple,
+    jungle,
     ParqueNacionalIguazú,
     southamerica,
+    travelargentina,
+    travelcouple,
+    wanderlust,
     waterfall,
   ]
 ---

@@ -14,18 +14,18 @@ location:
   name: Ecuador
 tags:
   [
-    travel,
+    art,
+    botanical gardens,
+    chocolate,
+    ecuador,
+    hiking,
+    quito,
+    south america,
     travel blog,
     travel couple,
     travel more,
-    ecuador,
-    south america,
-    quito,
-    chocolate,
+    travel,
     volcanoes,
-    hiking,
-    art,
-    botanical gardens,
   ]
 ---
 

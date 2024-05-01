@@ -25,10 +25,10 @@ tags:
     miraflores,
     peru,
     priority pass,
-    travel,
     travel blog,
     travel couple,
     travel more,
+    travel,
   ]
 ---
 
