@@ -12,7 +12,7 @@ interface Props {
 }
 
 export default function PostFooter({ morePosts, slug }: Props) {
-  const shareURL = BASE_URL + slug;
+  const shareURL = `${BASE_URL}/posts/${slug}`;
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const url = `${pathname}${searchParams.toString() ? "?" + searchParams : ""}`;
