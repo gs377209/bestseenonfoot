@@ -1,5 +1,11 @@
 # Changelog
 
+## v16.0.0 (2024-05-01)
+
+- Consent Banner
+- Updates (major)
+- Buenos Aires
+
 ## v15.2.0 (2024-04-01)
 
 - Fix audit issues

@@ -1,3 +1,4 @@
+import ConsentBar from "@/components/ConsentBar";
 import FacebookPixel from "@/components/FacebookPixel";
 import { NavigationEvents } from "@/components/NavigationEvents";
 import Layout from "@/components/layout";
@@ -7,11 +8,10 @@ import {
   FACEBOOK_PIXEL_ID,
   GOOGLE_ADS_ID,
   GOOGLE_OPTIMIZE_ID,
-  GOOGLE_TAG_MANAGER_ID,
   HOME_OG_IMAGE_URL,
 } from "@/lib/constants";
+import { getConsentCookie } from "@/lib/cookies";
 import { config } from "@fortawesome/fontawesome-svg-core";
-import { GoogleTagManager } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Metadata, Viewport } from "next";
@@ -85,11 +85,13 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const consentGranted = await getConsentCookie();
+
   return (
     <html lang="en-US">
       <head>
@@ -103,16 +105,31 @@ export default function RootLayout({
           />
         </noscript>
 
-        {/* ads/consent */}
+        {/* consent/bots - beforeInteractive - server side */}
+
+        {/* tags/analytics/other - afterInteractive - client side */}
+        {/* <!-- Google TM - analytics/consent --> */}
+        <Script strategy="afterInteractive" id="default-consent">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('consent', 'default', {
+              'ad_user_data': 'denied',
+              'ad_personalization': 'denied',
+              'ad_storage': 'denied',
+              'analytics_storage': 'denied',
+              'wait_for_update': 500,
+            });
+            dataLayer.push({'gtm.start': new Date().getTime(), 'event': 'gtm.js'});
+            `}
+        </Script>
+        {/* <!-- Google ads - ads --> */}
         <Script
           async
-          strategy="beforeInteractive"
+          strategy="afterInteractive"
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${GOOGLE_ADS_ID}`}
           crossOrigin="anonymous"
         ></Script>
-
-        {/* tags/analytics/other */}
-
         {/* <!-- Google optimize - other --> */}
         <Script
           strategy="afterInteractive"
@@ -123,9 +140,11 @@ export default function RootLayout({
         <Layout>{children}</Layout>
         <Analytics />
         <SpeedInsights />
-        {/* social */}
+
+        {/* chat/social - lazyOnload - client side */}
+        {/* FB - social */}
         <div id="fb-root"></div>
-        {/* social */}
+        {/* FB - social */}
         <Script
           async
           defer
@@ -134,17 +153,19 @@ export default function RootLayout({
           src={`https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0&appId=${FACEBOOK_APP_ID}&autoLogAppEvents=1`}
           nonce="bt5hNPrJ"
         />
+        {/* Twitter - social */}
         <Script
           async
           strategy="lazyOnload"
           src="https://platform.twitter.com/widgets.js"
         />
+        {/* FB - social */}
         <FacebookPixel />
         <Suspense fallback={null}>
-          <NavigationEvents />
+          <ConsentBar consentGranted={consentGranted} />
+          <NavigationEvents consentGranted={consentGranted} />
         </Suspense>
       </body>
-      <GoogleTagManager gtmId={GOOGLE_TAG_MANAGER_ID ?? ""} />
     </html>
   );
 }

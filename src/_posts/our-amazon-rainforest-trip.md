@@ -14,9 +14,9 @@ location:
   name: Peru
 tags:
   [
-    amazon,
     amazon planet,
     amazon rainforest,
+    amazon,
     birds,
     caiman,
     cruz del sur,
@@ -33,10 +33,10 @@ tags:
     spiders,
     tarantulas,
     taricaya rescue center,
-    travel,
     travel blog,
     travel couple,
     travel peru,
+    travel,
     tree turkey,
     visit peru,
   ]

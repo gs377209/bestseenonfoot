@@ -30,7 +30,6 @@ tags:
     wanderlust,
     wine,
     wineries,
-    travelcouple,
   ]
 ---
 

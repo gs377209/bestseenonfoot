@@ -17,8 +17,8 @@ tags:
   [
     avis rental car,
     brunner peninsula nature walk,
-    interislander,
     interislander new zealand,
+    interislander,
     nelson lakes national park,
     new zealand,
     north island,

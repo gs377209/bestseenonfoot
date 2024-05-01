@@ -4,22 +4,28 @@ import { sendGTMEvent } from "@next/third-parties/google";
 import { usePathname, useSearchParams } from "next/navigation";
 import { useEffect } from "react";
 
-export function NavigationEvents() {
+interface Props {
+  consentGranted: boolean;
+}
+
+export function NavigationEvents({ consentGranted }: Props) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
   useEffect(() => {
-    const url = `${pathname}${
-      searchParams.toString() ? "?" + searchParams : ""
-    }`;
-    sendGTMEvent({
-      event: "Pageview",
-      page: url,
-      pagePath: url,
-      pageTitle: url,
-      visitorType: "visitor",
-    });
-  }, [pathname, searchParams]);
+    if (consentGranted) {
+      const url = `${pathname}${
+        searchParams.toString() ? "?" + searchParams : ""
+      }`;
+      sendGTMEvent({
+        event: "Pageview",
+        page: url,
+        pagePath: url,
+        pageTitle: url,
+        visitorType: "visitor",
+      });
+    }
+  }, [consentGranted, pathname, searchParams]);
 
   return null;
 }

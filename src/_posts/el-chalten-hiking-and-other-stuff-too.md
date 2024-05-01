@@ -25,9 +25,9 @@ tags:
     Patagonia,
     SenderoAlTorre,
     travelArgentina,
+    travelcouple,
     trekking,
     wanderlust,
-    travelcouple,
   ]
 ---
 

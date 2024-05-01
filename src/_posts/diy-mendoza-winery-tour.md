@@ -17,6 +17,7 @@ tags:
     argentina,
     bodegalagarde,
     family,
+    familyvacation,
     MaguayOliveria,
     malbec,
     melipal,
@@ -27,13 +28,12 @@ tags:
     rucamalen,
     scenery,
     southamerica,
-    wine,
-    winetasting,
-    wineries,
-    winery,
     travel,
     travelcouple,
-    familyvacation,
+    wine,
+    wineries,
+    winery,
+    winetasting,
   ]
 ---
 
