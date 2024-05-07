@@ -28,6 +28,21 @@ export default function WhereWeveBeen({ allPosts }: Props) {
           </h2>
           <ul>
             <li>
+              <Link href="/locations/oceania">Oceania</Link>
+              <ul>
+                <li>
+                  <Link href="/locations/oceania/french-polynesia">
+                    French Polynesia
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/locations/oceania/new-zealand-south-island">
+                    New Zealand - South Island
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <li>
               <Link href="/locations/south-america">South America</Link>
               <ul>
                 <li>
@@ -46,16 +61,6 @@ export default function WhereWeveBeen({ allPosts }: Props) {
                 </li>
                 <li>
                   <Link href="/locations/south-america/peru">Peru</Link>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <Link href="/locations/oceania">Oceania</Link>
-              <ul>
-                <li>
-                  <Link href="/locations/oceania/new-zealand-south-island">
-                    New Zealand - South Island
-                  </Link>
                 </li>
               </ul>
             </li>
