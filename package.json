@@ -1,10 +1,10 @@
 {
   "name": "bestseenonfoot",
-  "version": "16.0.0",
+  "version": "17.0.0",
   "private": true,
   "engines": {
-    "node": "^18",
-    "npm": "^9"
+    "node": "^18.12.0",
+    "npm": "^9 || ^10"
   },
   "engineStrict": true,
   "scripts": {
