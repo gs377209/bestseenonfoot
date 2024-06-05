@@ -1,5 +1,10 @@
 # Changelog
 
+## v17.0.0 (2024-06-05)
+
+- Updates (major)
+- Auckland West Coast
+
 ## v16.0.0 (2024-05-01)
 
 - Consent Banner
