@@ -36,6 +36,11 @@ export default function WhereWeveBeen({ allPosts }: Props) {
                   </Link>
                 </li>
                 <li>
+                  <Link href="/locations/oceania/new-zealand-north-island">
+                    New Zealand - North Island
+                  </Link>
+                </li>
+                <li>
                   <Link href="/locations/oceania/new-zealand-south-island">
                     New Zealand - South Island
                   </Link>
