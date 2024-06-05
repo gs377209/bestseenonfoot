@@ -1,14 +1,14 @@
 ---
 title: "Auckland's West Coast"
 excerpt: "Hey everyone! Lauren here to tell you about our first two days in New Zealand exploring Auckland and the surrounding areas!..."
-coverImage: "/assets/blog/aucklands-west-coast/IMG_20190119_075653.jpg"
+coverImage: "/assets/blog/aucklands-west-coast/IMG_20190120_120115.jpg"
 date: "2019-03-06T17:00:00.000Z"
 author:
   name: Lauren Schirtzinger
   picture: "/assets/authors/lauren.jpg"
   url: lauren
 ogImage:
-  url: "/assets/blog/aucklands-west-coast/IMG_20190119_075653.jpg"
+  url: "/assets/blog/aucklands-west-coast/IMG_20190120_120115.jpg"
 location:
   url: oceania/new-zealand-north-island
   name: New Zealand - North Island
