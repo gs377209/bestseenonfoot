@@ -1,5 +1,10 @@
 # Changelog
 
+## v18.0.0 (2024-08-01)
+
+- Updates (major)
+- Add Storybook
+
 ## v17.0.0 (2024-06-05)
 
 - Updates (major)
