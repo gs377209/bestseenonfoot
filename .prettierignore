@@ -165,3 +165,6 @@ cypress/downloads
 *.JPG
 *.png
 *.PNG
+
+*storybook.log
+storybook-static/
