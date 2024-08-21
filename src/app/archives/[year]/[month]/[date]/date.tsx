@@ -16,7 +16,7 @@ export default function DateArchives({ allPosts, allPostsByDate }: Props) {
   return (
     <Container>
       <section className="mx-auto lg:col-span-2">
-        <h1 className="mb-5 text-5xl font-bold leading-tight tracking-tighter md:pr-8 md:text-7xl">
+        <h1 className="mb-5 text-5xl font-bold leading-tight tracking-tighter md:pr-8">
           Posts from <DateFormatter dateString={firstPost.date} />
         </h1>
         <MoreStories posts={allPostsByDate} hideHeader />

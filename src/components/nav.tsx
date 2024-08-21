@@ -38,7 +38,7 @@ export default function Nav() {
           )}
           id="mobile-menu-3"
         >
-          <ul className="mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 md:text-sm md:font-medium">
+          <ul className="mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 md:font-medium">
             <li>
               <Link
                 href="/"

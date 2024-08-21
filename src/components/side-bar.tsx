@@ -69,15 +69,15 @@ export default function SideBar({ allPosts }: Props) {
   return (
     <aside className="mt-4 lg:mt-0 lg:sticky lg:top-[3.8125rem] lg:col-span-1 lg:col-start-3 lg:h-[calc(100vh-2.75rem)] lg:self-start lg:overflow-y-auto lg:overflow-x-hidden">
       <GoogleAd slot="6930778589" adSpot="side-bar-1" />
-      <h2 className="mb-8 mt-5 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
+      <h2 className="mb-8 mt-5 text-4xl font-bold leading-tight tracking-tighter">
         Search For Posts
       </h2>
       <Search key={`side-bar-search-${url}`} />
-      <h2 className="mb-8 mt-5 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
+      <h2 className="mb-8 mt-5 text-4xl font-bold leading-tight tracking-tighter">
         Check out our Facebook
       </h2>
       <FacebookPageBlock key={`side-bar-fb-${url}`} />
-      <h2 className="mb-8 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
+      <h2 className="mb-8 text-4xl font-bold leading-tight tracking-tighter">
         Subscribe
       </h2>
       <Link
@@ -87,11 +87,11 @@ export default function SideBar({ allPosts }: Props) {
       >
         <FontAwesomeIcon icon={faSquareRss} color="orange" /> Posts RSS Feed
       </Link>
-      <h2 className="mb-8 mt-5 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
+      <h2 className="mb-8 mt-5 text-4xl font-bold leading-tight tracking-tighter">
         Recent Posts
       </h2>
       <MoreStories posts={allPosts.slice(0, 3)} hideHeader condensed />
-      <h2 className="mb-8 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
+      <h2 className="mb-8 text-4xl font-bold leading-tight tracking-tighter">
         Archives
       </h2>
       <form

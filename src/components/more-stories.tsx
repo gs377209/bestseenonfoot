@@ -12,7 +12,7 @@ const MoreStories = ({ posts, hideHeader, condensed }: Props) => {
   return (
     <section>
       {!hideHeader && (
-        <h2 className="mb-8 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
+        <h2 className="mb-8 text-4xl font-bold leading-tight tracking-tighter">
           More Posts
         </h2>
       )}
