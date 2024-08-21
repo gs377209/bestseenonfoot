@@ -19,7 +19,7 @@ export default function PostFooter({ morePosts, slug }: Props) {
 
   return (
     <div>
-      <h2 className="mb-8 text-4xl font-bold leading-tight tracking-tighter md:text-6xl">
+      <h2 className="mb-8 text-4xl font-bold leading-tight tracking-tighter">
         Share This Post!
       </h2>
       <ShareButtons shareURL={shareURL} key={`share-buttons-${url}`} />

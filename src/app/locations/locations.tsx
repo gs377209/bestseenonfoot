@@ -12,7 +12,7 @@ export default function Locations({ allPosts }: Props) {
   return (
     <Container>
       <section className="container prose mx-auto max-w-none md:prose-lg lg:prose-xl lg:col-span-2">
-        <h1 className="mb-12 text-center text-5xl font-bold leading-tight tracking-tighter md:text-left md:text-7xl md:leading-none lg:text-8xl">
+        <h1 className="mb-12 text-center text-5xl font-bold leading-tight tracking-tighter md:text-left md:leading-none">
           Locations
         </h1>
         <article>
