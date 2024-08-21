@@ -6,12 +6,12 @@ exports[`renders homepage unchanged 1`] = `
     class="mb-16 mt-16 flex flex-col items-center md:mb-12 "
   >
     <h1
-      class="text-5xl font-bold leading-tight tracking-tighter md:pr-8"
+      class="text-5xl font-bold leading-tight tracking-tighter md:pr-0"
     >
       Best Seen On Foot
     </h1>
     <h2
-      class="mt-5 text-center text-4xl md:pl-8 md:text-left"
+      class="mt-5 text-center text-4xl md:pl-4 md:text-left"
     >
       Welcome to our travels!
     </h2>
