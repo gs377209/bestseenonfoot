@@ -22,6 +22,15 @@ const nextConfig = {
   // Append the default value with md extensions
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
   reactStrictMode: true,
+  async redirects() {
+    return [
+      {
+        destination: "/posts/:slug",
+        permanent: true,
+        source: "/:year(\\d{4})/:month(\\d{2})/:day(\\d{2})/:slug",
+      },
+    ];
+  },
   swcMinify: true,
 };
 
