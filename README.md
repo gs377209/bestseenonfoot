@@ -17,10 +17,19 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+- Make sure to setup [git-lfs](https://git-lfs.com/) before cloning
+- Switch to correct node version
+- Install dependencies
+- Pull the latest `env` variables from vercel
+- Run the development server
 
-```bash
-nvm use && npm ci
+```shell
+# Install git-lfs using whatever tool makes sense for your OS
+brew install git-lfs
+git lfs install
+nvm use
+npm i
+npx vercel env pull
 npm run dev
 ```
 
@@ -91,15 +100,15 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
-```bash
+```shell
 npx create-next-app --example blog-starter blog-starter-app
 ```
 
-```bash
+```shell
 yarn create next-app --example blog-starter blog-starter-app
 ```
 
-```bash
+```shell
 pnpm create next-app --example blog-starter blog-starter-app
 ```
 

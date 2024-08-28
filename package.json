@@ -20,7 +20,7 @@
     "prepare": "husky",
     "e2e": "start-server-and-test build-and-start http://localhost:3000 \"cypress open --e2e\"",
     "e2e:headless": "start-server-and-test build-and-start http://localhost:3000 \"cypress run --e2e\"",
-    "e2e:playwright": "playwright install && playwright test",
+    "e2e:playwright": "playwright install --with-deps && playwright test",
     "e2e:playwright:install": "playwright install --with-deps",
     "component": "cypress open --component",
     "component:headless": "cypress run --component",
@@ -111,6 +111,7 @@
     "tailwindcss": "^3.4.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4",
+    "vercel": "^37.1.1",
     "vitest": "^2.0.5"
   },
   "lint-staged": {
