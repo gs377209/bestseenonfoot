@@ -1,5 +1,10 @@
 # Changelog
 
+## v19.0.0 (2024-09-03)
+
+- Updates (major)
+- Update Node
+
 ## v18.0.0 (2024-08-01)
 
 - Updates (major)
