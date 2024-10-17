@@ -1,5 +1,9 @@
 # Changelog
 
+## v20.0.0 (2024-10-17)
+
+- Updates (major)
+
 ## v19.0.0 (2024-09-03)
 
 - Updates (major)
