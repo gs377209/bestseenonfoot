@@ -1,3 +1,5 @@
+"use client";
+
 import { faCircleNotch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import classNames from "classnames";
@@ -5,7 +7,6 @@ import Form from "next/form";
 import { useFormStatus } from "react-dom";
 
 function SearchButton() {
-  "use client";
   const status = useFormStatus();
   return (
     <button
