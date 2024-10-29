@@ -7,6 +7,7 @@ import { join } from "path";
 import { BASE_URL, HOME_OG_IMAGE_URL } from "./constants";
 import { Author } from "@/interfaces/author";
 import { Location } from "@/interfaces/location";
+import { Post } from "@/interfaces/post";
 
 const postsDirectory = join(process.cwd(), "src/_posts");
 
@@ -40,7 +41,7 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
     }
   });
 
-  return items;
+  return items as unknown as Post;
 }
 
 export function getAllPosts(fields: string[] = []) {
@@ -51,7 +52,7 @@ export function getAllPosts(fields: string[] = []) {
     .sort((post1, post2) =>
       (post1.date as string) > (post2.date as string) ? -1 : 1,
     );
-  return posts;
+  return posts as unknown as Post[];
 }
 
 export function getAllPostsByDate(

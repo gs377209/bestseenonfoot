@@ -1,14 +1,14 @@
 ---
 title: "Piopio Filming Location and Caving in Waitomo Caves"
 excerpt: "Hey everyone! Lauren here to tell you about our busy day visiting a filming location from The Hobbit..."
-coverImage: "/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019%201pm%20Craig%20Charlie%20%28%23%29%20014.JPG"
+coverImage: "/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019-1pm-Craig-Charlie-014.JPG"
 date: "2019-03-22T17:00:00.000Z"
 author:
   name: Lauren Schirtzinger
   picture: "/assets/authors/lauren.jpg"
   url: lauren
 ogImage:
-  url: "/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019%201pm%20Craig%20Charlie%20%28%23%29%20014.JPG"
+  url: "/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019-1pm-Craig-Charlie-014.JPG"
 location:
   url: oceania/new-zealand-north-island
   name: New Zealand - North Island
@@ -103,35 +103,35 @@ After we were all suited up, we headed down near the cave to practice using the 
 
 After we all passed the safety test, we walked down to the platform where we would rappel into the cave!
 
-[![Looking down into Waitomo Caves](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019%201pm%20Craig%20Charlie%20%28%23%29%20029.JPG "Looking down into Waitomo Caves")](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019%201pm%20Craig%20Charlie%20%28%23%29%20029.JPG)
+[![Looking down into Waitomo Caves](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019-1pm-Craig-Charlie-029.JPG "Looking down into Waitomo Caves")](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019-1pm-Craig-Charlie-029.JPG)
 
-[![Looking up to the rappel platform from Waitomo Caves](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019%201pm%20Craig%20Charlie%20%28%23%29%20038.JPG "Looking up to the rappel platform from Waitomo Caves")](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019%201pm%20Craig%20Charlie%20%28%23%29%20038.JPG)
+[![Looking up to the rappel platform from Waitomo Caves](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019-1pm-Craig-Charlie-038.JPG "Looking up to the rappel platform from Waitomo Caves")](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019-1pm-Craig-Charlie-038.JPG)
 
 ### Caving
 
 The drop from the platform was 100 meters down into the cave! The entrance was foggy, and there were green plants all around the entrance! Our guides made sure we were all hooked into the rappel/abseil ropes correctly, and soon we were descending into the cave! It took us around 20 minutes to get all the way into the cave.
 
-[![Lauren and Gerrod descending into Waitomo Caves](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019%201pm%20Craig%20Charlie%20%28%23%29%20003.JPG "Lauren and Gerrod descending into Waitomo Caves")](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019%201pm%20Craig%20Charlie%20%28%23%29%20003.JPG)
+[![Lauren and Gerrod descending into Waitomo Caves](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019-1pm-Craig-Charlie-003.JPG "Lauren and Gerrod descending into Waitomo Caves")](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019-1pm-Craig-Charlie-003.JPG)
 
 Our group was split by having one guide with one couple, and another guide with us and another couple. The other couple got to the bottom of the cave first. I wish we could have gone a little faster, as my legs were beginning to go numb, but our guide did get an epic picture of us descending into the cave!
 
-[![At the bottom of the entrance to Waitomo Caves](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019%201pm%20Craig%20Charlie%20%28%23%29%20009.JPG "At the bottom of the entrance to Waitomo Caves")](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019%201pm%20Craig%20Charlie%20%28%23%29%20009.JPG)
+[![At the bottom of the entrance to Waitomo Caves](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019-1pm-Craig-Charlie-009.JPG "At the bottom of the entrance to Waitomo Caves")](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019-1pm-Craig-Charlie-009.JPG)
 
-[![Lauren and Gerrod rappelling into Waitomo Caves](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019%201pm%20Craig%20Charlie%20%28%23%29%20014.JPG "Lauren and Gerrod rappelling into Waitomo Caves")](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019%201pm%20Craig%20Charlie%20%28%23%29%20014.JPG)
+[![Lauren and Gerrod rappelling into Waitomo Caves](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019-1pm-Craig-Charlie-014.JPG "Lauren and Gerrod rappelling into Waitomo Caves")](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019-1pm-Craig-Charlie-014.JPG)
 
 When we all got to the bottom, we began our walk into the cave. The cave was very moist, and there was a small stream running through the bottom. Our guide told us the story of the discovery of the cave. Apparently farm animals were going missing because they were falling/getting stuck in the cave before they found the entrance!!
 
 There were several boulders we got to scramble over, and one of our guides took cool shadow photos of us while we enjoyed some hot tea and chocolate. While we were near the stream in the cave, we saw a longfin eel in the water! It was super cool, as the eel can only be found in New Zealand, and I had never seen a freshwater eel!
 
-[![Gerrod's silhouette in the Waitomo Caves](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019%201pm%20Craig%20Charlie%20%28%23%29%20020.JPG "Gerrod's silhouette in the Waitomo Caves")](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019%201pm%20Craig%20Charlie%20%28%23%29%20020.JPG)
+[![Gerrod's silhouette in the Waitomo Caves](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019-1pm-Craig-Charlie-020.JPG "Gerrod's silhouette in the Waitomo Caves")](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019-1pm-Craig-Charlie-020.JPG)
 
-[![Lauren's silhouette in Waitomo Caves](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019%201pm%20Craig%20Charlie%20%28%23%29%20021.JPG "Lauren's silhouette in Waitomo Caves")](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019%201pm%20Craig%20Charlie%20%28%23%29%20021.JPG)
+[![Lauren's silhouette in Waitomo Caves](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019-1pm-Craig-Charlie-021.JPG "Lauren's silhouette in Waitomo Caves")](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019-1pm-Craig-Charlie-021.JPG)
 
 ### Glowworms
 
 When we were deeper into the cave, we sat on a ledge and our guides told us to turn the lights off and look up. Above us, were tons of glowing worms! They glow blue, and look like tons of beautiful stars on the cave ceiling. While the group were marveling at the beauty of the worms, one of our guides told us a little bit about how gross they actually were.
 
-[![The group marveling at Waitomo Caves](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019%201pm%20Craig%20Charlie%20%28%23%29%20043.JPG "The group marveling at Waitomo Caves")](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019%201pm%20Craig%20Charlie%20%28%23%29%20043.JPG)
+[![The group marveling at Waitomo Caves](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019-1pm-Craig-Charlie-043.JPG "The group marveling at Waitomo Caves")](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019-1pm-Craig-Charlie-043.JPG)
 
 The glowworms are actually fungus gnat larvae. The larva hangs a silk thread off of the cave ceiling, which it regularly places small sticky droplets onto. The blue bioluminescence then attracts prey to come closer, while the sticky droplets on their silk threads catch their food. The gross part (if sticky silk threads isn’t gross enough already), the wonderful glow of the larvae comes from their poo. Even if it is glowing poo, it is really beautiful.
 
@@ -139,7 +139,7 @@ The glowworms are actually fungus gnat larvae. The larva hangs a silk thread off
 
 There was a long 90 meter ladder climb at the end of the tour. I was in charge of safely clipping the last few members of our group, so our guides could go ahead and prepare for our exit from the cave. After we got out of the cave, we walked back to the equipment building to take off our cool jumpsuits and boots. Once our gear was off, we hopped back in the van to drive to the office.
 
-[![Lauren and Gerrod hanging in Waitomo Caves](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019%201pm%20Craig%20Charlie%20%28%23%29%20044.JPG "Lauren and Gerrod hanging in Waitomo Caves")](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019%201pm%20Craig%20Charlie%20%28%23%29%20044.JPG)
+[![Lauren and Gerrod hanging in Waitomo Caves](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019-1pm-Craig-Charlie-044.JPG "Lauren and Gerrod hanging in Waitomo Caves")](/assets/blog/piopio-filming-location-and-caving-in-waitomo-caves/28.1.2019-1pm-Craig-Charlie-044.JPG)
 
 There was only one disappointing thing about the tour: we weren’t allowed to bring cameras into the cave. I am sure there is a good reason for this, but it is the only thing I wish was different about the caving tour. They did take pictures for us, and provided them for free, but I really wanted a chance to photograph the glow worms. Either way, I had an amazing time on the Lost World 4 Hour Tour!
 

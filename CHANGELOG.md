@@ -1,5 +1,11 @@
 # Changelog
 
+## v21.0.0 (2024-10-29)
+
+- Next 15
+- Force flag!!!
+- Cypress not working...
+
 ## v20.0.0 (2024-10-17)
 
 - Updates (major)

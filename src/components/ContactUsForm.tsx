@@ -17,12 +17,16 @@ const initialState: ContactFormState = {
   message: null,
 };
 
-interface Props {
+interface SubmitButtonProps {
   consentGranted: boolean;
   isPending: boolean;
 }
 
-function SubmitButton({ consentGranted, isPending }: Props) {
+interface Props {
+  consentGranted: boolean;
+}
+
+function SubmitButton({ consentGranted, isPending }: SubmitButtonProps) {
   const { data } = useFormStatus();
 
   useEffect(() => {

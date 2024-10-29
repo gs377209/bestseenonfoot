@@ -1,6 +1,6 @@
 {
   "name": "bestseenonfoot",
-  "version": "20.0.0",
+  "version": "21.0.0",
   "private": true,
   "engines": {
     "node": "^22.11.0 || ^20.9.0 || ^18.12.0",
@@ -22,12 +22,15 @@
     "build": "next build",
     "start": "next start",
     "build-and-start": "next build && next start",
+    "storybook": "storybook dev -p 6006 -c src/storybook",
+    "build-storybook": "storybook build -c src/storybook",
     "lint": "next lint --max-warnings 0",
     "lint-staged": "lint-staged",
     "mdlint": "markdownlint-cli2 '**/*.md' '#node_modules'",
     "mdlintfix": "markdownlint-cli2-fix '**/*.md' '#node_modules'",
-    "typecheck": "tsc",
-    "prepare": "husky",
+    "typecheck": "tsc && tsc --project src/__tests__/tsconfig.json && tsc --project src/__vitests__/tsconfig.json && tsc --project src/cypress/tsconfig.json",
+    "prettier": "prettier --write .",
+    "prettier:check": "prettier --check .",
     "e2e": "start-server-and-test build-and-start http://localhost:3000 \"cypress open --e2e\"",
     "e2e:headless": "start-server-and-test build-and-start http://localhost:3000 \"cypress run --e2e\"",
     "e2e:playwright": "playwright install --with-deps && playwright test",
@@ -38,13 +41,10 @@
     "test:ci": "jest --ci --no-watch --no-watchAll",
     "test:vitest": "vitest",
     "test:vitest:ci": "vitest run",
-    "prettier": "prettier --write .",
-    "prettier:check": "prettier --check .",
-    "preversion": "prettier --check . && npm run typecheck && npm run lint && npm run mdlint && npm run test:ci && npm run test:vitest:ci && npm run component:headless && npm run e2e:headless && npm run e2e:playwright && npm run build-storybook",
-    "version": "npm run build && git add .",
-    "postversion": "git push && git push --tags && rm -rf .next",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "prepare": "husky",
+    "preversion": "prettier --check . && npm run typecheck && npm run lint && npm run mdlint && npm run test:ci && npm run test:vitest:ci && npm run component:headless && npm run e2e:playwright",
+    "version": "npm run build && npm run build-storybook",
+    "postversion": "rm -rf .next && rm -rf storybook-static"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
@@ -122,7 +122,7 @@
     "tailwindcss": "^3.4.14",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3",
-    "vercel": "^37.12.1",
+    "vercel": "^37.13.0",
     "vitest": "^2.1.4"
   },
   "Remove when React 19 is stable": true,
