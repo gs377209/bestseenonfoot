@@ -24,7 +24,6 @@ const GoogleAd = ({ adSpot, slot }: Props) => {
         key={`${adSpot}-g-script-${url}`}
         onReady={() => {
           // @ts-expect-error - this should exist at this point
-          // eslint-disable-next-line no-undef
           (adsbygoogle = window.adsbygoogle || []).push({});
         }}
       ></Script>

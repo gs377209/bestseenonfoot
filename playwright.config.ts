@@ -72,7 +72,7 @@ export default defineConfig({
   reporter: "html",
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 0,
-  testDir: path.join(__dirname, "tests"),
+  testDir: path.join(__dirname, "src/tests"),
   /* Maximum time one test can run for. */
   timeout: 120 * 1000,
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */

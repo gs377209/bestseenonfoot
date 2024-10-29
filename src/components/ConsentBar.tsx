@@ -24,10 +24,11 @@ export default function ConsentBar({ consentGranted }: Props) {
           setLocalConsentGranted(true);
 
           function gtag() {
+            // eslint-disable-next-line prefer-rest-params
             window?.dataLayer?.push(arguments);
           }
 
-          // @ts-ignore
+          // @ts-expect-error this is crappy google scripting code
           gtag("consent", "update", {
             ad_personalization: "granted",
             ad_storage: "granted",
@@ -39,10 +40,11 @@ export default function ConsentBar({ consentGranted }: Props) {
         declineButtonText="I decline"
         onDecline={() => {
           function gtag() {
+            // eslint-disable-next-line prefer-rest-params
             window?.dataLayer?.push(arguments);
           }
 
-          // @ts-ignore
+          // @ts-expect-error this is crappy google scripting code
           gtag("consent", "update", {
             ad_personalization: "denied",
             ad_storage: "denied",

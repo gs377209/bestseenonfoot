@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { expect, test } from "vitest";
-import Intro from "../src/components/intro";
+import Intro from "../components/intro";
 
 test("Intro renders a heading", () => {
   render(<Intro />);

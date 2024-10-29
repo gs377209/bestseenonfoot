@@ -1,5 +1,3 @@
-"use server";
-
 import { createKysely } from "@vercel/postgres-kysely";
 import { Database } from "./types";
 

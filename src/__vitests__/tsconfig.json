@@ -1,9 +1,10 @@
 {
-  "extends": "../tsconfig.json",
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
     "target": "es5",
     "lib": ["es5", "dom"],
     "types": ["node", "vitest/globals"]
   },
+  "exclude": ["../../node_modules"],
   "include": ["./**/*.ts", "./**/*.tsx"]
 }

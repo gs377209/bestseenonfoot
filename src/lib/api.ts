@@ -5,6 +5,7 @@ import fs from "fs";
 import matter from "gray-matter";
 import { join } from "path";
 import { BASE_URL, HOME_OG_IMAGE_URL } from "./constants";
+import { Post } from "@/interfaces/post";
 
 const postsDirectory = join(process.cwd(), "src/_posts");
 
@@ -13,7 +14,7 @@ export function getPostSlugs() {
 }
 
 interface Items {
-  [key: string]: any;
+  [key: string]: unknown;
 }
 
 export function getPostBySlug(slug: string, fields: string[] = []) {
@@ -38,7 +39,7 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
     }
   });
 
-  return items;
+  return items as unknown as Post;
 }
 
 export function getAllPosts(fields: string[] = []) {
@@ -83,13 +84,13 @@ export function getAllPostsByAuthor(author: string, fields: string[] = []) {
 
 export function getAllPostsByTag(tag: string, fields: string[] = []) {
   return getAllPosts(fields).filter((post) => {
-    return (post.tags as string[]).some((postTag) => postTag === tag);
+    return post.tags.some((postTag) => postTag === tag);
   });
 }
 
 export function getAllPostsByPlace(place: string, fields: string[] = []) {
   return getAllPosts(fields).filter((post) => {
-    const postLocations = post.location.url.split("/") as string[];
+    const postLocations = post.location.url.split("/");
     return postLocations.some((postPlace) => postPlace === place);
   });
 }

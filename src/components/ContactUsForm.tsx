@@ -9,20 +9,25 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { sendGTMEvent } from "@next/third-parties/google";
 import classNames from "classnames";
-import { useEffect } from "react";
-import { useFormState, useFormStatus } from "react-dom";
+import { useActionState, useEffect } from "react";
+import { useFormStatus } from "react-dom";
 
 const initialState: ContactFormState = {
   isError: false,
   message: null,
 };
 
+interface SubmitButtonProps {
+  consentGranted: boolean;
+  isPending: boolean;
+}
+
 interface Props {
   consentGranted: boolean;
 }
 
-function SubmitButton({ consentGranted }: Props) {
-  const { pending, data } = useFormStatus();
+function SubmitButton({ consentGranted, isPending }: SubmitButtonProps) {
+  const { data } = useFormStatus();
 
   useEffect(() => {
     if (data && consentGranted) {
@@ -48,12 +53,12 @@ function SubmitButton({ consentGranted }: Props) {
       className={classNames(
         "inline-flex max-w-xs items-center justify-center rounded-md bg-slate-500 px-4 py-2 text-sm font-semibold leading-6 text-white shadow transition duration-150 ease-in-out hover:bg-slate-400",
         {
-          "cursor-not-allowed": pending,
+          "cursor-not-allowed": isPending,
         },
       )}
-      disabled={pending}
+      disabled={isPending}
     >
-      {pending ? (
+      {isPending ? (
         <>
           <FontAwesomeIcon
             icon={faCircleNotch}
@@ -69,7 +74,10 @@ function SubmitButton({ consentGranted }: Props) {
 }
 
 export default function ContactUs({ consentGranted }: Props) {
-  const [state, formAction] = useFormState(sendContactRequest, initialState);
+  const [state, formAction, isPending] = useActionState(
+    sendContactRequest,
+    initialState,
+  );
 
   return (
     <form
@@ -160,7 +168,7 @@ export default function ContactUs({ consentGranted }: Props) {
           rows={3}
         ></textarea>
       </label>
-      <SubmitButton consentGranted={consentGranted} />
+      <SubmitButton consentGranted={consentGranted} isPending={isPending} />
     </form>
   );
 }

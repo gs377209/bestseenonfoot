@@ -126,7 +126,7 @@ After our stop at the Reserva Nacional Los Flamencos, there was a long bus ride 
 
 [![Laguna Miniques](/assets/blog/san-pedro-de-atacama-part-1-piedras-rojas-salar-de-atacama-and-the-lagunas/IMG_6313.jpg "Laguna Miniques")](/assets/blog/san-pedro-de-atacama-part-1-piedras-rojas-salar-de-atacama-and-the-lagunas/IMG_6313.jpg)
 
-There were tons of vicuña running around the lagunas, which look kind of like llamas. Our guide was saying that they run like this during mating season, and both Gerrod and I are pretty sure he said that they bite each others balls off.
+There were tons of vicuña running around the lagunas, which look kind of like llamas. Our guide was saying that they run like this during mating season, and both Gerrod and I are pretty sure he said that they bite each others balls off.
 
 [![Vicuña taking a light jog](/assets/blog/san-pedro-de-atacama-part-1-piedras-rojas-salar-de-atacama-and-the-lagunas/IMG_6302.jpg "Vicuña taking a light jog")](/assets/blog/san-pedro-de-atacama-part-1-piedras-rojas-salar-de-atacama-and-the-lagunas/IMG_6302.jpg)
 

@@ -5,12 +5,13 @@ import { Metadata } from "next";
 import Place from "./place";
 
 interface Props {
-  params: {
+  params: Promise<{
     place: string[];
-  };
+  }>;
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   const place = params.place[params.place.length - 1]
     .split("-")
     .reduce((pc, cc) => {
@@ -52,7 +53,7 @@ export async function generateStaticParams() {
   ];
 }
 
-const getPosts = async (params: Props["params"]) => {
+const getPosts = async (params: { place: string[] }) => {
   const allPostsByPlace = getAllPostsByPlace(
     params.place[params.place.length - 1],
     [
@@ -87,7 +88,8 @@ const getPosts = async (params: Props["params"]) => {
   };
 };
 
-export default async function Page({ params }: Props) {
+export default async function Page(props: Props) {
+  const params = await props.params;
   const { allPosts, allPostsByPlace, place } = await getPosts(params);
 
   return (

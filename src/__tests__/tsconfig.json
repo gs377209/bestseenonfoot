@@ -1,9 +1,11 @@
 {
-  "extends": "../tsconfig.json",
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
     "target": "es5",
     "lib": ["es5", "dom"],
     "types": ["node", "jest", "@testing-library/jest-dom"]
   },
+  "exclude": ["../../node_modules"],
+
   "include": ["./**/*.ts", "./**/*.tsx"]
 }

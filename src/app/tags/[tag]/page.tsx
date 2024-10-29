@@ -5,10 +5,11 @@ import { Metadata } from "next";
 import Tag from "./tag";
 
 interface Props {
-  params: { tag: string };
+  params: Promise<{ tag: string }>;
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   return {
     alternates: {
       canonical: `${BASE_URL}/tags/${params.tag}`,
@@ -35,7 +36,7 @@ export async function generateStaticParams() {
   ];
 }
 
-const getPostsAndTags = async (params: Props["params"]) => {
+const getPostsAndTags = async (params: { tag: string }) => {
   const allPostsByTag = getAllPostsByTag(decodeURIComponent(params.tag), [
     "title",
     "date",
@@ -61,7 +62,8 @@ const getPostsAndTags = async (params: Props["params"]) => {
   };
 };
 
-export default async function Page({ params }: Props) {
+export default async function Page(props: Props) {
+  const params = await props.params;
   const { allPosts, allPostsByTag, tag } = await getPostsAndTags(params);
 
   return <Tag allPosts={allPosts} allPostsByTag={allPostsByTag} tag={tag} />;

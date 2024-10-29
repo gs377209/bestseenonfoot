@@ -6,11 +6,18 @@ export default defineConfig({
       bundler: "webpack",
       framework: "next",
     },
-    specPattern: "cypress/component/**/*.cy.{js,jsx,ts,tsx}",
+    specPattern: "src/cypress/component/**/*.cy.{js,jsx,ts,tsx}",
+    supportFile: "src/cypress/support/component.ts",
+    indexHtmlFile: "src/cypress/support/component-index.html",
   },
   defaultCommandTimeout: 10000,
   e2e: {
     baseUrl: "http://localhost:3000",
+    setupNodeEvents() {
+      // implement node event listeners here
+    },
+    specPattern: "src/cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    supportFile: "src/cypress/support/component.ts",
     // blockHosts: [
     //   "*google-analytics.com",
     //   "*googletagmanager.com",
@@ -24,8 +31,5 @@ export default defineConfig({
     //   "*fbcdn.net",
     //   "*twitter.com",
     // ],
-    setupNodeEvents() {
-      // implement node event listeners here
-    },
   },
 });
