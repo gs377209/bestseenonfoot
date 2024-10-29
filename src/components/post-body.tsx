@@ -64,9 +64,9 @@ const PostBody = ({ content }: Props) => {
           p: ({ node, children, ...rest }) => {
             const isYoutubeEmbed =
               React.Children.toArray(children).findIndex((child) => {
-                if (React.isValidElement(child)) {
+                if (React.isValidElement<HTMLAnchorElement>(child)) {
                   return (
-                    child.props.node.tagName === "a" &&
+                    child.props.tagName === "A" &&
                     /youtube\.com/.test(child.props.href ?? "")
                   );
                 }

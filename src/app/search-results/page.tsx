@@ -6,12 +6,11 @@ import { Metadata } from "next";
 import SearchResults from "./search-results";
 
 interface Props {
-  searchParams: { [key: string]: string | string[] | undefined };
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }
 
-export async function generateMetadata({
-  searchParams,
-}: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const searchParams = await props.searchParams;
   return {
     alternates: {
       canonical: `${BASE_URL}/search-results?query=${searchParams?.query}`,
@@ -73,7 +72,8 @@ const getFilteredPosts = async (searchParams: {
   };
 };
 
-export default async function Page({ searchParams }: Props) {
+export default async function Page(props: Props) {
+  const searchParams = await props.searchParams;
   const { allPosts, filteredPosts, search } =
     await getFilteredPosts(searchParams);
 

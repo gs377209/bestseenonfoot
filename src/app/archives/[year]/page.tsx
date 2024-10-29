@@ -6,10 +6,11 @@ import { Metadata } from "next";
 import YearArchives from "./year";
 
 interface Props {
-  params: { year: string };
+  params: Promise<{ year: string }>;
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   const titleText = `${format(
     parseISO(`${params.year.padStart(4, "0")}-01-01T17:00:00.000Z`),
     "yyyy",
@@ -38,7 +39,7 @@ export async function generateStaticParams() {
   ];
 }
 
-const getPosts = async (params: Props["params"]) => {
+const getPosts = async (params: { year: string }) => {
   const allPostsByDate = getAllPostsByDate(params, [
     "title",
     "date",
@@ -59,7 +60,8 @@ const getPosts = async (params: Props["params"]) => {
   return { allPosts, allPostsByDate };
 };
 
-export default async function Page({ params }: Props) {
+export default async function Page(props: Props) {
+  const params = await props.params;
   const { allPosts, allPostsByDate } = await getPosts(params);
 
   return <YearArchives allPosts={allPosts} allPostsByDate={allPostsByDate} />;

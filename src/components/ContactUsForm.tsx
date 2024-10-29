@@ -9,8 +9,8 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { sendGTMEvent } from "@next/third-parties/google";
 import classNames from "classnames";
-import { useEffect } from "react";
-import { useFormState, useFormStatus } from "react-dom";
+import { useActionState, useEffect } from "react";
+import { useFormStatus } from "react-dom";
 
 const initialState: ContactFormState = {
   isError: false,
@@ -69,7 +69,7 @@ function SubmitButton({ consentGranted }: Props) {
 }
 
 export default function ContactUs({ consentGranted }: Props) {
-  const [state, formAction] = useFormState(sendContactRequest, initialState);
+  const [state, formAction] = useActionState(sendContactRequest, initialState);
 
   return (
     <form

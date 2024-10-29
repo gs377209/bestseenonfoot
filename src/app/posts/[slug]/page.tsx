@@ -5,10 +5,11 @@ import { Metadata } from "next";
 import PostPage from "./post-page";
 
 interface Props {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   const post = getPostBySlug(params.slug, [
     "title",
     "date",
@@ -82,7 +83,7 @@ export async function generateStaticParams() {
   ];
 }
 
-const getPosts = async (params: Props["params"]) => {
+const getPosts = async (params: { slug: string }) => {
   const post = getPostBySlug(params.slug, [
     "title",
     "date",
@@ -112,7 +113,8 @@ const getPosts = async (params: Props["params"]) => {
   };
 };
 
-export default async function Page({ params }: Props) {
+export default async function Page(props: Props) {
+  const params = await props.params;
   const { allPosts, morePosts, post } = await getPosts(params);
 
   return <PostPage allPosts={allPosts} morePosts={morePosts} post={post} />;
