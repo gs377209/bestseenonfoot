@@ -2,7 +2,7 @@ self.addEventListener('push', function (event) {
   if (event.data) {
     const data = event.data.json()
     const options = {
-      badge: '/badge.png',
+      badge: '/icon.png',
       body: data.body,
       data: {
         dateOfArrival: Date.now(),
@@ -19,5 +19,5 @@ self.addEventListener('notificationclick', function (event) {
   console.log('Notification click received.')
   event.notification.close()
   // eslint-disable-next-line no-undef
-  event.waitUntil(clients.openWindow('<https://your-website.com>'))
+  event.waitUntil(clients.openWindow('https://www.bestseenonfoot.com'))
 })
