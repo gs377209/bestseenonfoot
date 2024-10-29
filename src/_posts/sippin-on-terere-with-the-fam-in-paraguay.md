@@ -165,7 +165,7 @@ For breakfast the following day, we decided to have a well balanced breakfast, s
 
 Afterwards we decided to attempt to get our money at Western Union again. The security was so tight that we had to remove hats, glasses, and phones before going through a revolving door while being watched by an armed guard. Of course the computer system was down, so we couldn't get our money. Liz was still feeling very sick, so we walked her back to our hotel and made our way to a museum in town.
 
-On our way to the museum we stopped in a mall, and strangely all of the advertisements were only in English. I am not sure if they thought that only English speakers were going to shop there, but I am not in advertising or marketing so who am I to judge. We stopped at a coffee chain in the mall called [The Coffee Bean & Tea Leaf](https://www.coffeebean.com/), which seemed to be a Starbucks competitor that we must not have in Ohio.
+On our way to the museum we stopped in a mall, and strangely all of the advertisements were only in English. I am not sure if they thought that only English speakers were going to shop there, but I am not in advertising or marketing so who am I to judge. We stopped at a coffee chain in the mall called [The Coffee Bean & Tea Leaf](https://www.coffeebean.com/), which seemed to be a Starbucks competitor that we must not have in Ohio.
 
 After the pit stop in the mall, we finally arrived at the museum, [Museo del Barro](https://www.museodelbarro.org/). The museum was full of both current and historical art, and had a large exhibit on the native population of Paraguay. Many of the native artifacts were actually found in the late 1900's! They also had a display of intricate lace that Liz had told us about called ñanduti.
 

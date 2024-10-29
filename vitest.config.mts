@@ -7,7 +7,7 @@ export default defineConfig({
     environment: "jsdom",
     include: ["**/__vitests__/**/*.{test,spec}.?(c|m)[jt]s?(x)"],
     typecheck: {
-      tsconfig: "./__vitests__/tsconfig.json",
+      tsconfig: "./src/__vitests__/tsconfig.json",
     },
   },
 });

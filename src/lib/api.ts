@@ -5,6 +5,8 @@ import fs from "fs";
 import matter from "gray-matter";
 import { join } from "path";
 import { BASE_URL, HOME_OG_IMAGE_URL } from "./constants";
+import { Author } from "@/interfaces/author";
+import { Location } from "@/interfaces/location";
 
 const postsDirectory = join(process.cwd(), "src/_posts");
 
@@ -13,7 +15,7 @@ export function getPostSlugs() {
 }
 
 interface Items {
-  [key: string]: any;
+  [key: string]: unknown;
 }
 
 export function getPostBySlug(slug: string, fields: string[] = []) {
@@ -46,7 +48,9 @@ export function getAllPosts(fields: string[] = []) {
   const posts = slugs
     .map((slug) => getPostBySlug(slug, fields))
     // sort posts by date in descending order
-    .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
+    .sort((post1, post2) =>
+      (post1.date as string) > (post2.date as string) ? -1 : 1,
+    );
   return posts;
 }
 
@@ -55,7 +59,7 @@ export function getAllPostsByDate(
   fields: string[] = [],
 ) {
   return getAllPosts(fields).filter((post) => {
-    const postDate = parseISO(post.date);
+    const postDate = parseISO(post.date as string);
     if (date.date) {
       // match all 3
       return (
@@ -77,7 +81,7 @@ export function getAllPostsByDate(
 
 export function getAllPostsByAuthor(author: string, fields: string[] = []) {
   return getAllPosts(fields).filter((post) => {
-    return post.author.url === author;
+    return (post.author as Author).url === author;
   });
 }
 
@@ -89,7 +93,9 @@ export function getAllPostsByTag(tag: string, fields: string[] = []) {
 
 export function getAllPostsByPlace(place: string, fields: string[] = []) {
   return getAllPosts(fields).filter((post) => {
-    const postLocations = post.location.url.split("/") as string[];
+    const postLocations = (post.location as Location).url.split(
+      "/",
+    ) as string[];
     return postLocations.some((postPlace) => postPlace === place);
   });
 }
@@ -130,18 +136,18 @@ export const generateRssFeed = () => {
     const url = `${BASE_URL}/posts/${post.slug}`;
     const postAuthor = {
       email: author.email,
-      link: `${BASE_URL}/${post.author?.url ?? author.link}`,
-      name: post.author?.name ?? author.name,
+      link: `${BASE_URL}/${(post.author as Author)?.url ?? author.link}`,
+      name: (post.author as Author)?.name ?? author.name,
     };
     feed.addItem({
       author: [postAuthor],
-      content: post.content,
+      content: post.content as string,
       contributor: [postAuthor],
-      date: parseISO(post.date),
-      description: post.excerpt,
+      date: parseISO(post.date as string),
+      description: post.excerpt as string,
       id: url,
       link: url,
-      title: post.title,
+      title: post.title as string,
     });
   });
   fs.writeFileSync("./public/feed.xml", feed.rss2());

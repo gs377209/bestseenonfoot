@@ -1,9 +1,9 @@
 {
-  "extends": "../tsconfig.json",
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
     "target": "es5",
     "lib": ["es5", "dom"],
-    "types": ["node", "vitest/globals"]
+    "types": ["node", "jest", "@testing-library/jest-dom"]
   },
   "include": ["./**/*.ts", "./**/*.tsx"]
 }

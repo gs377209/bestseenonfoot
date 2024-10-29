@@ -19,10 +19,11 @@ const initialState: ContactFormState = {
 
 interface Props {
   consentGranted: boolean;
+  isPending: boolean;
 }
 
-function SubmitButton({ consentGranted }: Props) {
-  const { pending, data } = useFormStatus();
+function SubmitButton({ consentGranted, isPending }: Props) {
+  const { data } = useFormStatus();
 
   useEffect(() => {
     if (data && consentGranted) {
@@ -48,12 +49,12 @@ function SubmitButton({ consentGranted }: Props) {
       className={classNames(
         "inline-flex max-w-xs items-center justify-center rounded-md bg-slate-500 px-4 py-2 text-sm font-semibold leading-6 text-white shadow transition duration-150 ease-in-out hover:bg-slate-400",
         {
-          "cursor-not-allowed": pending,
+          "cursor-not-allowed": isPending,
         },
       )}
-      disabled={pending}
+      disabled={isPending}
     >
-      {pending ? (
+      {isPending ? (
         <>
           <FontAwesomeIcon
             icon={faCircleNotch}
@@ -69,7 +70,10 @@ function SubmitButton({ consentGranted }: Props) {
 }
 
 export default function ContactUs({ consentGranted }: Props) {
-  const [state, formAction] = useActionState(sendContactRequest, initialState);
+  const [state, formAction, isPending] = useActionState(
+    sendContactRequest,
+    initialState,
+  );
 
   return (
     <form
@@ -160,7 +164,7 @@ export default function ContactUs({ consentGranted }: Props) {
           rows={3}
         ></textarea>
       </label>
-      <SubmitButton consentGranted={consentGranted} />
+      <SubmitButton consentGranted={consentGranted} isPending={isPending} />
     </form>
   );
 }

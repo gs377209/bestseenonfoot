@@ -33,7 +33,6 @@ export default function manifest(): MetadataRoute.Manifest {
     orientation: "portrait",
     screenshots: [
       {
-        // @ts-expect-error this is a real prop
         form_factor: "wide",
         label: "Homescreen of Bestseenonfoot",
         sizes: "1440x797",
@@ -41,7 +40,6 @@ export default function manifest(): MetadataRoute.Manifest {
         type: "image/png",
       },
       {
-        // @ts-expect-error this is a real prop
         form_factor: "narrow",
         label: "Homescreen of Bestseenonfoot",
         sizes: "750x1334",
