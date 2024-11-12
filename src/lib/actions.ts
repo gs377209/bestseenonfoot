@@ -11,6 +11,13 @@ export interface ContactFormState {
 }
 
 const schema = z.object({
+  address: z
+    .string({
+      invalid_type_error: "Address must be a string",
+      required_error: "Address is required",
+    })
+    .trim()
+    .max(0, { message: "Address must be blank" }),
   email: z
     .string({
       invalid_type_error: "Email must be a string",
@@ -36,10 +43,11 @@ const schema = z.object({
 });
 
 export async function sendContactRequest(
-  prevState: ContactFormState,
+  _prevState: ContactFormState,
   formData: FormData,
 ) {
   const paresResult = schema.safeParse({
+    address: formData.get("address"),
     email: formData.get("email"),
     message: formData.get("message"),
     name: formData.get("name"),
@@ -49,22 +57,30 @@ export async function sendContactRequest(
     console.error("Form Errors: ", paresResult.error);
     const formattedErrors = paresResult.error.flatten();
 
+    const errorList = [
+      ...formattedErrors.formErrors,
+      ...Object.values(formattedErrors.fieldErrors)
+        .flatMap((errors) => errors)
+        .filter((error) => error !== "Address must be blank"),
+    ];
+
+    if (errorList.length > 0) {
+      return {
+        errorList: errorList,
+        isError: true,
+        message: `Please correct the issues listed below`,
+      };
+    }
     return {
-      errorList: [
-        ...formattedErrors.formErrors,
-        ...Object.values(formattedErrors.fieldErrors).flatMap(
-          (errors) => errors,
-        ),
-      ],
-      isError: true,
-      message: `Please correct the issues listed below`,
+      isError: false,
+      message: `Thanks!`,
     };
   }
 
   try {
-    const response = await ContactSubmissionRepository.createContactSubmission(
-      paresResult.data,
-    );
+    const { address: _, ...realData } = paresResult.data;
+    const response =
+      await ContactSubmissionRepository.createContactSubmission(realData);
 
     if (!response) {
       console.error("Error: ", response);

@@ -16,7 +16,6 @@ const PostBody = ({ content }: Props) => {
     >
       <ReactMarkdown
         components={{
-          // eslint-disable-next-line @typescript-eslint/no-unused-vars
           a: ({ node, children, href, ref, ...rest }) => {
             if (/youtube-nocookie\.com/.test(href ?? "")) {
               return (
@@ -45,7 +44,7 @@ const PostBody = ({ content }: Props) => {
               </Link>
             );
           },
-          // eslint-disable-next-line @typescript-eslint/no-unused-vars
+
           img: ({ node, src, alt, title, ref, ...rest }) => {
             return (
               <Image
@@ -60,7 +59,7 @@ const PostBody = ({ content }: Props) => {
               />
             );
           },
-          // eslint-disable-next-line @typescript-eslint/no-unused-vars
+
           p: ({ node, children, ...rest }) => {
             const isYoutubeEmbed =
               React.Children.toArray(children).findIndex((child) => {
