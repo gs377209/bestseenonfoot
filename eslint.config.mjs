@@ -42,6 +42,18 @@ export default [
       "sort-vars": "warn",
       "no-unused-private-class-members": "warn",
       "no-unused-expressions": "warn",
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        {
+          args: "all",
+          argsIgnorePattern: "^_",
+          caughtErrors: "all",
+          caughtErrorsIgnorePattern: "^_",
+          destructuredArrayIgnorePattern: "^_",
+          varsIgnorePattern: "^_",
+          ignoreRestSiblings: true,
+        },
+      ],
     },
   },
   ...compat.extends("plugin:markdownlint/recommended").map((config) => ({

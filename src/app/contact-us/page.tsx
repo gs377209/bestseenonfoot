@@ -6,6 +6,7 @@ import ContactUs from "./contact-us";
 
 export const metadata: Metadata = {
   alternates: { canonical: `${BASE_URL}/contact-us` },
+  robots: { follow: false, index: false },
   title: "Contact Us",
 };
 
