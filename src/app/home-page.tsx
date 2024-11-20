@@ -33,7 +33,7 @@ export default function HomePage({ allPosts }: Props) {
         <div className="mt-8 text-center">
           <Link
             href="/posts"
-            className="text-3xl font-medium text-gray-900 underline text-center "
+            className="text-3xl font-medium text-gray-900 underline text-center"
           >
             See all posts &gt;
           </Link>
