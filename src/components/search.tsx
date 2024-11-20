@@ -36,7 +36,7 @@ function SearchButton() {
 
 export default function Search() {
   return (
-    <Form action="/search-results">
+    <Form action="/search-results" className="flex gap-4">
       <label className="sr-only" htmlFor="search">
         Search for Posts
       </label>
