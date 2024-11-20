@@ -4,6 +4,7 @@ import Intro from "@/components/intro";
 import MoreStories from "@/components/more-stories";
 import SideBar from "@/components/side-bar";
 import { Post } from "@/interfaces/post";
+import Link from "next/link";
 import { Suspense } from "react";
 
 interface Props {
@@ -12,7 +13,7 @@ interface Props {
 
 export default function HomePage({ allPosts }: Props) {
   const heroPost = allPosts[0];
-  const morePosts = allPosts.slice(1);
+  const morePosts = allPosts.slice(1, 7);
 
   return (
     <Container>
@@ -29,6 +30,14 @@ export default function HomePage({ allPosts }: Props) {
           />
         )}
         {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+        <div className="mt-8 text-center">
+          <Link
+            href="/posts"
+            className="text-3xl font-medium text-gray-900 underline text-center"
+          >
+            See all posts &gt;
+          </Link>
+        </div>
       </section>
       <Suspense
         fallback={
