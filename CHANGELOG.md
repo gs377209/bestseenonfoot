@@ -1,5 +1,13 @@
 # Changelog
 
+## v22.0.0 (2024-12-09)
+
+- React 19
+- Node 22
+- Other upgrades (major)
+- Force flag false; peer dependency true...
+- Cypress E2E still not working...
+
 ## v21.0.0 (2024-10-29)
 
 - Next 15
