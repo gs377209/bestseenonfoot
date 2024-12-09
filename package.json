@@ -1,6 +1,6 @@
 {
   "name": "bestseenonfoot",
-  "version": "21.0.0",
+  "version": "22.0.0",
   "private": true,
   "engines": {
     "node": "^22.11.0 || ^20.9.0 || ^18.12.0",
