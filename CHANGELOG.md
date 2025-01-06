@@ -1,5 +1,10 @@
 # Changelog
 
+## v23.0.0 (2025-01-06)
+
+- Add AJV
+- Other upgrades (minor)
+
 ## v22.0.0 (2024-12-09)
 
 - React 19
