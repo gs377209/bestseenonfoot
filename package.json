@@ -122,7 +122,7 @@
     "storybook": "^8.4.7",
     "tailwindcss": "^3.4.17",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.2",
+    "typescript": "^5.7.3",
     "vercel": "^39.2.5",
     "vitest": "^2.1.8"
   }
