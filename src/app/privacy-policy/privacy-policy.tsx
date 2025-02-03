@@ -98,8 +98,8 @@ export default function PrivacyPolicy({ allPosts }: Props) {
 
           <p>
             We have a few other tracking cookies related to social media sites
-            like Facebook, Instagram, and Twitter. There are also some site
-            statistics, advertising, and tracking cookies being run by Google.
+            like Facebook and Instagram. There are also some site statistics,
+            advertising, and tracking cookies being run by Google.
           </p>
 
           <p>

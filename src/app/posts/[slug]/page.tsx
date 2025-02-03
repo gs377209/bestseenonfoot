@@ -56,16 +56,6 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
       publish_date: post.date,
     },
     title: `${post.title}`,
-    twitter: {
-      description: post.excerpt,
-      images: [
-        {
-          alt: `${post.title} Feature Image`,
-          url: BASE_URL + post.ogImage.url,
-        },
-      ],
-      title: post.title,
-    },
   };
 }
 

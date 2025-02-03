@@ -107,7 +107,7 @@ export const generateRssFeed = () => {
   const date = new Date();
   const author = {
     email: "bestseenonfoot@gmail.com",
-    link: "https://twitter.com/bestseenonfoot",
+    link: "https://facebook.com/bestseenonfoot",
     name: "Best Seen On Foot",
   };
   const feed = new Feed({
