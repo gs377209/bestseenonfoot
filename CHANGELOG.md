@@ -1,5 +1,17 @@
 # Changelog
 
+## v24.0.0 (2025-02-03)
+
+- Next updates (minor)
+- Storybook updates (minor)
+- Tailwind updates (major 4)
+- Other upgrades (minor)
+- Cypress 14
+- eslint-config-prettier 10
+- jsdom 26
+- vercel 40
+- vitest 3
+
 ## v23.0.0 (2025-01-06)
 
 - Add AJV
