@@ -106,7 +106,7 @@ export default function SideBar({ allPosts }: Props) {
         <select
           id="archives-dropdown-2"
           name="archive-dropdown"
-          className="mt-1 block min-w-fit rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+          className="mt-1 block min-w-fit rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-3 focus:ring-indigo-200 focus:ring-opacity-50"
           onChange={(e) => {
             if (e.currentTarget.value) {
               router.push(e.currentTarget.value);

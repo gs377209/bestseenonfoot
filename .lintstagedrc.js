@@ -14,10 +14,7 @@ module.exports = {
     "markdownlint-cli2 --cache --fix",
     "prettier --cache --write --ignore-unknown",
   ],
-  "*.{css,scss}": [
-    "stylelint --cache --fix",
-    "prettier --cache --write --ignore-unknown",
-  ],
+  "*.{css,scss}": ["prettier --cache --write --ignore-unknown"],
   "*.{js,jsx,ts,tsx}": [
     buildEslintCommand,
     "prettier --cache --write --ignore-unknown",

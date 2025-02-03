@@ -23,7 +23,7 @@ export default function Nav() {
           <button
             onClick={() => setIsMobileMenuVisible(!isMobileMenuVisible)}
             type="button"
-            className="inline-flex items-center justify-center rounded-lg text-black hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-300 md:hidden"
+            className="inline-flex items-center justify-center rounded-lg text-black hover:text-gray-500 focus:outline-hidden focus:ring-2 focus:ring-blue-300 md:hidden"
             aria-controls="mobile-menu-3"
             aria-expanded="false"
           >

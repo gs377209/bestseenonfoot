@@ -129,7 +129,7 @@ export default function ContactUs({ consentGranted }: Props) {
                     rounded-md
                     border-gray-300
                     shadow-sm
-                    focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50
+                    focus:border-indigo-300 focus:ring-3 focus:ring-indigo-200 focus:ring-opacity-50
                   "
         />
       </label>
@@ -147,7 +147,7 @@ export default function ContactUs({ consentGranted }: Props) {
                     rounded-md
                     border-gray-300
                     shadow-sm
-                    focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50
+                    focus:border-indigo-300 focus:ring-3 focus:ring-indigo-200 focus:ring-opacity-50
                   "
         />
       </label>
@@ -164,7 +164,7 @@ export default function ContactUs({ consentGranted }: Props) {
                     rounded-md
                     border-gray-300
                     shadow-sm
-                    focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50
+                    focus:border-indigo-300 focus:ring-3 focus:ring-indigo-200 focus:ring-opacity-50
                   "
           rows={3}
         ></textarea>
@@ -176,7 +176,7 @@ export default function ContactUs({ consentGranted }: Props) {
           id="address"
           name="address"
           className={classNames(
-            "mt-1 w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 hidden",
+            "mt-1 w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-3 focus:ring-indigo-200 focus:ring-opacity-50 hidden",
           )}
         />
       </label>
