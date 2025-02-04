@@ -11,6 +11,7 @@
 - jsdom 26
 - vercel 40
 - vitest 3
+- dimholt road entry
 
 ## v23.0.0 (2025-01-06)
 
