@@ -29,7 +29,6 @@ export default defineConfig({
     //   "*facebook.net",
     //   "*facebook.com",
     //   "*fbcdn.net",
-    //   "*twitter.com",
     // ],
   },
 });

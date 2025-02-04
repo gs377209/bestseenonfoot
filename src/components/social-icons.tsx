@@ -1,7 +1,6 @@
 import {
   faFacebook,
   faInstagram,
-  faTwitter,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -20,21 +19,6 @@ export default function SocialIcons() {
           <FontAwesomeIcon
             icon={faFacebook}
             color="#1877F2"
-            className="rounded-lg bg-white"
-            size="2xl"
-          />
-        </Link>
-      </li>
-      <li>
-        <Link
-          href="https://twitter.com/bestseenonfoot"
-          target="_blank"
-          rel="noreferrer noopener"
-          aria-label="Best Seen On Foot Twitter"
-        >
-          <FontAwesomeIcon
-            icon={faTwitter}
-            color="#1DA1F2"
             className="rounded-lg bg-white"
             size="2xl"
           />

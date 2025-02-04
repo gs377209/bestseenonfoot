@@ -12,7 +12,6 @@ import { expect, test } from "@playwright/test";
 //   await context.route(/.*facebook\.net/, (route) => route.abort());
 //   await context.route(/.*facebook\.com/, (route) => route.abort());
 //   await context.route(/.*fbcdn\.net/, (route) => route.abort());
-//   await context.route(/.*twitter\.com/, (route) => route.abort());
 // });
 
 test.describe("desktop tests", () => {

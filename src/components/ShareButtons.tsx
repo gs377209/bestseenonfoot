@@ -15,7 +15,6 @@ import {
   RedditShare,
   TelegramShare,
   TumblrShare,
-  TwitterShare,
   VKShareShare,
   ViberShare,
   WeiboShare,
@@ -31,7 +30,6 @@ export default function ShareButtons({ shareURL }: Props) {
   return (
     <div className="mb-5 grid grid-cols-4 gap-4 sm:grid-cols-6 md:grid-cols-8 2xl:grid-cols-12">
       <FacebookShare url={shareURL} />
-      <TwitterShare url={shareURL} />
       <LinkedinShare url={shareURL} />
       <WhatsappShare url={shareURL} />
 

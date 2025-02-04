@@ -36,7 +36,7 @@ export default function ScrollToTop() {
     >
       <FontAwesomeIcon
         icon={faCircleChevronUp}
-        className="w-12 h-12 rounded-full drop-shadow-md text-3xl font-bold"
+        className="w-full h-full text-[3rem]"
       />
     </button>
   ) : null;

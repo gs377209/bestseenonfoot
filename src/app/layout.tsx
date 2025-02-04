@@ -68,21 +68,6 @@ export const metadata: Metadata = {
     default: "Best Seen on Foot",
     template: "%s | Best Seen on Foot",
   },
-  twitter: {
-    card: "summary_large_image",
-    creator: "@bestseenonfoot",
-    description: "A travel blog",
-    images: [
-      {
-        alt: "Best Seen on Foot Logo",
-        height: 512,
-        url: HOME_OG_IMAGE_URL,
-        width: 512,
-      },
-    ],
-    site: "@bestseenonfoot",
-    title: "Best Seen On Foot",
-  },
 };
 
 export default async function RootLayout({
@@ -152,12 +137,6 @@ export default async function RootLayout({
           crossOrigin="anonymous"
           src={`https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0&appId=${FACEBOOK_APP_ID}&autoLogAppEvents=1`}
           nonce="bt5hNPrJ"
-        />
-        {/* Twitter - social */}
-        <Script
-          async
-          strategy="lazyOnload"
-          src="https://platform.twitter.com/widgets.js"
         />
         {/* FB - social */}
         <FacebookPixel />
