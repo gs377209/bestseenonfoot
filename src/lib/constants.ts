@@ -1,5 +1,5 @@
 export const BASE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://localhost:3000";
 export const SITE_LOGO = process.env.NEXT_PUBLIC_SITE_LOGO ?? "";
 export const HOME_OG_IMAGE_URL = BASE_URL + SITE_LOGO;
 export const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID;
