@@ -12,7 +12,7 @@ import {
 } from "@/lib/constants";
 import { getConsentCookie } from "@/lib/cookies";
 import { config } from "@fortawesome/fontawesome-svg-core";
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Metadata, Viewport } from "next";
 import Image from "next/image";
