@@ -42,10 +42,21 @@ const nextConfig: NextConfig = {
   },
   images: {
     formats: ["image/avif", "image/webp"],
+    localPatterns: [
+      {
+        pathname: "/assets/**",
+      },
+    ],
+    minimumCacheTTL: 2592000,
     remotePatterns: [
       {
-        hostname: "www.facebook.com",
-        pathname: "/tr",
+        hostname: "**.facebook.com",
+        pathname: "**",
+        protocol: "https",
+      },
+      {
+        hostname: "**.bestseenonfoot.com",
+        pathname: "**",
         protocol: "https",
       },
     ],

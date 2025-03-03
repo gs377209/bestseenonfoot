@@ -87,6 +87,7 @@ export default async function RootLayout({
             width="1"
             className="hidden"
             src={`https://www.facebook.com/tr?id=${FACEBOOK_PIXEL_ID}&ev=PageView&noscript=1`}
+            unoptimized
           />
         </noscript>
 
