@@ -23,8 +23,10 @@ const GoogleAd = ({ adSpot, slot }: Props) => {
         strategy="lazyOnload"
         key={`${adSpot}-g-script-${url}`}
         onReady={() => {
-          // @ts-expect-error - this should exist at this point
-          (adsbygoogle = window.adsbygoogle || []).push({});
+          if (window.adsbygoogle) {
+            // @ts-expect-error - this should exist at this point
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          }
         }}
       ></Script>
       <ins
