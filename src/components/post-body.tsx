@@ -35,6 +35,7 @@ const PostBody = ({ content }: Props) => {
                 <YouTubeEmbed
                   videoid={videoId ?? ""}
                   playlabel={`Play ${children?.toString()} Video`}
+                  style="margin: 0 auto"
                 />
               );
             }
