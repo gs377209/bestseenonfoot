@@ -86,6 +86,8 @@ Our boat even rode into one of the waterfalls. We had the option to go inside an
 
 Since it was an Encounter Nature cruise, our guide went into detail on the unique subsurface habitat in the sound. Since Milford Sound receives high rainfall, and saltwater has a higher density than freshwater, the surface of Milford Sound has a layer of freshwater sitting on top of the salty ocean water. This freshwater layer contains tannins leached from the vegetation in the surrounding rainforest, which make this freshwater darker in color. These dark tannins filter out a lot of the sunlight entering the water, which creates the perfect conditions for a variety of black coral to flourish at depths of as shallow as 10 metres. Black corals are typically found much deeper in the water column. significantly closer to the surface than usual. Neat!!
 
+[Milford Sound Ferry Tour](https://www.youtube.com/embed/CxTBzNAUNL0)
+
 ## The Drive Back to Lumsden: Stopping at the Sights
 
 When we got back we headed to the car and back to our hotel/Airbnb in Lumsden. Since we skipped all of the sights along the Milford Highway on our drive to the fiord, we decided to stop at them on the way back. We had picked up a pamphlet at the information center at Milford Sound, and used it as a reference guide to know what places to stop on our drive.
