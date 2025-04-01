@@ -120,7 +120,7 @@
     "prettier-plugin-tailwindcss": "^0.6.11",
     "start-server-and-test": "^2.0.10",
     "storybook": "^8.6.3",
-    "tailwindcss": "^4.0.0",
+    "tailwindcss": "^4.0.17",
     "ts-node": "^10.9.2",
     "typescript": "~5.7",
     "vercel": "^41.3.0",
