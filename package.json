@@ -64,7 +64,7 @@
     "fuse.js": "^7.1.0",
     "gray-matter": "^4.0.3",
     "kysely": "^0.27.6",
-    "next": "15.2.0",
+    "next": "15.2.4",
     "next-share": "^0.27.0",
     "react": "19.0.0",
     "react-cookie-consent": "^9.0.0",
