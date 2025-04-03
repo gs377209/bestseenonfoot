@@ -1,5 +1,11 @@
 # Changelog
 
+## v25.0.1 (2025-04-03)
+
+- Next updates (minor)
+- Storybook updates (minor)
+- Other upgrades
+
 ## v25.0.0 (2025-03-03)
 
 - Next updates (minor)
