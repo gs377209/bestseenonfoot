@@ -10,14 +10,13 @@ const config: StorybookConfig = {
     "@storybook/addon-mdx-gfm",
   ],
 
-  docs: {},
-
   framework: {
     name: "@storybook/nextjs",
     options: {},
   },
 
   staticDirs: ["../../public"],
+
   stories: ["../**/*.mdx", "../**/*.stories.@(js|jsx|mjs|ts|tsx)"],
 
   typescript: {
