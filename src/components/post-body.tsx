@@ -50,7 +50,7 @@ const PostBody = ({ content }: Props) => {
             return (
               <Image
                 {...rest}
-                src={src ?? ""}
+                src={typeof src === "string" ? src : ""}
                 alt={alt ?? ""}
                 title={title}
                 width="1036"
