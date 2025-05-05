@@ -1,5 +1,10 @@
 # Changelog
 
+## v25.0.1 (2025-05-05)
+
+- Next updates (patch)
+- Other upgrades
+
 ## v25.0.2 (2025-04-09)
 
 - Next updates (patch)
