@@ -13,6 +13,8 @@ interface Props {
 }
 
 export default function AboutUs({ allPosts }: Props) {
+  console.log("process.env.VERCEL_ENV", process.env.VERCEL_ENV);
+
   return (
     <Container>
       <section className="container prose mx-auto max-w-none md:prose-lg lg:prose-xl lg:col-span-2">
@@ -27,6 +29,7 @@ export default function AboutUs({ allPosts }: Props) {
                 title="Picture of Lauren and Gerrod"
                 priority
                 placeholder="blur"
+                unoptimized={process.env.VERCEL_ENV !== "production"}
               />
             </Link>
           </p>
@@ -55,6 +58,7 @@ export default function AboutUs({ allPosts }: Props) {
                 alt="Picture of Lauren"
                 title="Picture of Lauren"
                 placeholder="blur"
+                unoptimized={process.env.VERCEL_ENV !== "production"}
               />
             </Link>
           </p>
@@ -89,6 +93,7 @@ export default function AboutUs({ allPosts }: Props) {
                 alt="Picture of Gerrod"
                 title="Picture of Gerrod"
                 placeholder="blur"
+                unoptimized={process.env.VERCEL_ENV !== "production"}
               />
             </Link>
           </p>
