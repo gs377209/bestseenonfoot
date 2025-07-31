@@ -157,3 +157,4 @@ cypress/downloads
 *storybook.log
 storybook-static/
 certificates
+.env*.local

@@ -17,6 +17,7 @@ const Header = () => {
           fill
           sizes="100vw"
           quality={100}
+          unoptimized={process.env.VERCEL_ENV !== "production"}
         />
       </div>
       <Link href="/">
@@ -29,6 +30,7 @@ const Header = () => {
           title="Best Seen On Foot"
           priority
           placeholder="blur"
+          unoptimized={process.env.VERCEL_ENV !== "production"}
         />
       </Link>
 
