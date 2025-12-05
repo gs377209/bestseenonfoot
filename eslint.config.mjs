@@ -1,3 +1,5 @@
+import nextCoreWebVitals from "eslint-config-next/core-web-vitals";
+import nextTypescript from "eslint-config-next/typescript";
 import parser from "eslint-plugin-markdownlint/parser.js";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -13,14 +15,12 @@ const compat = new FlatCompat({
 });
 
 export default [
-  ...compat.extends(
-    "eslint:recommended",
-    "next/core-web-vitals",
-    "next/typescript",
-    "plugin:cypress/recommended",
-    "plugin:storybook/recommended",
-    "prettier",
-  ),
+  ...compat.extends("eslint:recommended"),
+  ...nextCoreWebVitals,
+  ...nextTypescript,
+  ...compat.extends("plugin:cypress/recommended"),
+  ...compat.extends("plugin:storybook/recommended"),
+  ...compat.extends("prettier"),
   {
     rules: {
       "@next/next/no-before-interactive-script-outside-document": "off",
@@ -66,6 +66,15 @@ export default [
       parser: parser,
     },
   })),
+  {
+    ignores: [
+      "node_modules/**",
+      ".next/**",
+      "out/**",
+      "build/**",
+      "next-env.d.ts",
+    ],
+  },
 ];
 
 // old json config: {

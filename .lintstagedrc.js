@@ -1,11 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-require-imports
-const path = require("path");
-
-const buildEslintCommand = (filenames) =>
-  `next lint --fix --file ${filenames
-    .map((f) => path.relative(process.cwd(), f))
-    .join(" --file ")}`;
-
 module.exports = {
   "!(*.md|*.css|*.scss|*.js|*.jsx|*.ts|*.tsx)": [
     "prettier --cache --write --ignore-unknown",
@@ -16,7 +8,7 @@ module.exports = {
   ],
   "*.{css,scss}": ["prettier --cache --write --ignore-unknown"],
   "*.{js,jsx,ts,tsx}": [
-    buildEslintCommand,
+    "eslint --cache --fix",
     "prettier --cache --write --ignore-unknown",
   ],
 };
