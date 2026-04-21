@@ -61,7 +61,7 @@ jobs:
         run: npm run e2e:playwright:install
       - name: Run Playwright tests
         run: npm run e2e:playwright
-      - uses: actions/upload-artifact@v6
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: playwright-report
