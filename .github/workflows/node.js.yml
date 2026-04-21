@@ -9,6 +9,9 @@ on:
   pull_request:
     branches: ["main"]
 
+permissions:
+  contents: read
+
 env:
   NEON_PROJECT_ID: ${{ vars.NEON_PROJECT_ID }}
   NEXT_PUBLIC_FACEBOOK_APP_ID: ${{ vars.NEXT_PUBLIC_FACEBOOK_APP_ID }}
