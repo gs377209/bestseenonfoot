@@ -38,9 +38,9 @@ jobs:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Use Node.js from .nvmrc
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version-file: ".nvmrc"
           cache: "npm"
@@ -61,7 +61,7 @@ jobs:
         run: npm run e2e:playwright:install
       - name: Run Playwright tests
         run: npm run e2e:playwright
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
         if: always()
         with:
           name: playwright-report
