@@ -6,9 +6,9 @@ export default defineConfig({
       bundler: "webpack",
       framework: "next",
     },
+    indexHtmlFile: "src/cypress/support/component-index.html",
     specPattern: "src/cypress/component/**/*.cy.{js,jsx,ts,tsx}",
     supportFile: "src/cypress/support/component.ts",
-    indexHtmlFile: "src/cypress/support/component-index.html",
   },
   defaultCommandTimeout: 10000,
   e2e: {

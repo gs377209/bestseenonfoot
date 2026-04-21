@@ -9,12 +9,12 @@ import { FlatCompat } from "@eslint/eslintrc";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const compat = new FlatCompat({
+  allConfig: js.configs.all,
   baseDirectory: __dirname,
   recommendedConfig: js.configs.recommended,
-  allConfig: js.configs.all,
 });
 
-export default [
+const config = [
   ...compat.extends("eslint:recommended"),
   ...nextCoreWebVitals,
   ...nextTypescript,
@@ -24,24 +24,6 @@ export default [
   {
     rules: {
       "@next/next/no-before-interactive-script-outside-document": "off",
-      "no-duplicate-imports": "warn",
-      "no-useless-rename": "warn",
-
-      "sort-imports": [
-        "warn",
-        {
-          ignoreCase: false,
-          ignoreDeclarationSort: true,
-          ignoreMemberSort: false,
-          memberSyntaxSortOrder: ["none", "all", "multiple", "single"],
-          allowSeparatedGroups: false,
-        },
-      ],
-
-      "sort-keys": "warn",
-      "sort-vars": "warn",
-      "no-unused-private-class-members": "warn",
-      "no-unused-expressions": "warn",
       "@typescript-eslint/no-unused-vars": [
         "error",
         {
@@ -50,20 +32,36 @@ export default [
           caughtErrors: "all",
           caughtErrorsIgnorePattern: "^_",
           destructuredArrayIgnorePattern: "^_",
-          varsIgnorePattern: "^_",
           ignoreRestSiblings: true,
+          varsIgnorePattern: "^_",
         },
       ],
+      "no-duplicate-imports": "warn",
+      "no-unused-expressions": "warn",
+      "no-unused-private-class-members": "warn",
+      "no-useless-rename": "warn",
+      "sort-imports": [
+        "warn",
+        {
+          allowSeparatedGroups: false,
+          ignoreCase: false,
+          ignoreDeclarationSort: true,
+          ignoreMemberSort: false,
+          memberSyntaxSortOrder: ["none", "all", "multiple", "single"],
+        },
+      ],
+      "sort-keys": "warn",
+      "sort-vars": "warn",
     },
   },
   ...compat.extends("plugin:markdownlint/recommended").map((config) => ({
     ...config,
     files: ["**/*.md"],
-    rules: {
-      "markdownlint/md013": "off",
-    },
     languageOptions: {
       parser: parser,
+    },
+    rules: {
+      "markdownlint/md013": "off",
     },
   })),
   {
@@ -73,6 +71,7 @@ export default [
       "out/**",
       "build/**",
       "next-env.d.ts",
+      "public/scripts/pixel.js",
     ],
   },
 ];
@@ -112,3 +111,5 @@ export default [
 //     }
 //   ]
 // }
+
+export default config;
