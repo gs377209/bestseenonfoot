@@ -7,16 +7,7 @@
     "npm": "^11.0.0 || ^10.0.0 || ^9.0.0"
   },
   "engineStrict": true,
-  "devEngines": {
-    "runtime": {
-      "name": "node",
-      "onFail": "error"
-    },
-    "packageManager": {
-      "name": "npm",
-      "onFail": "error"
-    }
-  },
+  "packageManager": "npm@10.9.7",
   "scripts": {
     "dev": "next dev --experimental-https",
     "build": "next build",
