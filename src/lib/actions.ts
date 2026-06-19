@@ -79,16 +79,7 @@ export async function sendContactRequest(
 
   try {
     const { address: _, ...realData } = paresResult.data;
-    const response =
-      await ContactSubmissionRepository.createContactSubmission(realData);
-
-    if (!response) {
-      console.error("Error: ", response);
-      return {
-        isError: true,
-        message: `Seems like something is wrong; feel free to email us directly at bestseenonfoot@gmail.com`,
-      };
-    }
+    await ContactSubmissionRepository.createContactSubmission(realData);
   } catch (error) {
     console.error("Error: ", error);
     return {

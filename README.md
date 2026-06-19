@@ -119,3 +119,10 @@ Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&ut
 ## Notes
 
 `blog-starter` uses [Tailwind CSS](https://tailwindcss.com) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3).
+
+## Database
+
+- This project uses a Postgres database accessed via Neon using the `@neondatabase/serverless` package.
+- Connection string is read from the `POSTGRES_URL` environment variable. For local development pull secrets (for Vercel deployments) with `npx vercel env pull` or set `POSTGRES_URL` in your shell or `.env` file.
+- Contact form submissions are stored in the `contact_submission` table. Server-side DB functions live in `src/database/ContactSubmissionRepository.ts` and types are in `src/database/types.ts`.
+- CI workflows expect a `POSTGRES_URL` secret; some workflows also reference `NEON_PROJECT_ID` and `NEON_API_KEY` for Neon-managed provisioning.

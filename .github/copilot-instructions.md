@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This is a **travel blog application** built with Next.js 15, TypeScript, and React 19. It's a static-generated blog with dynamic routes, Vercel Postgres integration for contact form submissions, and comprehensive testing (Jest, Vitest, Playwright, Cypress).
+This is a **travel blog application** built with Next.js 15, TypeScript, and React 19. It's a static-generated blog with dynamic routes, Neon Postgres integration for contact form submissions, and comprehensive testing (Jest, Vitest, Playwright, Cypress).
 
 ## Architecture
 
@@ -10,7 +10,7 @@ This is a **travel blog application** built with Next.js 15, TypeScript, and Rea
 
 - **Framework**: Next.js 15 (App Router) with Turbopack in dev
 - **Runtime**: React 19 with Server Components
-- **Database**: Vercel Postgres with Kysely type-safe query builder
+- **Database**: Postgres via Neon (using @neondatabase/serverless)
 - **Styling**: Tailwind CSS with PostCSS
 - **Testing**: Jest (Jest DOM), Vitest, Playwright (e2e), Cypress (e2e + component)
 
@@ -30,9 +30,8 @@ src/
 │   ├── constants.ts         # Public env vars (BASE_URL, analytics IDs)
 │   └── cookies.ts           # Consent tracking
 ├── database/
-│   ├── database.ts          # Kysely instance
-│   ├── types.ts             # Database schema (contact_submission table)
-│   └── ContactSubmissionRepository.ts # CRUD operations
+│   ├── ContactSubmissionRepository.ts # Neon-based DB functions (contact_submission)
+│   ├── types.ts             # TypeScript types for contact submissions
 ├── interfaces/               # TypeScript interfaces (Post, Author, Location)
 ├── __tests__/               # Jest tests
 └── __vitests__/             # Vitest tests
@@ -41,7 +40,7 @@ src/
 ### Data Flow Patterns
 
 1. **Blog Posts**: Markdown files (`src/_posts/*.md`) → gray-matter parsing → static generation → SSG routes
-2. **Contact Form**: Form submission → Server Action (`sendContactRequest`) → Zod validation → Kysely insert → Database
+2. **Contact Form**: Form submission → Server Action (`sendContactRequest`) → Zod validation → Neon SQL insert (see `src/database/ContactSubmissionRepository.ts`) → Database
 3. **Metadata/SEO**: Per-post metadata in YAML frontmatter → generateMetadata() → OpenGraph tags
 
 ## Critical Developer Workflows
@@ -99,12 +98,13 @@ Slugs are derived from filename (without .md). Files in `src/_posts/` are auto-d
 - Returns typed response objects (e.g., `ContactFormState`)
 - Include anti-spam honeypot field: `address` field must be blank (max length 0)
 
-### Database Operations (Kysely)
+### Database Operations (Neon / @neondatabase/serverless)
 
-- Type-safe queries via `src/database/types.ts` schema
-- Repository pattern in `ContactSubmissionRepository.ts`
-- Immutable query building (re-assign after `.where()`, `.set()`)
-- All queries are async functions with `"use server"` directive
+- Uses `@neondatabase/serverless` with the `neon()` helper in `src/database/ContactSubmissionRepository.ts`.
+- Connection string is provided via the `POSTGRES_URL` environment variable (set in Vercel, Neon dashboard, or CI secrets).
+- Example usage: `const sql = neon(process.env.POSTGRES_URL);` then `await sql`INSERT INTO contact_submission (...) VALUES (...)``.
+- Files interacting with the DB use the `"use server"` directive and follow a simple repository function pattern (no Kysely query builder in use).
+- CI workflows expect `POSTGRES_URL` (and may reference `NEON_PROJECT_ID` / `NEON_API_KEY` for Neon-managed setups).
 
 ### Component Organization
 
@@ -177,7 +177,7 @@ All public vars prefixed `NEXT_PUBLIC_`:
 
 ### External Services
 
-- **Vercel Postgres**: Connection via `@vercel/postgres-kysely`
+- **Postgres (Neon)**: Connection via `@neondatabase/serverless`. Set `POSTGRES_URL` in environment (Vercel/Neon/CI).
 - **Vercel Analytics & Speed Insights**: Imported in root layout
 - **Facebook Pixel & GTM**: Loaded via Next.js `<Script>` component
 - **Google Ads**: Via `next/third-parties`
@@ -206,7 +206,7 @@ All public vars prefixed `NEXT_PUBLIC_`:
 3. **Image paths**: Use `/assets/**` for local images (configured in `next.config.ts`)
 4. **Type safety**: Check `src/interfaces/` before creating new models
 5. **Metadata URLs**: Always use `BASE_URL` + path, never hardcode domains
-6. **Kysely queries**: Immutable—reassign query after each clause
+6. **DB connection**: Ensure `POSTGRES_URL` is set for local development and CI; workflows may also require `NEON_PROJECT_ID` and `NEON_API_KEY` for Neon management.
 7. **RSS generation**: Escapes HTML in feed content (`escape-html` package)
 8. **Component naming**: Use kebab-case filenames even for PascalCase exports
 
