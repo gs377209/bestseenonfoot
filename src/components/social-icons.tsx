@@ -19,7 +19,8 @@ export default function SocialIcons() {
           <FontAwesomeIcon
             icon={faFacebook}
             color="#1877F2"
-            className="rounded-lg bg-white"
+            widthAuto
+            className="rounded-full bg-white"
             size="2xl"
           />
         </Link>
@@ -34,7 +35,8 @@ export default function SocialIcons() {
           <FontAwesomeIcon
             icon={faInstagram}
             color="#833AB4"
-            className="rounded-lg bg-white"
+            widthAuto
+            className="rounded-full bg-white"
             size="2xl"
           />
         </Link>
@@ -49,7 +51,8 @@ export default function SocialIcons() {
           <FontAwesomeIcon
             icon={faYoutube}
             color="#FF0000"
-            className="rounded-lg bg-white"
+            widthAuto
+            className="rounded-full bg-white"
             size="2xl"
           />
         </Link>
