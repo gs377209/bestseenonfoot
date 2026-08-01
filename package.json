@@ -85,7 +85,7 @@
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "^4.7.0",
     "ajv": "^8.20.0",
-    "chromatic": "^16.10.1",
+    "chromatic": "^18.1.0",
     "cssnano": "^7.1.9",
     "cypress": "^15.18.0",
     "dotenv": "^16.6.1",
